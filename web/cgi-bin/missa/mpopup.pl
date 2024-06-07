@@ -5,7 +5,7 @@ use utf8;
 # Name : Laszlo Kiss
 # Date : 01-20-08
 # Divine Office   popup
-package missa;
+package main;
 
 #1;
 #use warnings;
@@ -26,6 +26,9 @@ $error = '';
 $debug = '';
 $q = new CGI;
 our $missa = 1;
+
+use lib "$Bin/..";
+use DivinumOfficium::LanguageTextTools qw(prayer translate load_languages_data);
 
 #*** collect standard items
 require "$Bin/../horas/horascommon.pl";
@@ -50,8 +53,8 @@ if (!$setupsave) {
   getcookies('missago', 'general');
 }
 
-set_runtime_options('general'); #$expand, $version, $lang2
-set_runtime_options('parameters'); # priest, lang1 ... etc
+set_runtime_options('general');       #$expand, $version, $lang2
+set_runtime_options('parameters');    # priest, lang1 ... etc
 
 $popup = strictparam('popup');
 $background = ($whitebground) ? ' class="contrastbg"' : '';
@@ -60,8 +63,6 @@ $title = "$popup";
 $title =~ s/[\$\&]//;
 
 #$tlang = ($lang1 !~ /Latin/) ? $lang1 : $lang2;
-#%translate = %{setupstring($tlang, "Ordo/Translate.txt")};
-cache_prayers();
 $text = gettext($popup, $lang1);
 $t = length($text);
 $width = ($t > 300) ? 600 : 400;
@@ -70,30 +71,16 @@ $height = ($t > 300) ? $screenheight - 100 : 3 * $screenheight / 4;
 #*** generate HTML
 # prints the requested item from prayers hash as popup
 htmlHead($title, 'setsize()');
-print << "PrintTag";
-<H3 ALIGN=CENTER><FONT COLOR=MAROON><B><I>$title</I></B></FONT></H3>
-<P ALIGN=CENTER><BR>
-<TABLE BORDER=0 WIDTH=90% ALIGN=CENTER CELLPADDING=8 CELLSPACING=$border$background>
-<TR>
-PrintTag
-$text =~ s/\_/ /g;
-print "<TD $background WIDTH=50% VALIGN=TOP>" . setfont($blackfont, $text) . "</TD>\n";
-$lang = $lang2;
-
-if (!$only) {
-  $text = gettext($popup, $lang2);
-  $text =~ s/\_/ /g;
-  print "<TD $background VALIGN=TOP>" . setfont($blackfont, $text) . "</TD></TR>\n";
-}
-print "</TABLE><BR>\n";
-print "<A HREF=# onclick=\"window.close()\">Close</A>";
-if ($error) { print "<P ALIGN=CENTER><FONT COLOR=red>$error</FONT><\P>\n"; }
-if ($debug) { print "<P ALIGN=center><FONT COLOR=blue>$debug</FONT><\P>\n"; }
-print "</FORM></BODY></HTML>";
+print "<H3 ALIGN=CENTER><FONT COLOR=MAROON><B><I>$title</I></B></FONT></H3>\n";
+my @script1 = ($text);
+my @script2 = (gettext($popup, $lang2));
+print_content($lang1, \@script1, $lang2, \@script2);
+print "<P ALIGN=CENTER><A HREF=# onclick=\"window.close()\">Close</A></P>";
+htmlEnd();
 
 #*** javascript functions
 sub horasjs {
-  "function setsize() { window.resizeTo($width, $height); }"
+  "function setsize() { window.resizeTo($width, $height); }";
 }
 
 sub gettext {
@@ -103,7 +90,7 @@ sub gettext {
   my %popup_files = (
     Ante => 'Ante.txt',
     Communio => 'Communio.txt',
-    Post => 'Post.txt'
+    Post => 'Post.txt',
   );
 
   # File must be one of those explicitly permitted.

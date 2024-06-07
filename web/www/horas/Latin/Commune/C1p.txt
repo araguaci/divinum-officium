@@ -1,5 +1,5 @@
 [Name]
-Commune apostolorum tempore Paschali
+Commune Apostolorum tempore Paschali
 
 [Rule]
 Psalmi Dominica
@@ -12,11 +12,6 @@ In cæléstibus regnis * Sanctórum habitátio est, allelúja: et in ætérnum r
 In velaménto * clamábant Sancti tui, Dómine, allelúja, allelúja, allelúja.;;111
 Spíritus et ánimæ * justórum hymnum dícite Deo nostro, allelúja, allelúja.;;112
 Fulgébunt justi * sicut sol in conspéctu Dei, allelúja.;;116
-
-[Capitulum Vespera]
-!Sap 5:1
-v. Stabunt justi in magna constántia advérsus eos qui se angustiavérunt et qui abstulérunt labóres eórum.
-$Deo gratias
 
 [HymnusM Vespera]
 v. Tristes erant Apóstoli
@@ -44,7 +39,7 @@ In hoc pascháli gáudio,
 Ab omni mortis ímpetu
 Tuum defénde pópulum.
 _
-Glória tibi Dómine,
+* Glória tibi Dómine,
 Qui surrexíst[i] a mórtuis,
 Cum Patr[e] et Sancto Spíritu,
 In sempitérna sǽcula.
@@ -204,33 +199,9 @@ Spíritus et ánimæ * justórum hymnum dícite Deo nostro, allelúja, allelúja
 Fulgébunt justi * sicut sol in conspéctu Dei, allelúja.
 
 [Capitulum Laudes]
-@:Capitulum Vespera
-
-[HymnusM Laudes]
-v. Claro pascháli gáudio
-Sol mundo nitet rádio,
-Cum Christum jam Apóstoli
-Visu cernunt corpóreo.
-_
-Osténsa sibi vúlnera
-In Christi carne fúlgida,
-Resurrexísse Dóminum
-Voce faténtur pública.
-_
-Rex Christe clementíssime,
-Tu corda nostra pósside,
-Ut tibi laudes débitas
-Reddámus omni témpore.
-_
-Quǽsumus, Auctor ómnium,
-In hoc pascháli gáudio,
-Ab omni mortis ímpetu
-Tuum defénde pópulum.
-_
-Glória tibi Dómine,
-Qui surrexíst[i] a mórtuis,
-Cum Patr[e] et Sancto Spíritu,
-In sempitérna sǽcula. Amen.
+!Sap 5:1
+v. Stabunt justi in magna constántia advérsus eos qui se angustiavérunt et qui abstulérunt labóres eórum.
+$Deo gratias
 
 [Hymnus Laudes]
 {:H-Paschalemundogaudium:}v. Paschále mundo gáudium
@@ -260,14 +231,14 @@ In sempitérna sǽcula.
 Amen.
 
 [HymnusM Laudes]
-{:H-Paschalemundogaudium:}v. Claro Pascháli gáudio
+v. Claro pascháli gáudio
 Sol mundo nitet rádio,
 Cum Christum jam Apóstoli
 Visu cernunt corpóreo.
 _
-Osténsa sibi vúlnera,
+Osténsa sibi vúlnera
 In Christi carne fúlgida,
-Ressurexísse Dóminum,
+Resurrexísse Dóminum
 Voce faténtur pública.
 _
 Rex Christe clementíssime,
@@ -275,14 +246,14 @@ Tu corda nostra pósside,
 Ut tibi laudes débitas
 Reddámus omni témpore.
 _
-Quǽsumus Auctor ómnium,
-In hoc Pascháli gáudio,
-Ab omnis morti ímpetu
+Quǽsumus, Auctor ómnium,
+In hoc pascháli gáudio,
+Ab omni mortis ímpetu
 Tuum defénde pópulum.
 _
-Glória tibi, Dómine,
-Qui surrexísti a mórtuis,
-Cum Patre, et Sancto Spíritu,
+* Glória tibi Dómine,
+Qui surrexíst[i] a mórtuis,
+Cum Patr[e] et Sancto Spíritu,
 In sempitérna sǽcula.
 Amen.
 
@@ -296,9 +267,6 @@ Fíliæ Jerúsalem, * veníte et vidéte Mártyres cum corónis, quibus coronáv
 [Lectio Prima]
 !Rom 8:28
 v. Scimus quóniam diligéntibus Deum ómnia cooperántur in bonum, iis qui secúndum propósitum vocáti sunt sancti.
-
-[Capitulum Tertia]
-@:Capitulum Vespera
 
 [Responsory Tertia]
 R.br. Sancti et justi in Dómino gaudéte, * Allelúja, allelúja.
@@ -343,7 +311,7 @@ V. Pretiósa in conspéctu Dómini, allelúja.
 R. Mors Sanctórum ejus, allelúja.
 
 [Versum 3]
-@:Versum 1
+@:Versum 2
 
 [Ant Vespera 3]
 Sancti tui, * Dómine, florébunt sicut lílium, allelúja: et sicut odor bálsami erunt ante te, allelúja.;;109

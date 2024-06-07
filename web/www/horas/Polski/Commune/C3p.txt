@@ -10,14 +10,9 @@ Psalm5 Vespera3=115
 [Ant Vespera]
 Święci Twoi, * Panie, kwitnąć będą jako lilje, alleluja: i jako wonność balsamu będą przed Tobą, alleluja.;;109
 W Królestwie niebieskiem jest mieszkanie Świętych, alleluja: i odpoczynek ich na wieki, alleluja.;;110
-W cieniu * będą Ci śpiewać Święci Twoi, Panie, alleuja, alleluja, alleluja.;;111
+W cieniu * będą Ci śpiewać Święci Twoi, Panie, alleluja, alleluja, alleluja.;;111
 Duchowie i dusze * sprawiedliwych, śpiewajcie hymn Bogu naszemu, alleluja, alleluja.;;112
 Sprawiedliwi świecić będą * jako słońce przed obczliczem Boga, alleluja.;;116
-
-[Capitulum Vespera]
-!Mdr 5:1
-v. Tedy staną sprawiedliwi z wielką stałością przeciwko tym, którzy je cisnęli i którzy prace ich objęli.
-$Deo gratias
 
 [Hymnus Vespera]
 @Commune/C3:Hymnus Laudes
@@ -36,7 +31,6 @@ $Per Dominum
 [Invit]
 Niech radują się w Panu święci, * Alleluja.
 
-
 [Capitulum Laudes]
 !Mdr 5:1
 v. Tedy staną sprawiedliwi z wielką stałością przeciwko tym, którzy je cisnęli i którzy prace ich objęli.
@@ -52,11 +46,6 @@ Córki Jerozolimskie, * przyjdźcie, a obaczcie męczenników z wieńcami, któr
 [Lectio Prima]
 !Rz 8:28
 v. A wiemy, że tym, którzy miłują Boga, wszystko dopomaga ku dobremu, tym, którzy są wezwani podług postanowienia święci.
-
-[Capitulum Tertia]
-!Mdr 5:1
-v. Tedy staną sprawiedliwi z wielką stałością przeciwko tym, którzy je cisnęli i którzy prace ich objęli.
-$Deo gratias
 
 [Responsory Tertia]
 R.br. Święci i sprawiedliwi, weselcie się w Panu, * Alleluja, alleluja.
@@ -104,7 +93,7 @@ R. Śmierć świętych Jego, alleluja.
 [Ant Vespera 3]
 Święci Twoi, * Panie, kwitnąć będą jako lilje, alleluja: i jako wonność balsamu będą przed Tobą, alleluja.;;109
 W Królestwie niebieskiem jest mieszkanie Świętych, alleluja: i odpoczynek ich na wieki, alleluja.;;112
-W cieniu * będą Ci śpiewać Święci Twoi, Panie, alleuja, alleluja, alleluja.;;115
+W cieniu * będą Ci śpiewać Święci Twoi, Panie, alleluja, alleluja, alleluja.;;115
 Duchowie i dusze * sprawiedliwych, śpiewajcie hymn Bogu naszemu, alleluja, alleluja.;;125
 Sprawiedliwi świecić będą * jako słońce przed obczliczem Boga, alleluja.;;138
 

@@ -15,8 +15,12 @@ Und an Jesus Christus, Seinen eingeborenen Sohn, unsern Herrn, der empfangen ist
 Ich glaube an den Heiligen Geist, die heilige katholische Kirche, Gemeinschaft der Heiligen, Nachlaß der Sünden, Auferstehung des Fleisches und das ewige Leben. Amen.
 
 [Pater secreto]
-!Das « Vater unser » wird still gebetet bis « Und führe uns nicht in Versuchung: »
+/:Das « Vater unser » wird still gebetet bis « Und führe uns nicht in Versuchung: »:/
 &pater_noster
+
+[Pater totum secreto]
+/:Das « Vater unser » wird gänzlich still gebetet.:/
+$Pater noster
 
 [Credo secreto]
 !Das « Credo » wird still gebetet bis « Auferstehung des Fleisches. »
@@ -25,6 +29,47 @@ Und an Jesus Christus, Seinen eingeborenen Sohn, unsern Herrn, der empfangen ist
 Ich glaube an den Heiligen Geist, die heilige katholische Kirche, Gemeinschaft der Heiligen, Nachlaß der Sünden.
 V. Auferstehung des Fleisches.
 R. Und das ewige Leben. Amen.
+
+[Pater post]
+/:Falls sich keine weitere Hore anschließt, ganz im Stillen::/
+@:Pater noster
+
+[Pater post V]
+/:Falls hiermit das Officium endet, ganz im Stillen::/
+@:Pater noster
+
+[Secreto]
+/:still:/
+
+[Secreto L]
+/:Falls die Matutin von den Laudes getrennt sind, beginnt man im Stillen::/
+(sed rubrica monastica)
+/:An Simplex-Festen sowie an Ferialtagen, und falls die Matutin von den Laudes getrennt sind, beginnt man im Stillen::/
+
+[Clara voce]
+/:Im Anschluß mit hörbarer Stimme::/
+
+[Secus absolute]
+/:Andernfalls beginnt man die Hore direkt wie folgt:/
+(sed rubrica ^Trident)
+/:Nachdem der Hymnus:/ Te Deum laudamus /:oder das letzte Responsorium vorgetragen wurde, beginnt man die Hore direkt wie folgt::/
+
+[Rubrica Matutinum]
+!Das Folgende betet man nur, wenn sich die %Laudes% nicht unmittelbar anschließen.
+(sed rubrica tridentina)
+!Nachdem der Hymnus Te Deum laudamus oder das neunte oder dritte Responsorium vorgetragen wurde, beginnt man direkt mit den %Laudes%, mit Ausnahme der Heiligen Nacht: in dieser betet man die Oratio und im Anschluß wird die Christmette zelebriert wie es an entsprechender Stelle angegeben ist.
+
+[Rubrica Matutinum] (rubrica monastica)
+!Das Folgende betet man nur, wenn sich die %Laudes% nicht unmittelbar anschließen.
+(sed rubrica tridentina aut rubrica divino)
+!Das Folgende betet man in Offizien mit 12 Lesungen nur, wenn sich die %Laudes% nicht unmittelbar anschließen. An Simplexfesten und im Ferialoffizium (sei es mit drei oder einer Lesung) betet man das folgende stets.
+
+[Pater Ave Credo C]
+/:Im Anschluß ganz im Stillen:/
+@:Pater noster
+@:Ave Maria
+@:Credo
+/:Falls auf die Komplet direkt die Matutin folgen sollte, betet man das:/ Vater unser, Ave Maria, /:und:/ Credo /:zweimal: je einmal für das Ende des Offiziums des vergangenen Tages sowie für den Anfang des Offiziums des folgenden.:/
 
 [Adjutorium nostrum]
 V. Unsere Hilfe ist + im Namen des Herrn. 
@@ -60,11 +105,11 @@ V. O Herr, erhöre mein Gebet.
 R. Und laß mein Rufen zu dir kommen.
 /:das zweite 'O Herr, erhöre mein Gebet' wird ausgelassen:/
 
-[Confiteor]
+[Confiteor_]
 v. Ich bekenne Gott, dem Allmächtigen, der seligen, allzeit reinen Jungfrau Maria, dem heiligen Erzengel Michael, dem heiligen Johannes dem Täufer, den heiligen Aposteln Petrus und Paulus und allen Heiligen, daß ich viel gesündigt habe in Gedanken, Worten und Werken: /:man schlägt sich an die Brust:/ durch meine Schuld, durch meine Schuld, durch meine große Schuld. Darum bitte ich die selige, allzeit reine Jungfrau Maria, den heiligen Erzengel Michael, den heiligen Johannes den Täufer, die heiligen Apostel Petrus und Paulus und alle Heiligen für mich zu beten bei Gott, unserem Herrn. 
 
-[ConfiteorM]
-@:Confiteor:s/Paulus und allen /Paulus, unserem heiligen Vater Benedikt und allen / s/Paulus und alle/Paulus, unseren heiligen Vater Benedikt und alle/
+[Confiteor] (rubrica Monastica)
+@:Confiteor_:s/Paulus und allen /Paulus, unserem heiligen Vater Benedikt und allen / s/Paulus und alle/Paulus, unseren heiligen Vater Benedikt und alle/
 
 [Misereatur]
 v. Der allmächtige Gott erbarme sich unser, er lasse uns die Sünden nach und führe uns zum ewigen Leben. Amen.
@@ -138,9 +183,7 @@ v. Dich, Gott, loben wir, * Dich, Herr, preisen wir.
 Dir, dem ewigen Vater, * huldigt das Erdenrund.
 Dir rufen die Engel alle, * Dir Himmel und Mächte insgesamt,
 die Cherubim dir und die Seraphim, * mit niemals endender Stimme zu:
-_
-/:(Mit Reverenz):/ Heilig, heilig, heilig * der Herr, der Gott der Scharen!
-_
+/:Mit Reverenz:/ Heilig, heilig, heilig * der Herr, der Gott der Scharen!
 Voll sind Himmel und Erde * von deiner hohen Herrlichkeit.
 Dich preist der glorreiche * Chor der Apostel;
 Dich der Propheten * lobwürdige Zahl;
@@ -151,25 +194,17 @@ Deinen wahren * und einzigen Sohn;
 und den Heiligen * Fürsprecher Geist.
 Du König der Herrlichkeit, * Christus.
 Du bist des Vaters * allewiger Sohn.
-_
-!Mit Reverenz
-Du hast der Jungfrau Schoß nicht verschmäht, * bist Mensch geworden, den Menschen zu befreien.
-_
+/:Mit Reverenz:/ Du hast der Jungfrau Schoß nicht verschmäht, * bist Mensch geworden, den Menschen zu befreien.
 Du hast bezwungen des Todes Stachel * und denen, die glauben, die Reiche der Himmel aufgetan.
 Du sitzest zur Rechten Gottes * in Deines Vaters Herrlichkeit.
 Als Richter, so glauben wir, * kehrst Du einst wieder.
-_
-!knieend beten wir
+/:knieend beten wir:/
 Dich bitten wir denn, komm Deinen Dienern zu Hilfe, * die Du erlöst mit kostbarem Blute.
-_
 In der ewigen Herrlichkeit * zähle uns deinen Heiligen zu.
 Rette Dein Volk, o Herr, * und segne Dein Erbe;
 und führe sie * und erhebe sie bis in Ewigkeit.
 An jedem Tag * benedeien wir Dich;
-_
-!Mit Reverenz, wie es Brauch ist 
-Und loben in Ewigkeit Deinen Namen, * ja, in der ewigen Ewigkeit.
-_
+/:Mit Reverenz, wie es Brauch ist :/ Und loben in Ewigkeit Deinen Namen, * ja, in der ewigen Ewigkeit.
 In Gnaden wollest Du, Herr, an diesem Tag * uns ohne Schuld bewahren.
 Erbarme Dich unser, o Herr, * erbarme Dich unser.
 Laß über uns Dein Erbarmen geschehn, * wie wir gehofft auf Dich.
@@ -194,6 +229,11 @@ r. Gegrüßet seist du.
 [Conclmart]
 V. Und anderswo viele weitere heilige Märtyrer, Bekenner und heilige Jungfrauen!
 $Deo gratias
+_
+V. Gar wertvoll ist in den Augen des Herrn.
+R. Der Tod seiner Heiligen.
+v. Die heilige Jungfrau Maria und alle Heiligen mögen für uns beim Herrn eintreten, damit wir würdig werden, von ihm Hilfe zu erhalten und selig zu werden, der da lebt und regiert in alle Ewigkeit.
+$Amen
 
 [DefunctV]
 &Dominus_vobiscum
@@ -214,10 +254,6 @@ v. Dir gebührt Lob, + Dir gebührt ein Lobgesang: Ehre sei Dir Gott dem Vater, 
 [Kyrie]
 v. Herr, erbarme Dich! Christus, erbarme Dich! Herr, erbarme Dich!
 
-[MLitany2]
-$Kyrie
-$Pater secreto
-
 [Divinum auxilium]
 Die Hilfe Gottes + möge ständig bei uns bleiben.
 Amen.
@@ -228,70 +264,59 @@ Amen.
 [Alleluia Duplex]
 Alleluja, alleluja.
 
-[Preces feriales Laudes]
-$Kyrie
-$Pater secreto
-V. Ach, ich klage, Herr, erbarme dich meiner.
-R. Heile meine Seele, denn ich habe gegen dich gesündigt.
-V. Wende dich uns zu, o Herr, wie lange willst du zögern?
-R. Und laß dich gnädig stimmen gegen deine Diener.
-V. Laß deine Huld, Herr, über uns doch kommen.
-R. Wie wir auf dich hoffen.
-V. Laß in Gerechtigkeit sich hüllen deine Priester.
-R. Und deine Heiligen lasse jubeln.
+[A_porta_inferi]
+V. Von den Pforten des Fegfeuers.
+R. Errette, o Herr, ihre Seelen.
 
-V. Lasset uns beten für unseren Heiligen Vater~
-r. N.
-R. Es möge ihn der Herr erhalten und ihn trösten und auf Erden glücklich machen und ihn nicht der Gier der Feinde überliefern.
-V. Lasset uns beten für unseren Oberhirten~
-r. N.
-R. Er stehe fest und sei ein Hirt, in deiner Stärke, o Herr, entsprechend der Erhabenheit deines Namens.
-/:In Rom wird der vorstehende Versikel mit Antwort ausgelassen, anderswo wird der Name des Diözesanbischofs eingefügt. Bei Vakanz des Apostolischen und/oder bischöflichen Stuhls werden die entsprechenden Versikel ausgelassen.:/
-(sed rubrica tridentina omittitur)
+[Per Christum]
+Im Hinblick auf Christus, unsern Herrn.
 
-V. O Herr, erhalte heil den Landesherrscher.
-R. Und erhöre uns am Tage, da wir zu dir flehen.
-V. Erhalte heil, o Herr, dein Volk, und gib ihm, da es dein Besitz ist, deinen Segen.
-R. Und leite es und trag es auf den Schultern bis in ewige Zeiten.
-V. Gedenke deiner Gemeinde.
-R. Die du von jeher als Besitz gehabt hast.
-V. Es herrsche Glück in deinen Mauern.
-R. Und Wohlstand sei in deinen Häusern.
+[Oratio Visita_]
+v. Nimm, wir bitten dich, o Herr, Wohnung in diesem Gemach und alle Nachstellungen des Feindes scheuche weit von ihm weg; deine heiligen Engel mögen in ihm Wohnung nehmen, die uns im Frieden beschützen, und dein Segen walte stets über uns.
 
-V. Lasset uns beten für die, die uns Gutes tun.
-R. Würdige dich, o Herr, allen, die uns Gutes tun um deines gütigen Wesens willen, als Lohn das ewige Leben zu gewähren.
-(sed rubrica tridentina omittitur)
+[Rubrica Martyrologium] (rubrica monastica)
+/:Danach wird in Choro das Martyrologium gelesen, wo es sich ziemt auch extra Chorum.:/
 
-V. Lasset uns beten für die verstorbenen Gläubigen.
-R. Herr, gib ihnen die ewige Ruhe, und das ewige Licht leuchte ihnen.
+[Rubrica Regula] (rubrica monastica)
+/:Extra Chorum ziemt es sich ebenso aus der Hl. Regula zu lesen; andernfalls betet man die folgende Kurzlesung.:/
+
+[Respice]
+V. Schau doch hernieder,  o Herr, auf deine Knechte, die du selbst geschaffen, und leite richtig ihre Kinder.
+R. Es leuchte deine Huld, o Herr und unser Gott, nun über uns und leite die Werke unserer Hände durch dein Walten über uns und lenke das, was unsere Hände auszuführen haben.
+
+[Dirigere]
+v. Würdige dich, o Herr und Gott, du König des Himmels und der Erde, heute zu leiten und zu heiligen, zu beherrschen und zu lenken unsere Herzen und alles, was in uns ist, die Gedanken, die Worte und die Werke gemäß deinem Gesetz und so, daß sie zu den Werken gehören, die deinen Vorschriften entsprechen, damit wir, hier und auf ewig, mit deiner Hilfe würdig werden, heil und vom Übel frei zu sein, o du Heiland der Welt, 
+
+[Benedictio Prima]
+V. Laß, o Herr, den Segen erteilen.
+Benedictio. Unsere Tage und unsere Werke mag, daß wir in Freundschaft mit ihm bleiben, ordnen der allmächtige Herr. Amen.
+
+[Benedictio Prima2]
+Benedictio. Der Herr möge uns segnen + und uns vor allem Schaden bewahren und uns zum ewigen Leben führen. Und die Seelen der verstorbenen Gläubigen mögen auf Grund der Barmherzigkeit Gottes zur Ruhe im Frieden gelangen.
+
+[Benedicite]
+V. Gebt den Segen.
+R. Gott [möge ihn geben].
+
+[Commemoratio omnium]
+R.br. Gedenken an alle Brüder, Familien unseres Ordens und unsere Wohltäter.
+
+[Requiescant]
 V. Laß sie ruhen in Frieden.
 R. Amen.
-V. Für unsere abwesenden Brüder.
-R. Erhalte heil, o Herr, deine Diener, die auf dich vertrauen.
-V. Für die, die in Bedrängnis und in Knechtschaft sich befinden.
-R. Befreie sie, Gott Israels, von allen ihren Nöten.
-V. Sende ihnen Hilfe, o Herr, von deinem heiligen Throne.
-R. Und von Sion aus sei ihnen Schützer.
 
-(sed rubrica tridentina dicuntur)
-@:Dominus:3-4
-&psalm(129) 
+[Deus veniae]
+v. O Gott, der Du barmherzig bist und das Heil der Menschen liebst: wir bitten Dich um Deine Milde: auf daß Du allen Brüdern unserer Kongregation, Freunde und Wohltäter, die aus dieser Welt geschieden sind, durch die Fürsprache der seligen allzeit reinen Jungfrau Maria und aller Heiligen die Gemeinschaft in der ewigen Glückseligkeit gewähren mögest. 
 
-(deinde dicuntur)
-V. O Herr, Gott der Heerscharen, wende unsere Lage.
-R. Und zeige uns dein Antlitz, daß wir Heil erhalten.
-V. Auf, Christus, sei unser Beistand.
-R. Und mach uns [vom Übel] frei um deinetwillen.
-V. O Herr, erhöre mein Gebet.
-R. Und laß mein Rufen zu dir kommen.
+[Oratio_Domine]
+v. O allmächtiger Herr und Gott, der du uns zum Beginn dieses Tages hast gelangen lassen, erhalte uns heute heil auf Grund deiner Kraft, damit wir an diesem Tage zu keiner Sünde abweichen, sondern daß stets zum Erfüllen dessen, was bei dir Recht ist, das ausgehe, was wir reden, und das geleitet werde, was wir denken und tun.
 
-[Preces feriales Tertia]
-$Kyrie
-$Pater secreto
-V. O Herr, du mächtiger Gott, wend' unsre Lage.
-R. Und zeige uns dein Antlitz, daß wir Heil erhalten.
-V. Auf, Christus, sei unser Beistand.
-R. Und mach uns frei um deinetwillen.
-V. O Herr, erhöre mein Gebet.
-R. Und laß mein Rufen zu dir kommen.
+[Examen]
+/:Gewißenserforschung oder Vater unser (ganz im Stillen):/
 
+[Benedictio Completorium_]
+V. Laß, o Herr, den Segen erteilen.
+Segen. Eine ungestörte Nacht und ein vollkommen gutes Ende verleihe uns der allmächtige und barmherzige Herr.
+
+[Benedictio Completorium2]
+Benedictio. Es segne uns und beschütze uns der allmächtige und barmherzige Herr, + der Vater und der Sohn und der Heilige Geist.

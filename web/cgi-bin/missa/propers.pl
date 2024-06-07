@@ -11,7 +11,7 @@ use lib "$Bin/..";
 use DivinumOfficium::Directorium qw(check_coronatio);
 
 # Defines ScriptFunc and ScriptShortFunc attributes.
-use horas::Scripting;
+use DivinumOfficium::Scripting;
 $a = 4;
 
 #*** specials(\@s, $lang)
@@ -89,8 +89,7 @@ sub specials {
       if (
            ($rule =~ /omit.*\b$label\b/i)
         || (($version =~ /1570/) && ($item =~ / Leo/))    # omit Leonine prayers issue #367
-        )
-      {
+      ) {
         # Skip omitted section
         $tind++ while ($tind < @t && $t[$tind] !~ $section_regex);
       } elsif ($label =~ /^\s*Evangelium\s*$/ && $rule =~ /^\s*Passio\s*$/m) {
@@ -143,27 +142,15 @@ sub setcomment {
 #*** translate_label($label, $lang)
 # Finds the equivalent of the latin label in translate file
 # Also changes 'Gradual' to 'Alleluja' during the Pascal season.
-# TODO this inefficiently pulls the whole translate file every time!
 sub translate_label {
   my $item = shift;
   my $lang = shift;
-  $item =~ s/\s*$//;
 
-  if ($lang !~ /Latin/i) {
-    our %prayers;
-    $item = exists(${$prayers{$lang}}{$item}) ? $prayers{$lang}->{$item} : $item;
+  if ($item =~ /Gradual/i && $dayname[0] =~ /Pasc[1-5]/i && $winner !~ /Defunct/i) {
+    translate('Alleluia', $lang);
+  } else {
+    $lang =~ /Latin/ ? $item : prayer($item, $lang);
   }
-
-  if ($item =~ /Gradual/i) {
-
-    #if ($dayname[0] =~ /Quad/i || (0 && $winner{Rank} =~ /(Quattuor|Quatuor)/i)) {$item = 'Graduale & Tractus';}
-    #elsif ($dayname[0] =~ /Pasc/i && $winner !~ /Defunct/i) {$item = '#Alleluia';}
-    if ($dayname[0] =~ /Pasc[1-5]/i && $winner !~ /Defunct/i) {
-      $item = $lang =~ /Latin/i ? 'Alleluja' : 'Alleluia';
-    }
-  }
-  $item =~ s/\n//g;
-  return $item;
 }
 
 #*** oratio($lang, $type)
@@ -222,7 +209,8 @@ sub oratio {
   {
     $w = "$1\_\n$2";    #triduum 1960  not 1955
   }
-  my $sub_unica_conc = $commemoratio{Rule} =~ /Sub unica conclusione in commemoratione/i
+  my $sub_unica_conc =
+       $commemoratio{Rule} =~ /Sub unica conclusione in commemoratione/i
     || $winner{Rule} =~ /Sub unica concl(usione)?\s*$/mi
     || world_mission_sunday();
 
@@ -241,14 +229,13 @@ sub oratio {
       $w =~ s/\$(Per|Qui) .*?\n//i;
     }
   }
-  our %prayers;
   my $orm = '';
 
   # The Priest says Orémus except for Secreta prayers...
-  $orm = "$prayers{$lang}->{Oremus}\n" unless $type =~ /Secreta/i;
+  $orm = prayer('Oremus', $lang) unless $type =~ /Secreta/i;
 
   # ... and the Deacon says Flectamus for Oratio prayers during IV Temporum
-  $orm .= "$prayers{$lang}->{Flectamus}\n" if $type =~ /Oratio/i && $rule =~ /LectioL/ && $dayname[0] !~ /Pasc/i;
+  $orm .= prayer('Flectamus', $lang) if $type =~ /Oratio/i && $rule =~ /LectioL/ && $dayname[0] !~ /Pasc/i;
   $retvalue = "$orm\n$w\n";
   $ctotalnum = 1;
 
@@ -261,7 +248,7 @@ sub oratio {
   }
   return resolve_refs($retvalue, $lang) if $rule =~ /omit .*? commemoratio/i || ($version =~ /196/ && $solemn);
   $w = '';
-  our $oremusflag = "\_\n$prayers{$lang}->{Oremus}\n";
+  our $oremusflag = "_\n" . prayer('Oremus', $lang);
   $oremusflag = '' if $type =~ /Secreta/i || $sub_unica_conc;
 
   if (exists($w{"$type Vigilia"}) && ($version !~ /(1955|196)/ || $rule =~ /Vigilia/i)) {
@@ -281,25 +268,23 @@ sub oratio {
     setcc($w, 1, setupstring($lang, $commemoratio1)) if $w;
   }
 
-	our @commemoentries;
-	foreach my $commemo (@commemoentries) {
-		if (!(-e "$datafolder/$lang/$commemo") && $commemo !~ /txt$/i) { $commemo =~ s/$/\.txt/; }
-		my %c = %{setupstring($lang, $commemo)};
-		
-		if (
-			$commemo
-			&& ( $rank < 6
-			|| $version !~ /(1955|196)/i
-			|| $c{Rank} =~ /(Dominica|;;6)/i
-		|| ($commemo =~ /Tempora/i && $c{Rank} =~ /;;[234]/))
-		)
-  {
-		$w = getcommemoratio($commemo, $type, $lang);
-		setcc($w, 2, %c) if $w;
-	}
-	}
-	
-	
+  our @commemoentries;
+
+  foreach my $commemo (@commemoentries) {
+    if (!(-e "$datafolder/$lang/$commemo") && $commemo !~ /txt$/i) { $commemo =~ s/$/\.txt/; }
+    my %c = %{setupstring($lang, $commemo)};
+
+    if (
+      $commemo
+      && ( $rank < 6
+        || $version !~ /(1955|196)/i
+        || $c{Rank} =~ /(Dominica|;;6)/i
+        || ($commemo =~ /Tempora/i && $c{Rank} =~ /;;[234]/))
+    ) {
+      $w = getcommemoratio($commemo, $type, $lang);
+      setcc($w, 2, %c) if $w;
+    }
+  }
 
   #add commemoratio in winner
   if (
@@ -311,8 +296,7 @@ sub oratio {
       )
       || !($version =~ /(1955|196)/ && $rank >= 5)
     )
-    )
-  {
+  ) {
     commemoratio('winner', $type, $lang);
 
     if ($version !~ /196/ || $rank < 5) {
@@ -360,6 +344,7 @@ sub setcc {
   my $s = shift;
   my %s = %$s;
   my $key = 90;
+
   our @dayname;
   our %winner;
   my @rank = split(';;', $winner{Rank});
@@ -369,10 +354,10 @@ sub setcc {
   # than $rank as sometimes the latter is adjusted for
   # calculating precedence.
   return
-    if ($version =~ /196/
-    && ($rank[2] >= 5 || ($dayname[1] =~ /Feria/i && $rank[2] >= 3))
-    && $ccind > 0
-    && nooctnat());
+    if ( $version =~ /196/
+      && ($rank[2] >= 5 || ($dayname[1] =~ /Feria/i && $rank[2] >= 3))
+      && $ccind > 0
+      && nooctnat());
   if ($version =~ /1955|196/ && $ccind >= 3) { return; }
 
   if ($s{Rank} =~ /Dominica/i && $code < 10) {
@@ -417,8 +402,8 @@ sub getcc {
 
 sub world_mission_sunday {
   $version =~ /1960/
-  && $winner{Rank} =~ /Dominica/i
-  && monthday($day, $month, $year, 1, 0) eq '104-0'
+    && $winner{Rank} =~ /Dominica/i
+    && monthday($day, $month, $year, 1, 0) eq '104-0';
 }
 
 #*** commemoratio($item, $type, $lang)
@@ -428,11 +413,7 @@ sub commemoratio {
   my $type = shift;
   my $lang = shift;
   my $code = 10;
-  if ($rank > 6.9 
-      || $version =~ /(1955|196)/
-      && $winner{Rank} =~ /Dominica/i
-      && !world_mission_sunday()
-  ) { return ''; }
+  if ($rank > 6.9 || $version =~ /(1955|196)/ && $winner{Rank} =~ /Dominica/i && !world_mission_sunday()) { return ''; }
   if ($rule =~ /no commemoratio/i) { return ''; }
   my %w;
 
@@ -558,8 +539,7 @@ sub getproprium {
       && $commune =~ /Sancti/i
       && ( $commune{Rank} =~ /;;ex\s*(C[0-9a-z]+)/i
         || $commune{Rank} =~ /;;ex\s*(Sancti\/.*?)\s/i)
-      )
-    {
+    ) {
       my $fn = $1;
       my $cn = ($fn =~ /^Sancti/i) ? $fn : (subdirname('Commune', $version) . "$fn");
       my %c = %{setupstring($lang, "$cn.txt")};
@@ -718,7 +698,7 @@ sub loadspecial {
 sub delconclusio {
   $ctotalnum++;
   if ($version =~ /(1955|196)/ && $rank >= 5 && $ctotalnum > 2) { return ""; }
-  if ($version =~ /(196|196)/ && $ctotalnum > 3) { return ""; } # Fixme
+  if ($version =~ /(196|196)/ && $ctotalnum > 3) { return ""; }    # Fixme
   my $ostr = shift;
   my @ostr = split("\n", $ostr);
   $ostr = '';
@@ -777,23 +757,22 @@ sub replaceNpb {
 # This is Gloria Patri (not Gloria in excelsis).
 sub Gloria : ScriptFunc {
   my $lang = shift;
-  our %prayers;
 
   # No GP during Passiontide
   if (DeTemporePassionis()
-    && $rule !~ /defunct/i
-  ) {
+    && $rule !~ /defunct/i)
+  {
     return "";
   }
 
   # Requiem instead during Requiems
   elsif ($rule =~ /defunct/i) {
-    return $prayers{$lang}->{Requiem};
+    return prayer('Requiem', $lang);
   }
 
   # Gloria Patri otherwise.
   else {
-    return $prayers{$lang}->{Gloria};
+    return prayer('Gloria', $lang);
   }
 }
 
@@ -828,8 +807,9 @@ sub getitem {
   } else {
     $w =~ s/\(Allel.*?\)//ig;
   }
+
   # To deal with Allelujas written in Cyrillic.
-   if ($dayname[0] =~ /Pasc/i) {
+  if ($dayname[0] =~ /Pasc/i) {
     $w =~ s/\((Аліл.*?)\)/$1/ig;
   } else {
     $w =~ s/\(Аліл.*?\)//ig;
@@ -848,10 +828,9 @@ sub Vidiaquam : ScriptFunc {
   my $lang = shift;
 
   if ($solemn && $dayofweek == 0 && $votive !~ /Defunct/i) {
-    our %prayers;
     my $name = ($dayname[0] =~ /Pasc/i) ? 'Vidi aquam' : 'Asperges me';
-    my $w = $prayers{$lang}->{$name};
-    return resolve_refs($w);
+    my $w = prayer($name, $lang);
+    return resolve_refs($w, $lang);
   } else {
     return '';
   }
@@ -939,7 +918,7 @@ sub Credo {
   } elsif ($rule =~ /Credo/i || $communerule =~ /Credo/i) {
     $flag = 0;
   }
-  if ($version =~ /(1955|196)/ && $rule =~ /CredoDA/i) { $flag = 1; }
+  if ($version =~ /(196)/ && $rule =~ /CredoDA/i) { $flag = 1; }
   if ($flag) { push(@s, "!omit."); }
   return $flag;
 }
@@ -1117,8 +1096,7 @@ sub communio : ScriptFunc {
 
 sub Flectamus {
   my $lang = shift;
-  our %prayers;
-  return $prayers{$lang}->{Flectamus};
+  return prayer('Flectamus', $lang);
 }
 
 # DominusVobiscum returns the prayer unless in IV Tempora when it's not usually used
@@ -1126,10 +1104,9 @@ sub Flectamus {
 sub DominusVobiscum : ScriptFunc {
   my $lang = shift;
   my $opt = shift || 0;
-  our %prayers;
 
   # In missis IV temporum: "Post Kyrie, eleison, dicitur: Oremus. Flectamus genua. — Levate."
-  return ($rule =~ /LectioL/ && !$opt) ? '' : "$prayers{$lang}->{'Dominus vobiscum'}";
+  return ($rule =~ /LectioL/ && !$opt) ? '' : prayer('Dominus vobiscum', $lang);
 }
 
 sub postcommunio : ScriptFunc {
@@ -1143,8 +1120,7 @@ sub itemissaest : ScriptFunc {
 
   our ($version, $rule);
   my $lang = shift;
-  our %prayers;
-  my $text = $prayers{$lang}->{'IteMissa'};
+  my $text = prayer('IteMissa', $lang);
   my @text = split("\n", $text);
   my $benedicamus = (gloriflag() && $version !~ /196/) || ($rule =~ /^\s*Benedicamus Domino\s*$/mi);
 
@@ -1168,9 +1144,13 @@ sub Ultimaev : ScriptFunc {
   my $lang = shift;
   my ($t, %p);
 
-  if ($version =~ /(1955|196)/ || !exists($commemoratio{Evangelium})) {
+  if ( $version =~ /(1955|196)/
+    || !exists($commemoratio{Evangelium})
+    || $commemoratio{Rule} =~ /Evangelium non appropriatum/)
+  {
+    return '' if $Propers;
     our %prayers;
-    $t = $prayers{$lang}->{'Ultima Evangelium'};
+    $t = prayer('Ultima Evangelium', $lang);
   } else {
     %p = (columnsel($lang)) ? %commemoratio : %commemoratio2;
     $t = $p{Evangelium};

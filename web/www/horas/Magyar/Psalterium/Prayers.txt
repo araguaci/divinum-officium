@@ -14,6 +14,59 @@ v. Hiszek egy Istenben, mindenható Atyában, mennynek és földnek Teremtőjéb
 És a Jézus Krisztusban, Istennek egyszülött Fiában, a mi Urunkban; ki fogantaték Szentlélektől, születék Szűz Máriától; kínzaték Poncius Pilátus alatt; megfeszítették, meghala és eltemetteték. Szálla alá a poklokra, harmadnapon halottaiból feltámada; fölméne a mennyekbe, ott ül a mindenható Atyaistennek jobbja felől; onnan lészen eljövendő ítélni eleveneket és holtakat.
 Hiszek Szentlélekben. Katolikus keresztény Anyaszentegyházat; a szenteknek egyességét, a bűneinknek bocsánatát; testnek feltámadását és az örök életet. Ámen.
 
+[Pater post]
+/:Ezután csak a «Pater Noster» szólal meg némán, hacsak nem következik azonnal újabb óra.:/
+@:Pater noster
+
+[Pater post V]
+/:És ha így véget ér a Hivatal, csak a «Pater Noster» hangzik el némán.:/
+@:Pater noster
+
+[Secreto]
+/:csendben:/
+
+[Secreto L]
+/:Ha Matins és Lauds elválik, akkor némán kimondják::/
+(sed rubrica monastica)
+/:Simplex lakomákon és fergeteges napokon, és ha a Matins elkülönül a Lauds-tól, az ember csendben kezdődik::/
+
+[Clara voce]
+/:Ezután hallható hangon elhangzik a vers::/
+
+[Secus absolute]
+/:Egyébként az óra közvetlenül a következőképpen kezdődik::/
+(sed rubrica ^Trident)
+/:A himnusz után:/ Te Deum laudamus /:vagy az utolsó reszponzórium elhangzott, az óra közvetlenül a következőképpen kezdődik::/
+
+[Rubrica Matutinum]
+!Hagyd ki a többit, kivéve ha a %Laudest% külön imádkozod.
+(sed rubrica tridentina)
+!A himnusz után Te Deum laudamus vagy a kilencedik vagy a harmadik reszponzórium elmondása után az ember közvetlenül a %Laudest%-szal kezdődik, a karácsony éjszakája kivételével: ebben az oratio imádkozik, majd a karácsonyi mise. a megfelelő helyen megünnepeljük.
+
+[Rubrica Matutinum] (rubrica monastica)
+!Hagyd ki a többit, kivéve ha a %Laudest% külön imádkozod.
+(sed rubrica tridentina aut rubrica divino)
+!Hagyd ki a többit az Offices of 12 lessons-ban, kivéve ha a %Laudest% külön imádkozod. Simplex ünnepeken és lázas napokon (legyen az három vagy egy felolvasás) mindig a következőket imádkozzák.
+
+[Pater Ave Credo C]
+/:Ezután némán kimondják:/
+@:Pater noster
+@:Ave Maria
+@:Credo
+/:Ha közvetlenül a Compline után elhangzik a Matins, akkor:/ Miatyánk, Üdvözlégy Mária /:és:/ Credo, /:kétszer mondják el, egyszer az előző nap végére hivatalra és a hivatal kezdetére a következő.:/
+
+[Adjutorium nostrum]
+V. Segítségünk + az Úr nevében van.
+R. Aki az eget és a földet alkotta.
+
+[Converte nos]
+V. Téríts meg minket, +++ Isten, te vagy az üdvösségünk.
+R. És fordítsd el haragodat rólunk.
+
+[Dominus det]
+V. Uram, adj nekünk békét.
+R. És örök életet. Ámen.
+
 [Gloria]
 V. Dicsőség az Atyának és Fiúnak * és Szentlélek Istennek,
 R. Miképpen kezdetben vala, most és mindenkor * és mindörökkön-örökké. Ámen.
@@ -111,41 +164,33 @@ v. Téged, Isten dicsérünk, téged Úrnak ismérünk.
 Téged, örök Atyaisten mind egész föld áld és tisztel.
 Téged minden szép angyalok, Kerubok és Szeráfkarok.
 Egek és minden hatalmak, szüntelenül magasztalnak.
-_
 Szent vagy, szent vagy, erősséges szent Isten vagy!
-_
 Nagyságoddal telve ég s föld, dicsőséged mindent bétölt.
 Téged dicsér egek Ura, apostolok boldog kara.
 Dicséretes nagy próféták súlyos ajka hirdet és áld.
 Jeles mártírseregek magasztalnak tégedet.
-_
 Vall tégedet világszerte szent Egyházad ezerszerte.
 Ó Atyánk, téged s mérhetetlen nagy Fölséged.
 S azt, ki hozzánk tőled jött le Atya igaz Egyszülöttje.
 És áldjuk veled Vigasztaló Szentlelkedet.
-_
 Krisztus, Isten Egyszülöttje
 Király vagy te mindörökre.
 Mentésünkre közénk szálltál
 Szűzi méhet nem utáltál.
-_
 Halál mérgét megtiportad,
 Mennyországot megnyitottad.
 Isten jobbján ülsz most széket, Atyádéval egy fölséged.
 Onnan leszel eljövendő, mindeneket ítélendő.
-_
-!Itt letérdelünk.
+/:Itt letérdelünk.:/
 Téged azért, Uram, kérünk, mi megváltónk, maradj vélünk!
 Szentjeidhez végy fel égbe az örökös dicsőségbe!
 Szabadítsd meg, Uram, néped, áldd meg a te örökséged!
 Te kormányozd, te vigasztald mindörökké felmagasztald!
-_
 Mindennap dicsérünk téged,
 Szent nevedet áldja néped.
 Bűntől e nap őrizz minket és bocsásd meg vétkeinket!
 Irgalmazz, Uram, irgalmazz; híveidhez légy irgalmas!
 Kegyes szemed legyen rajtunk, tebenned van bizodalmunk`.
-_
 Te vagy Uram, én reményem, * ne hagyj soha szégyent érnem!
 
 [Ante]
@@ -166,6 +211,11 @@ r. Üdvözlégy Mária.
 [Conclmart]
 V. És mindenütt másutt szent vértanúk, hivallók és szüzek.
 $Deo gratias
+_
+V. Értékes az Úr szemében.
+R. Szentjei halála.
+v. Szűz Mária és Isten minden szentje, járjatok közben érettünk az Úrnál, hogy annak segítségével boldoguljunk, aki él és uralkodik mindörökkön-örökké.
+$Amen
 
 [DefunctV]
 &Dominus_vobiscum
@@ -187,6 +237,11 @@ v. Téged illet a dicséret, + téged illet a himnusz, dicsőség az Atyaistenne
 v. Uram, irgalmazz nekünk! Krisztus, kegyelmezz nekünk! Uram, irgalmazz nekünk!
 
 [Divinum auxilium]
+V. Az Isten áldása + maradjon mindig velünk.
+R. Ámen.
+
+[Divinum auxilium] (rubrica monastica)
+/:Then, in the public recitation of the Office, if the Community is to leave the Choir, the following Versicle is said.:/
 Az Isten áldása + maradjon mindig velünk.
 És távollévő testvéreinkkel. Ámen.
 
@@ -196,70 +251,49 @@ Az Isten áldása + maradjon mindig velünk.
 [Alleluia Duplex]
 Alleluja, alleluja.
 
-[Preces feriales Laudes]
-v. Uram, irgalmazz nekünk! Krisztus, kegyelmezz nekünk! Uram, irgalmazz nekünk!
-&pater_noster
-V. Így szóltam: Uram, irgalmazz nekem.
-R. Gyógyítsd meg lelkemet, mert vétkeztem ellened.
-V. Fordulj vissza felém, Uram, meddig még?
-R. Légy kegyes a te szolgádhoz.
-V. Legyen irgalmad felettünk, Uram.
-R. Ahogy mi Tebenned bizakodunk.
-V. Papjaid öltözzenek igazságba.
-R. És szentjeid örvendezzenek.
+[Amen]
+R. Ámen.
 
-V. Imádkozzunk boldog hírű pápánkért~
-r. N.-ért.
-R. Az Úr őrizze meg és éltesse őt, tegye boldoggá a földön, és ne adja őt ellenségei kezére.
-V. Imádkozzunk szolgádért, püspökünkért~
-r. N.-ért.
-R. Tartson ki hűségben, és irányítson minket a te erőddel és a te Neved felségében.
-/:In Rome, the preceding Versicle and its Response are omitted.  Elsewhere, the name of the local Ordinary is inserted at the letter N.  If the Holy See or the See of the local Bishop is vacant, the appropriate V. and R., either or both as the case may be, is omitted.:/
-(sed rubrica tridentina omittitur)
+[Per Christum]
+Ugyanazon Jézus Krisztus a te fiad által.
 
-V. Uram, őrizd meg vezetőinket.
-R. Figyelj ránk aznap, amikor hozzád fordulunk.
-V. Szabadítsd meg népedet Urunk, és áldd meg a te örökségedet.
-R. Kormányozd és emeld fel őket mindörökké.
-V. Emlékezz meg, Uram, a te gyülekezetedről.
-R. Akik kezdettől fogva a tieid voltak.
-V. Legyen békesség a te akaratod szerint.
-R. És bőség a te erősségeidben.
+[Oratio Visita_]
+v. Látogasd meg, Urunk, hajlékunkat, és az ellenség minden cselvetését tartsd távol tőlünk; angyalaid lakjanak velünk, akik békében védelmeznek minket; és áldásod legyen velünk mindig.
 
-V. Imádkozzunk jótevőinkért.
-R. Az Úr fizesse vissza minden jó cselekedetüket, a Te nevedért mindörökre. Ámen.
-(sed rubrica tridentina omittitur)
+[Oratio_Domine]
+v. Mindenható Isten, aki a mai napot megadtad nekünk, őrizz meg minket a te erőddel, hogy ne engedjünk a bűn kísértésének és mindig a te igazságod vezesse gondolatainkat és cselekedeteinket.
 
-V. Imádkozzunk az elhunyt hívekért.
-R. Adj, Uram, örök nyugodalmat nekik, és az örök világosság fényeskedjék nekik.
+[Respice]
+V. Figyelj, Uram, szolgáidra és cselekedeteikre, irányítsd fiaidat.
+R. Az Úr fényessége legyen felettünk és cselekedeteink felett; irányítsa minden döntésünket.
+
+[Dirigere]
+v. Urunk és Istenünk, ég és föld királya, irányítsd és szenteld meg, vezesd és kormányozd szívünket és testünket, érzékeinket, beszédünket és cselekedeteinket a mai napon a te parancsaid szerint, hogy most és örökre a te segítségeddel, világ Megváltója, szabadok és épek maradhassunk. Aki élsz és uralkodol mindörökkön-örökké.
+
+[Benedictio Prima]
+V. Áldj meg minket Uram.
+Benedictio. Napjaink és cselekedeteink a te békédben teljenek el, mindenható Isten. Ámen.
+
+[Benedictio Prima2]
+Benedictio. Áldjon meg minket az Úr, + szabadítson meg minden gonosztól és vezessen el az örök életre, és a megholt hívek lelkei Isten irgalmasságából nyugodjanak békességben.
+
+[Benedicite]
+V. Mondjatok áldást.
+R. Istenünk.
+
+[Commemoratio omnium]
+R.br. Megemlékezés testvéreinkről, rendünk barátairól es jótevőinkről.
+
+[Requiescant]
 V. Nyugodjanak békében.
 R. Ámen.
-V. Imádkozzunk távollévő testvéreinkért.
-R. Szabadítsd meg szolgáidat, Istenünk, akik benned bíznak.
-V. Imádkozzunk az elnyomottakért és bebörtönzöttekért.
-R. Mentsd meg őket, Izrael Istene, minden nyomorúságukban.
-V. Küldj nekik segítséget szentélyedből.
-R. És Sionból irányítsd őket.
 
-(sed rubrica tridentina dicuntur)
-@:Dominus:3-4
-&psalm(129) 
+[Examen]
+/:Lelkiismeret-vizsgálatot tartunk vagy csendesen elimádkozzuk a Miatyánkot.:/
 
-(deinde dicuntur)
-V. Urunk, erős Isten, fordulj hozzánk.
-R. Mutasd meg arcodat, és megszabadulunk.
-V. Kelj fel, Krisztus, segítségünkre.
-R. És szabadíts meg szent Nevedért.
-V. Uram, hallgasd meg könyörgésünket.
-R. És kiáltásunk jusson elődbe.
+[Benedictio Completorium_]
+V. Áldj meg minket, Uram.
+Benedictio. Békés éjszakát és tökéletes befejezést adjon nekünk a mindenható Úr.
 
-[Preces feriales Tertia]
-v. Uram, irgalmazz nekünk! Krisztus, kegyelmezz nekünk! Uram, irgalmazz nekünk! 
-&pater_noster
-V. Urunk, erős Isten, fordulj hozzánk.
-R. Mutasd meg arcodat, és megszabadulunk.
-V. Kelj fel, Krisztus, segítségünkre.
-R. És szabadíts meg szent Nevedért.
-V. Uram, hallgasd meg könyörgésünket.
-R. És kiáltásunk jusson elődbe.
-
+[Benedictio Completorium2]
+Benedictio. Áldjon meg és őrizzen minket a mindenható és irgalmas Úr, + az Atya, a Fiú és a Szentlélek.

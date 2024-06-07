@@ -18,6 +18,10 @@ Creo en el Espíritu Santo, la santa Iglesia católica, la comunión de los sant
 /:El «Padre Nuestro» en silencio hasta «Y no nos dejes caer en la tentación».:/
 &pater_noster
 
+[Pater totum secreto]
+/:El «Padre Nuestro» en silencio.:/
+$Pater noster
+
 [Credo secreto]
 /:El «Creo» en silencio hasta «La resurrección de la carne».:/
 v. Creo en Dios, Padre Todopoderoso, Creador del cielo y de la tierra. 
@@ -25,6 +29,47 @@ Creo en Jesucristo, su único Hijo, Nuestro Señor: que fue concebido por obra y
 Creo en el Espíritu Santo, la santa Iglesia católica, la comunión de los santos, el perdón de los pecados:
 V. La resurrección de la carne:
 R. Y la vida eterna. Amén.
+
+[Pater post]
+/:A partir de entonces sólo se dice «Padre nuestro» en silencio, a menos que siga inmediatamente otra Hora.:/
+@:Pater noster
+
+[Pater post V]
+/:Y si así termina el Oficio, sólo se dice en silencio «Padre nuestro».:/
+@:Pater noster
+
+[Secreto]
+/:silenciosamente:/
+
+[Secreto L]
+/:Si se separan maitines y laudes, entonces se dice en silencio::/
+(sed rubrica monastica)
+/:En las fiestas Simplex y en los días feriales, y si los maitines están separados de las Laudes, se comienza en silencio::/
+
+[Clara voce]
+/:Después, con voz audible, se dice el Versículo::/
+
+[Secus absolute]
+/:En caso contrario, la hora se inicia directamente de la siguiente manera::/
+(sed rubrica ^Trident)
+/:Después del himno:/ Te Deum laudamus /:o recitado el último responsorio, la hora comienza directamente de la siguiente manera::/
+
+[Rubrica Matutinum]
+!El resto se omite, salvo que %Laúdes% se haga aparte.
+(sed rúbrica tridentina)
+!Después de recitado el himno Te Deum laudamus o el noveno o tercer responsorio, se comienza directamente con las %Laudes%, a excepción de la Noche de Navidad: en ésta se reza la Oratio y luego la misa de Navidad. se celebra como se indica en el lugar correspondiente.
+
+[Rubrica Matutinum] (rubrica monastica)
+!El resto se omite, salvo que %Laúdes% se haga aparte.
+(sed rubrica tridentina aut rubrica divino)
+!El resto se omite en Oficios de 12 lecciones, salvo que %Laúdes% se haga aparte. En las fiestas Simplex y en los días feriales (ya sea con tres o una lectura) siempre se reza lo siguiente.
+
+[Pater Ave Credo C]
+/:Después se dice en silencio:/
+@:Pater noster
+@:Ave Maria
+@:Credo
+/:Si justo después de Completas se rezan maitines, entonces:/ Padre Nuestro, Ave María /:y:/ Credo, /:se dicen dos veces, una vez cada una para el final del Oficio del día anterior y para el comienzo del Oficio de el siguiente.:/
 
 [Adjutorium nostrum]
 V. Nuestro auxilio + es el nombre del Señor. 
@@ -135,9 +180,7 @@ v. A ti, oh Dios, alabamos: * a ti, oh Señor, te confesamos.
 A ti, Padre Eterno, * reconoce y venera toda la tierra;
 A ti todos los Ángeles, * a ti los cielos y todas las Potestades;
 A ti los Querubines y Serafines, * claman sin cesar:
-_
-/:(Reverencia):/ Santo, Santo, Santo * el Señor Dios de los ejércitos.
-_
+/:Reverencia:/ Santo, Santo, Santo * el Señor Dios de los ejércitos.
 Llenos están los cielos y la tierra * de la Majestad de tu gloria.
 A ti el glorioso coro * de los Apóstoles,
 A ti la venerable muchedumbre * de los Profetas,
@@ -148,27 +191,19 @@ Y que debe ser adorado * tu verdadero y único Hijo;
 Y también el Espíritu Santo * consolador.
 Tú, oh Cristo, * eres Rey de la gloria.
 Tú, el Hijo sempiterno * del Padre.
-_
-!Reverencia
-Tú, para rescatarnos * te hiciste hombre, y no tuviste a menos encerrarte en el seno de una Virgen.
-_
+/:Reverencia:/ Tú, para rescatarnos * te hiciste hombre, y no tuviste a menos encerrarte en el seno de una Virgen.
 Tú, destruido el imperio de la muerte, * abriste a los fieles el reino de los cielos.
 Tú estás sentado a la diestra de Dios, * en la gloria del Padre.
 Y de allí creemos * que vendrás a juzgarnos.
-_
-!El siguiente verso se dice de rodillas.
+/:El siguiente verso se dice de rodillas.:/
 Por esto te suplicamos socorras a tus siervos, * a quienes con tu sangre preciosa redimiste.
-_
 Haz que en la eterna gloria * seamos del número de tus santos.
 (pero la rúbrica de 1570 dice:)
 ...
 Salva, Señor, a tu pueblo, * y bendice a tu herencia.
 Y gobiérnalos, * y ensálzalos para siempre.
 Todos los días * te bendecimos. 	
-_
-!Reverencia, como es costumbre
-Y alabamos tu nombre en los siglos, * y en los siglos de los siglos.
-_
+/:Reverencia, como es costumbre:/ Y alabamos tu nombre en los siglos, * y en los siglos de los siglos.
 Dígnate, Señor, conservarnos * sin pecado en este día.
 Ten, Señor, piedad de nosotros; * sí, ten de nosotros piedad.
 Descienda, Señor, tu misericordia sobre nosotros, * pues pusimos en ti nuestra esperanza.
@@ -195,6 +230,11 @@ r. Ave María.
 [Conclmart]
 V. Y en otras partes, otros muchos santos Mártires y Confesores, y santas Vírgenes.
 $Deo gratias
+_
+V. Preciosa es a los ojos del Señor.
+R. La muerte de sus fieles.
+v. Santa María y todos los santos intercedan por nosotros al Señor, para que merezcamos ser ayudados y salvados por Aquél que vive y reina por los siglos de los siglos.
+$Amen
 
 [DefunctV]
 &Dominus_vobiscum
@@ -215,10 +255,6 @@ v. A ti se te debe la alabanza, + a ti el himno y la gloria, Dios Padre, Hijo y 
 [Kyrie]
 v. Señor, ten piedad. Cristo, ten piedad. Señor, ten piedad.
 
-[MLitany2]
-$Kyrie
-$Pater secreto
-
 [Divinum auxilium]
 Que el auxilio divino + permanezca siempre con nosotros.
 Y con nuestros hermanos ausentes. Amén.
@@ -229,70 +265,56 @@ Y con nuestros hermanos ausentes. Amén.
 [Alleluia Duplex]
 Aleluya, aleluya.
 
-[Preces feriales Laudes]
-$Kyrie
-$Pater secreto
-V. Yo dije: «Señor, ten misericordia».
-R. Sáname porque he pecado contra ti.
-V. Vuélvete, Señor, ¿hasta cuándo?
-R. Ten compasión de tus siervos.
-V. Que tu misericordia, Señor, venga sobre nosotros.
-R. Como lo esperamos de ti.
-V. Que tus sacerdotes se vistan de gala.
-R. Y que tus fieles vitoreen.
-
-V. Oremos por nuestro Santo Padre, el Papa~
-r. N.
-R. El Señor lo guarde y lo conserve en vida para que sea dichoso en la tierra y no lo entregue a la saña de sus enemigos.
-V. Oremos por nuestro Obispo~
-r. N.
-R. Que apaciente con tu poder, Señor, para gloria de tu nombre.
-/:Los dos versos que anteceden con su Responsorio se omiten en Roma; en los demás lugares en vez de la letra N. exprésese por todos el nombre del Obispo diocesano. Estando vacante la Sede Apostólica o Episcopal, omítase el Verso correspondiente, con su Responsorio.:/
-(sed rubrica tridentina omittitur)
-
-V. Señor, salva al Rey.  
-R. Y escúchanos cuando te invocamos.
-V. Salva a tu pueblo, Señor y bendice a tu heredad.  
-R. Sé su Pastor y llévalos siempre.
-V. Acuérdate de tu Iglesia.  
-R. Que adquiriste desde antiguo.
-V. Haya paz dentro de tus muros.
-R. Seguridad en tus palacios.
-
-V. Oremos por nuestros bienhechores.
-R. Por amor de tu nombre, Señor, recompensa a todos nuestros bienhechores con la vida eterna. Amén.
-(sed rubrica tridentina omittitur)
-
-V. Oremos por los fieles difuntos.
-R. Señor, dales el descanso eterno y brille sobre ellos la luz eterna.
-V. Los fieles difuntos descansen en paz.
+[Amen]
 R. Amén.
-V. Por nuestros hermanos ausentes.
-R. Salva, ¡Oh Dios!, a tus siervos, que confían en ti.	
-V. Por los oprimidos y los prisioneros.	
-R. Líbralos, ¡Oh Dios de Israel!, de todos sus sufrimientos.  
-V. Envíales tu auxilio desde el santuario.	
-R. Defiéndelos desde Sión.	
 
-(sed rubrica tridentina dicuntur)
-@:Dominus:3-4
-&psalm(129) 
+[A_porta_inferi]
+V. De las puertas del infierno.
+R. Libra, Señor, sus almas.
 
-(deinde dicuntur)
-V. Señor, Dios de los ejércitos, restáuranos.	
-R. Que brille tu rostro y nos salve.	
-V. Levántate, Cristo, ven en nuestra ayuda.	
-R. Líbranos por tu nombre.  
-V. Señor, escucha nuestra oración.	
-R. Y llegue a ti nuestro clamor.
+[Per Christum]
+Por el mismo Jesucristo nuestro Señor.
 
-[Preces feriales Tertia]
-$Kyrie
-$Pater secreto
-V. Señor, Dios de las virtudes, convertidnos.
-R. Y mostradnos vuestro rostro, y seremos salvos.
-V. Levantaos, oh Cristo, y ayudadnos.
-R. Y libradnos por vuestro nombre.
-V. Señor, escucha nuestra oración.
-R. Y llegue a Ti nuestro clamor.
+[Oratio Visita_]
+v. Visita, Señor, esta habitación: aleja de ella las insidias del enemigo; que tus ángeles santos habiten en ella y nos guarden en paz.
 
+[Oratio_Domine]
+v. Señor, Dios omnipotente, que nos has concedido llegar al principio de este día: sálvanos hoy con tu virtud; para que en este día no caigamos en ningún pecado; sino que nuestras palabras, pensamientos y obras se dirijan siempre al cumplimiento de vuestra santa ley.
+
+[Respice]
+V. Mira a tus siervos, Señor, mira a tus obras y guía a tus hijos.  
+R. Baje a nosotros la gloria del Señor, nuestro Dios, y haga prósperas las obras de nuestras manos y dirige este mismo trabajo nuestro.
+
+[Dirigere]
+v. Dígnate, Señor Dios, Rey del cielo y de la tierra, dirigir y santificar, regir y gobernar hoy nuestros corazones, nuestros cuerpos, sentidos, palabras y actos en la observancia de tu ley, y en las obras de tus mandamientos, para que aquí y eternamente merezcamos con tu auxilio ser salvos y libres, Salvador del mundo. 
+
+[Benedictio Prima]
+V. Dígnate, Señor, dar tu bendición. 
+Bendición. El Señor todopoderoso ordene con su paz nuestros días y tareas. Amén.
+
+[Benedictio Prima2]
+Bendición. El Señor nos bendiga, + nos defienda de todo mal y nos lleve a la vida eterna. Y las almas de los fieles, por la misericordia de Dios, descansen en paz.
+
+[Benedicite]
+V. Bendecid.
+R. Oh Dios.
+
+[Commemoratio omnium]
+R.br. Conmemoración de todos nuestros hermanos, de parientes de nuestra Orden, y de nuestros benefactores.
+
+[Requiescant]
+V. Descansed en paz.
+R. Amén
+
+[Deus veniae]
+v. ¡Oh Dios, dispuesto al perdón y salvador de los hombres!; concédenos en tu bondad, por intercesión de Santa María, la Virgen, y de todos los santos, que nuestros hermanos, parientes y bienhechores, desaparecidos ya de este mundo, alcancen tu eterna bienaventuranza. Por nuestro Señor Jesucristo.
+
+[Examen]
+/:Examen de conciencia o Padre nuestro en silencio.:/
+
+[Benedictio Completorium_]
+V. Dígnate, Señor, dar tu bendición.  
+Bendición. El Señor todopoderoso nos conceda una noche tranquila y una muerte santa.
+
+[Benedictio Completorium2]
+Bendición. Que nos bendiga y nos guarde el Señor omnipotente y misericordioso, + Padre, Hijo y Espíritu Santo.

@@ -238,8 +238,8 @@ Chwała Tobie, Panie.
 [#Commemoratio defunctorum]
 #Wspomnienie zmarłych
 
-[MLitany]
-Kyrie … Ojcze nasz
+[Kyrie]
+Kyrie
 
 [Dominica]
 Niedziela|Niedzielę
@@ -267,3 +267,9 @@ Modlitwy podróżne
 
 [Nocturn]
 Nokturn
+
+[Adjutorium nostrum]
+Wspomożenie nasze
+
+[Pater secreto_]
+I nie wódź

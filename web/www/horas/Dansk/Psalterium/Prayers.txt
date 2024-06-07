@@ -8,13 +8,67 @@ V. Og led os ikke i fristelse:
 R. Men fri os fra det onde. 
 
 [Ave Maria]
-v. Hil dig, Maria, fuld af nåde; Herren er med dig; Velsignet er du iblandt kvinder,  Og velsignet er dit livs frugt, Jesus.
-Hellige Maria, Guds Moder,  Bed for os syndere, nu og i vor dødstime. Amen. 
+v. Hil dig, Maria, fuld af nåde; Herren er med dig; Velsignet er du iblandt kvinder, Og velsignet er dit livs frugt, Jesus. Hellige Maria, Guds Moder, Bed for os syndere, nu og i vor dødstime. Amen. 
 
 [Credo]
-v. Jeg tror på Gud, den Almægtige Fader, himlens og jordens Skaber. 
-Jeg tror på Jesus Kristus, hans énbårne Søn, vor Herre; som er undfanget ved Helligånden og født af Jomfru Maria, har lidt under Pontius Pilatus, blev korsfæstet, døde og blev begravet: nedfor til Dødsriget; opstod på den tredje dag fra de døde; opfor til Himlen; sidder ved Gud, den Almægtiges Faders højre hånd: hvorfra han skal komme for at dømme de levende og de døde. 
-Jeg tror på Helligånden, den hellige katolske Kirke, de Helliges samfund, syndernes forladelse. Kødets opstandelse, og det evige liv. Amen.
+v. Jeg tror på Gud, den Almægtige Fader, himlens og jordens Skaber. Jeg tror på Jesus Kristus, hans énbårne Søn, vor Herre; som er undfanget ved Helligånden og født af Jomfru Maria, har lidt under Pontius Pilatus, blev korsfæstet, døde og blev begravet: nedfor til Dødsriget; opstod på den tredje dag fra de døde; opfor til Himlen; sidder ved Gud, den Almægtiges Faders højre hånd: hvorfra han skal komme for at dømme de levende og de døde. Jeg tror på Helligånden, den hellige katolske Kirke, de Helliges samfund, syndernes forladelse. Kødets opstandelse, og det evige liv. Amen.
+
+[Pater secreto]
+/:"Fadervor" bedes stille indtil "Og led os ikke i fristelse:".:/
+&pater_noster
+
+[Pater totum secreto]
+/:"Fadervor" bedes stille.:/
+$Pater noster
+
+[Pater post]
+/:Derefter siges kun «Fadervor» lydløst, medmindre der straks følger en anden Time.:/
+@:Pater noster
+
+[Pater post V]
+/:Og er Embedet således afsluttet, siges kun «Fadervor» tavst.:/
+@:Pater noster
+
+[Secreto]
+/:stille:/
+
+[Secreto L]
+/:Hvis Matins og Lauds er adskilt, så siges der stille::/
+(sed rubrica monastica)
+/:På simple fester og på ferialistiske dage, og hvis Matins er adskilt fra Lauds, begynder man i stilhed::/
+
+[Clara voce]
+/:Derefter siges Versiklen med hørelig stemme::/
+
+[Secus absolute]
+/:Ellers startes timen direkte på følgende måde::/
+(sed rubrica ^Trident)
+/:Efter salmen:/ Te Deum laudamus /:eller sidste svarskrift er blevet reciteret, begynder timen direkte således::/
+
+[Rubrica Matutinum]
+!Spring resten over, medmindre du beder %Lauds% separat.
+(sed rubrica tridentina)
+!Efter at salmen Te Deum laudamus eller den niende eller tredje responsorium er blevet reciteret, begynder man direkte med %Laudes%, med undtagelse af Julenat: i denne beder man Oratio og så fejres julemessen som det hedder. på det rette sted.
+
+[Rubrica Matutinum] (rubrica monastica)
+!Spring resten over, medmindre du beder %Lauds% separat.
+(sed rubrica tridentina aut rubrica divino)
+!Spring resten over i kontorer med 12 lektioner, medmindre du beder %Lauds% separat. På simple højtider og på ferialistiske dage (det være sig med tre eller én læsning) bedes altid følgende.
+
+[Pater Ave Credo C]
+/:Derefter siges stille:/
+@:Pater noster
+@:Ave Maria
+@:Credo
+/:Hvis der lige efter Compline siges Matins, så:/ Fadervor, hilst Maria /:og:/ Credo, /:siges to gange, en gang hver for afslutningen af ​​kontoret den foregående dags embede og for begyndelsen af ​​embedet i den næste.:/
+
+[Adjutorium nostrum]
+V. Vor hjælp er + i Herrens navn,  
+R. Han som skabte himmel og jord.
+
+[Converte nos]
+V. Omvend os, vor frelses Gud:
+R. Og stands din vrede mod os.
 
 [Gloria]
 V. Ære være Faderen og Sønnen * og Helligånden.
@@ -131,9 +185,7 @@ v. Dig lover vi, Gud! * Dig priser vi som vor Herre!
 Evig Fader, * al skabning hylder dit navn!
 Dig priser englenes talløse skare, * Himlens og jordens mægtige ånder,
 Keruber, Serafer * råber til dig i endeløs jubel:
-_
-/:(bøj hovedet):/ Hellig, hellig, hellig * Herre Gud over englenes hære;
-_
+/:bøj hovedet:/ Hellig, hellig, hellig * Herre Gud over englenes hære;
 Himmel og jord stråler * af din herligheds Majestæt.
 Dig lover * apostlenes hellige kor.
 Dig hylder * profeternes ærværdige skare.
@@ -144,25 +196,17 @@ Med Kristus, din sande * og eneste Søn;
 Og Helligånden, * vor trøster og talsmand.
 Kristus, * du herlige konge!
 Gud Faders * evige Søn.
-_
-!Under det følgende vers laver alle en dyb bøjning:
-Ydmygt blev du os mennesker lig, * du tøvede ikke ved en Jomfrus skød.
-_
+/:Under det følgende vers laver alle en dyb bøjning::/ Ydmygt blev du os mennesker lig, * du tøvede ikke ved en Jomfrus skød.
 Ved dig har døden mistet sin brod, * og Himlen blev blev åbnet for dem, der tror.
 Nu sidder du ved Guds højre side, * i Faderens herlighed.
 Vi ved du skal komme * for at være vor Dommer.
-_
-!Knæl under det følgende vers
+/:Knæl under det følgende vers:/
 Kom os da nådig til hjælp, * os, som du frelste ved dit eget blod.
-_
 Lad os synge din pris i de saliges kor, * en evig jublende lovsang.
 Herre, frels dit folk, * og velsign din ejendom,
 Vogt dem, * og tag dig af dem til evig tid.
 Dag ud og dag in * velsigner vi dig
-_
-!Jvf. lokal brug, bøj hovedet.
-Og slægt efter slægt * højlover dit hellige navn.
-_
+/:Jvf. lokal brug, bøj hovedet.:/ Og slægt efter slægt * højlover dit hellige navn.
 Bevar os nådigst, Herre, * på denne dag fra enhver synd.
 Herre, forbarm dig over os, * forbarm dig over os.
 Lad din barmhjertighed, Herre, være over os, * for vi har stolet på dig, 
@@ -210,14 +254,21 @@ v. Herre, forbarm dig over os, Kristus, forbarm dig over os, Herre, forbarm dig 
 [Kyrie]
 v. Herre, forbarm dig over os, Kristus, forbarm dig over os, Herre, forbarm dig over os
 
-[MLitany2]
-$Kyrie
-/:"Fadervor" bedes stille indtil "Og led os ikke i fristelse:".:/
-&pater_noster
-
 [Alleluia Simplex]
 , halleluja.
 
 [Alleluia Duplex]
 Halleluja, halleluja.
 
+[Oratio Visita_]
+v. Besøg denne bolig, beder vi dig Herre, og jag fjendens snarer fjernt herfra; lad dine hellige engle bo her så de kan bevare os i fred, og lad din velsignelse altid være over os.
+
+[Examen]
+/:Nu følger en privat samvittighedsransagelse, eller et stille Fadervor.:/
+
+[Benedictio Completorium_]
+V. Herre, giv din velsignelse.
+Benedictio. En rolig nat og en salig død skænke os Herren, den Almægtige.
+
+[Benedictio Completorium2]
+Benedictio. Den almægtige og barmhjertige Gud, + Fader, Søn og Helligånd, velsigne og bevare os.

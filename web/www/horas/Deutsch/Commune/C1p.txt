@@ -13,11 +13,6 @@ Bedeckt von den Fittichen * riefen die dir Geweihten: O Herr, alleluja, alleluja
 Ihr Geister und ihr Seelen * der Rechtschaffenen, stimmt an einen Lobgesang unserm Gott, alleluja.;;112
 Es leuchten die Rechtschaffenen * wie die Sonne vor den Augen Gottes, alleluja.;;116
 
-[Capitulum Vespera]
-!Weish 5,1
-v. Es stehen die Gottesdiener in großer Zuversicht gegenüber denen, die ihnen Bedrängnis gemacht, und die ihnen nun ihre Mühsale abgenommen haben.
-$Deo gratias
-
 [Hymnus Vespera]
 {:H-Tristeserantapostoli:}v. Gar traurig war die Jüngerschar,
 Ob ihres Herrn so blut'gem End',
@@ -80,26 +75,17 @@ Ununterbrochnes Licht * scheint deinen Schützlingen, o Herr, auf ewige Zeiten, 
 V. Ewige Freude strömt auf sie herunter, alleluja.
 R. Jubel und Frohlocken erhalten sie als Besitz, alleluja.
 
-[Lectio1]
-@Commune/C1:Lectio1
-
 [Responsory1]
 R. Glücklich ist ein Mensch, der lebt in Ehrfurcht vor dem Herrn, alleluja:
 * Der sein Gebot befolgt mit seinem ganzen Eifer, alleluja, alleluja, alleluja.
 V. Wohlstand und Reichtum ist in seinem Haus, sein Glück ist ihm für alle Ewigkeit gesichert.
 R. Der sein Gebot befolgt mit seinem ganzen Eifer, alleluja, alleluja, alleluja.
 
-[Lectio2]
-@Commune/C1:Lectio2
-
 [Responsory2]
 R. Eure Traurigkeit, alleluja,
 * Wird verwandelt in Freude, alleluja, alleluja.
 V. Die Welt wird sich wohl freuen, ihr werdet dagegen traurig sein, doch eure Traurigkeit
 R. Wird verwandelt in Freude, alleluja, alleluja.
-
-[Lectio3]
-@Commune/C1:Lectio3
 
 [Responsory3]
 R. Gar teuer wird's bei dir, Herr, eingeschätzt, alleluja:
@@ -109,26 +95,17 @@ R. Wenn deine Diener sterben, alleluja.
 &Gloria
 R. Wenn deine Diener sterben, alleluja.
 
-[Lectio4]
-@Commune/C1:Lectio4
-
 [Responsory4]
 R. Ununterbroch'nes Licht scheint deinen Schützlingen, o Herr,
 * Auf ewige Zeiten, alleluja, alleluja.
 V. Ewige Freude strömt auf sie herunter; Jubel und Frohlocken erhalten sie als Besitz.
 R. Auf ewige Zeiten, alleluja, alleluja.
 
-[Lectio5]
-@Commune/C1:Lectio5
-
 [Responsory5]
 R. Mit großer Kraft legten die Apostel vor
 * Die Kunde von der Auferstehung unseres Herrn Jesus Christus, alleluja, alleluja.
 V. Erfüllt mit dem Heiligen Geiste redeten sie mit Zuversicht, was Gott geoffenbart hat.
 R. Die Kunde von der Auferstehung unseres Herrn Jesus Christus, alleluja, alleluja.
-
-[Lectio6]
-@Commune/C1:Lectio6
 
 [Responsory6]
 R. Dies sind die neugeborenen Lämmer, die eine gute Kunde gebracht haben, alleluja. Nun sind sie zur Quelle gekommen.
@@ -138,17 +115,11 @@ R. Sie sind ganz durchdrungen von der Herrlichkeit, alleluja, alleluja.
 &Gloria
 R. Sie sind ganz durchdrungen von der Herrlichkeit, alleluja, alleluja.
 
-[Lectio7]
-@Commune/C1:Lectio7
-
 [Responsory7]
 R. Ich bin ein wirklicher Weinstock, ihr seid die Reben.
 * Wer in Verbindung mit mir bleibt und mit dem ich bleibe, der bringt viele Frucht, alleluja, alleluja.
 V. Wie mich der Vater liebt, so liebe ich euch.
 R. Wer in Verbindung mit mir bleibt und mit dem ich bleibe, der bringt viele Frucht, alleluja, alleluja.
-
-[Lectio8]
-@Commune/C1a:Lectio8
 
 [Responsory8]
 R. Leuchtende Wesen sind geworden die ihm Geweihten, alleluja; sie haben Gott Glanz verschafft, alleluja.
@@ -157,10 +128,6 @@ V. Schimmernder sind sie als der Schnee, weißer als Milch, greller leuchtend al
 R. Und wie Milch sind sie geronnen, alleluja, alleluja.
 &Gloria
 R. Und wie Milch sind sie geronnen, alleluja, alleluja.
-
-[Lectio9]
-@Commune/C1:Lectio9
-&teDeum
 
 [Ant Laudes]
 Deine treuen Diener, * o Herr, sind wie blühende Lilien, alleluja, und wie Balsamduft sind sie vor dir, alleluja.
@@ -222,7 +189,7 @@ In hoc Pascháli gáudio,
 Ab omnis morti ímpetu
 Tuum defénde pópulum.
 _
-Glória tibi, Dómine,
+* Glória tibi, Dómine,
 Qui surrexísti a mórtuis,
 Cum Patre, et Sancto Spíritu,
 In sempitérna sǽcula.
@@ -238,11 +205,6 @@ O ihr Töchter Jerusalems, * kommt und seht die Zeugen für Gott mit ihren Krän
 [Lectio Prima]
 !Röm 8,28
 v. Wir wissen, dass denen, die Gott lieben, alles zum Guten wirkt; denen nämlich, die gemäß seinem Ratschluss berufen sind zur Heiligkeit.
-
-[Capitulum Tertia]
-!Weish 5,1
-v. Es stehen die Gottesdiener in großer Zuversicht gegenüber denen, die ihnen Bedrängnis gemacht, und die ihnen nun ihre Mühsale abgenommen haben.
-$Deo gratias
 
 [Responsory Tertia]
 R.br. Ihr Heiligen und Rechtschaffenen, genießt im Herrn die Freude, * Alleluja, alleluja.
@@ -286,9 +248,6 @@ R. Ewige Freude strömt auf sie herunter, * Alleluja, alleluja.
 _
 V. Gar teuer wird's bei dir, Herr, eingeschätzt, alleluja.
 R. Wenn deine Diener sterben, alleluja.
-
-[Versum 3]
-@:Versum 1
 
 [Ant Vespera 3]
 Deine treuen Diener, * o Herr, sind wie blühende Lilien, alleluja, und wie Balsamduft sind sie vor dir, alleluja.;;109

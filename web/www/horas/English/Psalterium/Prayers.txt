@@ -1,5 +1,5 @@
 [Pater noster]
-v. Our Father, who art in heaven,  Hallowed be thy name.  Thy kingdom come.  Thy will be done on earth as it is in heaven. Give us this day our daily bread.  And forgive us our trespasses, as we forgive those who trespass against us.  And lead us not into temptation:  But deliver us from evil.  Amen.
+v. Our Father, who art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread.  And forgive us our trespasses, as we forgive those who trespass against us.  And lead us not into temptation: But deliver us from evil. Amen.
 
 [Pater_noster1]
 v. Our Father, who art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done on earth as it is in heaven. Give us this day our daily bread. And forgive us our trespasses, as we forgive those who trespass against us. 
@@ -13,14 +13,59 @@ v. Hail Mary, full of grace, the Lord is with thee; blessed art thou amongst wom
 v. I believe in God, the Father almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord; who was conceived by the Holy Ghost, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried: he descended into hell; the third day he arose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father almighty: from thence he shall come to judge the living and the dead. I believe in the Holy Ghost, the holy catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.
 
 [Pater secreto]
-!"Our Father" is said silently until "And lead us not into temptation:".
+/:"Our Father" is said silently until "And lead us not into temptation:".:/
 &pater_noster
+
+[Pater totum secreto]
+/:"Our Father" is said completely in silence.:/
+$Pater noster
 
 [Credo secreto]
 !"Credo" is said silently until "The resurrection of the body."
 v. I believe in God, the Father almighty, Creator of heaven and earth. And in Jesus Christ, his only Son, our Lord; who was conceived by the Holy Ghost, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried: he descended into hell; the third day he arose again from the dead; he ascended into heaven; sitteth at the right hand of God the Father almighty: from thence he shall come to judge the living and the dead. I believe in the Holy Ghost, the holy catholic Church, the communion of Saints, the forgiveness of sins. 
 V. The resurrection of the body. 
 R. And life everlasting. Amen.
+
+[Pater post]
+/:Thereafter, only « Pater Noster » is said silently, unless another Hour follows immediately.:/
+@:Pater noster
+
+[Pater post V]
+/:And if thus the Office is ended, only « Pater Noster » is said silently.:/
+@:Pater noster
+
+[Secreto]
+/:silently:/
+
+[Secreto L]
+/:If Matins and Lauds are separated, then is said silently::/
+(sed rubrica monastica)
+/:On Simplex feasts and on ferial days, and if Matins are separate from Lauds, one begins in silence::/
+
+[Clara voce]
+/:Thereafter, with hearable voice, the Versicle is said::/
+
+[Secus absolute]
+/:Otherwise, the hour is started directly as follows::/
+(sed rubrica ^Trident)
+/:After the hymn:/ Te Deum laudamus /:or the last responsory has been recited, the hour begins directly as follows::/
+
+[Rubrica Matutinum]
+!Skip the rest, unless praying %Lauds% separately.
+(sed rubrica tridentina)
+!After the hymn Te Deum laudamus or the ninth or third responsory has been recited, one begins directly with the %Laudes%, with the exception of Christmas Night: in this one prays the Oratio and then the Christmas mass is celebrated as it is stated at the appropriate place.
+
+[Rubrica Matutinum] (rubrica monastica)
+!Skip the rest, unless praying %Lauds% separately.
+(sed rubrica tridentina aut rubrica divino)
+!Skip the rest in Offices of 12 lessons, unless praying %Lauds% separately. On Simplex feasts and on ferial days (be it with three or one reading) the following is always prayed.
+
+[Pater Ave Credo C]
+/:Thereafter is said silently:/
+@:Pater noster
+@:Ave Maria
+@:Credo
+/:If right after Compline, Matins is said, then:/ Our Father, Hail Mary /:and:/ Credo, /:are said twice, once each for end of the Office of the previous day, and for the beginning of the Office of the next.:/
 
 [Adjutorium nostrum]
 V. Our help is + in the name of the Lord,  
@@ -56,19 +101,19 @@ V. O Lord, hear my prayer.
 R. And let my cry come unto thee.
 /:skip second 'O Lord, hear my prayer':/
 
-[Confiteor]
+[Confiteor_]
 v. I confess to almighty God, to blessed Mary ever Virgin, to blessed Michael the Archangel, to blessed John the Baptist, to the holy Apostles Peter and Paul, and to all the Saints, that I have sinned exceedingly in thought, word and deed: /:strikes his breast:/ through my fault, through my fault, through my most grievous fault. Therefore I beseech blessed Mary ever Virgin, blessed Michael the Archangel, blessed John the Baptist, the holy Apostles Peter and Paul, and all the Saints, to pray for me to the Lord our God. 
 
-[ConfiteorOP]
+[Confiteor] (rubrica Ordo Praedicatorum)
 v.  I confess to almighty God, to blessed Mary ever Virgin, to blessed Dominic our father, to all the Saints and to you, brethren, that I have sinned exceedingly by thought, word, deed and omission, through my fault: I beseech you to pray for me.
 
-[ConfiteorM]
-@:Confiteor:s/Paul/Paul, our holy Father Benedict/g
+[Confiteor] (rubrica Monastica)
+@:Confiteor_:s/Paul/Paul, our holy Father Benedict/g
 
 [Misereatur]
 v. May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life. Amen.
 
-[MisereaturOP]
+[Misereatur] (rubrica Ordo Praedicatorum)
 v. May almighty God have mercy upon you and forgive you all your sins: may he free you from all evil, strengthen and confirm you in every good work, and bring you to life everlasting.
 
 [Indulgentiam]
@@ -84,7 +129,7 @@ R. O Lord, make haste to help me.
 v. Glory be to the Father, and to the Son, * and to the Holy Ghost. 
 As it was in the beginning, is now, * and ever shall be, world without end. Amen.
 
-[Tu autem]
+[Tu autem_]
 V. But thou, O Lord, have mercy upon us.
 R. Thanks be to God.
 
@@ -102,15 +147,6 @@ R. Thanks be to God.
 [Fidelium animae]
 V. May the souls of the faithful, through the mercy of God, rest in peace.
 R. Amen.
-
-[FinalAntiphonOP]
-Light of the church, teacher of truth, rose of patience, ivory of chastity, you freely poured forth the waters of wisdow; preacher of grace, unite us with the blessed.
-V. Blessed Father, Dominic, pray for us.
-_
-R. That we may be made worth of the promises of Christ.
-Let us pray.
-_
-Grant, we beseech you, almighty God, that we who are weighed down by the burden of our sins, may be relieved through the patronage of the blessed Dominic, your confessor and our father. Through Christ our Lord. Amen.
 
 [Per Dominum]
 r. Through Jesus Christ, thy Son our Lord, Who liveth and reigneth with thee, in the unity of the Holy Ghost, God, world without end.
@@ -149,9 +185,7 @@ v. We praise thee, O God, * we acknowledge thee to be the Lord.
 All the earth doth worship thee, * the Father everlasting.
 To thee all Angels cry aloud, * the Heavens, and all the Powers therein.
 To thee Cherubim and Seraphim * continually do cry.
-_
-/:(bow head):/ Holy, Holy, Holy * Lord God of Sabaoth;
-_
+/:bow head:/ Holy, Holy, Holy * Lord God of Sabaoth;
 Heaven and earth are full * of the Majesty of thy glory.
 The glorious company of the Apostles * praise thee.
 The goodly fellowship of the Prophets * praise thee.
@@ -162,25 +196,17 @@ Thine honourable, true, * and only Son;
 Also the Holy Ghost, * the Comforter.
 Thou art the King of Glory, * O Christ.
 Thou art the everlasting * Son of the Father.
-_
-!During the following verse all make a profound bow:
-When thou tookest upon thee to deliver man, * thou didst not abhor the Virgin's womb.
-_
+/:During the following verse all make a profound bow::/ When thou tookest upon thee to deliver man, * thou didst not abhor the Virgin's womb.
 When thou hadst overcome the sharpness of death, * thou didst open the Kingdom of Heaven to all believers.
 Thou sittest at the right hand of God, * in the glory of the Father.
 We believe that thou shalt come * to be our Judge.
-_
-!Kneel for the following verse
+/:Kneel for the following verse:/
 We therefore pray thee, help thy servants, * whom thou hast redeemed with thy precious Blood.
-_
 Make them to be numbered with thy Saints, * in glory everlasting.
 O Lord, save thy people, * and bless thine heritage.
 Govern them, * and lift them up for ever.
 Day by day * we magnify thee;
-_
-!During the following verse, by local custom, all make a profound bow.
-And we worship thy Name * ever, world without end.
-_
+/:During the following verse, by local custom, all make a profound bow.:/ And we worship thy Name * ever, world without end.
 Vouchsafe, O Lord, to keep us * this day without sin.
 O Lord, have mercy upon us, * have mercy upon us.
 O Lord, let thy mercy lighten upon us, * as our trust is in thee.
@@ -205,6 +231,11 @@ r. Hail Mary
 [Conclmart]
 V. And elsewhere many other holy martyrs, confessors, and holy virgins.
 $Deo gratias.
+_
+V. Precious in the sight of the Lord
+R. Is the death of his saints.
+v. Holy Mary and all the Saints, intercede for us with the Lord, our God, so that we may merit His help and salvation, who lives and reigns for ever and ever.
+$Amen
 
 [DefunctV]
 &Dominus_vobiscum
@@ -225,11 +256,6 @@ v. Thou art worthy of praise, thou art worthy of hymns, to Thee be glory: to God
 [Kyrie]
 v. Lord have mercy upon us, Christ have mercy upon us, Lord have mercy upon us.
 
-[MLitany2]
-$Kyrie
-/:"Our Father" is said silently until "And lead us not into temptation:".:/
-&pater_noster
-
 [Divinum auxilium]
 (rubrica Monastica)
 /:Then, in the public recitation of the Office, if the Community is to leave the Choir, the following Versicle is said.:/
@@ -242,77 +268,62 @@ And with our brothers, who are absent. Amen.
 [Alleluia Duplex]
 Alleluia, alleluia.
 
-[Preces feriales Laudes]
-$Kyrie
-$Pater secreto
-V. I said: Lord, be merciful unto me: 
-R. Heal my soul, for I have sinned against thee.
-V. Turn thee again, O Lord; how long will it be? 
-R. And be gracious unto thy servants. 
-V. Let thy mercy, O Lord, be upon us.
-R. As we have hoped in thee.
-V. Let thy priests be clothed with justice: 
-R. And may thy saints rejoice.
-
-V. Let us pray for our most blessed Pope~
-r. N.
-R. The Lord preserve him and give him life, and make him blessed upon the earth: and deliver him not up to the will of his enemies. 
-V. Let us pray for our bishop ~
-r. N.
-R. May he stand firm and care for us in the strength of the Lord, in the might of thy name.
-/:In Rome, the preceding Versicle and its Response are omitted.  Elsewhere, the name of the local Ordinary is inserted at the letter N.  If the Holy See or the See of the local Bishop is vacant, the appropriate V. and R., either or both as the case may be, is omitted.:/
-(sed rubrica tridentina omittitur)
-
-V. O Lord, save our leaders.
-R. And mercifully hear us when we call upon thee.
-V. O Lord, save thy people, and bless thine inheritance: 
-R. Govern them and lift them up for ever.
-V. Remember thy congregation, 
-R. Which thou hast possessed from the beginning. 
-V. Let peace be in thy strength:
-R. And abundance in thy towers.
-
-V. Let us pray for our benefactors.
-R. O Lord, for thy name's sake, deign to reward with eternal life all who do us good. Amen.  
-(sed rubrica tridentina omittitur)
-
-V. Let us pray for the faithful departed.
-R. Eternal rest grant unto them, O Lord, and let perpetual light shine upon them.
-V. May they rest in peace.
-R. Amen.
-V. Let us pray for our absent brothers.
-R. Save thy servants, O God, who put their trust in thee.
-V. Let us pray for the afflicted and imprisoned.
-R. Deliver them, God of Israel, from all their tribulations.
-V. O Lord, send them help from thy sanctuary.
-R. And defend them out of Sion. 
-
-(sed rubrica tridentina dicuntur)
-@:Dominus:3-4
-&psalm(129) 
-
-(deinde dicuntur)
-V. Turn us again, O Lord, God of Hosts.
-R. Show us thy face, and we shall be whole.
-V. Arise, O Christ, and help us.
-R. And redeem us for thy name's sake.
-V. O Lord, hear my prayer.
-R. And let my cry come unto thee. 
-
-[Preces feriales Tertia]
-$Kyrie
-$Pater secreto
-V. Turn us again, O Lord God of hosts:
-R. Show us thy face, and we shall be saved.
-V. Arise, O Christ, and help us
-R. And deliver us for thy name's sake.
-V. O Lord, hear my prayer:
-R. And let my cry come unto thee.
-
-[A porta inferi]
+[A_porta_inferi]
 V. From the gates of hell.
 R. Deliver their souls, O Lord!
+
+[Per Christum]
+Through Christ our Lord.
+
+[Oratio Visita_]
+v. Visit, we beseech thee, O Lord, this dwelling, and drive far from it the snares of the enemy; let thy holy angels dwell herein to preserve us in peace, and let thy blessing be always upon us.
+
+[Oratio_Domine]
+v. O Lord, our heavenly Father, Almighty and everlasting God, who has safely brought us to the beginning of this day: defend us by thy mighty power; and grant that this day we fall into no sin, but that all our doings may be ordered by thy governance, to do always what is righteous in thy sight.
+
+[Rubrica Martyrologium] (rubrica monastica)
+/:Then the Martyrology is read in Choir.:/
+
+[Rubrica Regula] (rubrica monastica)
+/:Even outside of Choir, it is laudible to read the Holy Regula; otherwise, the Short Reading is prayed:/
+
+[Respice]
+V. Look upon thy servants and upon thy works: and direct their children.
+R. And let the brightness of the Lord our God be upon us. Direct thou the works of our hands; yea, the work of our hands do thou direct.
+
+[Dirigere]
+v. O Lord, Almighty God, King of heaven and earth, Saviour of the world, bless, lead, rule and govern our hearts and bodies, our senses, words and deeds today, following thy law and commandments, that here and for eternity with thy help we shall be saved in freedom.
+
+[Benedictio Prima]
+V. Grant, Lord, a blessing.
+Benedictio. May Almighty God arrange our deeds and our day in His peace. Amen.
+
+[Benedictio Prima2]
+Benedictio. May the Lord bless us, + protect us from all evil and bring us to everlasting life. And may the souls of the faithful, through the mercy of God, rest in peace. 
+
+[Benedicite]
+V. Let us bless.
+R. God.
+
+[Commemoratio omnium]
+R.br. Commemoration of all brothers, friends of our Order, and our benefactors.
+
+[Requiescant]
 V. May they rest in peace.
 R. Amen.
-@:Dominus:3-4
-&Dominus_vobiscum2
+
+[Deus veniae]
+v. O God the giver of pardon, and the lover of human salvation, we beseech thy clemency: that thou grant the brethren of our congregation, kinsfolk, and benefactors, which are departed out of this world, blessed Mary ever Virgin making intercession with all the saints, to come to the fellowship of eternal blessedness.
+
+[Examen]
+/:There follows an examination of conscience, or the Our Father said silently.:/
+
+[Benedictio Completorium_]
+V. Grant, Lord, a blessing.
+Benedictio. May almighty God grant us a quiet night and a perfect end.
+
+[Benedictio Completorium2]
+Benedictio. The almighty and merciful Lord, + the Father, the Son and the Holy Spirit, bless us and keep us.
+
+[Benedictio Completorium2] (rubrica Ordo Praedicatorum)
+Benedictio. May the blessing of almighty God, + the Father, the Son, and the Holy Spirit come down to us and remain forever.

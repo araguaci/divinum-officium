@@ -43,6 +43,9 @@
 [#Orationes]
 #Oraisons
 
+[#De Officio Capituli]
+#L'Office du Chapitre
+
 [#Lectio brevis]
 #Leçon brève
 
@@ -205,11 +208,17 @@ Antienne finale à la très Sainte Vierge Marie
 [Divinum auxilium]
 Que le secours divin
 
-[MLitany]
-Seigneur ayez pitié … Notre Père
+[Kyrie]
+Seigneur ayez pitié
 
 [Dominica]
 dimanche
 
 [Octava]
 octave
+
+[Adjutorium nostrum]
+Notre secours est
+
+[Pater secreto_]
+Et ne nous

@@ -5,6 +5,7 @@ S. Bedæ Venerabilis Confessoris et Ecclesiæ Doctoris;;Duplex majus;;4;;vide C5
 vide C5a;
 CPapaM=Joánnem;
 Gloria
+CredoDA
 
 [Oratio]
 Deus, qui Ecclésiam tuam beáti Bedæ Confessóris tui atque Doctóris eruditióne claríficas: concéde propítius fámulis tuis; ejus semper ilustrári sapiéntia et méritis adjuvári.
@@ -15,7 +16,8 @@ Sancti Bedæ Confessóris tui atque Doctoris nobis, Dómine, pia non desit orát
 $Per Dominum
 
 [Postcommunio]
-Ut nobis, Dómine, tua sacrifícia dent salútem: beátus Beda Conféssor tuus et egrégius, quǽsumus, precátor accédat.
+Ut nobis, Dómine, tua sacrifícia dent salútem: beátus Beda Conféssor tuus et
+Doctor egrégius, quǽsumus, precátor accédat.
 $Per Dominum
 
 [Commemoratio Oratio]
