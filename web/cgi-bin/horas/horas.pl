@@ -296,6 +296,12 @@ sub Dominus_vobiscum2 : ScriptFunc {    #* officium defunctorum
   return Dominus_vobiscum($lang);
 }
 
+sub MLitany2 : ScriptFunc {
+  my $lang = shift;
+  if (preces('Dominicales')) { return; }
+  return prayer('MLitany2', $lang);
+}
+
 #*** Benedicamus_Domino
 # adds Alleluia, alleluia for Pasc0
 sub Benedicamus_Domino : ScriptFunc {
@@ -1128,16 +1134,14 @@ sub special : ScriptFunc {
 sub getordinarium {
   my $lang = shift;
   my $command = shift;
+
   $command =~ s/Vesperae/Vespera/;
-  my @script = ();
-  my $suffix = "";
-  if ($command =~ /Matutinum/i && $rule =~ /Special Matutinum Incipit/i) { $suffix .= "e"; }    # for Epiphanias
   if ($command =~ /Tertia|Sexta|Nona/i) { $command = 'Minor'; }    # identical for Terz/Sext/Non
 
   our $datafolder;
-  my $fname = "$datafolder/Ordinarium/$command$suffix.txt";
+  my $fname = "$datafolder/Ordinarium/$command.txt";
 
-  @script = process_conditional_lines(do_read($fname));
+  my @script = process_conditional_lines(do_read($fname));
   $error = "$fname cannot be opened or gives an empty script." unless @script;
 
   # Prelude pseudo-item.

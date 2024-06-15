@@ -11,14 +11,6 @@ S. Nicolai Episcopi et confessoris;;Duplex optional;;2;;vide C4
 vide C4;
 Gloria
 
-[Introitus]
-!Ecclus 45:30
-v. El Señor estableció con él una alianza de paz y lo constituyó jefe de su pueblo, para que por siempre poseyera la dignidad sacerdotal.
-!Ps 131:1
-Tenle en cuenta, Señor, a David, todos sus trabajos.
-&Gloria
-v. El Señor estableció con él una alianza de paz y lo constituyó jefe de su pueblo, para que por siempre poseyera la dignidad sacerdotal.
-
 [Oratio]
 Oh Dios, que honraste al santo obispo Nicolás con innumerables milagros, te suplicamos que por sus méritos e intercesión, nos libres de las llamas del infierno.
 $Per Dominum
@@ -34,11 +26,6 @@ Hallé a mi siervo David; lo ungí con mi óleo santo; porque mi mano le apoyar�
 V. No le podrá sorprender el enemigo ni el perverso le podrá oprimir. Aleluya, aleluya.
 !Ps 91:13
  El justo crece como la palma; se eleva como el cedro del Líbano. Aleluya.
-
-[Evangelium]
-Continuación + del Santo Evangelio según san Mateo.
-!Mt 25:14-23
-En aquel tiempo, dijo Jesús a sus discípulos esta parábola: Es como un hombre que, al irse de viaje, llamó a sus siervos y los dejó al cargo de sus bienes: a uno le dejó cinco talentos, a otro dos, a otro uno, a cada cual según su capacidad; luego se marchó. El que recibió cinco talentos fue enseguida a negociar con ellos y ganó otros cinco. El que recibió dos hizo lo mismo y ganó otros dos. En cambio, el que recibió uno fue a hacer un hoyo en la tierra y escondió el dinero de su señor. Al cabo de mucho tiempo viene el señor de aquellos siervos y se pone a ajustar las cuentas con ellos. Se acercó el que había recibido cinco talentos y le presentó otros cinco, diciendo: «Señor, cinco talentos me dejaste; mira, he ganado otros cinco». Su señor le dijo: «Bien, siervo bueno y fiel; como has sido fiel en lo poco, te daré un cargo importante; entra en el gozo de tu señor». Se acercó luego el que había recibido dos talentos y dijo: «Señor, dos talentos me dejaste; mira, he ganado otros dos». Su señor le dijo: «¡Bien, siervo bueno y fiel!; como has sido fiel en lo poco, te daré un cargo importante; entra en el gozo de tu señor». 
 
 [Offertorium]
 !Ps 88:25
