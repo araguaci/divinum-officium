@@ -1,5 +1,8 @@
+[Officium]
+Dominica IV Post Pascha
+
 [Rank]
-Dominica IV Post Pascha;;Semiduplex;;5;;
+;;Semiduplex;;5;;
 
 [Rule]
 9 Lectiones
@@ -9,10 +12,11 @@ StJamesRule=Jas
 [Ant 1]
 Vado ad eum * qui misit me: et nemo ex vobis intérrogat me: Quo vadis? allelúja, allelúja.
 
+[Ant 1] (rubrica cisterciensis)
+@TemporaOP/Pasc3-0:Ant 3
+
 [Oratio]
-Deus, qui fidélium mentes uníus éfficis voluntátis: da pópulis tuis id amáre~
-quod prǽcipis, id desideráre quod promíttis; ut inter mundánas varietátes ibi~
-nostra fixa sint corda, ubi vera sunt gáudia.
+Deus, qui fidélium mentes uníus éfficis voluntátis: da pópulis tuis id amáre quod prǽcipis, id desideráre quod promíttis; ut inter mundánas varietátes ibi nostra fixa sint corda, ubi vera sunt gáudia.
 $Per Dominum
 
 [Lectio1]
@@ -131,6 +135,9 @@ $Deo gratias
 [Ant 2]
 @:Ant 1
 
+[Ant 2] (rubrica cisterciensis)
+Vado ad eum * qui misit me: sed quia hæc locútus sum vobis, tristítia implévit cor vestrum, allelúia.
+
 [Capitulum Sexta]
 !Jas 1:19-20
 v. Scitis, fratres mei dilectíssimi. Sit autem omnis homo velox ad audiéndum: tardus autem ad loquéndum, et tardus ad iram. Ira enim viri justítiam Dei non operátur.
@@ -143,3 +150,6 @@ $Deo gratias
 
 [Ant 3]
 Vado ad eum * qui misit me: sed quia hæc locútus sum vobis, tristítia implévit cor vestrum, allelúja.
+
+[Ant 3] (rubrica cisterciensis)
+@TemporaOP/Pasc4-1:Ant 3

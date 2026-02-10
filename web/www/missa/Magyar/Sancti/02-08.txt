@@ -1,7 +1,9 @@
-[Rank]
-S. S. Joannis de Matha Confessoris;;Duplex;;3;;vide C5
+[Officium]
+Máthai Szent János hitvalló
 
-[Rule]
-vide C5;
-Gloria
+[Name]
+János
 
+[Oratio]
+Isten, ki Szent János által a szaracénok foglyainak kiváltására a szentséges Szentháromság rendjét méltóztattál a mennyből megalapítani; engedd kérünk, hogy érdemei által segítségeddel a test és lélek szolgaságából megszabadulhassunk.
+$Per Dominum

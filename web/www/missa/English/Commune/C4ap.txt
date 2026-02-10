@@ -1,5 +1,0 @@
-[Name]
-Commune Doctore; In medio
-
-[Rule]
-Gloria

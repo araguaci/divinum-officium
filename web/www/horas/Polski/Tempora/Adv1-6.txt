@@ -1,8 +1,5 @@
-[Rank]
-Sobota I tygodnia Adwentu;;Feria major;;2
-
-[Rule]
-Oratio Dominica
+[Officium]
+Sobota I tygodnia Adwentu
 
 [Lectio1]
 Z Proroka Izajasza

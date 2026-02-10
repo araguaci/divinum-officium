@@ -1,4 +1,0 @@
-[Name]
-Commune Confessoris Pontificis Tempore Paschali
-
-[Rule]

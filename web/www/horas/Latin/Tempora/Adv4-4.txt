@@ -1,5 +1,8 @@
+[Officium]
+Feria V infra Hebdomadam IV Adventus
+
 [Rank]
-Feria V infra Hebdomadam IV Adventus;;Feria major;;2.1
+;;Feria major;;2.1
 
 [Rule]
 Oratio Dominica
@@ -34,5 +37,11 @@ De Isaía Prophéta
 [Responsory3]
 @Tempora/Adv4-0:Responsory3
 
+[Ant Laudes] (rubrica cisterciensis)
+@Tempora/Adv4-0
+
 [Ant 2]
 Consolámini, consolámini, * pópule meus, dicit Dóminus Deus vester.
+
+[Ant 2] (rubrica cisterciensis)
+Leva, Jerúsalem, * óculos et vide poténtiam Regis: Ecce Salvátor venit sólvere te a vínculo.

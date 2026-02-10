@@ -1,8 +1,11 @@
-[Rank]
-Die V infra Octavam Nativitatis;;Semiduplex;;2.1;;ex Sancti/12-25
+[Officium]
+Diei V infra Octavam Nativitatis
 
-[Rank] (rubrica 1960)
-Die quinta post Nativitatem;;Duplex II classis;;5;;ex Sancti/12-25
+[Rank]
+;;Semiduplex;;2.1;;ex Sancti/12-25
+
+[Rank] (rubrica 196)
+;;Duplex II classis;;5;;ex Sancti/12-25
 
 [Rule]
 ex Sancti/12-25;
@@ -16,6 +19,9 @@ ex Sancti/12-25;
 
 [Ant 1]
 @Sancti/12-25:Ant 3
+
+[Ant 1] (rubrica cisterciensis)
+@Tempora/Nat26
 
 [Lectio1]
 Incipit Epístola beáti Pauli Apóstoli ad Romános
@@ -49,9 +55,24 @@ Incipit Epístola beáti Pauli Apóstoli ad Romános
 15 ita (quod in me) promptum est et vobis, qui Romæ estis, evangelizáre.
 16 Non enim erubésco Evangélium. Virtus enim Dei est in salútem omni credénti, Judǽo primum, et Græco.
 17 Justítia enim Dei in eo revelátur ex fide in fidem: sicut scriptum est: Justus autem ex fide vivit.
-18 Revelátur enim ira Dei de cælo super omnem impietátem, et iniustítiam hóminum eórum, qui veritátem Dei in iniustítia détinent:
+18 Revelátur enim ira Dei de cælo super omnem impietátem, et injustítiam hóminum eórum, qui veritátem Dei in injustítia détinent:
 19 quia quod notum est Dei, maniféstum est in illis. Deus enim illis manifestávit.
 
 [Responsory3]
 @Sancti/12-25:Responsory4
 
+[Versum 2]
+@Sancti/12-25:Versum 2
+
+[Ant 2] (rubrica cisterciensis)
+@Tempora/Nat26
+
+[Commemoratio 2] (rubrica tridentina nisi rubrica altovadensis)
+@Sancti/12-26:Octava
+@Sancti/12-27:Octava
+@Sancti/12-28:Octava
+
+[Commemoratio 3] (rubrica tridentina nisi rubrica altovadensis)
+@Sancti/12-26:Octava
+@Sancti/12-27:Octava
+@Sancti/12-28:Octava

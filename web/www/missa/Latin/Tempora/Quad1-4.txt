@@ -1,8 +1,12 @@
-[Rank]
-Feria Quinta infra Hebdomadam I in Quadragesima;;Feria major;;2.1
+[Officium]
+Feria Quinta infra Hebdomadam I in Quadragesima
 
-[Rank](rubrica 1960)
-Feria Quinta infra Hebdomadam I in Quadragesima;;Feria major;;3.9
+[Rank]
+;;Feria major;;2.1
+(sed rubrica 1930)
+;;Feria major;;4.9
+(sed rubrica 196)
+;;Feria major;;3.9
 
 [Rule]
 no Gloria
@@ -18,8 +22,7 @@ Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra.
 v. Conféssio et pulchritúdo in conspéctu ejus: sánctitas et magnificéntia in sanctificatióne eius.
 
 [Oratio]
-Devotiónem pópuli tui, quǽsumus, Dómine, benígnus inténde: ut, qui per abstinéntiam macerántur in córpore, per fructum boni óperis reficiántur in mente.
-$Per Dominum
+@Tempora/Quad1-3:OratioL1
 
 [Lectio]
 Léctio Ezechiélis Prophétæ

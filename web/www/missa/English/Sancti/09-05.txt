@@ -1,39 +1,12 @@
-[Rank]
-S. Laurentii Justiniani Episcopi et Confessoris;;Semiduplex;;2;;vide C4
+[Officium]
+St. Lawrence Justinian, Bishop and Confessor
 
-[Rule]
-vide C4
-Gloria
-
-[Introitus]
-@Commune/C2c
-
-[Oratio]
-Grant, we beseech You, almighty God, that the venerable feast of Your blessed~
-Confessor and Bishop Laurence may increase our devotion and promote our salvation.
-$Per Dominum
-
-[Lectio]
-@Commune/C4
-
-[Graduale]
-@Commune/C4
+[Name]
+Laurence
 
 [Evangelium]
-
+@Commune/C4
 
 [Offertorium]
 !Ps 88:21-22
-I have found David, My servant; with My holy oil I have anointed him, that My~
-hand may be always with him, and that My arm may make him strong.
-
-[Secreta]
-May Your Saints, we beseech You, O Lord, everywhere make us joyful: so that,~
-while we reflect upon their merits, we may enjoy their help.
-$Per Dominum
-
-[Postcommunio]
-Grant, we beseech You, almighty God, that as we thank You for the favors we have~
-received, we may, by the intercession of blessed Laurence, Your Confessor and~
-Bishop, obtain still greater blessings.
-$Per Dominum
+I have found David, My servant; with My holy oil I have anointed him, that My hand may be always with him, and that My arm may make him strong.

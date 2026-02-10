@@ -1,8 +1,5 @@
-[Rank]
-Dominica IV Adventus;;Semiduplex;;5.6
-
-[Rank]
-Dominica IV Adventus;;Semiduplex;;6
+[Officium]
+IV Niedziela Adwentu
 
 [Rule]
 no Gloria
@@ -61,4 +58,3 @@ Oto Panna pocznie i porodzi syna i nazwą imię Jego Emmanuel.
 [Postcommunio]
 Przyjąwszy Twe dary, prosimy Cię, Panie, aby przez częste uczestnictwo w tym Sakramencie wzrastał w nas jego zbawienny owoc.
 $Per Dominum
-

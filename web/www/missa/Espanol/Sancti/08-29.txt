@@ -1,12 +1,5 @@
-[Rank]
-Decollatione S. Joannis Baptistae;;Duplex majus;;4;;ex C2
-
-[Rank1960]
-Decollatione S. Joannis Baptistae;;Duplex;;3;;vide C2
-
-[Rule]
-ex C2;
-Gloria
+[Officium]
+In Decollatione S. Joannis Baptistæ
 
 [Introitus]
 !Ps 118:46-47
@@ -19,11 +12,6 @@ v. Hablaré de tus prescripciones ante los reyes y no he de avergonzarme: pondr�
 [Oratio]
 Te rogamos, Señor, que la venerable festividad de tu santo Precursor y mártir Juan Bautista, nos asegure los frutos de tu saludable asistencia.
 $Qui vivis
-
-[Commemoratio Oratio]
-!Por Sta. Sabina
-¡Oh Dios!, que, entre otras maravillas de tu poder, has dado fuerzas a débiles mujeres para que consiguiesen la victoria del martirio; concédenos propicio que, al celebrar el nacimiento para el el cielo de tu santa virgen y mártir Sabina, vayamos a ti siguiendo sus ejemplos.
-$Per Dominum
 
 [Lectio]
 Lección del profeta Jeremías
@@ -43,17 +31,8 @@ Continuación + del Santo Evangelio según San Marcos
 !Mc 6:17-29
 En aquel tiempo, Herodes hizo prender a Juan y, encadenado, lo metió en la cárcel, a causa de Herodías, la mujer de su hermano Filipo, con la que se habia desposado. Porque Juan decía a Herodes: No te es lícito tener a la mujer de tu hermano. Por eso Herodias le guardaba rencor. Bien quisiera hacerle morir, pero no lo podia. Y es que Herodes temía a Juan, sabiendo que era un hombre justo y santo, y lo protegía. Andaba muy perplejo con lo que le oía y sin embargo le escuchaba con placer. Y vino un día oportuno, cuando Herodes, en su natalicio, dio un banquete a sus magnates y oficiales; y a los notables de Galilea. Entró la hija de esta Herodías, bailó y agradó a Herodes y sus comensales. Dijo entonces el rey a la muchacha: Pideme todo lo que quieras y te lo daré. Y le juró: Todo lo que me pidas, te lo daré, aunque sea la mitad de mi reino. Salió, pues, ella y dijo a su madre: ¿Qué debo pedir? La cabeza de Juan Bautista, dijo ésta. Entrando luego deprisa al rey, le hizo su petición: Quiero que ahora mismo me des en un plato la cabeza de Juan Bautista. El rey quedó contristado, mas en atención a sus juramentos y a los comensales, no quiso contrariarla. Al punto despachó un guardia con orden de traer en un plato la cabeza de Juan. Marchó aquél a decapitarlo en la cárcel, trajo su cabeza en un plato y se la dio a la muchacha, quien se la entregó a su madre. Sabida la noticia, vinieron sus discípulos, tomaron su cuerpo y le dieron sepultura.
 
-[Offertorium]
-!Ps 20:2-3
-¡Oh Señor!, en tu poder halla el justo su alegria, y salta de sumo gozo a causa de tu protección. Tú le has colmado los deseos de su corazón.
-
 [Secreta]
 Te rogamos, Señor, que los dones ofrecidos para honrar la pasión de tu santo mártir Juan Bautista sean provechosas, gracias a sus plegarias, para nuestra salvación.
-$Per Dominum
-
-[Commemoratio Secreta]
-!Por Sta. Sabina
-Recibe, Señor, benigno las hostias que te ofrecemos por los méritos de tu santa virgen y mártir Sabina, y concédenos nos sirvan de ayúda para la eternidad.
 $Per Dominum
 
 [Communio]
@@ -62,9 +41,4 @@ Has puesto en su cabeza, Señor, una corona de oro puro.
 
 [Postcommunio]
 Que la solemne festividad de San Juan Bautista nos conceda la gracia, Señor, de venerar el precursor del maravilloso sacramento que hemos recibido y de regocijarnos por lo que se ha cumplido en nosotros.
-$Per Dominum
-
-[Commemoratio Postcommunio]
-!Por Sta. Sabina
-Nosotros, refrescados por la riqueza de tu divino sacramento, te rogamos, Señor Dios nuestro, que por la intercesión de la bienaventurada Sabina, tu Virgen y Mártir, gocemos por siempre de su participación.
 $Per Dominum

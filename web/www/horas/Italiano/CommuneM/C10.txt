@@ -8,6 +8,3 @@ R. Cristo, nostro Dio.
 
 [Lectio11]
 !from tempora
-
-[Lectio21]
-!from tempora

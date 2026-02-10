@@ -1,22 +1,11 @@
-[Rank]
-S. Augustini Episcopi et Confessoris et Ecclesiae Doctoris;;Duplex;;3;;vide C4a
+[Officium]
+S. Augustini Episcopi et Confessoris et Ecclesiae Doctoris
 
 [Name]
 Agostino
 
-[Rule]
-vide C4a;
-9 lectiones
-
 [Oratio]
 Sii favorevole, Dio onnipotente, alle nostre suppliche: e poiché ci dai la fiducia di ottenere pietà, concedici benigno, per intercessione del tuo beato Confessore e Vescovo Agostino, l'effetto della consueta misericordia.
-$Per Dominum
-
-[Commemoratio]
-!Commemorazione di S. Ermete, Mart.
-@Commune/C2:Oratio proper
-v. Preghiamo
-O Dio, che fortificasti il tuo beato Martire Ermete di coraggio e costanza nel martirio: concedici, a sua imitazione, che disprezziamo per tuo amore le prosperità del mondo, e non ne temiamo nessuna avversità. 
 $Per Dominum
 
 [Lectio4]

@@ -1,10 +1,5 @@
-[Rank]
-Dzień VII w Oktawie NSPJ;;Semiduplex;;2;;ex Tempora/Pent02-5
-
-[Rule]
-ex Tempora/Pent02-5;
-9 lectiones
-Doxology=Heart
+[Officium]
+Dzień VII w Oktawie NSPJ
 
 [Lectio1]
 Z Pierwszej Księgi Królewskiej

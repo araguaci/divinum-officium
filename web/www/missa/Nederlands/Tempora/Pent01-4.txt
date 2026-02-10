@@ -1,8 +1,5 @@
-[Rank]
-Festum Sanctissimi Corporis Christi cum Octava privilegiata II ordinis;;Duplex I classis;;7
-
-[Rank] (rubrica 196)
-Festum Sanctissimi Corporis Christi;;Duplex I classis;;7
+[Officium]
+Festum Sanctissimi Corporis Christi
 
 [Rule]
 Gloria
@@ -13,12 +10,7 @@ Prefatio=Communis
 Sequentia
 
 [Introitus]
-!Ps 80:17.
-v. Hij spijzigde hen met bloem van tarwe, alleluia, en met honing uit de steenrots heeft Hij hen verzadigd, alleluia, alleluia.
-!Ps 80:2
-Juicht God toe, onze Helper, jubelt het uit voor Jacobs God. 
-&Gloria
-v. Hij spijzigde hen met bloem van tarwe, alleluia, en met honing uit de steenrots heeft Hij hen verzadigd, alleluia, alleluia.
+@Tempora/Pasc7-1
 
 [Oratio]
 God, Gij hebt ons in het wonderbaar Sacrament een gedachtenis van uw lijden nagelaten. Wij vragen U, doe ons zo de heilige geheimen van uw Lichaam en Bloed vereren, dat wij de uitwerking van uw verlossing altijd in ons mogen ervaren.
@@ -32,8 +24,9 @@ Broeders, ik heb immers zelf van de Heer vernomen, wat ik u ook heb meegedeeld, 
 [Graduale]
 !Ps 144:15-16
 De ogen van allen, o Heer, zien vertrouwvol tot U op. Gij geeft hun spijs ten bekwamen tijde.
-V. Gij opent uw hand en overlaadt al wat leeft met zegeningen. Alleluia, alleluia.
-!Joannes 6:56-57
+V. Gij opent uw hand en overlaadt al wat leeft met zegeningen.
+Alleluia, alleluia.
+!Joann 6:56-57
 Mijn Vlees is waarlijk spijs en mijn Bloed is waarlijk drank. Wie mijn Vlees eet en mijn Bloed drinkt, blijft in Mij en Ik in hem. Alleluia.
 
 [Sequentia]
@@ -163,4 +156,3 @@ Zo dikwijls gij van dit brood eet en van de kelk drinkt, zult gij de dood van de
 [Postcommunio]
 Wij vragen U, Heer, doe ons in volle omvang het bezit van uw godheid in de eeuwigheid genieten, waarvan het ontvangen van uw kostbaar Lichaam en Bloed in de tijd een voorafbeelding is.
 $Qui vivis
-

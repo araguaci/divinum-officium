@@ -1,11 +1,5 @@
-[Rank]
-Sabbato Quattuor temporum Pentecostes;;Semiduplex I classis;;5;;ex Pasc7-0
-
-[Rank]
-Sabbato Quattuor temporum Pentecostes;;Semiduplex I classis;;6;;ex Pasc7-0
-
-[RankNewcal]
-Sabbato post Pentecostes;;Feria;;1;;
+[Officium]
+Sabbato Quattuor Temporum Pentecostes
 
 [Rule]
 Gloria
@@ -29,10 +23,6 @@ v. O amor de Deus espalhou-se nos nossos corações, aleluia: pelo seu Espírito
 Bendize o Senhor, ó minha alma: e que tudo o que existe em mim bendiga o seu santo nome.
 &Gloria
 v. O amor de Deus espalhou-se nos nossos corações, aleluia: pelo seu Espírito que habita em nós, aleluia, aleluia.
-
-[Oratio]
-Senhor, Vos rogamos, dignai-Vos infundir em nossas almas o Espírito Santo, cuja sabedoria nos criou e cuja providência nos governa.
-$Per Dominum eiusdem
 
 [LectioL1]
 Lição do Profeta Joel.
@@ -108,10 +98,14 @@ Bendito sois, Senhor, Deus de nossos pais, e digno de louvor em todos os século
 Ó Deus, que mitigastes as chamas do fogo aos três jovens, concedei-nos misericordiosamente que nós, vosso servos, não sejamos queimados pelas chamas dos vícios.
 $Per Dominum
 
+[Oratio]
+Senhor, Vos rogamos, dignai-Vos infundir em nossas almas o Espírito Santo, cuja sabedoria nos criou e cuja providência nos governa.
+$Per Dominum eiusdem
+
 [Lectio]
 Lição da Ep.ª do B. Ap.º Paulo aos Romanos.
 !Rm. 5:1-5.
-Meus irmãos: Estando já justificados pela fé, tenhamos paz com Deus por nosso Senhor Jesus Cristo, por quem devemos ter acesso pela fé a esta graça, na qual permaneceremos firmes e alegres na esperança de alcançarmos a glória dos filhos de Deus. E não somente na esperança, mas também devemos ter glória nas tribulações, sabendo que a tribulação produz a paciência, a paciência produz a provação, e a provação a esperança. Ora a esperança nunca engana, porque o amor de Deus está espalhado nos nossos corações pelo Espírito Santo, que nos foi dado.
+Meus irmãos: Estando já justificados pela fé, tenhamos paz com Deus por Nosso Senhor Jesus Cristo, por quem devemos ter acesso pela fé a esta graça, na qual permaneceremos firmes e alegres na esperança de alcançarmos a glória dos filhos de Deus. E não somente na esperança, mas também devemos ter glória nas tribulações, sabendo que a tribulação produz a paciência, a paciência produz a provação, e a provação a esperança. Ora a esperança nunca engana, porque o amor de Deus está espalhado nos nossos corações pelo Espírito Santo, que nos foi dado.
 
 [Graduale]
 !Sl 116:1-2

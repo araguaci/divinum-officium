@@ -1,14 +1,15 @@
+[Officium]
+S. Thomæ Cantuariensis Episcopi et Martyris
+
 [Rank]
-S. Thomæ Cantuariensis Episcopi et Martyris;;Duplex;;3;;vide C2
-
-[Rank] (rubrica 1570 aut rubrica 1888 aut rubrica 1617)
-S. Thomæ Cantuariensis Episcopi et Martyris;;Semiduplex;;2.2;;vide C2
-
-[Rank](rubrica 1960)
-S. Thomæ Cantuariensis Episcopi et Martyris;;Simplex;;1.1;;vide C2
+;;Duplex;;3;;vide C2-1
+(sed rubrica 1570 aut rubrica 1888 aut rubrica 1617)
+;;Semiduplex;;2.2;;vide C2-1
+(sed rubrica 196 aut rubrica 1930)
+;;Simplex;;1.1;;vide C2-1
 
 [Rule]
-vide C2;
+vide C2-1;
 9 lectiones
 
 [Ant Vespera]
@@ -19,13 +20,13 @@ Deus, pro cujus Ecclésia gloriósus Póntifex Thomas gládiis impiórum occúbu
 $Per Dominum
 
 [Lectio4]
-Thomas, Londíni in Anglia natus, Theobáldo succéssit Cantuariénsi epíscopo: et qui ántea in administrándo cancelláriæ múnere præcláre se gésserat, in episcopáli offício fortis et invíctus fuit. Cum enim Henrícus secúndus Angliæ rex, convocátis ad se epíscopis et procéribus regni, leges ferret utilitáti ac dignitáti ecclesiásticæ repugnántes, ádeo constánter óbstitit régiæ cupiditáti, ut neque pollicitatiónibus, neque terróribus de senténtia decédens, próxime conjíciendus in cárcerem clam recésserit. Inde propínqui ejus omnis ætátis ejécti, amíci, fautóres omnes, iis, quibus per ætátem licéret, jurejurándo adstríctis, univérsos Thomam aditúros, si fortásse miserábili suórum calamitátis aspéctu moverétur, qui a sancto propósito privátis incómmodis deterréri mínime potuísset. Non respéxit carnem aut sánguinem, neque ullus in eo humanitátis sensus offícii constántiam labefactávit.
+Thomas, Londíni in Anglia natus, Theobáldo succéssit Cantuariénsi epíscopo: et qui ántea in administrándo cancelláriæ múnere præcláre se gésserat, in episcopáli offício fortis et invíctus fuit. Cum enim Henrícus secúndus Angliæ rex, convocátis ad se epíscopis et procéribus regni, leges ferret utilitáti ac dignitáti ecclesiásticæ repugnántes, ádeo constánter óbstitit régiæ cupiditáti, ut neque pollicitatiónibus, neque terróribus de senténtia decédens, próxime conjiciéndus in cárcerem clam recésserit. Inde propínqui ejus omnis ætátis ejécti, amíci, fautóres omnes, iis, quibus per ætátem licéret, jurejurándo adstríctis, univérsos Thomam aditúros, si fortásse miserábili suórum calamitátis aspéctu moverétur, qui a sancto propósito privátis incómmodis deterréri mínime potuísset. Non respéxit carnem aut sánguinem, neque ullus in eo humanitátis sensus offícii constántiam labefactávit.
 
 [Lectio5]
-Cóntulit ígitur se ad Alexándrum tértium Pontíficem, a quo benígne accéptus est: et inde proféctus, monáchis Pontiniacénsis monastérii, Cisterciénsis órdinis, ab eódem commendátus. Quod ut cognóvit Henrícus, missis ad convéntum fratrum Cisterciénsium minácibus lítteris, Thomam e Pontiníaco monastério exturbáre conátur. Quare vir sanctus, véritus ne sua causa mali áliquid Cisterciénsis família paterétur, sponte discéssit, et Ludovícum Gálliæ regem ejus invitátu convénit; ubi támdiu fuit, quoad, Pontífice máximo et ipso rege agéntibus, ab exsílio, summa totíus regnis gratulatióne revocátur. Quid dum boni pastóris offícium secúrus exséquitur, ecce calumniatóres ad regem déferunt, eum multa contra regnum et públicam quiétem molíri, ut proptérea sǽpius conquererétur rex, se in suo regno cum uno sacerdóte pacem habére non posse.
+Cóntulit ígitur se ad Alexándrum tértium Pontíficem, a quo benígne accéptus est: et inde proféctus, mónachis Pontiniacénsis monastérii, Cisterciénsis órdinis, ab eódem commendátus. Quod ut cognóvit Henrícus, missis ad convéntum fratrum Cisterciénsium minácibus lítteris, Thomam e Pontiníaco monastério exturbáre conátur. Quare vir sanctus, véritus ne sua causa mali áliquid Cisterciénsis família paterétur, sponte discéssit, et Ludovícum Gálliæ regem ejus invitátu convénit; ubi támdiu fuit, quoad, Pontífice máximo et ipso rege agéntibus, ab exsílio, summa totíus regnis gratulatióne revocátur. Quid dum boni pastóris offícium secúrus exséquitur, ecce calumniatóres ad regem déferunt, eum multa contra regnum et públicam quiétem molíri, ut proptérea sǽpius conquererétur rex, se in suo regno cum uno sacerdóte pacem habére non posse.
 
 [Lectio6]
-Ex qua regis voce nefárii satéllites sperántes grátum se regi factúros, si Thomam e médio tóllerent, clam conveniéntes Cantuáriam, epíscopum in templo vespertínis horis óperam dántem aggrediúntur. Qui cléricis templi áditus præclúdere conántibus accúrrens, óstium apéruit, illis usus verbis ad suos: Non est Dei Ecclésia custodiénda more castrórum; et ego pro Ecclésia Dei libénter mortem subíbo. Tum ad mílites: Vos Dei jussu cavéte, ne cuípiam meórum noceátis. Deínde fléxis génibus, Deo, beátæ Maríæ, sancto Dionýsio et réliquis Sanctis ejus ecclésiæ patrónis, Ecclésiam et seípsum comméndans, sacrum caput eádem constántia, qua iniquíssimi regis légibus restíterat, ímpio ferro præcidéndum óbtulit, quarto Kaléndas Januárii, anno Dómini millésimo centésimo septuagésimo primo: cujus cérebro respérsum est totíus templi paviméntum. Quem multis póstea illústrem miráculis idem Alexánder Póntifex rétulit in Sanctórum númerum.
+Ex qua regis voce nefárii satéllites sperántes gratum se regi factúros, si Thomam e médio tóllerent, clam conveniéntes Cantuáriam, epíscopum in templo vespertínis horis óperam dantem aggrediúntur. Qui cléricis templi áditus præclúdere conántibus accúrrens, óstium apéruit, illis usus verbis ad suos: Non est Dei Ecclésia custodiénda more castrórum; et ego pro Ecclésia Dei libénter mortem subíbo. Tum ad mílites: Vos Dei jussu cavéte, ne cuípiam meórum noceátis. Deínde flexis génibus, Deo, beátæ Maríæ, sancto Dionýsio et réliquis Sanctis ejus ecclésiæ patrónis, Ecclésiam et seípsum comméndans, sacrum caput eádem constántia, qua iniquíssimi regis légibus restíterat, ímpio ferro præcidéndum óbtulit, quarto Kaléndas Januárii, anno Dómini millésimo centésimo septuagésimo primo: cujus cérebro respérsum est totíus templi paviméntum. Quem multis póstea illústrem miráculis idem Alexánder Póntifex rétulit in Sanctórum númerum.
 
 [Lectio7]
 Léctio sancti Evangélii secúndum Joánnem
@@ -45,4 +46,5 @@ Verum ab utróque se dissidére osténdit Christus: ab illis quidem, qui in ali�
 
 [Ant Vespera 3]
 @Sancti/12-25
-
+(sed rubrica cisterciensis)
+@CommuneCist/C2:Ant Vespera

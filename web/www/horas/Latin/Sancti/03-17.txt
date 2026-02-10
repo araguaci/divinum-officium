@@ -1,12 +1,15 @@
-[Rank]
-S. Patricii Episcopi et Confessoris;;Duplex;;3;;vide C4
+[Officium]
+S. Patricii Episcopi et Confessoris
 
-[Rank](rubrica 1960)
-S. Patricii Episcopi et Confessoris;;Duplex;;3;;vide C4
+[Rank]
+;;Duplex;;3;;vide C4
 
 [Rule]
 vide C4;
 9 lectiones;
+
+[Name]
+Patrícium
 
 [Oratio]
 Deus, qui ad prædicándam géntibus glóriam tuam beátum Patrícium Confessórem atque Pontíficem míttere dignátus es: ejus méritis et intercessióne concéde; ut, quæ nobis agénda prǽcipis, te miseránte adimplére possímus.

@@ -1,20 +1,28 @@
-[Rank]
-Feria IV Quattuor Temporum in Adventu;;Feria major;;2.1
+[Officium]
+Feria IV Quattuor Temporum in Adventu
+(sed rubrica 196 aut rubrica 1930)
+Feria IV Quattuor Temporum Adventus
 
-[Rank] (rubrica 1960)
-Feria IV Quattuor Temporum Adventus;;Feria major;;4.9
+[Rank]
+;;Feria major;;2.1
+(sed rubrica 196 aut rubrica 1930)
+;;Feria major;;4.9
 
 [Rule]
 Preces Feriales
+
+[Oratio]
+Præsta, quǽsumus, omnípotens Deus: ut redemptiónis nostræ ventúra solémnitas et præséntis nobis vitæ subsídia cónferat, et ætérnæ beatitúdinis prǽmia largiátur.
+$Per Dominum.
 
 [Lectio1]
 @Sancti/03-25:Lectio7
 
 [Responsory1]
 R. Clama in fortitúdine, qui annúntias pacem in Jerúsalem: 
-* Dic civitátibus Judæ, et habitatóribus Sion: Ecce Deus noster, quem exspectábimus, advéniet.
+* Dic civitátibus Judæ, et habitatóribus Sion: Ecce Deus noster, quem exspectabámus, advéniet.
 V. Supra montem excélsum ascénde tu, qui evangelízas Sion, exálta in fortitúdine vocem tuam.
-R. Dic civitátibus Judæ, et habitatóribus Sion: Ecce Deus noster, quem exspectábimus, advéniet.
+R. Dic civitátibus Judæ, et habitatóribus Sion: Ecce Deus noster, quem exspectabámus, advéniet.
 
 [Lectio2]
 @Sancti/03-25:Lectio8
@@ -38,10 +46,6 @@ R. Et nomen ejus Emmánuel vocábitur.
 
 [Ant 2]
 Missus est Gábriel * Angelus ad Maríam Vírginem desponsátam Joseph.
-
-[Oratio]
-Præsta, quǽsumus, omnípotens Deus: ut redemptiónis nostræ ventúra solémnitas et præséntis nobis vitæ subsídia cónferat, et ætérnæ beatitúdinis prǽmia largiátur.
-$Per Dominum.
 
 [Ant 3]
 Ecce ancílla Dómini: * fiat mihi secúndum verbum tuum.

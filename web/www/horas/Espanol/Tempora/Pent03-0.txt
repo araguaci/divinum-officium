@@ -1,23 +1,19 @@
-[Rank]
-Dominica III Post Pentecosten, infra Octavam SSmi Cordis D.N.J.C;;Semiduplex;;5;;ex Tempora/Pent02-5
-
-[Rule]
-ex Tempora/Pent02-5;
-9 lectiones
-Psalmi Dominica
-Antiphonas horas
-Symbolum Athanasium
-Doxology=Heart
-
-[Ant 1]
-Desde Dan a Bersabé, * todos conocieron que Samuel era fiel profeta del Señor.
+[Officium]
+Dominica III Post Pentecosten, infra Octavam SSmi Cordis D.N.J.C
 
 [Versum 1]
 V. Hizo un memorial de sus maravillas el misericordioso Señor.
 R. Y dio un manjar a los que le temen.
 
+[Ant 1]
+Desde Dan a Bersabé, * todos conocieron que Samuel era fiel profeta del Señor.
+
 [Oratio]
 @Tempora/Pent02-5:Oratio 3
+
+[Commemoratio]
+!Conmemoración de la Octava del Stmo. Corazón de Jesús
+@Tempora/Pent02-5:Oratio
 
 [Lectio1]
 Del Libro Primero de los Reyes
@@ -25,20 +21,20 @@ Del Libro Primero de los Reyes
 18 Saúl se acercó a Samuel dentro de la puerta y le dijo: “¿Harías el favor de indicarme dónde está la casa del vidente?” 
 19 Samuel le contestó: “Soy yo el vidente; sube delante de mí a la altura y comeréis hoy conmigo. Mañana te despediré y te diré cuanto tienes en tu corazón. 
 20 Por las asnas que hace tres días perdiste, no te inquietes; han sido halladas. ¿De quién va a ser cuanto de precioso hay en Israel? ¿No va a ser tuyo y de toda la casa de tu padre?” 
-21 Saúl respondió: “¿Pues no soy yo benjaminita? ¿No soy yo de la mínima tribu de Israel, de Benjamín, y no es mi familia la menor de las familias de Benjamín? ¿Por qué me dices esto?” 
+21 Saúl respondió: “¿Pues no soy yo benjaminita? ¿No soy yo de la mínima tribu de Israel, de Benjamín, y no es mi familia la menor de las familias de Benjamín? ¿Por qué me dices esto?”
 
 [Lectio2]
 !1 Sam 9:22-25
 22 Samuel, tomando a Saúl y a su mozo, les introdujo en el comedor y les dio el primer lugar, a la cabeza de los invitados, que eran unos treinta hombres. 
 23 Samuel dijo al cocinero: “Dame la porción que te mandé pusieras aparte.” 
 24 El cocinero tomo un pernil y lo puso delante de Saúl. “Es la porción que se te reservaba —dijo a éste Samuel. Ponlo delante de ti y come, pues la hice guardar cuando convoqué al pueblo, para el momento oportuno.” Comió Saúl con Samuel aquel día. 
-25 Bajaron de la altura a la ciudad, prepararon el lecho a Saúl en la terraza y luego se acostó. 
+25 Bajaron de la altura a la ciudad, prepararon el lecho a Saúl en la terraza y luego se acostó.
 
 [Lectio3]
 !1 Sam 9, 26-27; 10, 1
 26 Al día siguiente, a la aurora, llamó Samuel a Saúl, que estaba sobre la terraza, y le dijo: “Levántate y te despediré.” Levantose Saúl y salieron ambos juntos. 
 27 Cuando hubieron bajado al extremo de la ciudad, dijo Samuel a Saúl: “Dile al mozo que pase delante de nosotros.” Tomó el mozo la delantera, y dijo Samuel: “Detente ahora, que te dé a conocer lo que dice Yahvé.” 
-1 Tomo Samuel una redoma de óleo, la vertió sobre la cabeza de Saúl y le besó, diciendo: “Yahvé te unge por príncipe de su heredad. Tú reinarás sobre el pueblo de Yahvé y le salvarás de la mano de los enemigos que le rodean.” 
+1 Tomo Samuel una redoma de óleo, la vertió sobre la cabeza de Saúl y le besó, diciendo: “Yahvé te unge por príncipe de su heredad. Tú reinarás sobre el pueblo de Yahvé y le salvarás de la mano de los enemigos que le rodean.”
 
 [Lectio4]
 !De la Encíclica Miserentissimus Redemptor del Papa Pío XI.
@@ -74,9 +70,6 @@ $Deo gratias
 [Ant 2]
 Si uno de vosotros * tiene cien ovejas y se le pierde una, ¿no deja las noventa y nueve en el campo y va tras la descarriada, hasta que la encuentra? Aleluya.
 
-[Versum 2]
-@Tempora/Pent02-5:Versum 1
-
 [Capitulum Sexta]
 !1 Pe 5:8-9
 v. Sed sobrios, velad. Vuestro adversario, el diablo, como león rugiente, ronda buscando a quien devorar. Resistidle, firmes en la fe, sabiendo que vuestra comunidad fraternal en el mundo entero está pasando por los mismos sufrimientos.
@@ -89,10 +82,3 @@ $Deo gratias
 
 [Ant 3]
 Si una mujer * tiene diez monedas y se le pierde una, ¿no enciende una lámpara y barre la casa, y busca con cuidado hasta que la encuentra?
-
-[Versum 3]
-@:Versum 1
-
-[Commemoratio]
-!Conmemoración de la Octava del Stmo. Corazón de Jesús
-@Tempora/Pent02-5:Oratio

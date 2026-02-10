@@ -1,8 +1,12 @@
-[Rank]
-Feria V post Cineres;;Feria major;;2.1
+[Officium]
+Feria V post Cineres
 
-[Rank] (rubrica 196)
-Feria V post Cineres;;Feria major;;4.9
+[Rank]
+;;Feria major;;2.1
+(sed rubrica 1930)
+;;Feria major;;4.9
+(sed rubrica 196)
+;;Feria major;;3.9
 
 [Rule]
 no Gloria
@@ -11,7 +15,7 @@ Suffragium=Sanctorum;Vivis;;
 Super populum
 
 [Introitus]
-!Ps 54:17-23
+!Ps 54:17-20; 54:23
 v. Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi, et humiliávit eos, qui est ante sǽcula et manet in ætérnum: jacta cogitátum tuum in Dómino, et ipse te enútriet.
 !Ps 54:2-3
 Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde mihi et exáudi me.
@@ -59,4 +63,3 @@ v. Orémus.
 v. Humiliáte cápita vestra Deo.
 v. Parce, Dómine, parce populo tuo: ut, dignis flagellatiónibus castigátus, in tua miseratióne respíret.
 $Per Dominum
-

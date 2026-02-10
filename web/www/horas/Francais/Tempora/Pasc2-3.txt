@@ -1,12 +1,5 @@
-[Rank]
-Patrocinii St. Joseph Confessoris Sponsi B.M.V. Confessoris;;Duplex I classis;;6;;
-
-[Rule]
-proper
-Psalmi Dominica
-Antiphonas horas
-9 lectiones;
-Psalm5 Vespera=116
+[Officium]
+Patrocinii St. Joseph Confessoris Sponsi B.M.V. confessoris
 
 [Ant Vespera]
 Jacob engendra * Joseph, époux de Marie, de laquelle est né Jésus, qui est appelé Christ, alléluia.
@@ -14,9 +7,6 @@ Il fut envoyé * de Dieu, l’Ange Gabriel, dans la ville de Galilée, appelée 
 Joseph monta * de Nazareth, ville de Galilée, en Judée, dans la ville de David, qui est appelée Bethléem, alléluia.
 Ils vinrent donc en grande hâte, * et ils trouvèrent Marie et Joseph, et l’Enfant couché dans une crèche, alléluia.
 Or Jésus * avait environ trente ans, étant, comme l’on croyait, fils de Joseph, [1] alléluia.
-
-[Hymnus Vespera]
-@Sancti/03-19:Hymnus Vespera
 
 [Versum 1]
 V. Il l’a établi maître de sa maison, alléluia.
@@ -32,23 +22,26 @@ $Qui vivis
 [Invit]
 Louons notre Dieu, * En vénérant le bienheureux Joseph, notre protecteur, alléluia.
 
-[Hymnus Matutinum]
-@Tempora/Pasc2-3:Hymnus Vespera
-
 [Ant Matutinum]
 Un Ange du Seigneur * apparut à Joseph pendant son sommeil, et dit : Lève-toi, prends l’Enfant et sa Mère, fuis en Égypte et restes-y jusqu’à ce que je te parle, alléluia.;;1
 ;;2
 ;;3
-V. Je glorifierai votre nom, alléluia.
-R. Parce que vous m’êtes devenu un aide et un protecteur, alléluia.
 Un Ange du Seigneur * apparut à Joseph pendant son sommeil, disant : Lève-toi, prends l’Enfant et sa Mère, et va dans la terre d’Israël, car ils sont morts, ceux qui recherchaient la vie de l’Enfant, alléluia.;;4
 ;;5
 ;;6
-V. Regardez du haut du ciel et voyez, et visitez cette vigne, alléluia.
-R. Et faites-la prospérer, alléluia.
 Joseph, s’étant levé, * prit l’Enfant et sa Mère et vint dans la terre d’Israël, et habita une ville qui est appelée Nazareth, alléluia.;;14
 ;;20
 ;;23
+
+[Nocturn 1 Versum]
+V. Je glorifierai votre nom, alléluia.
+R. Parce que vous m’êtes devenu un aide et un protecteur, alléluia.
+
+[Nocturn 2 Versum]
+V. Regardez du haut du ciel et voyez, et visitez cette vigne, alléluia.
+R. Et faites-la prospérer, alléluia.
+
+[Nocturn 3 Versum]
 V. J’ai invoqué le Seigneur, Père de mon Seigneur, alléluia.
 R. Afin qu’il ne me laisse point sans secours au jour de ma tribulation, alléluia.
 
@@ -80,7 +73,7 @@ R. Et il leur répondit : Allez à Joseph, alléluia.
 
 [Responsory2]
 R. Dieu m’a établi comme père du roi. et maître de toute sa maison :
-*  Il m’a élevé, pour sauver beaucoup de peuples, alléluia.
+* Il m’a élevé, pour sauver beaucoup de peuples, alléluia.
 V. Venez à moi, et moi je vous donnerai tous les biens de l’Égypte, afin que vous vous nourrissiez de la moelle de cette terre.
 R. Il m’a élevé, pour sauver beaucoup de peuples, alléluia.
 
@@ -162,16 +155,10 @@ R. Et restes-y, jusqu’à ce que je te parle, alléluia.
 Mais supposons même que saint Luc ait dit que Joseph avait été engendré par Héli, cette expression ne devrait point nous troubler et nous empêcher de croire que l’un des deux Évangélistes a mentionné le père naturel de Joseph, et l’autre son père adoptif. On peut dire, en effet, sans absurdité, que celui qui adopte un fils l’engendre, non selon la chair, mais par l’affection qu’il lui porte. C’est ainsi que Dieu, en nous donnant le pouvoir de devenir ses enfants, ne nous a pas engendrés de sa nature et de sa substance comme son Fils unique, mais nous a adoptés par amour .
 &teDeum
 
-[Ant Laudes]
-@:Ant Vespera
-
 [Capitulum Laudes]
 !Gen 49:26
 v. Les bénédictions de ton père seront fortifiées par les bénédictions de ses pères, jusqu’à ce que vienne le désir des collines éternelles ; qu’elles se répandent sur la tête de Joseph et sur la tête de celui qui est Nazaréen entre ses frères.
 $Deo gratias
-
-[Hymnus Laudes]
-@Sancti/03-19:Hymnus Matutinum
 
 [Versum 2]
 V. Vous m’avez donné la protection de votre salut, alléluia.
@@ -184,7 +171,7 @@ Joseph, fils de David, * ne crains point de prendre avec toi Marie, ton épouse,
 !Gen 49:22
 Joseph est un rameau fécond, un rameau fécond et agréable à regarder, dont les branches courent sur le mur.
 
-[Responsory Tertia]
+[Responsory Breve Tertia]
 R.br. Il l'a fait seigneur de sa maison. Alléluia, Alléluia.
 R. Il l'a fait seigneur de sa maison. Alléluia, Alléluia.
 V. Et maître de tous ses biens.
@@ -192,6 +179,7 @@ R. Allelúja, allelúja.
 &Gloria
 R. Il l'a fait seigneur de sa maison. Alléluia, Alléluia.
 
+[Versum Tertia]
 V. Je louerai votre Nom Alléluia.
 R. Car vous avez été pour moi un soutien et un défenseur. Alléluia.
 
@@ -200,30 +188,27 @@ R. Car vous avez été pour moi un soutien et un défenseur. Alléluia.
 v.Les bénédictions de ton père sont renforcées par les bénédictions de ses pères, jusqu'à ce que vienne le désir des collines éternelles ; qu'elles soient sur la tête de Joseph, et sur la couronne du Nazaréen parmi ses frères.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br. Je louerai ton nom. * Alléluia, Alléluia.
 R. Je louerai ton Nom. Alléluia, Alléluia.
 V. Car tu as été pour moi un soutien et un défenseur.
 R. Alléluia, Alléluia.
 &Gloria
 R. Je louerai ton Nom. Alléluia, Alléluia.
-_
+
+[Versum Sexta]
 V. Le juste croîtra comme le lys. Alléluia.
 R. Il fleurira à jamais en présence du Seigneur. Alléluia.
 
-[Capitulum Nona]
-!Gen 49:22
-v. Joseph est un rameau fécond, un rameau fécond et agréable à regarder, dont les branches courent sur le mur.
-$Deo gratias
-
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. Le juste croîtra comme le lys. * Alléluia, Alléluia.
 R. Le juste poussera comme le lys. Alléluia, Alléluia.
 V. Oui, il fleurira à jamais en présence du Seigneur.
 R. Alléluia, Alléluia.
 &Gloria
 R. Le juste poussera comme le lys. Alléluia, Alléluia.
-_
+
+[Versum Nona]
 V. Enracinés dans la maison du Seigneur. Alléluia.
 R. Dans les parvis de la maison de notre Dieu. Alléluia.
 

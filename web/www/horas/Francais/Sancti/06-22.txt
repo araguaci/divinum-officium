@@ -1,9 +1,5 @@
-[Rank]
-S. Pauli de Nole, Evêque et Confesseur;;Duplex;;3;;vide C4
-
-[Rule]
-vide C4;
-9 lectiones
+[Officium]
+S. Pauli de Nole, Evêque et Confesseur
 
 [Oratio]
 Dieu, Vous avez promis à ceux qui abandonnent tout en ce siècle pour Vous, le centuple dans le siècle à venir et la vie éternelle : accordez-nous, dans Votre bonté que, suivant fidèlement les traces du saint Pontife Paulin, nous ayons la force de mépriser les biens de la terre et de désirer les seuls biens du ciel.
@@ -41,8 +37,3 @@ Veillez donc, mes très chers, avec une sollicitude de tous les instants et un t
 
 [Ant 2]
 Bravo, serviteur bon et fidèle, puisqu’en peu de choses tu as été fidèle, je t’en confierai beaucoup, dit le Seigneur.
-
-[Versum 2]
-V. Le Seigneur a conduit le juste par de droites voies.
-R. Et Il lui a montré le royaume de Dieu.
-

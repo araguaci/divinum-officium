@@ -1,15 +1,11 @@
-[Rank]
-S. Joannis Bosco Confessoris;;Duplex;;3;;vide C5
-
-[Rule]
-vide C5;
-Gloria
+[Officium]
+S. Joannis Bosco Confessoris
 
 [Introitus]
 !3 Reg 4:29
 v. God gaf hem een grote wijsheid en verstand, en een hart, ruim als het strand der zee.
-!Ps 112:1.
-Looft de Heer, gij knapen,looft de Naam van de Heer.
+!Ps 112:1
+Looft de Heer, gij knapen, looft de Naam van de Heer.
 &Gloria
 v. God gaf hem een grote wijsheid en verstand, en een hart, ruim als het strand der zee.
 
@@ -25,15 +21,10 @@ Broeders, weest altijd blijmoedig in de Heer; - nóg eens zeg ik: weest blijmoed
 [Graduale]
 !Ps 36:3-5
 Vertrouw op de Heer en doe wat goed is om het land te bewonen en u met zijn rijkdommen te voeden.
-V. Stel uw vreugde in de Heer en Hij zal u schenken wat uw hart begeert. Vertrouw de Heer uw levensweg toe en stel uw hoop op Hem. Alleluia, alleluia.
+V. Stel uw vreugde in de Heer en Hij zal u schenken wat uw hart begeert. Vertrouw de Heer uw levensweg toe en stel uw hoop op Hem: Hij zal wel zorgen. 
+Alleluia, alleluia.
 !Ps 73:21
 De arme en behoeftige zullen uw Naam prijzen. Alleluia.
-
-[Tractus]
-!Ps 60:4-6
-Gij zijt mijn hoop geworden, o Heer, een sterke toren tegen de vijand. 
-V. Laat mij eeuwig wonen in uw tent en bescherming vinden onder de dekking van uw vleugelen.
-V. Want Gij, o God, verhoort mijn gebed, schenkt uw erfdeel aan die uw Naam vrezen.
 
 [GradualeP]
 Allelúja, allelúja.
@@ -41,6 +32,12 @@ Allelúja, allelúja.
 Pauper et inops laudábunt nomen tuum. Allelúja.
 !Ps 35:9
 Inebriabúntur ab ubertáte domus tuæ: et torrénte voluptátis tuæ potábis eos. Allelúja.
+
+[Tractus]
+!Ps 60:4-6
+Gij zijt mijn hoop geworden, o Heer, een sterke toren tegen de vijand. 
+V. Laat mij eeuwig wonen in uw tent en bescherming vinden onder de dekking van uw vleugelen.
+V. Want Gij, o God, verhoort mijn gebed, schenkt uw erfdeel aan die uw Naam vrezen.
 
 [Evangelium]
 Vervolg ++ van het heilig Evangelie volgens Mattheüs

@@ -1,8 +1,5 @@
-[Rank]
-Sabbato Quattuor Temporum Pentecostes;;Semiduplex I classis;;5;;ex Pasc7-0
-
-[Rank] (rubrica 196)
-Sabbato Quattuor Temporum Pentecostes;;Semiduplex I classis;;6;;ex Pasc7-0
+[Officium]
+Sabbato Quattuor Temporum Pentecostes
 
 [Rule]
 no Gloria
@@ -14,16 +11,12 @@ Credo
 Prefatio=Spiritu=hodierna die;
 
 [Introitus]
-!Rom 5:5.
+!Rom 5:5
 v. De liefde van God is in onze harten uitgestort, alleluia, door zijn Geest, die in ons woont, alleluia, alleluia.
 !Ps 102:1
 Loof, mijn ziel, de Heer, en al wat in mij is, zijn heilige Naam.
 &Gloria
 v. De liefde van God is in onze harten uitgestort, alleluia, door zijn Geest, die in ons woont, alleluia, alleluia.
-
-[Oratio]
-Wij vragen U, Heer, stort genadig de Heilige Geest in onze harten, die ons door zijn wijsheid heeft geschapen en door zijn voorzienigheid bestuurt.
-$Per Dominum eiusdem
 
 [LectioL1]
 Lezing uit de Profeet Joël
@@ -33,12 +26,12 @@ $Deo gratias
 
 [GradualeL1]
 Alleluia.
-!Joannes 6:64
+!Joann 6:64
 Het is de Geest, die levend maakt. Het vlees draagt daartoe niets bij.
 
 [GradualeL1](missa brevior)
 Alleluia.
-!Joannes 6:64
+!Joann 6:64
 Het is de Geest, die levend maakt. Het vlees draagt daartoe niets bij.
 _
 #Gloria
@@ -65,13 +58,13 @@ $Per Dominum
 
 [LectioL3]
 Lezing uit het Boek Deuteronomium
-!Deut 26:1-3; 7-11.
+!Deut 26:1-3; 7-11
 In die dagen sprak Mozes tot de kinderen van Israël: Hoor, Israël, wat ik u heden gebied. Als gij komt in het land, dat de Heer, uw God, u in bezit zal geven, en gij het hebt bezet en er in woont, dan zult gij de eerstelingen van al uw vruchten nemen, ze in een korf leggen en dan gaan naar de plaats, die de Heer, uw God, heeft uitgekozen, opdat daar zijn Naam wordt aangeroepen. Dan zult gij naar de priester gaan, die er in die dagen is, en hem zeggen: Ik leg heden getuigenis af voor de Heer, uw God, die ons verhoord heeft en heeft neergezien op onze verdrukking, onze ellende en onze nood; die ons heeft weggevoerd uit Egypte met sterke hand en gestrekte arm, onder geweldige verschrikking, met wonderen en tekenen; die ons heeft binnengevoerd in deze plaats en ons dit land heeft gegeven, dat overvloeit van melk en honig. En daarom offer ik nu de eerstelingen van de vruchten van het land, dat de Heer mij heeft gegeven. Dan zult gij ze neerzetten voor het aanschijn van de Heer, uw God, en de Heer, uw God, aanbidden. En dan moogt gij een feestmaal houden van al het goede, dat de Heer, uw God, u gegeven heeft.
 $Deo gratias
 
 [GradualeL3]
 Alleluia.
-!Acts 2:1
+!Act 2:1
 Toen de Pinksterdagen aangebroken waren, zaten allen bij elkaar.
 
 [OratioL3]
@@ -107,12 +100,15 @@ _
 v. Eer aan God in den hoge, en op aarde vrede aan de mensen van goede wil. Wij loven U. Wij zegenen U. Wij aanbidden U. Wij verheerlijken U. Wij danken U om uw grote heerlijkheid. Heer, God, Koning in de hemel, God, almachtige Vader. Heer, enige Zoon, Jezus Christus. Heer God, Lam Gods, Zoon van de Vader. Gij, die de zonden van de wereld wegneemt, ontferm U over ons. Gij, die de zonden van de wereld wegneemt, aanvaard ons gebed. Gij, die zetelt aan de rechterhand van de Vader, ontferm U over ons. Want Gij alleen zijt heilig, Gij alleen de Heer, Gij alleen de Allerhoogste, Jezus Christus, met de Heilige Geest + in de heerlijkheid van God de Vader. Amen.
 
 [OratioL5]
-God, Gij hebt voor de drie jongelingen de vlammen van het vuur getemperd. Zorg in uw goedheid, dat de vlam der ondeugden ons, uw dienaren, niet vertere.
-$Per Dominum.
+@Tempora/093-6
+
+[Oratio]
+Wij vragen U, Heer, stort genadig de Heilige Geest in onze harten, die ons door zijn wijsheid heeft geschapen en door zijn voorzienigheid bestuurt.
+$Per Dominum eiusdem
 
 [Lectio]
 Lezing uit de Brief van de heilige Apostel Paulus aan de Romeinen
-!Rom 5:1-5.
+!Rom 5:1-5
 Broeders, nu wij door het geloof gerechtvaardigd zijn, laten wij nu de vrede bewaren met God door onze Heer Jezus Christus; door Hem immers hebben wij door het geloof toegang tot deze genade, waarin wij ons bevinden, en vinden wij onze roem in de hoop op de glorie van de kinderen Gods. En dat niet alleen; maar wij vinden zelfs onze roem in de wederwaardigheden; wij weten immers, dat wederwaardigheden volharding kweken, de volharding weer beproefdheid en de beproefdheid hoop. De hoop echter wordt niet te schande, omdat de liefde van God in onze harten is uitgestort door de Heilige Geest, die ons geschonken werd.
 
 [Graduale]
@@ -128,7 +124,7 @@ V. (Hier maakt men een kniebuiging.) Kom, Heilige Geest, vervul de harten van uw
 @Tempora/Pasc7-0:Sequentia
 
 [Sequentia](missa longior)
-@Tempora/Pasc7-0:Sequentia::s/Allelúja.//
+@Tempora/Pasc7-0:Sequentia::s/Alleluia.//
 
 [Evangelium]
 Vervolg ++ van het heilig Evangelie volgens Lucas
@@ -136,15 +132,14 @@ Vervolg ++ van het heilig Evangelie volgens Lucas
 In die tijd verliet Jezus de synagoge en ging het huis van Simon binnen. De schoonmoeder van Simon had hoge koorts. En men riep zijn hulp in voor haar. Toen boog Hij zich over haar heen en gaf bevel aan de koorts, en deze verliet haar. En onmiddellijk stond zij op en bediende hen. En toen de zon was ondergegaan, brachten allen hun zieken bij Hem, die aan verschillende kwalen leden. En aan ieder afzonderlijk legde Hij de handen op en genas hen. Van velen gingen er duivelen uit, terwijl zij riepen: Gij zijt de Zoon van God. Maar onder bedreiging belette Hij hen om zo te spreken, omdat zij wisten, dat Hij de Christus was. En toen het dag werd, ging Hij de stad uit en begaf zich naar een eenzame plaats. Maar de menigte zocht Hem. En toen zij Hem gevonden hadden, wilden zij Hem tegenhouden, dat Hij niet van hen zou heengaan. Maar Hij zeide hun: Ook aan de andere steden moet Ik de blijde boodschap brengen van het rijk Gods; want daartoe ben Ik gezonden. En Hij predikte in de synagogen van Galilea.
 
 [Offertorium]
-!Ps 87:2-3.
-Heer, mijn God en mijn heil, dag en nacht roep ik tot U. Moge mijn gebed voor uw aanschijn treden, o Heer, alleluia.
+@Tempora/093-6
 
 [Secreta]
 Opdat ons vasten U welgevallig zij, o Heer, vragen wij U, laat ons U een hart mogen aanbieden, gezuiverd door deze geheimvolle gaven.
 $Per Dominum.
 
 [Communio]
-!Joannes 3:8
+!Joann 3:8
 De Geest waait waar Hij wil en gij hoort zijn geluid, alleluia, alleluia, maar gij weet niet vanwaar Hij komt, of waarheen Hij gaat, alleluia, alleluia, alleluia.
 
 [Postcommunio]

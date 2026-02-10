@@ -1,32 +1,27 @@
-[Rank]
-S. Roberti Bellarmino Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a
+[Officium]
+S. Roberti Bellarmino Episcopi Confessoris et Ecclesiæ Doctoris
 
 [Name]
-Roberte
-
-[Rule]
-Gloria
-CredoDA
+Robertus
 
 [Oratio]
 God, Gij hebt uw heilige bisschop en belijder Robertus met een wonderbare wijsheid en kracht gesierd, om de hinderlagen van de dwalingen te verijdelen en de rechten van de heilige Stoel te verdedigen. Doe door zijn verdiensten en voorspraak de liefde voor de waarheid in ons groeien en de harten van de dwalenden tot de eenheid van uw Kerk terugkeren.
 $Per Dominum
 
 [Lectio]
-Lezing uit het Boek der Wijsheid
-!Sap 7:7-14
-Ik bad, en mij werd inzicht geschonken; ik smeekte, en de geest van wijsheid kwam tot mij. En ik steld haar boven koninkrijken en tronen; bij haar vergeleken telde ik rijkdom als niets. Ik stelde haar niet gelijk met edelgesteente; want bij haar vergeleken is alle goud als wat stof, en naast haar moet men zilver beschouwen als slijk. Ik beminde haar meer dan gezondheid en schoonheid, en ik verkoos haar bezit boven dat van het licht; want haar licht dooft nimmer uit. Tegelijk met haar verkreeg ik alle goeds, en onmetelijke rijkdom verschafte zij mij; en ik vond mijn genot in dat alles. Want deze wijsheid ging voor mij uit; en ik begreep niet, dat zij van dat alles de bron was. Ik heb haar geleerd zonder huichelarij, en zonder afgunst deel ik haar mede, en haar rijkdom verberg ik niet. Zij is immers een onutputtelijke bron voor de mensen; die ze benutten, worden Gods vriendschap deelachtig, welgevallig geworden door gaven van deugd.
-
-[GradualeP]
-Alleluia, alleluia.
-V. De geleerden zullen schitteren als het licht aan het firmament. Alleluia.
-V. Die velen in de gerechtigheid onderwezen hebben, als sterren in alle eeuwigheid. Alleluia.
+@Sancti/03-07
 
 [Graduale]
 !Eccli 44:16
 Dit is de hogepriester, die in zijn dagen aan God heeft behaagd.
 !Eccli 44:20
-Niemand werd er gevonden, die zo trouw als hij de wet van de Allerhoogste onderhield. Alleluia, alleluia.
+Niemand werd er gevonden, die zo trouw als hij de wet van de Allerhoogste onderhield.
+Alleluia, alleluia.
+V. Die velen in de gerechtigheid onderwezen hebben, als sterren in alle eeuwigheid. Alleluia.
+
+[GradualeP]
+Alleluia, alleluia.
+V. De geleerden zullen schitteren als het licht aan het firmament. Alleluia.
 V. Die velen in de gerechtigheid onderwezen hebben, als sterren in alle eeuwigheid. Alleluia.
 
 [Tractus]

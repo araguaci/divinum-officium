@@ -1,5 +1,5 @@
-[Rank]
-Dominica I in Quadragesima;;I classis Semiduplex;;6.9
+[Officium]
+Dominica I in Quadragesima
 
 [Rule]
 no Gloria
@@ -65,5 +65,3 @@ $Per Dominum
 [Postcommunio]
 Господи, нехай нас відновить приношення Твого святого Таїнства, і, очистивши від старого, дасть нам увійти в причастя спасительній Тайні.
 $Per Dominum
-
-

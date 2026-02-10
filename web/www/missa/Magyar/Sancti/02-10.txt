@@ -1,17 +1,8 @@
-[Rank]
-S. Scholasticae Virginis;;Duplex;;3;;vide C6b
+[Officium]
+Szent Skolasztika szűz
+(sed rubrica 1930 aut rubrica 1963)
+Szent Skolasztika szűz, Sororis S. P. N. Benedicti
 
-[Rule]
-vide C6b;
-Gloria
-
-[Lectio]
-Olvasmány szent Pál apostol Korintusiakhoz irott második leveléből
-!2 Cor. 10:17-18; 11:1-2
-v. De "aki dicsekszik, az Úrban dicsekedjék."  Nem az a megbízható, aki magát ajánlja, hanem akit az Úr ajánl.  Bárcsak eltűrnétek részemről egy kis balgaságot!  De hiszen meg is teszitek. Én Isten féltékenységével féltelek titeket. Mert eljegyeztelek benneteket egy férfival, hogy tiszta szűzként vezesselek el Krisztushoz. 
-
-[Evangelium]
-Evangélium + szent Máté Apostol kőnyvéből
-!Matt 25:1-3
-v. A mennyek országa hasonlít a tíz szűzhöz, akik fogták lámpásukat, és a vőlegény elé mentek.  Öt balga volt közülük, öt pedig okos.  A balgák lámpásukat ugyan elvitték, de olajat nem vittek bele. 
-
+[Oratio]
+Isten, te megengedted, hogy Szent Skolasztika szűzed lelke ártatlan életének kimutatására galamb képében szálljon az égbe, add meg nekünk az ő érdemeiért és közbenjárására, hogy olyan ártatlanul élhessünk, hogy az örök boldogsába jutni érdemesek legyünk.
+$Per Dominum

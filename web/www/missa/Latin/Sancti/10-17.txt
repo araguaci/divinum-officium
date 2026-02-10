@@ -1,15 +1,18 @@
+[Officium]
+S. Margaritæ Mariæ Alaquoque Virginis
+
 [Rank]
-S. Margaritæ Mariæ Alaquoque Virginis;;Duplex;;3;;vide C6
+;;Duplex;;3;;vide C6a
 
 [Rule]
-vide C6
+vide C6a
 Gloria
 
 [Introitus]
 !Cant 2:3.
 v. Sub umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis gútturi meo.
 !Ps 83:2-3
-Quam dilécta tabernácula tua, Dómine virtútum! concupíscit, et déficit ánima mea in átria Dómini.
+Quam dilécta tabernácula tua, Dómine virtútum! Concupíscit, et déficit ánima mea in átria Dómini.
 &Gloria
 v. Sub umbra illíus, quem desideráveram, sedi: et fructus ejus dulcis gútturi meo.
 
@@ -30,18 +33,24 @@ Defécit caro mea et cor meum: Deus cordis mei, et pars mea Deus in ætérnum. A
 !Cant 7:10.
 Ego dilécto meo, et ad me conversio ejus. Allelúja.
 
+[GradualeP]
+Allelúja, allelúja
+!Prov 9:5
+Veníte, comédite panem meum et bíbite vinum, quod míscui vobis. Allelúja.
+!Ps 30:20.
+Quam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te. Allelúja.
+
 [Tractus]
+!Cant 8:7.
+Aquæ multæ non potuérunt exstínguere caritátem, nec flúmina óbruent illam.
+!Ps 72:26
+Defécit caro mea et cor meum: Deus cordis mei, et pars mea Deus in ætérnum.
+_
+!Tractus
 !Ps 83:3-4
 Cor meum et caro mea exsultavérunt in Deum vivum.
 V. Etenim passer invénit sibi domum: et turtur nidum sibi, ubi ponat pullos suos.
 V. Altária tua, Dómine virtútum: Rex meus et Deus meus.
-
-[GradualeP]
-Allelúja, allelúja
-!Prov 9:5
-Veníte, comédite panem meum et bíbite vinum, quod míscui vobis.
-!Ps 30:20.
-Quam magna multitúdo dulcédinis tuæ, Dómine, quam abscondísti timéntibus te. Allelúja.
 
 [Evangelium]
 Sequéntia ++ sancti Evangélii secúndum Matthǽum.

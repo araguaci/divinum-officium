@@ -16,21 +16,26 @@ $textwidth='100';;
 $oldhymns='0';;
 $nonumbers='0';;
 $nofancychars='0';;
+$noinnumbers='1';;
+$noflexa='1';;
+$langfb='English';;
+$testmode='Proper';;
+$singleCell='1';
 
 [parameterscheck]
-bbtbbbtcccccnnbbb
+bbtbbbtcccccnnbbbbbttb
 
 [general]
-$expand='all';;
+$expand='tota';;
 $version='Rubrics 1960 - 1960';;
 $lang2='English';;
-$votive='';;
+$votive='Hodie';;
 
 [generalcheck]
 oooo
 
 [generalc]
-$expand='all';;
+$expand='tota';;
 $version='Divino Afflatu';;
 $version2='Rubrics 1960 - 1960';;
 $langc='Latin';;

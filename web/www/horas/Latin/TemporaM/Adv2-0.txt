@@ -2,15 +2,7 @@
 
 [Rule]
 12 lectiones
-
-[Ant Vespera](rubrica tridentina)
-@Psalterium/Psalmi major:Daym6 Vespera
-
-[Responsory Vespera]
-@Psalterium/Major Special:AdvM Vespera:3-8
-
-[Responsory Laudes]
-@Psalterium/Major Special:AdvM Laudes:3-8
+(rubrica cisterciensis) Psalmi Feria
 
 [Lectio4]
 !Isa 11:11-13
@@ -19,10 +11,7 @@
 13 Et auferétur zelus Ephraim, et hostes Juda períbunt.
 
 [Responsory4]
-R. Rex noster advéniet Christus,
-* Quem Joánnes prædicávit Agnum esse ventúrum.
-V. Super ipsum continébunt reges os suum, † ipsum Gentes deprecabúntur.
-R. Quem Joánnes prædicávit Agnum esse ventúrum.
+@Tempora/Adv1-3:Responsory1
 
 [Lectio5]
 @Tempora/Adv2-0:Lectio4
@@ -74,4 +63,3 @@ R. Et absolútæ erunt línguæ mutórum.
 
 [Responsory12]
 @Tempora/Adv3-6:Responsory2
-

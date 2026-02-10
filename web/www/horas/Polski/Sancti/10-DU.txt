@@ -1,13 +1,6 @@
 [Rank]
 Święto Chrystusa Króla;;Duplex 1 class;;6.5;;
 
-[Rule]
-9 lectiones
-Psalmi Dominica
-Antiphonas horas
-Psalm5 Vespera=116
-Festum Domini
-
 [Ant Vespera]
 Książeciem pokoju * nazwany będzie, a stolica Jego będzie umocniona na wieki.
 Królestwo Jego * Królestwo wieczne jest i wszystkie narodu służyć Mu będą i słuchać Go będą.
@@ -111,16 +104,18 @@ _
 A jam jest * postanowion królem od niego nad Syonem, górą świętą jego, opowiadając przykazanie jego.;;2
 Chwałą * i czcią ukoronowałeś go, Panie: podałeś wszystko pod nogi jego.;;8
 Podnoście się * bramy wieczne: i wnidzie król chwały.;;23
-V. Dana mi jest wszystka władza.
-R. Na niebie i na ziemi
 Będzie siedział * Pan, król na wieki: Pan błogosławić będzie ludowi swemu w pokoju.;;28
 Laska prawości, * laska królestwa twego: dlatego narodowie będąć wyznawać wiecznie, i na wieki wieków.;;44
 Śpiewajcie królowi naszemu, * śpiewajcie: albowiem król wielki nade wszystką ziemią.;;46
-V. Przynoście Panu, rodziny narodów.
-R. Przynoście Panu chwałę i panowanie.
 Będą w nim błogosławione * wszystkie pokolenia ziemskie: wszyscy narodowie wielbić go będą.;;71
 A go pierworodnym * uczynię wyższym nad króle ziemskie.;;88(2-30)
 Stolica jego, * jako słońce przed oczyma memi, i jako pełny księżyc na wieki.;;88(31-53)
+
+[Nocturn 2 Versum]
+V. Przynoście Panu, rodziny narodów.
+R. Przynoście Panu chwałę i panowanie.
+
+[Nocturn 3 Versum]
 V. Będą mu się kłaniać wszyscy królowie ziemi.
 R. Wszyscy narodowie będą mu służyć.
 
@@ -147,10 +142,10 @@ R. I nazowią imie jego Bóg, mocny, książę pokoju.
 11 umocnieni wszelaką mocą według możności jasności jego, we wszelakiéj cierpliwości i nieskwapliwości z weselem:
 12 Dziękując Bogu Ojcu, który nas godnymi uczynił działu dziedzictwa świętych w światłości,
 13 który nas wyrwał z mocy ciemności i przeniósł w królestwo Syna umiłowania swego,
-14 w którym mamy odkupienie przez krew jego, odpuszczenie grzechów,
-15 który jest obrazem Boga niewidzialnego, pierworodny wszego stworzenia.
-16 Albowiem w nim wszystkie rzeczy są, stworzone na niebie i na ziemi, widzialne i niewidzialne, choć trony, choć państwa, choć księztwa, choć zwierzchności, wszystko przezeń i w nim jest stworzono.
-17 A on jest przed wszystkimi, a wszystko w nim stoi.
+14 w którym mamy odkupienie przez krew jego, odpuszczenie grzechów.
+15 Który jest obrazem Boga niewidzialnego, pierworodny wszego stworzenia.
+16 Albowiem w nim wszystkie rzeczy są, stworzone na niebie i na ziemi, widzialne i niewidzialne, choć trony, choć państwa, choć księztwa, choć zwierzchności, wszystko przezeń i w nim jest stworzono,
+17 a on jest przed wszystkimi, a wszystko w nim stoi.
 
 [Responsory2]
 R. Patrzyłem w widzeniu nocnem, a oto z obłoki niebieskimi syn człowieczy przychodził: i dane mu jest królestwo i cześć:
@@ -160,8 +155,8 @@ R. I wszyscy narodowie pokolenia i języki służyć mu będą.
 
 [Lectio3]
 !Kol 1:18-23
-18 I on jest głową ciała Kościoła, który jest początkiem pierworodnym z umarłych, aby on był między wszystkimi, przodkowanie mając.
-19 Bo w nim upodobało się, aby wszystka zupełność mieszkała,
+18 I on jest głową ciała Kościoła, który jest początkiem pierworodnym z umarłych, aby on był między wszystkimi, przodkowanie mając,
+19 bo w nim upodobało się, aby wszystka zupełność mieszkała
 20 a żeby przezeń pojednało się wszystko, z nim uspokoiwszy przez krew krzyża jego, bądź co na ziemi, bądź co w niebiesiech jest.
 21 I was, którzyście niekiedy byli oddaleni i nieprzyjaciele umysłem w złośliwych uczynkach,
 22 i teraz pojednał w ciele ciała swego przez śmierć, aby was wystawił święte i niepokalane i nienaganione przed sobą:
@@ -178,7 +173,7 @@ R. A ten będzie pokojem.
 [Lectio4]
 Z Encyklik Papieża Piusa XI
 !Encyklika Quas primas dnia 11 grudnia 1925
-Ponieważ więc Rok ten święty niejedną nastręczył nam sposobność do wyjaśnienia królestwa Chrystusowego, zdaniem naszem, uczynimy rzecz szczególnie odpowiadająca naszemu Apostolskiemu urzędowi, jeżeli przychylimy się do próśb bardzo wielu z pośród kardynałów, biskupów i wiernych, zanoszonych do Nas pojedynczo i zbiorowo, i ten właśnie Rok jubileuszowy zakończymy zaprowadzeniem w liturgji kościelnej osobnego święta Pana Naszego Jezusa Chrystusa Króla. Oddawna już powszechnie nazywano Chrystusa królem w przenośnem tego słowa znaczeniu, a to z powodu najwyższego stopnia dostojeństwa, przez które wyprzedza wszystkie stworzenia i przewyższa je. Mówimy więc, iż Chrystus króluje w umysłach ludzkich, nie tyle dla głębi umysłu i rozległości Swej wiedzy, ile że On sam jest prawdą, a ludzie od Niego powinni prawdę czerpać i posłusznie ją przyjmować; mówimy też, iż Chrystus króluje w woli ludzkiej, ponieważ w Nim nie tylko nieskazitelna wola ludzka stosuje się zupełnie i z całem posłuszeństwem do najświętszej woli boskiej, lecz także dlatego, że Chrystus tak wpływa natchnieniami swemi na nasza wolną wolę, iż zapalamy się do najszlachetniejszych rzeczy. Wreszcie uznajemy Chrystusa, jako króla serc, dla Jego „przewyższającej naukę miłości” i dla łagodności i łaskawości. która przyciąga dusze. Żaden bowiem człowiek nigdy nie był i nie będzie do tego stopnia ukochanym przez wszystkie narody, jak Jezus Chrystus. Lecz, jeżeli głębiej wnikniemy w rzecz, widzimy, iż w właściwem tego słowa znaczeniu imię i władzę króla, należy przyznać Chrystusowi jako Człowiekowi, albowiem tylko o Chrystusie jako Człowieku można powiedzieć, iż otrzymał od Ojca „władzę i cześć i królestwo”; Chrystus bowiem, jako Słowo Boga, będąc współistotnym Ojcu, wszystko ma wspólne z Ojcem, a więc także najwyższe i nieograniczone władztwo nad wszystkiem stworzeniem.
+Ponieważ więc Rok ten święty niejedną nastręczył nam sposobność do wyjaśnienia królestwa Chrystusowego, zdaniem naszem, uczynimy rzecz szczególnie odpowiadająca naszemu Apostolskiemu urzędowi, jeżeli przychylimy się do próśb bardzo wielu z pośród kardynałów, biskupów i wiernych, zanoszonych do Nas pojedynczo i zbiorowo, i ten właśnie Rok jubileuszowy zakończymy zaprowadzeniem w liturgji kościelnej osobnego święta Pana Naszego Jezusa Chrystusa Króla. Oddawna już powszechnie nazywano Chrystusa królem w przenośnem tego słowa znaczeniu, a to z powodu najwyższego stopnia dostojeństwa, przez które wyprzedza wszystkie stworzenia i przewyższa je. Mówimy więc, iż Chrystus króluje w umysłach ludzkich, nie tyle dla głębi umysłu i rozległości Swej wiedzy, ile że On sam jest prawdą, a ludzie od Niego powinni prawdę czerpać i posłusznie ją przyjmować; mówimy też, iż Chrystus króluje w woli ludzkiej, ponieważ w Nim nie tylko nieskazitelna wola ludzka stosuje się zupełnie i z całem posłuszeństwem do najświętszej woli boskiej, lecz także dlatego, że Chrystus tak wpływa natchnieniami swemi na nasza wolną wolę, iż zapalamy się do najszlachetniejszych rzeczy. Wreszcie uznajemy Chrystusa, jako króla serc, dla Jego „przewyższającej naukę miłości” i dla łagodności i łaskawości, która przyciąga dusze. Żaden bowiem człowiek nigdy nie był i nie będzie do tego stopnia ukochanym przez wszystkie narody, jak Jezus Chrystus. Lecz, jeżeli głębiej wnikniemy w rzecz, widzimy, iż w właściwem tego słowa znaczeniu imię i władzę króla, należy przyznać Chrystusowi jako Człowiekowi, albowiem tylko o Chrystusie jako Człowieku można powiedzieć, iż otrzymał od Ojca „władzę i cześć i królestwo”; Chrystus bowiem, jako Słowo Boga, będąc współistotnym Ojcu, wszystko ma wspólne z Ojcem, a więc także najwyższe i nieograniczone władztwo nad wszystkiem stworzeniem.
 
 [Responsory4]
 R. Raduj się wielce, córko Syon: wykrzykaj, córko Jeruzalem: Oto król twój przyjdzie tobie sprawiedliwy i zbawiciel:
@@ -285,60 +280,47 @@ R. A pokojowi nie będzie końca.
 [Ant 2]
 Uczynił nas Bogu * i Ojcu swemu królestwem: pierworodny spośród umarłych, i Książę królów ziemskich, alleluja.
 
-[Versum Prima]
-Który zwierzchność ma nad wszystkiem.
-
 [Lectio Prima]
 !Kol 1:19-20
 v. Bo w nim upodobało się, aby wszystka zupełność mieszkała, a żeby przezeń pojednało się wszystko, z nim uspokoiwszy przez krew krzyża jego, bądź co na ziemi, bądź co w niebiesiech jest, w Chrystusie Jezusie Panu naszym.
 $Deo gratias
 
-[Responsory Tertia]
+[Versum Prima]
+Który zwierzchność ma nad wszystkiem.
+
+[Responsory Breve Tertia]
 R.br. Dana mi jest * Wszystka władza.
 R. Dana mi jest * Wszystka władza.
 V. Na niebie i na ziemi
 R. Wszystka władza.
 &Gloria
 R. Dana mi jest * Wszystka władza.
-_
-V. Przynoście Panu, rodziny narodów.
-R. Przynoście Panu chwałę i panowanie.
 
 [Capitulum Sexta]
 !Kol 1:16-18
 v. Wszystko przezeń i w nim jest stworzono, a on jest przed wszystkimi, a wszystko w nim stoi. I on jest głową ciała Kościoła, który jest początkiem pierworodnym z umarłych, aby on był między wszystkimi, przodkowanie mając.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br. Przynoście Panu, * Rodziny narodów.
 R. Przynoście Panu, * Rodziny narodów.
 V. Przynoście Panu chwałę i panowanie.
 R. Rodziny narodów.
 &Gloria
 R. Przynoście Panu, * Rodziny narodów.
-_
-V. Będą mu się kłaniać wszyscy królowie ziemi.
-R. Wszyscy narodowie będą mu służyć.
 
 [Capitulum Nona]
 !Kol 1:19-20
 v. Bo w nim upodobało się, aby wszystka zupełność mieszkała, a żeby przezeń pojednało się wszystko, z nim uspokoiwszy przez krew krzyża jego, bądź co na ziemi, bądź co w niebiesiech jest, w Chrystusie Jezusie Panu naszym.
 $Deo gratias
 
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. Będą mu się kłaniać * Wszyscy królowie ziemi.
 R. Będą mu się kłaniać * Wszyscy królowie ziemi.
 V. Wszyscy narodowie będą mu służyć.
 R. Wszyscy królowie ziemi.
 &Gloria
 R. Będą mu się kłaniać * Wszyscy królowie ziemi.
-_
-V. Panowanie Jego rozszerzy się.
-R. A pokojowi nie będzie końca.
-
-[Versum 3]
-V. Panowanie Jego rozszerzy się.
-R. A pokojowi nie będzie końca.
 
 [Ant 3]
 Na szacie * i na biodrze swojem ma napisane Król królów i Pan panujących. Jemu chwała i władza na wieki wieków.

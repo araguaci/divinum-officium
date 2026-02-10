@@ -1,11 +1,14 @@
+[Officium]
+Dominica in Sexagesima
+
 [Rank]
-Dominica in Sexagesima;;Semiduplex;;5.6
+;;Semiduplex;;5.6
 
 [Rank] (rubrica 1570 aut rubrica 1888)
-Dominica in Sexagesima;;Semiduplex;;6.1
+;;Semiduplex;;6.1
 
 [Rank] (rubrica 196)
-Dominica in Sexagesima;;Semiduplex;;5
+;;Semiduplex;;5
 
 [Rule]
 9 lectiones
@@ -14,9 +17,6 @@ Invit2
 
 [Ant 1]
 Dixit Dóminus * ad Noë: Finis univérsæ carnis venit coram me: fac tibi arcam de lignis lævigátis, ut salvétur univérsum semen in ea.
-
-[Versum 1]
-@Tempora/Quadp1-0:Versum 1
 
 [Oratio]
 Deus, qui cónspicis, quia ex nulla nostra actióne confídimus: concéde propítius; ut, contra advérsa ómnia Doctóris géntium protectióne muniámur.
@@ -74,7 +74,7 @@ R. Et clausit a foris óstium Dóminus.
 [Lectio4]
 Ex libro sancti Ambrósii Epíscopi de Noë et arca
 !Cap. 4. circa med.
-Habes, quia irátus Dóminus est: quóniam quamvis cogitáret, hoc est sciret, quia homo pósitus in terræ regióne, carnem portans, sine peccáto esse non possit, (terra enim velut quidam tentatiónum locus est, caróque corruptélæ illécebra) tamen cum habérent méntem ratiónis capácem, virtutémque ánimæ infusam córpori, sine consideratióne áliqua in lapsum ruérunt, ex quo revocáre se nollent. Neque enim Deus cógitat sicut hómines, ut áliqua ei nova succédat senténtia, neque iráscitur quasi mutábilis: sed ídeo hæc legúntur, ut exprimátur peccatórum nostrórum acérbitas, quæ divínam merúerit offénsam: tamquam eoúsque incréverit culpa, ut étiam Deus, qui naturáliter non movétur aut ira, aut ódio, aut passióne ulla, provocátus videátur ad iracúndiam.
+Habes, quia irátus Dóminus est: quóniam quamvis cogitáret, hoc est sciret, quia homo pósitus in terræ regióne, carnem portans, sine peccáto esse non possit, (terra enim velut quidam tentatiónum locus est, caróque corruptélæ illécebra) tamen cum habérent mentem ratiónis capácem, virtutémque ánimæ infusam córpori, sine consideratióne áliqua in lapsum ruérunt, ex quo revocáre se nollent. Neque enim Deus cógitat sicut hómines, ut áliqua ei nova succédat senténtia, neque iráscitur quasi mutábilis: sed ídeo hæc legúntur, ut exprimátur peccatórum nostrórum acérbitas, quæ divínam merúerit offénsam: tamquam eoúsque incréverit culpa, ut étiam Deus, qui naturáliter non movétur aut ira, aut ódio, aut passióne ulla, provocátus videátur ad iracúndiam.
 
 [Responsory4]
 R. Ædificávit Noë altáre Dómino, ófferens super illud holocáustum: odoratúsque est Dóminus odórem suavitátis, et benedíxit ei, dicens:
@@ -118,7 +118,7 @@ V. Ecce ego státuam pactum meum vobíscum, et cum sémine vestro post vos.
 R. Créscite, et multiplicámini, et repléte terram.
 
 [Lectio8]
-Exponéndo ergo quod dixit, figuráte se loqui innótuit: quátenus certos nos rédderet, cum vobis nostra fragílitas verbórum illíus figúras aperíret. Quis enim mihi umquam créderet, si spinas divítias interpretári voluíssem? máxime cum illæ pugnant, istæ deléctent. Et tamen spinæ sunt, quia cogitatiónum suárum punctiónibus méntem lácerant: et cum usque ad peccátum pértrahunt, quasi inflícto vúlnere cruéntant. Quas bene hoc in loco, álio Evangelísta testánte, nequáquam Dóminus divítias, sed falláces divítias appéllat.
+Exponéndo ergo quod dixit, figuráte se loqui innótuit: quátenus certos nos rédderet, cum vobis nostra fragílitas verbórum illíus figúras aperíret. Quis enim mihi umquam créderet, si spinas divítias interpretári voluíssem? máxime cum illæ pugnant, istæ deléctent. Et tamen spinæ sunt, quia cogitatiónum suárum punctiónibus mentem lácerant: et cum usque ad peccátum pértrahunt, quasi inflícto vúlnere cruéntant. Quas bene hoc in loco, álio Evangelísta testánte, nequáquam Dóminus divítias, sed falláces divítias appéllat.
 
 [Responsory8]
 R. Ecce ego státuam pactum meum vobíscum, et cum sémine vestro post vos:
@@ -146,16 +146,16 @@ In excélsis, * laudáte Deum.
 (sed rubrica tridentina aut rubrica monastica)
 In týmpano et choro, * in chordis et órgano, laudáte Deum.
 
-[Capitulum Laudes]
+[Capitulum Laudes] (nisi rubrica praedicatorum)
 !2 Cor 11:19-20
 v. Fratres: Libénter suffértis insipiéntes, cum sitis ipsi sapiéntes: sustinétis enim si quis vos in servitútem rédigit, si quis dévorat, si quis áccipit, si quis extóllitur, si quis in fáciem vos cædit.
 $Deo gratias
 
+[Versum 2] (nisi rubrica cisterciensis)
+@Tempora/Quadp1-0
+
 [Ant 2]
 Cum turba * plúrima convenírent ad Jesum, et de civitátibus properárent ad eum, dixit per similitúdinem: Exiit qui séminat, semináre semen suum.
-
-[Versum 2]
-@Tempora/Quadp1-0:Versum 2
 
 [Ant Prima]
 Semen cécidit * in terram bonam, et áttulit fructum in patiéntia.
@@ -166,7 +166,7 @@ Qui verbum Dei * rétinent corde perfécto et óptimo, fructum áfferunt in pati
 [Ant Sexta]
 Semen cécidit * in terram bonam, et áttulit fructum, áliud centésimum, et áliud sexagésimum.
 
-[Capitulum Sexta]
+[Capitulum Sexta] (nisi rubrica praedicatorum)
 !2 Cor 11:25
 v. Ter virgis cæsus sum, semel lapidátus sum: ter naufrágium feci, nocte et die in profúndo maris fui.
 $Deo gratias
@@ -174,13 +174,10 @@ $Deo gratias
 [Ant Nona]
 Si vere, fratres, * dívites esse cúpitis, veras divítias amáte.
 
-[Capitulum Nona]
+[Capitulum Nona] (nisi rubrica praedicatorum)
 !2 Cor 12:9
 v. Libénter ígitur gloriábor in infirmitátibus meis, ut inhábitet in me virtus Christi.
 $Deo gratias
 
 [Ant 3]
 Vobis datum est * nosse mystérium regni Dei, céteris autem in parábolis, dixit Jesus discípulis suis.
-
-[Versum 3]
-@Tempora/Quadp1-0:Versum 3

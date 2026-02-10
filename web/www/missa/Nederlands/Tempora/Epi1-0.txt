@@ -1,7 +1,5 @@
-[Rank]
-Sanctæ Familiæ Jesu Mariæ Joseph;;Duplex majus;;3.9
-(sed rubrica 1960)
-Sanctæ Familiæ Jesu Mariæ Joseph;;Duplex II classis;;5
+[Officium]
+Sanctæ Familiæ Jesu Mariæ Joseph
 
 [Rule]
 Gloria
@@ -29,15 +27,23 @@ $Per Dominum
 [Lectio]
 Lezing uit de Brief van de heilige Apostel Paulus aan de Colossenzen
 !Col 3:12-17
-Broeders, wilt u als heilige en veelgeliefde uitverkorenen Gods toerusten met een medelijdend hart, met goedheid en bescheidenheid, met zachtmoedigheid en geduld. Verdraagt elkander, en vergeeft elkander, als gij soms over iemand te klagen hebt. Zoals de Heer u vergeven heeft, zo moet ook gij vergeven. Maar draagt over dat alles heen de liefde; want deze is de band der volmaaktheid. Laat de vrede van Christus heersen in uw harten; want daartoe zijt gij ook geroepen, als leden van één lichaam. Weest daarenboven dankbaar. Moge het woord van Christus onder u wonenen in volle rijkdom, zodat gij in alle wijsheid elkander onderricht en vermaant. En zingt dankbaar God van harte lof in psalmen en gezangen en geestelijke liederen. Alles wat gij doet met woord of werk, doet alles in de Naam van de Heer Jezus Christus, om door Hem aan God, de Vader, dank te brengen.
+Broeders, wilt u als heilige en veelgeliefde uitverkorenen Gods toerusten met een medelijdend hart, met goedheid en bescheidenheid, met zachtmoedigheid en geduld. Verdraagt elkander, en vergeeft elkander, als gij soms over iemand te klagen hebt. Zoals de Heer u vergeven heeft, zo moet ook gij vergeven. Maar draagt over dat alles heen de liefde; want deze is de band der volmaaktheid. Laat de vrede van Christus heersen in uw harten; want daartoe zijt gij ook geroepen, als leden van één lichaam. Weest daarenboven dankbaar. Moge het woord van Christus onder u wonen in volle rijkdom, zodat gij in alle wijsheid elkander onderricht en vermaant. En zingt dankbaar God van harte lof in psalmen en gezangen en geestelijke liederen. Alles wat gij doet met woord of werk, doet alles in de Naam van de Heer Jezus Christus, om door Hem aan God, de Vader, dank te brengen.
 
 [Graduale]
 !Ps 26:4
 Dit alleen heb ik de Heer gevraagd, dit alleen streef ik na: te wonen in 's Heren huis al de dagen van mijn leven.
-!Ps 83:5.
-Gelukkig zij, o Heer, die wonen in uw huis; eeuwig zullen zij U prijzen. Alleluia, alleluia.
-!Isa 45:15
+!Ps 83:5
+Gelukkig zij, o Heer, die wonen in uw huis; eeuwig zullen zij U prijzen.
+Alleluia, alleluia.
+!Is 45:15
 Waarlijk, Gij zijt de verborgen Koning, God, Verlosser van Israël. Alleluia.
+
+[GradualeP]
+Allelúja, allelúja,
+!Prov 8:34
+Beátus homo qui audit me, et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Allelúja, allelúja,
+!Col 3:3
+Vita nostra est abscóndita cum Christo in Deo. Allelúja.
 
 [Tractus]
 !Heb 10:5
@@ -46,13 +52,6 @@ Hóstiam et oblatiónem noluísti, corpus autem aptásti mihi.
 Holocáustum et pro peccáto non postulásti: tunc dixi: Ecce, vénio.
 !Heb 10:7
 V. In cápite libri scriptum est de me: Ut fáciam, Deus, voluntátem tuam.
-
-[GradualeP]
-Allelúja, allelúja,
-!Prov 8:34
-Beátus homo qui audit me, et qui vígilat ad fores meas cotídie, et obsérvat ad postes óstii mei. Allelúja, allelúja,
-!Col 3:3
-Vita nostra est abscóndita cum Christo in Deo. Allelúja.
 
 [Evangelium]
 Vervolg ++ van het heilig Evangelie volgens Lucas
@@ -64,7 +63,7 @@ Toen Jezus twaalf jaar oud geworden was, gingen zij op reis naar Jeruzalem, zoal
 Jezus' ouders brachten Hem naar Jeruzalem om Hem op te dragen aan de Heer.
 
 [Secreta]
-Heer, wij dragen U een zoenoffer op, en smeken U ootmoedig, dat Gij door de voorspraak van de maagdelijke Moeder Gods en de heiige Jozef, onze gezinnen hecht wilt grondvesten in uw vrede en genade.
+Heer, wij dragen U een zoenoffer op, en smeken U ootmoedig, dat Gij door de voorspraak van de maagdelijke Moeder Gods en de heilige Jozef, onze gezinnen hecht wilt grondvesten in uw vrede en genade.
 $Per eumdem
 
 [Commemoratio Secreta]

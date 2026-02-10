@@ -1,4 +1,3 @@
-
 [Comment]
 # 24 VII – Św. Kingi, Dziewicy
 ! 3 klasy
@@ -37,4 +36,3 @@ $Per Dominum
 [Postcommunio]
 Prosimy Cię, Panie, za wstawiennictwem błogosławionej Kingi, Twojej Dziewicy, niech przyjęte przez nas święte tajemnice stale nas pobudzają i oświecają, abyśmy godnie oczekiwali przyjścia Syna Twego i zostali dopuszczeni do niebiańskich Jego godów.
 $Per eundem
-

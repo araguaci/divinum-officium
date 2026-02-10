@@ -1,5 +1,8 @@
+[Officium]
+Dominica III Post Pascha
+
 [Rank]
-Dominica III Post Pascha;;Semiduplex;;5;;
+;;Semiduplex;;5;;
 
 [Rule]
 9 Lectiones
@@ -7,8 +10,8 @@ Duplex
 Una Antiphona
 No suffragium
 
-[Versum 1]
-@Psalterium/Major Special:Pasch Versum 3
+[Ant 1 Cist]
+Alias oves hábeo, * quæ non sunt ex hoc ovíli: et illas opórtet me addúcere, et vocem meam áudient, et fiet unum ovíle, et unus pastor, allelúia.
 
 [Ant 1]
 Módicum * et non vidébitis me, dicit Dóminus: íterum módicum, et vidébitis me, quia vado ad Patrem, allelúja, allelúja.
@@ -16,6 +19,10 @@ Módicum * et non vidébitis me, dicit Dóminus: íterum módicum, et vidébitis
 [Oratio]
 Deus, qui errántibus, ut in viam possint redíre justítiæ, veritátis tuæ lumen osténdis: da cunctis, qui christiána professióne censéntur, et illa respúere, quæ huic inimíca sunt nómini; et ea, quæ sunt apta, sectári.
 $Per Dominum
+
+[Commemoratio]
+!Commemoratio pro Octava S. Joseph
+@Tempora/Pasc2-3:Oratio
 
 [Lectio1]
 Incipit liber Apocalýpsis beáti Joánnis Apóstoli
@@ -132,9 +139,6 @@ Hoc módicum longum nobis vidétur, quóniam adhuc ágitur; cum finítum fúerit
 v. Caríssimi: Obsecro vos tamquam ádvenas et peregrínos abstinére vos a carnálibus desidériis, quæ mílitant advérsus ánimam.
 $Deo gratias
 
-[Versum 2]
-@Psalterium/Major Special:Pasch Versum 2
-
 [Ant 2]
 @:Ant 1
 
@@ -148,12 +152,5 @@ $Deo gratias
 v. Servi, súbditi estóte in omni timóre dóminis, non tantum bonis et modéstis, sed étiam dýscolis. Hæc est enim grátia in Christo Jesu Dómino nostro.
 $Deo gratias
 
-[Versum 3]
-@Psalterium/Major Special:Pasch Versum 3
-
 [Ant 3]
 Amen dico vobis, * quia plorábitis et flébitis vos: mundus autem gaudébit, vos vero contristabímini, sed tristítia vestra convertétur in gáudium, allelúja.
-
-[Commemoratio]
-!Commemoratio pro Octava S. Joseph
-@Tempora/Pasc2-3:Oratio

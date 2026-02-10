@@ -1,23 +1,9 @@
-[Rank]
-Vigile de St Laurent, Martyr;;Simplex;;3
-
-[Rule]
-Responsory Feria
-Preces feriales
-Versum Feria
-no Te Deum
-Laudes 2
+[Officium]
+Vigile de St Laurent, Martyr
 
 [Oratio]
 Exaucez nos supplications, Seigneur et, par l’intercession du bienheureux Laurent, Votre Martyr, dont nous devançons la fête, faites-nous ressentir avec bienveillance les effets de Votre miséricorde.
 $Per Dominum
-
-[Commemoratio]
-!Commémoraison de St Romain Martyr
-@Commune/C2:Oratio proper
-$Oremus
-Faites, s’il vous plaît, Dieu tout-puissant, que par l’intercession du bienheureux Romain, votre Martyr, nous soyons délivrés de toute adversité corporelle, et que notre âme soit purifiée de toute pensée mauvaise.
-$Per Dominum.
 
 [Lectio1]
 Lecture du saint Évangile selon saint Matthieu

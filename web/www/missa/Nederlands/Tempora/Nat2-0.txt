@@ -1,5 +1,5 @@
-[Rank]
-Sanctissimi Nominis Jesu;;Duplex 2 class;;5;;
+[Officium]
+Sanctissimi Nominis Jesu
 
 [Rule]
 Gloria
@@ -9,7 +9,7 @@ Prefatio=Nat
 [Introitus]
 !Phil 2:10-11
 v. Dat in de naam van Jezus iedere knie zich buige in de hemel, op aarde en onder de aarde; en dat iedere tong belijde, dat de Heer Jezus Christus in de heerlijkheid is van God de Vader.
-!Ps 8:2.
+!Ps 8:2
 Heer, onze Heer, hoe wonderbaar is uw Naam over heel de aarde!
 &Gloria
 v. Dat in de naam van Jezus iedere knie zich buige in de hemel, op aarde en onder de aarde; en dat iedere tong belijde, dat de Heer Jezus Christus in de heerlijkheid is van God de Vader.
@@ -26,25 +26,24 @@ In die dagen sprak Petrus, vervuld van de Heilige Geest: Oversten van het volk e
 [Graduale]
 !Ps 105:47
 Red ons, Heer onze God, en breng ons uit de naties tezamen om uw heilige Naam te prijzen en ons te beroemen op uw heerlijkheid.
-!Isa 63:16
-v. Gij, Heer, zijt onze Vader en Verlosser, van ouds is dat uw Naam. Alleluia, alleluia.
+!Is 63:16
+Gij, Heer, zijt onze Vader en Verlosser, van ouds is dat uw Naam.
+Alleluia, alleluia.
 !Ps 144:21
 Mijn mond zal de lof van de Heer verkondigen. Laat alle vlees zijn heilige Naam prijzen. Alleluia.
+
+[GradualeP]
+Alleluia, alleluia
+!Ps 144:21
+Mijn mond zal de lof van de Heer verkondigen. Laat alle vlees zijn heilige Naam prijzen. Alleluia.
+!Ps 144:1
+Exaltábo te, Deus meus, Rex: et benedícam nómini sancto tuo, Jesu, in sǽculum, et in sǽculum sǽculi. Alleluia.
 
 [Tractus]
 !Ps 79:20; Cant 2:14
 Dómine, Deus virtútum, convérte nos: et osténde fáciem tuam, et salvi érimus: sonet vox tua in áuribus meis. Vox enim tua dulcis, et fácies tua decóra nimis.
 !Cant 1:2
 V. Oleum effúsum nomen tuum, Jesu: ideo adolescéntulæ dilexérunt te.
-
-[GradualeP]
-Allelúja, allelúja
-!Ps 144:21
-Laudem Dómini loquétur os meum, et benedícat omnis caro nomen sanctum ejus.~
-Allelúja.
-!Ps 144:1
-Exaltábo te, Deus meus, Rex: et benedícam nómini sancto tuo, Jesu, in sǽculum,~
-et in sǽculum sǽculi. Allelúja.
 
 [Evangelium]
 Vervolg ++ van het heilig Evangelie volgens Lucas

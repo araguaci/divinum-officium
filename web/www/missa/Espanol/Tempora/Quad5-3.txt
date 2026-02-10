@@ -1,5 +1,5 @@
-[Rank]
-Feria Quarta infra Hebdomadam Passionis;;Feria major;;2
+[Officium]
+Feria Quarta infra Hebdomadam Passionis
 
 [Rule]
 no Gloria
@@ -52,7 +52,7 @@ $Per Dominum
 !Ps 25:6-7
 Lavaré mis manos en compañía de los inocentes y rodeare, Señor, tu altar, para oír las voces de alabanza y referir todas tus maravillas.
 
-[Postcommunio]	
+[Postcommunio]
 Habiendo recibido la bendición del don celestial, te suplicamos humildemente, Dios todopoderoso, que este mismo sacramento sea causa de nuestra salvación.
 $Per Dominum
 

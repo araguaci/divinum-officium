@@ -1,19 +1,8 @@
-[Rank]
-St. Jean Gualbert Abbé;;Duplex;;3;;vide C5
+[Officium]
+St. Jean Gualbert Abbé
 
-[Rule]
-vide C5;
-9 lectiones
-
-[Oratio]
-@Commune/C5:Oratio1:s/N\./Jean/
-
-[Commemoratio]
-!Commemoratio Ss. Naboris et Felicis Martyrum
-@Commune/C3:Oratio proper
-$Oremus
-v. Faites, Seigneur, s’il Vous plaît, que, comme nous célébrons fidèlement la naissance au ciel de Vos saints Martyrs Nabor et Félix, ainsi nous soyons constamment aidés de leur prières.
-$Per Dominum
+[Name]
+Jean
 
 [Lectio4]
 Jean Gualbert, né à Florence de parents nobles, obéissait à son père en suivant la carrière militaire, lorsque Hugues, son unique frère, fut tué par un de ses parents. Le vendredi saint, Jean, tout armé et escorté de soldats, rencontra le meurtrier, seul et sans armes, dans un lieu où ni l’un ni l’autre ne pouvaient s’éviter ; il lui fit grâce de la vie par respect pour la sainte croix, que l’homicide suppliant représentait en étendant les bras au moment où il allait subir la mort. Après avoir traité son ennemi en frère, Jean entra pour prier dans l’église voisine de San-Miniato, et pendant qu’il adorait l’image du Christ en croix, il la vit incliner la tête vers lui. Troublé par ce fait surnaturel, il quitta malgré son père, la carrière des armes, coupa sa chevelure de ses propres mains et revêtit l’habit monastique. Il se distingua bientôt en piété et en vertus religieuses, au point de servir à beaucoup d’autres d’exemple et de règle de perfection ; aussi l’Abbé du Monastère étant mort, fut-il choisi à l’unanimité comme supérieur. Mais aimant mieux obéir que commander, et réservé par la volonté divine pour de plus grandes choses, le serviteur de Dieu alla trouver Romuald, qui vivait au désert de Camaldoli, et apprit de lui une prédiction venue du ciel relative à son institut : c’est alors qu’il fonda son ordre, sous la règle de saint Benoît, dans la vallée de Vallombreuse.
@@ -23,6 +12,10 @@ Dans la suite, sa renommée de sainteté lui amena beaucoup de disciples. Il s�
 
 [Lectio6]
 Il jeta les premiers fondements de nombreux monastères, et affermit par de saintes lois ces mêmes fondations et d’autres, dont il avait restauré les édifices et la régulière observance. Pour nourrir les pauvres, il vendit le mobilier sacré ; pour châtier les méchants, il trouva les éléments dociles ; pour réprimer les démons, la croix lui servit de glaive. Accablé par les abstinences, les veilles, les jeûnes, les prières, les mortifications de la chair et la vieillesse, Jean répétait souvent au cours de sa maladie ces paroles de David : « Mon âme a eu soif du Dieu fort et vivant : quand viendrai-je et paraîtrai-je devant la face de Dieu ? » Sur le point de mourir, il convoqua ses disciples, les exhorta à l’union fraternelle, et fit écrire sur un billet, avec lequel il voulut qu’on l’ensevelît, les paroles suivantes : « Moi, Jean, je crois et je professe la foi que les saints Apôtres ont prêchée et que les saints Pères ont confirmée en quatre conciles. » Enfin, après avoir été honoré pendant trois jours de la présence des Anges, il s’en alla vers le Seigneur, âgé de soixante-dix-huit ans, l’an du salut mil soixante-treize, le quatre des ides de juillet. C’était à Passignano, où il est honoré avec la plus grande vénération. De nombreux miracles l’ayant illustré, Célestin III l’a mis au nombre des Saints.
+
+[Lectio94]
+Jean Gualbert, issu d'une noble famille de Florence, alors qu'il suit son père dans la carrière militaire, voit son unique frère Hugues être tué par un parent. Lorsque Jean, seul et désarmé, rencontre par hasard l'assassin le jour du Vendredi saint, accompagné d'armes et de soldats, ils se retrouvent face à face, sans pouvoir l'éviter l'un l'autre. Mais par respect pour la sainte Croix, que l'assassin implore en suppliant, prêt à subir la mort, Jean lui fait signe d'ouvrir les bras et, dans sa miséricorde, lui accorde la vie, le prenant même comme un frère. Ensuite, il entre dans le temple de saint Minias, où il voit l'image du Crucifix devant laquelle il s'incline. Ému par cet acte, il abandonne la carrière militaire et adopte l'habit monastique, conseillé en cela par saint Romuald, un habitant de l'ermitage de Camaldoli. Plus tard, il fonde l'ordre monastique sous la règle de saint Benoît dans la vallée de l'Ombrie, où il l'utilise notamment pour éradiquer la tache de la simonie et propager la foi apostolique. Plein de vertus et de mérites, et favorisé par la familiarité des anges, il meurt à l'âge de 78 ans à Passignano, rejoignant le Seigneur le quatrième jour des ides de juillet de l'an 1073.
+&teDeum
 
 [Lectio7]
 Lecture du saint Évangile selon saint Matthieu.
@@ -38,8 +31,4 @@ En ce qui concerne les autres bonnes œuvres, on peut alléguer parfois un obsta
 
 [Lectio9]
 Car, en il ceci, les pieds ne se fatiguent point à courir, ni les oreilles à écouter, ni les mains à force de travailler, de sorte qu’il ne faut point chercher à nous en exempter au moyen d’une excuse. On ne nous dit pas : Allez en Orient et cherchez-y la charité ; rendez-vous par mer en Occident et vous y trouverez la dilection. Elle est au fond de notre cœur, où le Prophète nous invite à rentrer, quand il dit : « Prévaricateurs, rentrez dans votre cœur » [2]. Car ce n’est point dans les pays éloignés que se trouve ce qui est exigé de nous.
-&teDeum
-
-[Lectio94]
-Jean Gualbert, issu d'une noble famille de Florence, alors qu'il suit son père dans la carrière militaire, voit son unique frère Hugues être tué par un parent. Lorsque Jean, seul et désarmé, rencontre par hasard l'assassin le jour du Vendredi saint, accompagné d'armes et de soldats, ils se retrouvent face à face, sans pouvoir l'éviter l'un l'autre. Mais par respect pour la sainte Croix, que l'assassin implore en suppliant, prêt à subir la mort, Jean lui fait signe d'ouvrir les bras et, dans sa miséricorde, lui accorde la vie, le prenant même comme un frère. Ensuite, il entre dans le temple de saint Minias, où il voit l'image du Crucifix devant laquelle il s'incline. Ému par cet acte, il abandonne la carrière militaire et adopte l'habit monastique, conseillé en cela par saint Romuald, un habitant de l'ermitage de Camaldoli. Plus tard, il fonde l'ordre monastique sous la règle de saint Benoît dans la vallée de l'Ombrie, où il l'utilise notamment pour éradiquer la tache de la simonie et propager la foi apostolique. Plein de vertus et de mérites, et favorisé par la familiarité des anges, il meurt à l'âge de 78 ans à Passignano, rejoignant le Seigneur le quatrième jour des ides de juillet de l'an 1073.
 &teDeum

@@ -1,13 +1,5 @@
-[Rank]
-Die VI infra Octavam SSmi Cordis Jesu;;Semiduplex;;2.1;;ex Tempora/Pent02-5
-
-[RankNewcal]
-@Tempora/Pent03-3Feria:Rank
-
-[Rule]
-ex Tempora/Pent02-5;
-9 lectiones
-Doxology=Heart
+[Officium]
+Die VI infra Octavam SSmi Cordis Jesu
 
 [Lectio1]
 Du premier livre de Samuel

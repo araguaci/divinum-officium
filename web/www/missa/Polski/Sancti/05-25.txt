@@ -1,11 +1,5 @@
-[Rank]
-S. Gregorii VII Papae Confessoris;;Duplex;;3;;vide C4b
-
-[Rule]
-vide C4b;
-9 lectiones
-CPapaM=Urbánum;
-Gloria
+[Officium]
+Św. Grzegorza VII Papieża i Wyznawcy
 
 [Comment]
 # 25 V – Św. Grzegorza VII, Papieża i Wyznawcy
@@ -16,6 +10,9 @@ Urodzony w Toskanii około roku 1021 Hildebrand wstąpił do sławnego opactwa b
 Msza wspólna nr 8 Si diligis, z wyjątkiem Kolekty
 
 Wspomnienie św. Urbana, Papieża i Męczennika. Św. Urban rządził Kościołem w latach 222-230.
+
+[Name]
+Grzegorza
 
 [Introitus]
 @Commune/C4b:Introitus
@@ -36,24 +33,5 @@ $Per Dominum
 [Offertorium]
 @Commune/C4b:Offertorium
 
-[Secreta]
-@Commune/C4:Secreta
-
 [Communio]
 @Commune/C4b:Communio
-
-[Postcommunio]
-@Commune/C4:Postcommunio
-
-[Commemoratio Oratio]
-!Wspomnienie św. Urbana
-Boże, który mocno oparłeś swój Kościół na opoce apostoła i wybawiłeś go od straszliwych mocy piekielnych, spraw, prosimy, aby za wstawiennictwem błogosławionego Urbana, Twojego Męczennika i Najwyższego Papieża, pozostał wierny Twojemu prawdę, aby zawsze być bezpiecznym pod Twoją opieką.
-$Per Dominum
-
-[Commemoratio Secreta]
-!Wspomnienie św. Urbana
-@Commune/C4b:Secreta1
-
-[Commemoratio Postcommunio]
-!Wspomnienie św. Urbana
-@Commune/C4b:Postcommunio1

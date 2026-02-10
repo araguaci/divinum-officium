@@ -1,5 +1,10 @@
+[Officium]
+Feria III infra Hebdomadam II Adventus
+
 [Rank]
-Feria III infra Hebdomadam II Adventus;;Feria major;;2.1
+;;Feria major;;2.1
+(sed rubrica cisterciensis)
+;;Feria major;;1.15
 
 [Rule]
 Oratio Dominica
@@ -32,6 +37,9 @@ De Isaía Prophéta
 
 [Responsory3]
 @Tempora/Adv1-2:Responsory3
+
+[Ant Laudes] (rubrica cisterciensis)
+@Tempora/Adv2-0
 
 [Ant 2]
 Super te, * Jerúsalem, oriétur Dóminus, et glória ejus in te vidébitur.

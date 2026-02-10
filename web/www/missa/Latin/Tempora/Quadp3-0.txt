@@ -1,5 +1,14 @@
+[Officium]
+Dominica in Quinquagesima
+
 [Rank]
-Dominica in Quinquagesima;;Semiduplex;;5.6
+;;Semiduplex;;5.6
+
+[Rank] (rubrica 1570 aut rubrica 1888)
+;;Semiduplex;;6.1
+
+[Rank] (rubrica 196)
+;;Semiduplex;;5
 
 [Rule]
 no Gloria
@@ -50,8 +59,7 @@ In illo témpore: Assúmpsit Jesus duódecim, et ait illis: Ecce, ascéndimus Je
 Benedíctus es, Dómine, doce me justificatiónes tuas: in lábiis meis pronuntiávi ómnia judícia oris tui.
 
 [Secreta]
-Hæc hóstia, Dómine, quǽsumus, emúndet nostra delícta: et, ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet.
-$Per Dominum
+@Tempora/Epi3-0:Secreta
 
 [Communio]
 !Ps 77:29-30

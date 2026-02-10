@@ -1,7 +1,7 @@
 [Rank]
 Septem Dolorum Beatæ Mariæ Virginis;;Duplex 2nd class;;5.1;;ex C11
 
-[Rank] (rubrica 1960)
+[Rank] (rubrica 196)
 Septem Dolorum Beatæ Mariæ Virginis;;Duplex 2nd class;;5;;ex C11
 
 [Rule]
@@ -26,9 +26,9 @@ _
 Spectátrix áderas supplício, Parens,
 Malis uda, gerens cor adamántinum;
 Natus funérea péndulus in cruce
-Altos dum gémitus dábat.
+Altos dum gémitus dabat.
 _
-Péndens ante óculos Natus, atrócibus
+Pendens ante óculos Natus, atrócibus
 Sectus verbéribus, Natus hiántibus
 Fossus vulnéribus, quot penetrántibus
 Te confíxit acúleis!
@@ -49,6 +49,9 @@ Posco virgínei róboris ǽmulas
 Vires rebus in ásperis.
 Amen.
 
+[Doxology]
+@Tempora/Quad5-5
+
 [Versum 1]
 V. Regína Mártyrum, ora pro nobis.
 R. Quæ juxta crucem Jesu constitísti.
@@ -56,11 +59,12 @@ R. Quæ juxta crucem Jesu constitísti.
 [Ant 1]
 Nolíte me consideráre * quod fusca sim, quia decolorávit me sol: fílii matris meæ pugnavérunt contra me.
 
-[Doxology]
-@Tempora/Quad5-5
+[Oratio]
+Deus, in cujus passióne, secúndum Simeónis prophetíam, dulcíssimam ánimam gloriósæ Vírginis et Matris Maríæ dolóris gládius pertransívit: concéde propítius; ut, qui dolóres ejus venerándo recólimus, passiónis tuæ efféctum felícem consequámur:
+$Qui vivis
 
 [Invit]
-Stémus juxta crucem cum María Matre Jesu, * Cujus ánimam dolóris gládius pertransívit.
+Stemus juxta crucem cum María Matre Jesu, * Cujus ánimam dolóris gládius pertransívit.
 
 [Hymnus Matutinum]
 v. O quot undis lacrimárum,
@@ -103,16 +107,21 @@ Amen.
 Multiplicáti sunt * qui tríbulant me, multi insúrgunt advérsum me.;;3
 Paravérunt sagíttas suas * in pháretra, ut sagíttent in obscúro rectos corde.;;10
 Defécit in dolóre * vita mea, et anni mei in gemítibus.;;30
-V. Regína Mártyrum, ora pro nobis.
-R. Quæ juxta crucem Jesu constitísti.
 Factum est cor meum * tamquam cera liquéscens in médio ventris mei.;;21
 Deus, vitam meam * annuntiávi tibi: posuísti lácrimas meas in conspéctu tuo.;;55
 Fuérunt mihi * lácrimæ meæ panes die ac nocte.;;41
-V. Fascículus myrrhæ diléctus meus mihi.
-R. Inter úbera mea commorábitur.
 Intendérunt arcum * rem amáram, ut sagíttent in occúltis immaculátum.;;63
 Ánima mea * turbáta est valde: sed tu, Dómine, úsquequo?;;6
 Deus adjútor * in tribulatiónibus quæ invenérunt nos nimis.;;45
+
+[Nocturn 1 Versum]
+@:Versum 1
+
+[Nocturn 2 Versum]
+V. Fascículus myrrhæ diléctus meus mihi.
+R. Inter úbera mea commorábitur.
+
+[Nocturn 3 Versum]
 V. Per te salútem hauriámus, Virgo María.
 R. Ex vulnéribus Christi.
 
@@ -186,7 +195,7 @@ R. Suo compléxu Mater excépit.
 [Lectio7]
 Léctio sancti Evangélii secúndum Joánnem
 !Joannes 19:25-27
-In illo témpore: Stábant juxta crucem Jesu Mater ejus, et soror Matris ejus María Cléophæ, et María Magdaléne. Et réliqua.
+In illo témpore: Stabant juxta crucem Jesu Mater ejus, et soror Matris ejus María Cléophæ, et María Magdaléne. Et réliqua.
 _
 Homilía sancti Ambrósii Epíscopi
 !De Instit. Virg. cap. 7
@@ -200,7 +209,7 @@ R. Dum Joseph síndone Fílium tuum invólvit, et pósuit eum in monuménto?
 
 [Lectio8]
 !Epist. 25 ad Ecclesiam Vercellensem, prope finem
-María Mater Dómini ante crucem Fílii stábat. Nullus me hoc dócuit, nisi sanctus Joánnes Evangelísta. Mundum álii concússum in passióne Dómini conscripsérunt, cælum ténebris obdúctum, refugísse solem, in paradísum latrónem, sed post piam confessiónem, recéptum. Joánnes dócuit, quod álii non docuérunt, quemádmodum in cruce pósitus Matrem appelláverit. Pluris putátur quod victor suppliciórum pietátis offícia Matri exhibébat, quam quod regnum cæléste donábat. Nam si religiósum est quod latróni donátur vénia, multo uberióris pietátis est quod a Fílio Mater tanto afféctu honorátur.
+María Mater Dómini ante crucem Fílii stabat. Nullus me hoc dócuit, nisi sanctus Joánnes Evangelísta. Mundum álii concússum in passióne Dómini conscripsérunt, cælum ténebris obdúctum, refugísse solem, in paradísum latrónem, sed post piam confessiónem, recéptum. Joánnes dócuit, quod álii non docuérunt, quemádmodum in cruce pósitus Matrem appelláverit. Pluris putátur quod victor suppliciórum pietátis offícia Matri exhibébat, quam quod regnum cæléste donábat. Nam si religiósum est quod latróni donátur vénia, multo uberióris pietátis est quod a Fílio Mater tanto afféctu honorátur.
 
 [Responsory8]
 R. In toto corde tuo gémitus Matris tuæ ne obliviscáris, 
@@ -213,6 +222,10 @@ R. Ut perficiátur propitiátio et benedíctio.
 [Lectio9]
 Ecce, inquit, fílius tuus: ecce mater tua. Testabátur de cruce Christus, et inter matrem atque discípulum dividébat pietátis offícia. Condébat Dóminus non solum públicum, sed étiam domésticum testaméntum: et hoc ejus testaméntum signábat Joánnes, dignus tanto testatóre testis. Bonum testaméntum, non pecúniæ, sed vitæ ætérnæ; quod non atraménto scriptum est, sed Spíritu Dei vivi, qui ait: Lingua mea cálamus scribæ velóciter scribéntis.
 &teDeum
+
+[Versum 0]
+V. Defécit in dolóre vita mea.
+R. Et anni mei in gemítibus.
 
 [Ant Laudes]
 @:Ant Vespera:s/;;.*//g
@@ -247,25 +260,22 @@ R. Fac nos gaudére in regno cælórum.
 [Ant 2]
 Veníte, * ascendámus ad montem Dómini, et vidéte, si est dolor, sicut dolor meus.
 
-[Oratio]
-Deus, in cujus passióne, secúndum Simeónis prophetíam, dulcíssimam ánimam gloriósæ Vírginis et Matris Maríæ dolóris gládius pertransívit: concéde propítius; ut, qui dolóres ejus venerándo recólimus, passiónis tuæ efféctum felícem consequámur:
-$Qui vivis
-
-[Versum Prima]
-@Tempora/Quad5-5
-
 [Lectio Prima]
 !Lam. 2:18
 v. Deduc quasi torréntem lácrimas per diem et noctem; non des réquiem tibi, neque táceat pupílla óculi tui.
 
-[Responsory Tertia]
+[Versum Prima]
+@Tempora/Quad5-5
+
+[Responsory Breve Tertia]
 R.br. O vos omnes, * Qui transítis per viam.
 R. O vos omnes, * Qui transítis per viam.
 V. Atténdite et vidéte, si est dolor, sicut dolor meus.
 R. Qui transítis per viam.
 &Gloria
 R. O vos omnes, * Qui transítis per viam.
-_
+
+[Versum Tertia]
 V. Defecérunt præ lácrimis óculi mei.
 R. Conturbáta sunt ómnia víscera mea.
 
@@ -274,29 +284,30 @@ R. Conturbáta sunt ómnia víscera mea.
 v. Plorans plorávit in nocte, et lácrimæ ejus in maxíllis ejus: non est qui consolétur eam ex ómnibus caris ejus.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br. Defecérunt * Præ lácrimis óculi mei.
 R. Defecérunt * Præ lácrimis óculi mei.
 V. Conturbáta sunt ómnia víscera mea.
 R. Præ lácrimis óculi mei.
 &Gloria
 R. Defecérunt * Præ lácrimis óculi mei.
-_
-V. Fascículus myrrhæ diléctus meus mihi.
-R. Inter úbera mea commorábitur.
+
+[Versum Sexta]
+@:Nocturn 2 Versum
 
 [Capitulum Nona]
 @:Lectio Prima
 $Deo gratias
 
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. Fascículus myrrhæ * Diléctus meus mihi.
 R. Fascículus myrrhæ * Diléctus meus mihi.
 V. Inter úbera mea commorábitur.
 R. Diléctus meus mihi.
 &Gloria
 R. Fascículus myrrhæ * Diléctus meus mihi.
-_
+
+[Versum Nona]
 V. Anima mea liquefácta est.
 R. Ut diléctus locútus est.
 

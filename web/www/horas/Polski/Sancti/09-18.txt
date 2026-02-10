@@ -1,9 +1,5 @@
-[Rank]
-Św. Józefa z Kupertynu, Wyznawcy;;Duplex;;3;;vide C5
-
-[Rule]
-vide C5;
-9 lectiones
+[Officium]
+Św. Józefa z Kupertynu, Wyznawcy
 
 [Ant 1]
 Umarły jestem * i życie moje ukryte jest z Chrystusem w Bogu.

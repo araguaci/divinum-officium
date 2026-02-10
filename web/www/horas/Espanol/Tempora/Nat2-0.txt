@@ -1,3 +1,6 @@
+[Officium]
+Sanctissimi Nominis Jesu
+
 [Ant Vespera]
 El que invoque * el nombre del Señor se salvará.
 Su nombre * es sagrado y temible. El temor del Señor es el principio de la sabiduría.
@@ -77,18 +80,20 @@ Amén.
 ¡Oh Señor, nuestro dueño, * cuán admirable es tu nombre en toda la tierra!;;8
 Al pronunciar el nombre de Jesús * dóblese toda rodilla, en los cielos, en la tierra y en los infiernos.;;18
 Confesad * al Señor, e invocad su nombre; acordaos que su nombre es excelso.;;23
-V. Por tu nombre, Señor, perdonarás mi pecado.
-R. Puesto que es muy grave.	
 Ellos recordarán, * Señor, tu nombre por todas las generaciones.;;44
 Glorificad * conmigo al Señor; ensalcemos su nombre todos juntos.;;45
 Todas las naciones * que has creado vendrán, se prosternarán ante ti, Señor, y glorificarán tu nombre.;;86
-V. Líbranos, Señor, por el honor de tu nombre. 
-R. Y por amor a tu nombre perdona nuestros pecados.
 Cantad al Señor, * y bendecid su nombre; anunciad de día en día su salvación.;;95
 Como tu nombre * oh Dios, así tu alabanza resuena hasta el fin del mundo; tu diestra está llena de justicia.;;96
 Cantad a Dios, * entonad un himno a su nombre; allanad el camino a quien sube hacia Occidente: el Señor es su nombre.;;97
-V. Tributad al Señor gloria y honor. 
-R. Tributad al Señor la gloria debida a su nombre.
+
+[Nocturn 1 Versum]
+V. Por tu nombre, Señor, perdonarás mi pecado.
+R. Puesto que es muy grave.	
+
+[Nocturn 2 Versum]
+V. Líbranos, Señor, por el honor de tu nombre. 
+R. Y por amor a tu nombre perdona nuestros pecados.
 
 [Lectio1]
 De los Hechos de los Apóstoles
@@ -134,7 +139,7 @@ R. Y en el tiempo de la tribulación perdonarás los pecados.
 9 Ya que somos hoy interrogados sobre la curación de este inválido, por quién haya sido curado, 
 10 sea manifiesto a todos vosotros y a todo el pueblo de Israel que en nombre de Jesucristo Nazareno, a quien vosotros habéis crucificado, a quien Dios resucitó de entre los muertos, por El, éste se halla sano ante vosotros. 
 11 El es la piedra rechazada por vosotros los constructores, que ha venido a ser piedra angular. 
-12 En ningún otro hay salud, pues ningún otro nombre nos ha sido dado bajo el cielo, entre los hombres, por el cual podamos ser salvos. 
+12 En ningún otro hay salud, pues ningún otro nombre nos ha sido dado bajo el cielo, entre los hombres, por el cual podamos ser salvos.
 
 [Responsory3]
 R. Alabaré constantemente tu nombre, 
@@ -147,7 +152,7 @@ R. Y lo ensalzaré con mi confesión.
 [Lectio4]
 Sermón de San Bernardo, Abad.
 !Sermón 15 sobre el Cantar, cerca del medio.
-No en vano el Espíritu Santo compara el nombre del Esposo al óleo, cuando así enseña a la esposa que llame al Esposo: Óleo derramado es tu nombre. Pues el óleo ilumina, esfuerza y unge. Mantiene el fuego, alimenta la carne y suaviza el dolor. Es luz, manjar, medicina. Todo esto se realiza en el nombre del Esposo. Ilumina predicado, alimenta meditado, invocado alivia y unge. Si no, consideremos esto por partes. ¿De dónde piensas que en todo el orbe se propagó tan grande y tan rápida la luz de la fe, sino a causa de la predicación del nombre de Jesús? ¿No fuimos llamados por Dios a su admirable luz por la luz de este nombre, con la cual esclarecidos y viendo la luz con esta luz, diga con verdad Pablo: Fuisteis alguna vez tinieblas, mas ahora sois luz en el Señor? 
+No en vano el Espíritu Santo compara el nombre del Esposo al óleo, cuando así enseña a la esposa que llame al Esposo: Óleo derramado es tu nombre. Pues el óleo ilumina, esfuerza y unge. Mantiene el fuego, alimenta la carne y suaviza el dolor. Es luz, manjar, medicina. Todo esto se realiza en el nombre del Esposo. Ilumina predicado, alimenta meditado, invocado alivia y unge. Si no, consideremos esto por partes. ¿De dónde piensas que en todo el orbe se propagó tan grande y tan rápida la luz de la fe, sino a causa de la predicación del nombre de Jesús? ¿No fuimos llamados por Dios a su admirable luz por la luz de este nombre, con la cual esclarecidos y viendo la luz con esta luz, diga con verdad Pablo: Fuisteis alguna vez tinieblas, mas ahora sois luz en el Señor?
 
 [Responsory4]
 R. Esperen en ti los que han conocido tu nombre: 
@@ -245,10 +250,6 @@ honor y gloria a tu Nombre
 demos por dichosos siglos.
 Amén.
 
-[Versum 2]
-V. Nuestro auxilio es el nombre del Señor.
-R. Que hizo el cielo y la tierra.
-
 [Ant 2]
 Se entregó * para librar a su pueblo y adquirir para sí un nombre eterno. Aleluya.  
 
@@ -256,50 +257,46 @@ Se entregó * para librar a su pueblo y adquirir para sí un nombre eterno. Alel
 !Col 3:17
 v. Todo lo que de palabra o de obra realicéis sea todo en nombre de Jesús, ofreciendo la acción de gracias a Dios Padre por medio de Él.
 
-[Responsory Tertia]
+[Responsory Breve Tertia]
 R.br. Bendito sea el nombre del Señor * Aleluya, aleluya. 
 R. Bendito sea el nombre del Señor * Aleluya, aleluya. 
 V. Ahora y por todos los siglos. 
 R. Aleluya, aleluya. 
 &Gloria
-R. Bendito sea el nombre del Señor * Aleluya, aleluya. 
-_
-V. Aclamad la gloria y el poder del Señor. Aleluya.
-R. Aclamad la gloria del nombre del Señor. Aleluya.
+R. Bendito sea el nombre del Señor * Aleluya, aleluya.
+
+[Versum Tertia]
+V. Tributad al Señor gloria y honor. Aleluya.
+R. Tributad al Señor la gloria debida a su nombre. Aleluya.
 
 [Capitulum Sexta]
 !Flp 2:10-11
 v.Al nombre de Jesús toda rodilla se doble en el cielo, en la tierra, en el abismo, y toda la lengua proclame: «Jesucristo es Señor», para gloria de Dios Padre.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br. Aclamad la gloria y el poder del Señor * Aleluya, aleluya. 
 R. Aclamad la gloria y el poder del Señor * Aleluya, aleluya. 
 V. Aclamad la gloria del nombre del Señor. 
 R. Aleluya, aleluya. 
 &Gloria
 R. Aclamad la gloria y el poder del Señor * Aleluya, aleluya. 
-_
+
+[Versum Sexta]
 V. Proclamad conmigo la grandeza del Señor. Aleluya.
 R. Y ensalcemos juntos su nombre. Aleluya.
 
-[Capitulum Nona]
-@:Lectio Prima
-$Deo gratias
-
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. Proclamad conmigo la grandeza del Señor * Aleluya, aleluya. 
 R. Proclamad conmigo la grandeza del Señor * Aleluya, aleluya. 
 V. Y ensalcemos juntos su nombre. 
 R. Aleluya, aleluya. 
 &Gloria
-R. Proclamad conmigo la grandeza del Señor * Aleluya, aleluya. 
-_
+R. Proclamad conmigo la grandeza del Señor * Aleluya, aleluya.
+
+[Versum Nona]
 V. Nuestro auxilio es el nombre del Señor. Aleluya.
 R. Que hizo el cielo y la tierra. Aleluya.
-
-[Versum 3]
-@:Versum 1
 
 [Ant 3]
 Le pondrás * por nombre Jesús. Salvará a su pueblo de sus pecados. Aleluya.

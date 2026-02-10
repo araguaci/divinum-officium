@@ -1,13 +1,6 @@
 [Rank]
 Nativité du Seigneur;;Duplex I Classis;;6.9
 
-[Rule]
-9 lectiones
-Psalmi Dominica
-Antiphonas Horas
-Doxology=Nat
-Special Evangelii Benedictio
-
 [Ant Vespera]
 Le Roi pacifique * a été glorifié, lui dont toute la terre désire la face.;;109
 Il a été glorifié, * le Roi pacifique au-dessus de tous les rois du monde entier.;;110
@@ -60,7 +53,7 @@ Ainsi soit-il.
 [HymnusM Vespera]
 @:Hymnus Vespera
 
-[Versum 1]
+[Versum 1_]
 V. Demain l’iniquité de la terre sera effacée.
 R. Et il régnera sur nous, le Sauveur du monde.
 
@@ -84,16 +77,23 @@ Le Christ nous est né, * Venez, adorons-le.
 Le Seigneur m’a dit : * Vous êtes mon Fils, c’est moi qui aujourd’hui vous ai engendré.;;2
 Comme un époux * qui sort de son lit nuptial, ainsi vient le Seigneur.;;18
 Répandue * sur vos lèvres, est la grâce ; c’est pourquoi le Seigneur vous a béni pour l’éternité.;;44
-V. Le Seigneur vient comme un époux.
-R. Qui sort de son lit nuptial.
 Nous avons reçu, * ô Dieu, votre miséricorde, au milieu de votre temple.;;47
 Il s’élèvera * dans les jours du Seigneur, une abondance de paix, et il dominera.;;71
 La vérité est sortie de la terre, * et la justice a regardé du haut du Ciel.;;84
-V. Vous êtes plus brillant de beauté que les enfants des hommes.
-R. La grâce est répandue sur vos lèvres.
 Lui-même m’invoquera, * alléluia ! C’est vous qui êtes mon Père, alléluia.;;88
+(sed rubrica 1960 aut rubrica 1962) Lui-même m’invoquera, * alléluia ! C’est vous qui êtes mon Père, alléluia.;;88(2-37)
 Que les Cieux se livrent à la joie, * que la terre exulte devant la face du Seigneur, parce qu’il vient.;;95
 Le Seigneur a fait connaître, * alléluia ! Son salut, alléluia.;;97
+
+[Nocturn 1 Versum]
+V. Le Seigneur vient comme un époux.
+R. Qui sort de son lit nuptial.
+
+[Nocturn 2 Versum]
+V. Vous êtes plus brillant de beauté que les enfants des hommes.
+R. La grâce est répandue sur vos lèvres.
+
+[Nocturn 3 Versum]
 V. Lui-même m’invoquera, alléluia.
 R. C’est vous êtes mon père, alléluia.
 
@@ -104,7 +104,7 @@ R. C’est vous êtes mon père, alléluia.
 3 Vous avez multiplié le peuple dont Vous n'aviez point augmenté la joie. Ils se réjouiront devant Vous, comme on se réjouit à la moisson, et comme les vainqueurs tressaillent d'allégresse lorsqu'ils ont pillé l'ennemi, et qu'ils partagent le butin.
 4 Car le joug qui pesait sur lui, la verge qui déchirait son dos, et le sceptre de celui qui l'opprimait, Vous les avez brisés, comme à la journée de Madian.
 5 Car toutes les dépouilles remportées avec violence et dans le tumulte, et les vêtements souillés de sang seront mis au feu, et deviendront la pâture de la flamme.
-6 Car un petit enfant nous est né, et un fils nous a été donné ; Il portera sur Son épaule la marque de Sa principauté; et Il sera appelé Admirable, Conseiller, Dieu, Fort, Père du siècle futur, Prince de la paix.
+6 Car un petit enfant nous est né, et un fils nous a été donné ; Il portera sur Son épaule la marque de Sa principauté ; et Il sera appelé Admirable, Conseiller, Dieu, Fort, Père du siècle futur, Prince de la paix.
 
 [Responsory1]
 R. Aujourd’hui le Roi des cieux a daigné naître pour nous d’une Vierge, afin de rappeler au royaume céleste, l’homme qui en était déchu.
@@ -179,13 +179,6 @@ R. Car vous avez renfermé dans votre sein, Celui que les cieux ne peuvent conte
 &Gloria
 R. Car vous avez renfermé dans votre sein, Celui que les cieux ne peuvent contenir.
 
-[Benedictio3]
-Que le Seigneur miséricordieux et tout-puissant nous délivre des liens de nos péchés. Ainsi soit-il.
-Seigneur, veuillez me bénir.
-Que la lecture du saint Évangile nous soit salut et protection. Ainsi soit-il.
-Que par les paroles évangéliques soient effacés nos péchés Ainsi soit-il.
-Que le Christ, Fils de Dieu, nous enseigne les paroles du saint Évangile. Ainsi soit-il.
-
 [Lectio7]
 Lecture du saint Évangile selon saint Luc.
 !Luc 2:1-14
@@ -228,7 +221,7 @@ Homélie de saint Augustin, Évêque.
 Afin que vous n’ayez pas du Verbe une idée basse, comme s’il s’agissait de paroles humaines, écoutez ce qu’il faut en penser : « Le Verbe était Dieu. » Vienne donc je ne sais quel infidèle Arien nous dire : « Le Verbe de Dieu a été fait. » Comment se peut-il que le Verbe de Dieu ait été fait, puisque Dieu a, par le Verbe, fait toutes choses ? Si le Verbe de Dieu, lui aussi, a été fait, par quel autre verbe a-t-il été fait ? Peut-être direz-vous qu’il a été fait par un verbe du Verbe : mais je réponds, moi, que le Verbe est l’unique Fils de Dieu. Si vous n’admettez point un verbe du Verbe, accordez donc qu’il n’a point été fait, celui par qui tout a été fait. Car il n’a pu se faire lui-même, celui par qui tout a été fait. Croyez-en donc l’Évangéliste.
 &teDeum
 
-[Ant Laudes]
+[Ant Laudes_]
 Qui avez-vous vu, * bergers ? Dites-le-nous, apprenez-nous quel est celui qui a apparu sur la terre ? Nous avons vu un nouveau-né, et les chœurs des Anges qui louaient le Seigneur, alléluia, alléluia.
 Une jeune mère a enfanté * le Roi, dont le nom est éternel ; elle unit les joies de la mère à l’honneur de la virginité ; avant elle on n’a point vu ce prodige, on ne le verra pas après elle, alléluia.
 L’Ange dit aux bergers : * Je vous annonce une grande joie ; car il vous est né aujourd’hui le Sauveur du monde, alléluia.
@@ -289,49 +282,55 @@ R. Son salut, alléluia.
 [Ant 2]
 Gloire à Dieu au plus haut des cieux, * et paix sur la terre aux hommes de bonne volonté, alléluia, alléluia.
 
+[Octava 2]
+!Commémoraison de l'octave de la Nativité
+Ant. Gloire à Dieu au plus haut des cieux, * et paix sur la terre aux hommes de bonne volonté, alléluia, alléluia.
+_
+V. Le Seigneur à fait connaître, alléluia.
+R. Son salut, alléluia.
+_
+$Oremus
+v. Nous vous en prions, Dieu tout puissant, que votre Fils éternel, par sa nouvelle naissance en notre chair, vienne nous délivrer de l’ancien esclavage qui nous maintient sous le joug du péché.
+$Per eumdem
+
 [Lectio Prima]
 !Heb 1:11-12
 v. Eux périront (les cieux et la terre), mais vous, vous resterez ; tous vieilliront comme un vêtement, et comme un manteau vous les changerez et ils seront changés, mais vous, vous êtes toujours le même, et vos années ne finiront pas.
 
-[Responsory Tertia]
+[Responsory Breve Tertia]
 R.br. Le Verbe s’est fait chair, * Alléluia, alléluia.
 R. Le Verbe s’est fait chair, * Alléluia, alléluia.
 V. Et il a habité parmi nous.
 R. Alléluia, alléluia.
 &Gloria
 R. Le Verbe s’est fait chair, * Alléluia, alléluia.
-_
-V. Lui-même m’invoquera, alléluia.
-R. Vous êtes mon Père, alléluia.
 
 [Capitulum Sexta]
 !Heb 1:10
 v. Et il lui est encore dit : C’est vous, Seigneur, qui au commencement avez établi la terre, et les cieux sont l’œuvre de vos mains.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br. Le Seigneur a fait connaître. * Alléluia, alléluia.
 R. Le Seigneur a fait connaître. * Alléluia, alléluia.
 V. Son salut.
 R. Alléluia, alléluia.
 &Gloria
 R. Le Seigneur a fait connaître. * Alléluia, alléluia.
-_
+
+[Versum Sexta]
 V. Ils ont vu, tous les confins de la terre, alléluia.
 R. Le salut de notre Dieu, alléluia.
 
-[Capitulum Nona]
-@:Lectio Prima
-$Deo gratias
-
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. Ils ont vu, tous les confins de la terre. * Alléluia, alléluia.
 R. Ils ont vu, tous les confins de la terre. * Alléluia, alléluia.
 V. Le salut de notre Dieu.
 R. Alléluia, alléluia.
 &Gloria
 R. Ils ont vu, tous les confins de la terre. * Alléluia, alléluia.
-_
+
+[Versum Nona]
 V. Le Verbe s’est fait chair, alléluia.
 R. Et il a habité parmi nous, alléluia.
 
@@ -342,26 +341,12 @@ Il s’est élevé * dans les ténèbres une lumière pour les hommes droits : l
 Dans le Seigneur * est la miséricorde, et en lui une abondante rédemption.;;129
 Je mettrai * un fils du fruit de tes entrailles sur ton trône.;;131
 
-[Versum 3]
-@:Versum 2
-
 [Ant 3]
 Aujourd’hui * est né le Christ, aujourd’hui le Sauveur est apparu ; aujourd’hui sur la terre chantent les Anges, se réjouissent les Archanges ; aujourd’hui les justes dans les transports de leur joie, répètent : Gloire à Dieu au plus haut des cieux, alléluia.
 
 [Octava 3]
 !Commémoraison de l'octave de la Nativité
 Ant. Aujourd’hui * est né le Christ, aujourd’hui le Sauveur est apparu ; aujourd’hui sur la terre chantent les Anges, se réjouissent les Archanges ; aujourd’hui les justes dans les transports de leur joie, répètent : Gloire à Dieu au plus haut des cieux, alléluia.
-_
-V. Le Seigneur à fait connaître, alléluia.
-R. Son salut, alléluia.
-_
-$Oremus
-v. Nous vous en prions, Dieu tout puissant, que votre Fils éternel, par sa nouvelle naissance en notre chair, vienne nous délivrer de l’ancien esclavage qui nous maintient sous le joug du péché.
-$Per eumdem
-
-[Octava 2]
-!Commémoraison de l'octave de la Nativité
-Ant. Gloire à Dieu au plus haut des cieux, * et paix sur la terre aux hommes de bonne volonté, alléluia, alléluia.
 _
 V. Le Seigneur à fait connaître, alléluia.
 R. Son salut, alléluia.

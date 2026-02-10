@@ -8,7 +8,7 @@ BEGIN {
   require Exporter;
   our $VERSION = 1.00;
   our @ISA = qw(Exporter);
-  our @EXPORT_OK = qw(prayer translate load_languages_data
+  our @EXPORT_OK = qw(prayer rubric prex translate load_languages_data
     omit_regexp suppress_alleluia process_inline_alleluias
     alleluia_ant ensure_single_alleluia ensure_double_alleluia);
 }
@@ -17,8 +17,11 @@ BEGIN {
 #
 my %_translate;
 my %_prayers;
+my %_preces;
+my %_rubrics;
 my $alleluia_regexp;
 my $omit_regexp;
+my $fb_lang;
 
 ## private functions
 
@@ -31,21 +34,38 @@ sub alleluia {
 
 ## public functions
 #
-#*** suppress_alleluia($text_ref)
+#*** suppress_alleluia($text_ref, $gabc)
 # Removes all alleluia
 sub suppress_alleluia {
-  my $text_ref = shift;
+  my ($text_ref, $gabcf) = @_;
 
-  $$text_ref =~ s/[,.]?\s*$alleluia_regexp//ig;
+  if ($gabcf) {
+
+    # Suppress alleluja for GABC and ensure single full stop at end of chant.
+    $$text_ref =~ s/(.*)(?:\(.*?\)\s*)+\(?al\(.*\)le\(.*\)l[uú]\(.*\)\{?[ij]a\}?[\.\,]*\((.*?)\)\)?/$1.($2)/ig;
+    $$text_ref =~ s/[.,]{2,}\(/.(/;
+  } else {
+    $$text_ref =~ s/[,.]?\s*$alleluia_regexp//ig;
+  }
 }
 
 #*** process_inline_alleluia($text_ref, $paschalf)
 # unbrackets bracketed alleluias when $paschalf is true
 # removes bracketed alleluias otherwise
 sub process_inline_alleluias {
-  my ($text_ref, $paschalf) = @_;
+  my ($text_ref, $lang, $paschalf) = @_;
 
-  if ($paschalf) {
+  if ($lang =~ /gabc/i) {
+    if ($paschalf) {
+
+      # GABC: For Monastic, in Paschaltide, if the pattern is † … (::) ^_T. P._^ † … (::), remove text between daggers
+      $$text_ref =~ s/†.*?\s?(\<i\>|\_|\^|\|)+T\.\s?P\.(\<\/i\>|\_|\^|\|)+(\s*†)?/ /img;
+    } else {
+
+      # GABC: Outside Paschaltide, remove † and remove text after ^_T. P._^
+      $$text_ref =~ s/(?:†(.*?))?\s*(\<i\>|\_|\^|\|)+T\.\s?P\.(\<\/i\>|\_|\^|\|)+.*?\(\:\:\)/$1/img;
+    }
+  } elsif ($paschalf) {
     $$text_ref =~ s/\(($alleluia_regexp.*?)\)/ $1 /isg;
   } else {
     $$text_ref =~ s/\($alleluia_regexp.*?\)//isg;
@@ -58,8 +78,21 @@ sub process_inline_alleluias {
 sub ensure_single_alleluia {
   my ($text_ref, $lang) = @_;
 
-  # Add a single 'alleluia', unless it's already there.
-  $$text_ref =~ s/\p{P}?\s*$/ ", " . lc(alleluia($lang)) . '.'/e unless $$text_ref =~ /$alleluia_regexp\p{P}?\)?\s*$/;
+  if ($lang =~ /gabc/i) {
+
+    # GABC: Functionality is limited to Versus in Tonus cum neuma, unless alleluja is already there.
+    return
+      unless $$text_ref =~ /\.\(g\_\'\/hv?GF\'?E\!?fgf\.\)\s*\(\:\:\)/
+      && $$text_ref !~ /(?:(?:al|le|l[úu])\(.*?\)){3}\{?[ij]a\}?\.\(g\_\'\/hv?GF\'?E\!?fgf\.\)\s*\(\:\:\)/i;
+
+    # For Tonus Versus cum Neuma, move finalis to the end of allelúja.
+    $$text_ref =~ s/(\.\(g\_\'\/hv?GF\'?E\!?fgf\.\)\s*\(\:\:\))/\,(h\_\') (\,) al(h)le(h)lú(h)ja$1/;
+  } else {
+
+    # Add a single 'alleluia', unless it's already there.
+    $$text_ref =~ s/\p{P}?\s*$/ ", " . lc(alleluia($lang)) . '.'/e
+      unless $$text_ref =~ /$alleluia_regexp\p{P}?\)?\s*$/ || !$$text_ref;
+  }
 }
 
 #*** ensure_double_alleluia($text, $lang)
@@ -69,6 +102,9 @@ sub ensure_single_alleluia {
 # the Paschal form.
 sub ensure_double_alleluia {
   my ($text_ref, $lang) = @_;
+
+  # GABC: Functionality deactivated; Tonus paschalis to be input in database
+  if ($lang =~ /gabc/i) { return; }
 
   my $alleluia = prayer('Alleluia Duplex', $lang);
   $alleluia =~ s/\s+$//;
@@ -85,6 +121,7 @@ sub ensure_double_alleluia {
 # 'Alleluja * alleluja, alleluja.'
 sub alleluia_ant {
   my ($lang) = @_;
+  if ($lang =~ /gabc/i) { return prayer('Alleluia Ant', $lang); }    # TODO: check if obsolete
   my $u = alleluia($lang);
   my $l = lc $u;
 
@@ -107,7 +144,7 @@ sub translate {
   return $prefix . ($_translate{Latin}{$name} =~ s/\s*$//r || $name) if $lang =~ /Latin/;
 
   my $output =
-    $prefix . ($_translate{$lang}{$name} || $_translate{English}{$name} || $_translate{Latin}{$name} || $name);
+    $prefix . ($_translate{$lang}{$name} || $_translate{$main::langfb}{$name} || $_translate{Latin}{$name} || $name);
   $output =~ s/\s*$//r;
 }
 
@@ -118,23 +155,66 @@ sub prayer {
   my $lang = shift;
   my $version = $main::version;
 
+  my $prayer =
        $_prayers{"$lang$version"}{$name}
-    || $_prayers{"English$version"}{$name}
+    || $_prayers{"$fb_lang$version"}{$name}
     || $_prayers{"Latin$version"}{$name}
+    || $name;
+
+  if ($version =~ /cist/i && $name !~ /Pater Ave|Incipit|clara|bene.*Final/i) {
+    $prayer =~ s/\++ //g;
+  }
+  return $prayer;
+}
+
+#*** rubric($name)
+# return the prayer
+sub rubric {
+  my $name = shift;
+  my $lang = shift;
+  my $version = $main::version;
+
+       $_rubrics{"$lang$version"}{$name}
+    || $_rubrics{"$fb_lang$version"}{$name}
+    || $_rubrics{"Latin$version"}{$name}
     || $name;
 }
 
-#*** load_languages_data($lang1, $lang2, $missaf)
+#*** prex($name)
+# return the prayer
+sub prex {
+  my $name = shift;
+  my $lang = shift;
+  my $version = $main::version;
+
+       $_preces{"$lang$version"}{$name}
+    || $_preces{"$fb_lang$version"}{$name}
+    || $_preces{"Latin$version"}{$name}
+    || $name;
+}
+
+#*** load_languages_data($lang1, $lang2, $langfb, $version, $missaf)
 sub load_languages_data {
-  my ($lang1, $lang2, $version, $missaf) = @_;
-  my @langs = qw/Latin English/;
-  push(@langs, $lang1) unless $lang1 =~ /(?:Latin|English)$/;
-  push(@langs, $lang2) unless $lang2 =~ /(?:Latin|English)$/;
-  my $dir = $missaf ? 'Ordo' : 'Psalterium';
+  my ($lang1, $lang2, $langfb, $version, $missaf) = @_;
+
+  my @langs = ('Latin', $lang1, $lang2, $langfb);
+
+  # take unique values from @langs
+  @langs = do {
+    my %seen;
+    grep { !$seen{$_}++ } @langs;
+  };
+
+  # save fallabck lang for local module use
+  $fb_lang = $langfb;
+
+  my $dir = $missaf ? 'Ordo' : 'Psalterium/Common';
 
   foreach my $lang (@langs) {
     $_prayers{"$lang$version"} = main::setupstring($lang, "$dir/Prayers.txt");
-    $_translate{$lang} = main::setupstring($lang, "Psalterium/Translate.txt");
+    $_rubrics{"$lang$version"} = main::setupstring($lang, "Psalterium/Common/Rubricae.txt");
+    $_preces{"$lang$version"} = main::setupstring($lang, "Psalterium/Special/Preces.txt");
+    $_translate{$lang} = main::setupstring($lang, "Psalterium/Common/Translate.txt");
   }
 
   my $alleluias = join('|', map { lc(alleluia($_)) } @langs);

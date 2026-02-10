@@ -1,8 +1,10 @@
-[Rank]
-Sabbato Quattuor Temporum Quadrageismæ;;Feria major;;2.1
+[Officium]
+Sabbato Quattuor Temporum Quadrageismæ
 
-[Rank] (rubrica 196)
-Sabbato Quattuor Temporum Quadragesimæ;;Feria major;;3.9
+[Rank]
+;;Feria major;;2.1
+(sed rubrica 196 aut rubrica 1930)
+;;Feria major;;4.9
 
 [Rule]
 no Gloria
@@ -19,10 +21,6 @@ v. Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem meam, Dó
 Dómine, Deus salútis meæ: in die clamávi, et nocte coram te.
 &Gloria
 v. Intret orátio mea in conspéctu tuo: inclína aurem tuam ad precem meam, Dómine.
-
-[Oratio]
-Pópulum tuum, quǽsumus, Dómine, propítius réspice: atque ab eo flagélla tuæ iracúndiæ cleménter avérte.
-$Per Dominum
 
 [LectioL1]
 Léctio libri Deuteronómii
@@ -85,16 +83,13 @@ Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni, et adjuvándo prosé
 $Per Dominum
 
 [LectioL5]
-Léctio Daniélis Prophétæ
-!Dan 3:47-51
-In diébus illis: Angelus Dómini descéndit cum Azaría et sóciis ejus in fornácem: et excússit flammam ignis de fornáce, et fecit médium fornácis quasi ventum roris flantem. Flamma autem effundebátur super fornácem cúbitis quadragínta novem: et erúpit, et incéndit, quos répperit juxta fornácem de Chaldǽis, minístros regis, qui eam incendébant. Et non tétigit eos omníno ignis, neque contristavit, nec quidquam moléstiæ íntulit. Tunc hi tres quasi ex uno ore laudábant, et glorificábant, et benedicébant Deum in fornáce, dicéntes:
-_
-!Hymnus
-!Dan 3:52-53
-Benedíctus es, Dómine, Deus patrum nostrórum. Et laudábilis et gloriósus in sǽcula. Et benedíctum nomen glóriæ tuæ, quod est sanctum. Et laudábile et gloriósum in sǽcula. Benedíctus es in templo sancto glóriæ tuæ. Et laudábilis et gloriósus in sǽcula. Benedíctus es super thronum sanctum regni tui. Et laudábilis et gloriósus in sǽcula. Benedíctus es super sceptrum divinitátis tuæ. Et laudábilis et gloriósus in sǽcula. Benedíctus es, qui sedes super Chérubim, íntuens abýssos. Et laudábilis et gloriósus in sǽcula. Benedíctus es, qui ámbulas super pennas ventórum et super undas maris. Et laudábilis et gloriósus in sǽcula. Benedícant te omnes Angeli et Sancti tui. Et laudent te et gloríficent in sǽcula. Benedícant te cœli, terra, mare, et ómnia quæ in eis sunt. Et laudent te et gloríficent in sǽcula. Glória Patri, et Fílio, et Spirítui Sancto. Et laudábili et glorióso in sǽcula. Sicut erat in princípio, et nunc, et semper: et in sǽcula sæculórum. Amen. Et laudábili et glorióso in sǽcula. Benedíctus es, Dómine, Deus patrum nostrórum. Et laudábilis et gloriósus in sǽcula.
+@Tempora/093-6
 
 [OratioL5]
-Deus, qui tribus púeris mitigásti flammas ígnium: concéde propítius; ut nos fámulos tuos non exúrat flamma vitiórum.
+@Tempora/093-6
+
+[Oratio]
+Pópulum tuum, quǽsumus, Dómine, propítius réspice: atque ab eo flagélla tuæ iracúndiæ cleménter avérte.
 $Per Dominum
 
 [Lectio]
@@ -108,9 +103,7 @@ Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.
 V. Quóniam confirmáta est super nos misericórdia ejus: et véritas Dómini manet in ætérnum.
 
 [Evangelium]
-Sequéntia ++ sancti Evangélii secúndum Matthǽum
-!Matt 17:1-9
-In illo témpore: Assúmpsit Jesus Petrum, et Jacóbum, et Joánnem fratrem ejus, et duxit illos in montem excélsum seórsum: et transfigurátus est ante eos. Et resplénduit fácies ejus sicut sol: vestiménta autem ejus facta sunt alba sicut nix. Et ecce, apparuérunt illis Móyses et Elías cum eo loquéntes. Respóndens autem Petrus, dixit ad Jesum: Dómine, bonum est nos hic esse: si vis, faciámus hic tria tabernácula, tibi unum, Móysi unum et Elíæ unum. Adhuc eo loquénte, ecce, nubes lúcida obumbrávit eos. Et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte. Et audiéntes discípuli, cecidérunt in fáciem suam, et timuérunt valde. Et accéssit Jesus, et tétigit eos, dixítque eis: Súrgite, et nolíte timére. Levántes autem óculos suos, néminem vidérunt nisi solum Jesum. Et descendéntibus illis de monte, præcépit eis Jesus, dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat.
+@Tempora/Quad2-0:Evangelium
 
 [Offertorium]
 !Ps 87:2-3

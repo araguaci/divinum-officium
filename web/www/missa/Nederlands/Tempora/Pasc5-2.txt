@@ -1,8 +1,5 @@
-[Rank]
-Feria Tertia in Rogationibus;;Feria;;1
-
-[Rank] (rubrica 196)
-Feria Tertia in Rogationibus;;Feria;;1
+[Officium]
+Feria Tertia in Rogationibus
 
 [Rule]
 Oratio Dominica

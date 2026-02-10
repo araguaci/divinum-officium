@@ -1,30 +1,26 @@
-[Rank]
-Wielka Sobota;;Feria privilegiata Duplex I classis;;7
-
-[Rule]
-Psalmi minores Dominica
-Antiphonas horas
-Omit Incipit Invitatorium Hymnus Capitulum Lectio Commemoratio Preces Suffragium Conclusion Martyrologium De Officium Capituli
-Limit Benedictiones, Oratio
-9 lectiones 1960
-Capitulum Versum 2 ad Laudes tantum
-Minores sine Antiphona
-Feria
+[Officium]
+Wielka Sobota
 
 [Ant Matutinum]
 W pokoju * pospołu będę spał i spoczywał.;;4
 Zamieszka * w przybytku twoim, odpocznie na górze twojej świętej.;;14
 Ciało moje * w nadziei odpoczywać będzie.;;15
-V. W pokoju pospołu.
-R. Będę spał i spoczywał.
 Podnieście się * bramy wieczne, a wnijdzie król chwały.;;23
 Wierzę, iż oglądać będę * dobro Pańskie w ziemi żyjących.;;26
 Panie * wywiodłeś z piekła duszę moją.;;29
-V. Ale ty, Panie, zmiłuj się nade mną.
-R. I wzbudź mnie, a oddam im.
 Oto Bóg mnie wspomaga, * a Pan jest obrońcą mej duszy.;;53
 W Salemie * jest miejsce jego, a mieszkanie jego na Sionie.;;75
 Jestem jak * człowiek bez pomocy: jak wolny wśród umarłych.;;87
+
+[Nocturn 1 Versum]
+V. W pokoju pospołu.
+R. Będę spał i spoczywał.
+
+[Nocturn 2 Versum]
+V. Ale ty, Panie, zmiłuj się nade mną.
+R. I wzbudź mnie, a oddam im.
+
+[Nocturn 3 Versum]
 V. W Salemie jest miejsce jego.
 R. A mieszkanie jego na Sionie.
 
@@ -125,7 +121,7 @@ Z Listu św. Pawła Apostoła do Żydów
 11 Ale Chrystus, stawiwszy się Najwyższym kapłanem dóbr przyszłych, przez większy i doskonalszy przybytek, nie ręką uczniony, to jest, nie tego stworzenia,
 12 ani przez krew kozłów albo cielców; ale przez własną krew wszedł raz do świątnicę, nalazłszy wieczne odkupienie. 
 13 Albowiem jeźli krew kozłów i wołów i popiół jałowice pokropiony spługawione poświęca ku oczyszczeniu ciała,
-14 jako daleko więcej krew Chrystusowa, który przez Ducha Świętego samego siebie ofiarował niepokalanym Bogu, oczyści sumienie nasze od martwych uczynków, ku służeniu Bogu żywiącemu? 
+14 jako daleko więcej krew Chrystusowa, który przez Ducha Świętego samego siebie ofiarował niepokalanym Bogu, oczyści sumienie nasze od martwych uczynków, ku służeniu Bogu żywiącemu?
 
 [Responsory7]
 R. Stanęli wespół królowie ziemscy, a książęta zeszli się w gromadę

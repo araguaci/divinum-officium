@@ -1,5 +1,5 @@
-[Rank]
-Dominica V Post Epiphaniam;;Semiduplex;;5
+[Officium]
+V Niedziela po Objawieniu
 
 [Rule]
 Gloria
@@ -56,4 +56,3 @@ Dziwili się wszyscy słowom, które wychodziły z ust Bożych.
 [Postcommunio]
 Prosimy cię wszechmogący Boże, abyśmy osiągnęli zbawienie, którego zadatek otrzymaliśmy w tych tajemnicach.
 $Per Dominum
-

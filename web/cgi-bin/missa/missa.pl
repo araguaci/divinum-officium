@@ -27,6 +27,8 @@ use lib "$Bin/..";
 use DivinumOfficium::Main qw(vernaculars liturgical_color);
 use DivinumOfficium::LanguageTextTools
   qw(prayer translate load_languages_data omit_regexp suppress_alleluia process_inline_alleluias alleluia_ant ensure_single_alleluia ensure_double_alleluia);
+use DivinumOfficium::RunTimeOptions qw(check_version check_language);
+
 $error = '';
 $debug = '';
 
@@ -62,30 +64,35 @@ our $communerule;                            # $commune{Rank}
 our $duplex;                                 #1=simplex-feria, 2=semiduplex-feria privilegiata, 3=duplex
                                              # 4= duplex majus, 5 = duplex II classis 6=duplex I classes 7=above  0=none
 
+binmode(STDOUT, ':encoding(utf-8)');
+
 #*** collect standard items
 #require "$Bin/ordocommon.pl";
-require "$Bin/../horas/do_io.pl";
+require "$Bin/../DivinumOfficium/SetupString.pl";
 require "$Bin/../horas/horascommon.pl";
-require "$Bin/../horas/dialogcommon.pl";
+require "$Bin/../DivinumOfficium/dialogcommon.pl";
 require "$Bin/../horas/webdia.pl";
-require "$Bin/../horas/setup.pl";
+require "$Bin/../DivinumOfficium/setup.pl";
 require "$Bin/ordo.pl";
 require "$Bin/propers.pl";
 
-binmode(STDOUT, ':encoding(utf-8)');
 $q = new CGI;
 
 #get parameters
 getini('missa');    #files, colors
-our ($version, $lang1, $lang2, $column);
+
+our ($version, $lang1, $lang2, $langfb, $column);
 our %translate;     #translation of the skeleton label for 2nd language
 our $testmode;
 our $votive;
-$first = strictparam('first');
+our $first = strictparam('first');
 our $Propers = strictparam('Propers');
 our $command = strictparam('command');
 our $browsertime = strictparam('browsertime');
 our $searchvalue = strictparam('searchvalue');
+our $content = strictparam('content');    # if set output only content wihout html headers menus etc
+our $buildscript = '';                    #build script
+
 if (!$searchvalue) { $searchvalue = '0'; }
 our $missanumber = strictparam('missanumber');
 if (!$missanumber) { $missanumber = 1; }
@@ -104,8 +111,16 @@ set_runtime_options('parameters');    # priest, lang1 ... etc
 
 if ($command eq 'changeparameters') { getsetupvalue($command); }
 
-setcookies('missap', 'parameters');
-setcookies('missag', 'general');
+#print "Content-type: text/html; charset=utf-8\n\n"; <= uncomment for debuggin "Internal Server Errors"
+$version = check_version($version, $missa) || (error("Unknown version: $version") && 'Rubrics 1960 - 1960');
+$lang1 = check_language($lang1) || (error("Unknown language: $lang1") && 'Latin');
+$lang2 = check_language($lang2) || 'English';
+$langfb = check_language($langfb) || 'English';
+
+$content = 0 unless $command =~ /^pray/;
+
+setcookies('missap', 'parameters') unless $content;
+setcookies('missag', 'general') unless $content;
 
 # save parameters
 $setupsave = savesetup(1);
@@ -129,6 +144,7 @@ $title = "Sancta Missa";
 
 #*** print pages (setup, hora=pray, mainpage)
 #generate HTML
+$background = ($whitebground) ? ' class="contrastbg"' : '';
 htmlHead($title, 'startup()');
 
 if ($command =~ /setup(.*)/is) {
@@ -141,12 +157,15 @@ if ($command =~ /setup(.*)/is) {
   $command =~ s/(pray|change|setup)//ig;
   $head = $title;
   headline($head);
-  load_languages_data($lang1, $lang2, $version, $missa);
+  load_languages_data($lang1, $lang2, $langfb, $version, $missa);
 
   #eval($setup{'parameters'});
   $background = ($whitebground) ? ' class="contrastbg"' : '';
   ordo();
-  print << "PrintTag";
+
+  exit if $content;
+
+  print <<"PrintTag";
 <INPUT TYPE=HIDDEN NAME=expandnum VALUE="">
 PrintTag
 } else {    #mainpage
@@ -154,7 +173,7 @@ PrintTag
   $command = "";
   $height = floor($screenheight * 6 / 12);
   headline($title);
-  print << "PrintTag";
+  print <<"PrintTag";
 <P ALIGN=CENTER>
 <TABLE BORDER=0 HEIGHT=$height><TR>
 <TD><IMG SRC="$htmlurl/missa.png" HEIGHT=$height></TD>
@@ -164,15 +183,6 @@ PrintTag
 PrintTag
 }
 
-# translate from new breviary version names
-$version =~ s/Monastic(.*)/Monastic/;
-$version =~ s/ - 196.$//;
-$version =~ s/ -//;
-$version =~ s/1888/1910/;
-$version =~ s/ 1954//;
-$version =~ s/Rubrics 1960 2020 USA/1960 Newcalendar/;
-$version =~ s/Ordo Praedicatorum/Dominican/;
-
 if ($pmode =~ /(main|missa)/i) {
 
   #common widgets for main and hora
@@ -180,7 +190,7 @@ if ($pmode =~ /(main|missa)/i) {
   $csolemn = ($solemn) ? 'CHECKED' : '';
   @chv = splice(@chv, @chv);
   $ctext = ($pmode =~ /(main)/i) ? 'Sancta Missa' : 'Sancta Missa Persoluta';
-  print << "PrintTag";
+  print <<"PrintTag";
 <P ALIGN=CENTER><FONT SIZE=+1><I>
 <LABEL FOR=rubrics>Rubrics : </LABEL><INPUT ID=rubrics TYPE=CHECKBOX NAME='rubrics' $crubrics Value=1  onclick="parchange()">
 &nbsp;&nbsp;&nbsp;
@@ -202,13 +212,14 @@ PrintTag
   my $propname = ($Propers) ? 'Full' : 'Propers';
   print qq(<P ALIGN=CENTER><FONT SIZE=+1>\n<A HREF=# onclick="hset('Propers')">$propname</A>\n</FONT></P>\n);
   print "<P ALIGN=CENTER><FONT SIZE=+1>\n" . bottom_links_menu() . "</FONT>\n</P>\n";
+  if ($building && $buildscript) { print buildscript($buildscript); }
 }
 
 #common end for programs
 if ($error) { print "<P ALIGN=CENTER><FONT COLOR=red>$error</FONT></P>\n"; }
 if ($debug) { print "<P ALIGN=center><FONT COLOR=blue>$debug</FONT></P>\n"; }
 $command =~ s/(pray|setup)//ig;
-print << "PrintTag";
+print <<"PrintTag";
 <INPUT TYPE=HIDDEN NAME=setupm VALUE="$setupsave">
 <INPUT TYPE=HIDDEN NAME=command VALUE="$command">
 <INPUT TYPE=HIDDEN NAME=searchvalue VALUE="0">
@@ -219,6 +230,7 @@ print << "PrintTag";
 <INPUT TYPE=HIDDEN NAME=first VALUE="$first">
 <INPUT TYPE=HIDDEN NAME=Propers VALUE="$Propers">
 <INPUT TYPE=HIDDEN NAME=compare VALUE=0>
+<INPUT TYPE="HIDDEN" NAME="kmonth" VALUE="">
 </FORM>
 </BODY></HTML>
 PrintTag
@@ -227,23 +239,27 @@ PrintTag
 sub headline {
   my $head = shift;
   my $numsel = setmissanumber();
-  $numsel = "<BR><BR>$numsel<BR>" if $numsel;
+  $numsel = "<BR/><BR/>$numsel<BR/>" if $numsel;
   my $headline = html_dayhead(setheadline(), $dayname[2]);
-  print << "PrintTag";
-<P ALIGN=CENTER>$headline</P>
-<P ALIGN=CENTER><FONT COLOR=MAROON SIZE=+1><B><I>$head</I></B>&nbsp;<FONT COLOR=RED SIZE=+1>$version</FONT></FONT></P>
-<P ALIGN=CENTER><A HREF=# onclick="callcompare()">Compare</A>
-&nbsp;&nbsp;&nbsp;<A HREF=# onclick="callofficium();">Divinum Officium</A>
-&nbsp;&nbsp;&nbsp;
-<LABEL FOR=date CLASS=offscreen>Date</LABEL>
-<INPUT ID=date TYPE=TEXT NAME=date VALUE="$date1" SIZE=10>
-<A HREF=# onclick="prevnext(-1)">&darr;</A>
-<INPUT TYPE=submit NAME=SUBMIT VALUE=" " onclick="parchange();">
-<A HREF=# onclick="prevnext(1)">&uarr;</A>
-&nbsp;&nbsp;&nbsp;
-<A HREF=# onclick="callkalendar();">Ordo</A>
-&nbsp;&nbsp;&nbsp;
-<A HREF=# onclick="pset('parameters')">Options</A>
+  print qq(<P ALIGN="CENTER">$headline</P>\n);
+  return if our $content;
+
+  print <<"PrintTag";
+<P ALIGN="CENTER"><FONT COLOR="MAROON" SIZE="+1"><B><I>$head</I></B>&nbsp;<FONT COLOR="RED" SIZE="+1">$version</FONT></FONT></P>
+<P ALIGN="CENTER"><A HREF="#" onclick="callcompare()">Compare</A>
+&ensp;<A HREF="#" onclick="callofficium();">Divinum Officium</A>
+&ensp;
+<LABEL FOR="date" CLASS="offscreen">Date</LABEL>
+<INPUT ID="date" TYPE="TEXT" NAME="date" VALUE="$date1" SIZE="10">
+<A HREF="#" onclick="prevnext(-1)">&darr;</A>
+<INPUT TYPE="submit" NAME="SUBMIT" VALUE=" " onclick="parchange();">
+<A HREF="#" onclick="prevnext(1)">&uarr;</A>
+&ensp;
+<A HREF="#" onclick="callkalendar();">Ordo</A>
+&ensp;
+<A HREF="#" onclick="callkalendar('kalendar');">Kalendarium</A>
+&ensp;
+<A HREF="#" onclick="pset('parameters')">Options</A>
 $numsel
 </P>
 PrintTag
@@ -322,8 +338,11 @@ function parchange() {
 }
 
 //calls kalendar
-function callkalendar() {
+function callkalendar(mode) {
   document.forms[0].action = '../horas/kalendar.pl';
+  if (mode == 'kalendar') {
+    document.forms[0].kmonth.value = 15;
+  }
   document.forms[0].target = "_self"
   document.forms[0].submit();
 }
@@ -410,3 +429,17 @@ sub setmissanumber {
   }
   return $str;
 }
+
+sub buildscript {
+  local ($_) = @_;
+  s/[\n]+/<br\/>/g;
+  s/\_//g;
+  s/\,\,\,/\&ensp\;/g;
+  return <<"PrintTag";
+<TABLE $background BORDER="3" ALIGN="CENTER" WIDTH="60%" CELLPADDING="8"><TR><TD>
+$_
+</TD></TR><TABLE><br/>
+PrintTag
+}
+
+1;

@@ -13,8 +13,7 @@ BEGIN {
   require Exporter;
   our $VERSION = 1.00;
   our @ISA = qw(Exporter);
-  our @EXPORT_OK = qw(get_kalendar get_transfer get_stransfer get_tempora transfered
-    check_coronatio dirge hymnmerge hymnshift);
+  our @EXPORT_OK = qw(get_from_directorium transfered check_coronatio dirge hymnmerge hymnshift);
 }
 
 ### private vars
@@ -31,11 +30,12 @@ sub load_data_data {
   shift @lines;
 
   foreach (@lines) {
-    my ($ver, $kal, $tra, $str, $base) = split(/,/);
+    my ($ver, $kal, $tra, $str, $base, $tbase) = split(/,/);
     $_data{$ver}{kalendar} = $kal;
     $_data{$ver}{transfer} = $tra;
     $_data{$ver}{stransfer} = $str;
     $_data{$ver}{base} = $base;
+    $_data{$ver}{tbase} = $tbase;
   }
   $_dCACHE{loaded} = 1;
 }
@@ -86,7 +86,7 @@ sub load_tempora {
   my ($version) = @_;
   die "Can't load tempora for empty version" unless $version;
   die "Can't load tempora for unknown version $version" unless defined $_data{$version};
-  my $cache_key = "Tempora:$version";
+  my $cache_key = "tempora:$version";
 
   $_dCACHE{$cache_key} = {};
 
@@ -96,17 +96,15 @@ sub load_tempora {
   }
 }
 
-#*** load_transfer($year, $version, $stransferf)
+#*** load_transfer($version, $year, $stransferf)
 # load transfer table based on easterday
 sub load_transfer {
-  my $year = shift;
   my $version = shift;
+  my $year = shift;
   die "Can't load transfer for empty version" unless $version;
   die "Can't load transfer for unknown version $version" unless defined $_data{$version};
-  my $stransferf = shift;
-  my $type = 'Transfer';
-  $type = 'Stransfer' if $stransferf;
-  my $cache_key = "$type:$version:$year";
+  my $type = shift || 'Transfer';
+  my $cache_key = lcfirst "$type:$version:$year";
 
   unless (is_cached($cache_key)) {
 
@@ -133,7 +131,7 @@ sub load_transfer {
     foreach (@lines) {
       my ($line, $ver) = split(/\s*;;\s*/);
 
-      if (!$ver || ($ver =~ $_data{$version}{transfer})) {
+      if (!$ver || ($ver =~ $_data{$version}{lc($type)})) {
         push(@transfer, split(/=/, $line, 2));
       }
     }
@@ -145,69 +143,32 @@ sub load_transfer {
   %{$_dCACHE{$cache_key}};
 }
 
+#*** load_stransfer($version, $year)
+# load scriptura transfer
+sub load_stransfer {
+  my ($version, $year) = @_;
+  load_transfer($version, $year, 'Stransfer');
+}
+
 ### public functions
 
-### get_kalendar($version, $day)
-### get filename for sancti day
-sub get_kalendar {
-  my ($version, $day) = @_;
-  my $cache_key = "kalendar:$version";
+### get_from_directorium($subject, $version, $key, $year)
+# returns value for $key (ev $year) in specified $version of
+# 'kalendar|tempora|transfer|stransfer' from files located in
+# Tabulae subdirectories
+sub get_from_directorium {
+  my ($subject, $version, $key, $year) = @_;
+  my $cache_key = "$subject:$version";
+  $cache_key .= ":$year" if $year;
+  my $base = $subject eq 'kalendar' ? 'base' : 'tbase';
 
-  load_kalendar($version) unless is_cached $cache_key;
+  no strict;
 
-  my $rv = $_dCACHE{$cache_key}{$day};
-  return $rv if $rv;
-  my $ver = $_data{$version}{base};
-  return '' unless $ver;
-  return get_kalendar($ver, $day);
-}
+  &{"load_$subject"}($version, $year) unless is_cached $cache_key;
 
-#*** get_transfer($year, $version, $key)
-# get transfer table value for key
-sub get_transfer {
-  my ($year, $version, $key) = @_;
-
-  my $cache_key = "Transfer:$version:$year";
-
-  load_transfer($year, $version) unless is_cached $cache_key;
-
-  my $rv = $_dCACHE{$cache_key}{$key};
-  return $rv if $rv;
-  my $ver = $_data{$version}{base};
-  return '' unless $ver;
-  return get_transfer($year, $ver, $key);
-}
-
-#*** get_stransfer($year, $version, $key)
-# get stransfer table value for key
-sub get_stransfer {
-  my ($year, $version, $key) = @_;
-
-  my $cache_key = "Stransfer:$version:$year";
-
-  load_transfer($year, $version, 'Stransfer') unless is_cached $cache_key;
-
-  my $rv = $_dCACHE{$cache_key}{$key};
-  return $rv if $rv;
-  my $ver = $_data{$version}{base};
-  return '' unless $ver;
-  return get_stransfer($year, $ver, $key);
-}
-
-#*** get_tempora($year, $version, $key)
-# get tempora table value for key
-sub get_tempora {
-  my ($version, $key) = @_;
-
-  my $cache_key = "Tempora:$version";
-
-  load_tempora($version) unless is_cached $cache_key;
-
-  my $rv = $_dCACHE{$cache_key}{$key};
-  return $rv if $rv;
-  my $ver = $_data{$version}{base};
-  return '' unless $ver;
-  return get_tempora($ver, $key);
+  $_dCACHE{$cache_key}{$key}
+    || ($_data{$version}{$base} && get_from_directorium($subject, $_data{$version}{$base}, $key, $year))
+    || '';
 }
 
 #*** transfered($tname | $sday, $year, $version)
@@ -218,10 +179,16 @@ sub transfered {
   my $year = shift;
   my $version = shift;
 
-  $str =~ s+Sancti/++;
+  $str =~ s+Sancti(M|Cist|OP)?/++;
   return '' unless $str;
 
-  my %transfer = %{$_dCACHE{"Transfer:$version:$year"}};
+  my $cache_key = "transfer:$version:$year";
+
+  no strict;
+
+  load_transfer($version, $year) unless is_cached $cache_key;
+
+  my %transfer = %{$_dCACHE{$cache_key}};
 
   while (my ($key, $val) = each %transfer) {
     next unless $val;
@@ -234,13 +201,13 @@ sub transfered {
     }
   }
 
-  while (my ($key, $val) = each %{$_dCACHE{"Tempora:$version"}}) {
+  while (my ($key, $val) = each %{$_dCACHE{"tempora:$version"}}) {
     next if $key =~ /dirge/;
 
     if ($val =~ /$str/i && $transfer{$key} && $transfer{$key} !~ /v\s*$/i) { return $key; }
   }
 
-  return '';
+  return $_data{$version}{'tbase'} ? transfered($str, $year, $_data{$version}{'tbase'}) : '';
 }
 
 #*** check_coronatio($day, $month)
@@ -249,7 +216,7 @@ sub transfered {
 sub check_coronatio {
   my ($day, $month) = @_;
 
-  $day == 20 && $month == 3 ? 'Votive/Coronatio' : '';
+  $day == 20 && $month == 3 ? 'Commune/Coronatio' : '';
 }
 
 #*** dirge($version, $hora, $day, $month, $year)
@@ -263,7 +230,10 @@ sub dirge {
     $hora =~ /Laudes/i
     ? get_sday($month, $day, $year)
     : nextday($month, $day, $year);
-  my $dirgeline = get_transfer($year, $version, 'dirge1') . ' ' . get_transfer($year, $version, 'dirge2');
+  my $dirgeline =
+      get_from_directorium('transfer', $version, 'dirge1', $year) . ' '
+    . get_from_directorium('transfer', $version, 'dirge2', $year) . ' '
+    . get_from_directorium('transfer', $version, 'dirge3', $year);
   $dirgeline =~ /$sday/;
 }
 
@@ -273,7 +243,7 @@ sub dirge {
 sub hymnmerge {
   my ($version, $day, $month, $year) = @_;
 
-  get_transfer($year, $version, sprintf("Hy%s", get_sday($month, $day, $year))) eq '1';
+  get_from_directorium("transfer", $version, sprintf("Hy%s", get_sday($month, $day, $year)), $year) eq '1';
 }
 
 #*** hymnshift($version, $day, $month, $year)
@@ -282,7 +252,7 @@ sub hymnmerge {
 sub hymnshift {
   my ($version, $day, $month, $year) = @_;
 
-  get_transfer($year, $version, sprintf("Hy%s", get_sday($month, $day, $year))) eq '2';
+  get_from_directorium("transfer", $version, sprintf("Hy%s", get_sday($month, $day, $year)), $year) eq '2';
 }
 
 1;

@@ -1,9 +1,6 @@
 [Rank]
 Die Octava Epiphaniae;;Duplex majus;;4;;ex Sancti/01-06
 
-[Rank1960]
-In Commemoratione Baptismatis Domini Nostri Jesu Christi;;Duplex II. classis;;5;;ex Sancti/01-06
-
 [Rule]
 ex Sancti/01-06;
 Gloria
@@ -49,7 +46,7 @@ Naquele tempo, João viu Jesus, que caminhava para ele, e disse: «Eis o Cordeir
 Os reis de Társis e as ilhas oferecer-Lhe-ão tributos: Os reis de Arábia e de Sabá levar-Lhe-ão ofertas; todos os reis da terra O adorarão; e todas as nações O servirão.
 
 [Secreta]
-Senhor, Vos oferecemos sacrifícios em memória da manifestação do vosso Filho, que nasceu no mundo, suplicando-Vos que, assim como Jesus Cristo, nosso Senhor, é o autor destes dons, assim também os aceites misericordiosamente.
+Senhor, Vos oferecemos sacrifícios em memória da manifestação do vosso Filho, que nasceu no mundo, suplicando-Vos que, assim como Jesus Cristo, Nosso Senhor, é o autor destes dons, assim também os aceites misericordiosamente.
 $Qui tecum.
 
 [Communio]

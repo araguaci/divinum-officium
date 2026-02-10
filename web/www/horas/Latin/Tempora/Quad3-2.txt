@@ -1,10 +1,12 @@
+[Officium]
+Feria Tertia infra Hebdomadam III in Quadragesima
+
 [Rank]
-Feria Tertia infra Hebdomadam III in Quadragesima;;Feria major;;2.1
-
-[Rank] (rubrica 1960)
-Feria Tertia infra Hebdomadam III in Quadragesima;;Feria major;;3.9
-
-[Rule]
+;;Feria major;;2.1
+(sed rubrica 1930)
+;;Feria major;;4.9
+(sed rubrica 196)
+;;Feria major;;3.9
 
 [Lectio1]
 Léctio sancti Evangélii secúndum Matthǽum
@@ -35,6 +37,9 @@ Nemo ergo dicat, quia non peccávi in Deum, sed peccávi in fratrem: in hóminem
 
 [Ant 2]
 Si duo ex vobis * consénserint super terram: de omni re quamcúmque petíerint, fiet illis a Patre meo, dicit Dóminus.
+
+[Ant 2] (rubrica cisterciensis)
+@:Ant 3
 
 [Oratio 2]
 Exáudi nos, omnípotens et miséricors Deus: et continéntiæ salutáris propítius nobis dona concéde.

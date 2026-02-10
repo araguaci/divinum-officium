@@ -30,7 +30,7 @@ use DivinumOfficium::LanguageTextTools
 $error = '';
 $debug = '';
 
-our $Ck = 0;
+our $Ck = 1;
 our $NewMass = 1;
 our $missa = 1;
 our $officium = 'Cmissa.pl';
@@ -40,16 +40,17 @@ our $officium = 'Cmissa.pl';
   'Mozarabic',
   'Sarum',
   'Dominican',
-  'Trident 1570',
-  'Divino Afflatu',
-  'Rubrics 1960',
+  'Tridentine - 1570',
+  'Divino Afflatu - 1939',
+  'Divino Afflatu - 1954',
+  'Rubrics 1960 - 1960',
   'Rubrics 1967',
   'New Mass',
 );
 %ordos = split(
   ',',
-  "Mozarabic,OrdoM,Sarum,OrdoS,Ambrosian,OrdoA,Dominican,OrdoOP,Trident 1570,Ordo,"
-    . "Divino Afflatu,Ordo,Rubrics 1960,Ordo,Rubrics 1967,Ordo67,New Mass,OrdoN",
+  "Mozarabic,OrdoM,Sarum,OrdoS,Ambrosian,OrdoA,Dominican,OrdoOP,Tridentine - 1570,Ordo,"
+    . "Divino Afflatu - 1939,Ordo,Divino Afflatu - 1954,Ordo,Rubrics 1960 - 1960,Ordo,Rubrics 1967,Ordo67,New Mass,OrdoN",
 );
 
 #***common variables arrays and hashes
@@ -82,18 +83,18 @@ our $duplex;                                 #1=simplex-feria, 2=semiduplex-feri
 
 #*** collect standard items
 #require "ordocommon.pl";
-require "$Bin/../horas/do_io.pl";
+require "$Bin/../DivinumOfficium/SetupString.pl";
 require "$Bin/../horas/horascommon.pl";
-require "$Bin/../horas/dialogcommon.pl";
+require "$Bin/../DivinumOfficium/dialogcommon.pl";
 require "$Bin/../horas/webdia.pl";
-require "$Bin/../horas/setup.pl";
+require "$Bin/../DivinumOfficium/setup.pl";
 require "$Bin/ordo.pl";
 require "$Bin/propers.pl";
 
 binmode(STDOUT, ':encoding(utf-8)');
 $q = new CGI;
 
-our ($version1, $version2, $lang1, $lang2, $expand, $column, $accented);
+our ($version1, $version2, $lang1, $lang2, $langfb, $expand, $column, $accented);
 our %translate;    #translation of the skeleton label for 2nd language
 
 #get parameters
@@ -112,6 +113,7 @@ set_runtime_options('parameters');    # priest, lang1 ... etc
 
 if ($command eq 'changeparameters') { getsetupvalue($command); }
 
+#print "Content-type: text/html; charset=utf-8\n\n"; #<= uncomment for debuggin "Internal Server Errors"
 setcookies('missap', 'parameters');
 setcookies('missagc', 'generalc');
 
@@ -120,7 +122,7 @@ $setupsave = savesetup(1);
 $setupsave =~ s/\r*\n*//g;
 
 our $command = strictparam('command');
-our $hora = $command;                 #Matutinum, Laudes, Prima, Tertia, Sexta, Nona, Vespera, Completorium
+our $hora = $command;    #Matutinum, Laudes, Prima, Tertia, Sexta, Nona, Vespera, Completorium
 our $browsertime = strictparam('browsertime');
 our $searchvalue = strictparam('searchvalue');
 if (!$searchvalue) { $searchvalue = '0'; }
@@ -137,20 +139,23 @@ $expandnum = strictparam('expandnum');
 
 $only = ($lang1 eq $lang2 && $version1 eq $version2) ? 1 : 0;
 
-$version = $version1;
-precedence($winner);    #fills our hashes et variables
+#*** print pages (setup, hora=pray, mainpage)
+#generate HTML
+htmlHead($title, 'startup()');
+
+$version = $version2;
+precedence();    #fills our hashes et variables
 setsecondcol();
+$version = $version1;
+precedence();    #fills our hashes et variables
 our $psalmnum1 = 0;
 our $psalmnum2 = 0;
 
 #prepare main pages
 $title = "Sancta Missa Comparison";
 
-#*** print pages (setup, hora=pray, mainpage)
-#generate HTML
-htmlHead($title, 'startup()');
-print << "PrintTag";
-<P ALIGN=CENTER>
+print <<"PrintTag";
+<P ALIGN="CENTER">
 <A HREF="Cmissa.pl?searchvalue=2&lang1=$lang1&lang2=$lang2&version1=$version1&version2=$version2">[Incipit]</A>&nbsp;&nbsp;
 <A HREF="Cmissa.pl?searchvalue=11&lang1=$lang1&lang2=$lang2&version1=$version1&version2=$version2">[Missa Catechumenorum]</A>&nbsp;&nbsp;
 <A HREF="Cmissa.pl?searchvalue=16&lang1=$lang1&lang2=$lang2&version1=$version1&version2=$version2">[Offertorium]</A>&nbsp;&nbsp;
@@ -160,7 +165,7 @@ print << "PrintTag";
 PrintTag
 
 if ($command !~ /setup/i) {
-  print "<P ALIGN=CENTER>";
+  print "<P ALIGN='CENTER'>";
   print option_selector("Version 1", "parchange();", $version1, @versions);
   print option_selector("lang1", "parchange();", $lang1, qw(Latin English));
   print option_selector("lang2", "parchange();", $lang2, qw(Latin English));
@@ -179,14 +184,14 @@ if ($command =~ /setup(.*)/is) {
   $background = ($whitebground) ? ' class="contrastbg"' : '';
   $head = $title;
   headline($head);
-  load_languages_data($lang1, $lang2, $version, $missa);
-  print << "PrintTag";
+  load_languages_data($lang1, $lang2, $langfb, $version, $missa);
+  print <<"PrintTag";
 <TABLE BORDER=0 WIDTH=80% ALIGN=CENTER><TR>
 <TD ALIGN=CENTER><FONT COLOR=MAROON>$version1</FONT></TD><TD ALIGN=CENTER><FONT COLOR=MAROON>$version2</FONT></TD>
 </TR></TABLE>
 PrintTag
   ordo();
-  print << "PrintTag";
+  print <<"PrintTag";
 <P ALIGN=CENTER>
 <INPUT TYPE=submit NAME='button' VALUE='Æquiparantia persoluta' onclick="okbutton();">
 </P>
@@ -201,7 +206,7 @@ PrintTag
   $height2 = floor($height / 2);
   $background = ($whitebground) ? ' class="contrastbg"' : '';
   headline($title);
-  print << "PrintTag";
+  print <<"PrintTag";
 <P ALIGN=CENTER>
 <TABLE BORDER=0 HEIGHT=$height><TR>
 <TD><IMG SRC="$htmlurl/missa.png" HEIGHT=$height></TD>
@@ -213,7 +218,7 @@ PrintTag
 
 #common widgets for main and hora
 if ($pmode =~ /(main|hora)/i) {
-  print << "PrintTag";
+  print <<"PrintTag";
 <P ALIGN=CENTER>
 <A HREF="missa.pl">1962 only</A>
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -232,7 +237,7 @@ PrintTag
     $buildscript =~ s/\n/<BR>/g;
     $buildscript =~ s/\_//g;
     $buildscript =~ s/\,\,\,/\&nbsp\;\&nbsp\;\&nbsp\;/g;
-    print << "PrintTag";
+    print <<"PrintTag";
 <TABLE BORDER=3 ALIGN=CENTER WIDTH=60% CELLPADDING=8><TR><TD ID=L$searchind>
 $buildscript
 </TD></TR><TABLE><BR>
@@ -244,7 +249,7 @@ PrintTag
 if ($error) { print "<P ALIGN=CENTER><FONT COLOR=red>$error</FONT><\P>\n"; }
 if ($debug) { print "<P ALIGN=center><FONT COLOR=blue>$debug</FONT><\P>\n"; }
 $command =~ s/(pray|setup)//ig;
-print << "PrintTag";
+print <<"PrintTag";
 <INPUT TYPE=HIDDEN NAME=setupm VALUE="$setupsave">
 <INPUT TYPE=HIDDEN NAME=command VALUE="$command">
 <INPUT TYPE=HIDDEN NAME=searchvalue VALUE="0">
@@ -260,7 +265,7 @@ PrintTag
 sub headline {
   my $head = shift;
   print "<P ALIGN=CENTER>" . html_dayhead(setheadline()) . "\n";
-  print << "PrintTag";
+  print <<"PrintTag";
 <P ALIGN=CENTER>
 <FONT COLOR=MAROON SIZE=+1><B><I>$head</I></B></FONT>
 &nbsp;&nbsp;&nbsp;&nbsp;

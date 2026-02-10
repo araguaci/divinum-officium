@@ -1,14 +1,5 @@
 @Tempora/Pasc6-4
 
-[Rank]
-In Octava Ascensionis;;Duplex majus;;4.2;;ex TemporaM/Pasc5-4
-
-[Rank] (rubrica 1570)
-In Octava Ascensionis;;Duplex;;3.1;;ex TemporaM/Pasc5-4
-
-[Rank] (rubrica 196)
-Feria V post Ascensionem;;Feria;;1;;vide TemporaM/Pasc5-4
-
 [Rule]
 ex TemporaM/Pasc5-4;
 12 lectiones
@@ -18,6 +9,7 @@ Antiphonas Horas
 Doxology=Asc
 
 [Rule] (rubrica 196)
+
 
 [Oratio] (rubrica 196)
 @Tempora/Pasc6-0
@@ -78,11 +70,11 @@ Doxology=Asc
 [Lectio12]
 @Tempora/Pasc6-4:Lectio9: s/.* Desidéria/Desidéria/
 
-[Capitulum Laudes] (rubrica 196)
+[Capitulum Laudes] (rubrica 1963)
 @TemporaM/Pasc5-5
 
-[Capitulum Sexta] (rubrica 196)
+[Capitulum Sexta] (rubrica 1963)
 @TemporaM/Pasc5-5
 
-[Capitulum Nona] (rubrica 196)
+[Capitulum Nona] (rubrica 1963)
 @TemporaM/Pasc5-5

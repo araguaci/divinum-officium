@@ -1,19 +1,8 @@
-[Rank]
-S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3.1;;vide C4a
-
-[Rank](rubrica 1960)
-S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a
+[Officium]
+S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris
 
 [Name]
 Anselme
-
-[Rule]
-vide C4a;
-9 lectiones
-
-[Oratio]
-Ô Dieu qui avez accordé à Votre peuple le Bienheureux Anselme comme ministre du salut éternel, faites, nous Vous en prions, que l’ayant eu sur la terre comme Docteur de vie, nous méritions de l’avoir comme intercesseur dans les cieux.
-$Per Dominum
 
 [Lectio4]
 Anselme naquit dans la ville d’Aoste, aux confins de l’Italie, de parents nobles et catholiques : son père s’appelait Gondulphe et sa mère Ermemberge. Dès ses tendres années, son application assidue à l’étude et son désir d’une vie plus parfaite firent clairement pressentir qu’il brillerait dans la suite par sa sainteté et sa science. S’il se laissa entraîner pendant quelque temps par la fougue de la jeunesse vers les séductions du monde, bientôt cependant, rappelé dans la bonne voie, il abandonna sa patrie et tous ses biens, et se rendit au monastère du Bec, de l’Ordre de saint Benoît. C’est là, qu’ayant fait sa profession religieuse sous Herluin, Abbé très zélé pour l’observance, et Lanfranc, maître très docte, il fit de tels progrès par la ferveur de son âme et par son ardeur constante pour l’étude et l’acquisition des vertus, que tous le regardèrent comme un modèle admirable de sainteté et de doctrine.
@@ -27,4 +16,3 @@ Anselme, après la mort de Lanfranc, Archevêque de Cantorbéry, son ancien maî
 [Lectio94]
 Anselme naquit à Aoste, aux confins de l’Italie, de parents nobles et catholiques. Encore jeune, abandonnant sa patrie et tous ses biens, il fit profession religieuse au monastère du Bec, de l’Ordre de saint Benoît. Il fit des progrès remarquables dans l’acquisition de la science et des vertus. Il s’attira la vénération des évêques et des rois, et la faveur de Grégoire VII qui, en butte aux persécutions, lui envoya des lettres pleines d’affection,où il recommandait sa personne et l’Église aux prières d’Anselme. A la mort de l’archevêque de Cantorbéry, Lanfranc, son ancien maître, il fut appelé au gouvernement de cette Église, et y ramena la piété primitive, et la discipline ecclésiastique, par sa parole, son exemple, ses écrits et les conciles qu’il réunit. Mais comme le roi Guillaume, par violence et menaces, tentait d’usurper les droits de l’Église, Anselme s’y opposa invinciblement, souffrit pour cela la confiscation de ses biens et l’exil, et se réfugia à Rome, près d’Urbain II. Reçu par lui avec honneur et comblé de louanges, il défendit, au concile de Bari, contre l’erreur des Grecs, par d’innombrables témoignages des Écritures et des Pères, cette vérité que le Saint-Esprit procède aussi du Fils. Après la mort de Guillaume, rappelé par son frère Henri en Angleterre, il s’y endormit dans le Seigneur.
 &teDeum
-

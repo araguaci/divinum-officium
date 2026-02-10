@@ -1,11 +1,19 @@
+[Officium]
+Diei VI infra Octavam Nativitatis
+
 [Rank]
-Die VI infra Octavam Nativitatis;;Semiduplex;;2.1;;ex Sancti/12-25
+;;Semiduplex;;2.1;;ex Sancti/12-25
 
 [Rank] (rubrica 196)
-Die sexta post Nativitatem;;Duplex II classis;;5;;ex Sancti/12-25
+;;Duplex II classis;;5;;ex Sancti/12-25
+
+[Rank] (rubrica cisterciensis)
+Die sexta post Nativitatem;;Duplex II classis;;2.9;;ex Tempora/Nat1-0
 
 [Rule]
 ex Sancti/12-25;
+(sed rubrica cisterciensis)
+ex Tempora/Nat1-0
 9 lectiones
 
 [Ant Vespera]
@@ -14,15 +22,21 @@ ex Sancti/12-25;
 [Versum 1]
 @Sancti/12-25:Versum 3
 
+[Versum 1] (rubrica cisterciensis)
+@Tempora/Nat1-0
+
 [Ant 1]
 @Sancti/12-25:Ant 3
+
+[Ant 1] (rubrica cisterciensis)
+@Tempora/Nat1-0
 
 [Lectio1]
 De Epístola ad Romános
 !Rom 2:1-4
-1 Propter quod inexcusábilis es, o homo omnis qui iúdicas. In quo enim iúdicas álterum, teípsum condémnas: éadem enim agis quæ iúdicas.
+1 Propter quod inexcusábilis es, o homo omnis qui júdicas. In quo enim júdicas álterum, teípsum condémnas: éadem enim agis quæ júdicas.
 2 Scimus enim quóniam judícium Dei est secúndum veritátem in eos qui tália agunt.
-3 Exístimas autem hoc, o homo, qui iúdicas eos qui tália agunt, et facis ea, quia tu effúgies judícium Dei?
+3 Exístimas autem hoc, o homo, qui júdicas eos qui tália agunt, et facis ea, quia tu effúgies judícium Dei?
 4 an divítias bonitátis ejus, et patiéntiæ, et longanimitátis contémnis? Ignóras quóniam benígnitas Dei ad pœniténtiam te addúcit?
 
 [Responsory1]
@@ -52,7 +66,7 @@ De Epístola ad Romános
 [Lectio4]
 Sermo sancti Leónis Papæ
 !Sermo 6 de Nativitáte Dómini
-Omnibus quidem diébus, dilectíssimi, atque tempóribus, ánimis fidélium divína meditántium Dómini et Salvatóris nostri ex Matre Vírgine ortus occúrrit, ut mens, ad confessiónem sui auctóris erécta, sive in gémitu supplicatiónis, sive in exsultatióne laudis, sive in sacrifícii oblatióne versétur, nihil crébrius nihílque fidéntius spiritáli attíngat intúitu, quam quod Deus, Dei Fílius, génitus de Patre coætérno, idem étiam partu est natus humáno. Sed hanc adorándam in cælo et in terra nativitátem nullus nobis dies magis quam hódiernus insínuat, et nova étiam in eleméntis luce radiánte, coram sénsibus nostris mirábilis sacraménti íngerit claritátem. Non solum enim in memóriam, sed in conspéctum quodámmodo redit Angeli Gabriélis cum María stupénte collóquium, et concéptio de Spíritu Sancto tam mire promíssa quam crédita.
+Omnibus quidem diébus, dilectíssimi, atque tempóribus, ánimis fidélium divína meditántium Dómini et Salvatóris nostri ex Matre Vírgine ortus occúrrit, ut mens, ad confessiónem sui auctóris erécta, sive in gémitu supplicatiónis, sive in exsultatióne laudis, sive in sacrifícii oblatióne versétur, nihil crébrius nihílque fidéntius spiritáli attíngat intúitu, quam quod Deus, Dei Fílius, génitus de Patre coætérno, idem étiam partu est natus humáno. Sed hanc adorándam in cælo et in terra nativitátem nullus nobis dies magis quam hodiérnus insínuat, et nova étiam in eleméntis luce radiánte, coram sénsibus nostris mirábilis sacraménti íngerit claritátem. Non solum enim in memóriam, sed in conspéctum quodámmodo redit Angeli Gabriélis cum María stupénte collóquium, et concéptio de Spíritu Sancto tam mire promíssa quam crédita.
 
 [Responsory4]
 @Sancti/12-25:Responsory5
@@ -82,11 +96,12 @@ Vides festináre pastóres; nemo enim cum desídia Christum requírit. Vides pas
 @Sancti/12-25:Responsory8
 
 [Lectio8]
-Non médiocre fídei tibi hoc videátur exémplum, quod vilis sit persóna pastórum. Certe quo vílior ad prudéntiam, eo pretiósior ad fidem. Non gymnásia choris reférta sapiéntium, sed plebem Dóminus símplicem requisívit, quæ phaleráre audíta et fucáre nescíret. Simplícitas enim quǽritur, non ambítio desiderátur.
+Non medíocre fídei tibi hoc videátur exémplum, quod vilis sit persóna pastórum. Certe quo vílior ad prudéntiam, eo pretiósior ad fidem. Non gymnásia choris reférta sapiéntium, sed plebem Dóminus símplicem requisívit, quæ phaleráre audíta et fucáre nescíret. Simplícitas enim quǽritur, non ambítio desiderátur.
 
 [Responsory8]
-@Tempora/Nat1-0:Responsory8
+@Tempora/Nat1-0
 
 [Lectio9]
 Nec contemnénda putes quasi vília verba pastórum. A pastóribus enim María fidem cólligit, a pastóribus pópulus ad Dei reveréntiam congregátur. Miráti étiam sunt omnes qui audiérunt, de iis, quæ dicebántur a pastóribus ad ipsos. Mária autem conservábat ómnia verba hæc, cónferens in corde suo. Discámus sanctæ Vírginis in ómnibus castitátem, quæ non minus ore pudíca quam córpore, arguménta fídei conferébat in corde.
 &teDeum
+

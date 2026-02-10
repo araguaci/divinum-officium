@@ -1,5 +1,5 @@
-[Rank]
-Dominica in Septuagesima;;Semiduplex;;5.6
+[Officium]
+Dominica in Septuagesima
 
 [Rule]
 no Gloria
@@ -48,10 +48,6 @@ En aquel tiempo, dijo Jesús a sus discípulos esta parábola: Pues el reino de 
 [Offertorium]
 !Ps 91:2
 Bueno es alabar al Señor y cantar salmos a tu nombre, ¡oh Altísimo!
-
-[Secreta]
-Ya que has recibido, oh Señor, nuestras oraciones y ofrendas, purifícanos con estos santos misterios y despacha favorablemente nuestros ruegos.
-$Per Dominum
 
 [Communio]
 !Ps 30:17-18

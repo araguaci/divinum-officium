@@ -1,36 +1,20 @@
-[Rank]
-Dédicace de St Michel, Archange;;Duplex 1. classis;;6;;ex Sancti/05-08
+[Officium]
+Dédicace de St Michel, Archange
 
-[Rank] (rubrica 1960)
-Dédicace de St Michel, Archange;;Duplex 1. classis;;6;;ex Sancti/05-08
-
-[RankNewcal]
+[Rank] (rubrica innovata)
 Sts. Michel, Gabriel et Raphaël Archanges;;Duplex 1. classis;;6;;ex Sancti/05-08
-
-[Rule]
-ex Sancti/05-08
-9 lectiones
-Psalm5 Vespera=116
-Psalm5 Vespera3=137
-Quorum Festum
-Contract8
 
 [Ant Matutinum]
 La mer fut agitée * et la terre trembla, dès que l’Archange Michel descendit du ciel.;;8
 Louons le Seigneur * que louent les Anges, que les Chérubins et les Séraphins proclament, saint, saint, saint.;;10
 Elle monta, * la fumée des parfums, en présence de Dieu, de la main de l’Ange.;;14
-V. L’Ange se tint debout près de l’autel du temple.
-R. Ayant un encensoir d’or à la main.
 Archange Michel, * venez au secours du peuple de Dieu.;;18
 Michel * est le prince du paradis, qu’honore toute la cité des Anges.;;23
 Glorieux * êtes-vous apparu en présence du Seigneur ; c’est pourquoi le Seigneur vous a revêtu de beauté;;33
-V. Elle monta, la fumée des parfums, en présence du Seigneur.
-R. De la main de l’Ange.
 C’est un Ange, l’Archange Michel, * un messager de Dieu pour les âmes justes, alléluia, alléluia.;;95
 On lui donna * beaucoup de parfums, pour qu’il les brûlât devant l’autel d’or qui est devant les yeux du Seigneur.;;96
 Il y a beaucoup de merveilles * à chanter, au sujet de l’Archange Michel qui, fort dans le combat, a remporté la victoire.;;102
-V. En présence des Anges, je vous chanterai, ô mon Dieu
-R. Je me prosternerai dans votre saint temple et je louerai votre nom.
+
 
 [Lectio1]
 Du Prophète Daniel.
@@ -53,7 +37,7 @@ Du Prophète Daniel.
 10 Et voici qu'une main me toucha, et me dressa sur mes genoux et sur mes mains.
 11 Et il me dit : Daniel, homme de désirs, comprends les paroles que je vais te dire, et tiens-toi debout ; car je suis maintenant envoyé vers toi. Lorsqu'il m'eut dit cela, je me tins debout en tremblant.
 12 Et il me dit : Ne crains point, Daniel, car dès le premier jour où tu as appliqué ton cœur à comprendre et à t'affliger en présence de ton Dieu, tes paroles ont été exaucées, et je suis venu à cause de tes paroles.
-13 Le prince du royaume des Perses m'a résisté vingt et un jours ; mais voici que Michel, un des premiers princes, est venu à mon secours; et je suis demeuré là, près du roi des Perses.
+13 Le prince du royaume des Perses m'a résisté vingt et un jours ; mais voici que Michel, un des premiers princes, est venu à mon secours ; et je suis demeuré là, près du roi des Perses.
 14 Je suis venu pour t'apprendre ce qui doit arriver à ton peuple aux derniers jours, car la vision concerne encore ces temps-là.
 
 [Lectio4]

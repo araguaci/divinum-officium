@@ -1,14 +1,13 @@
-[Rank]
-Św. Maura Opata;;Simplex;;1.1;;vide C4
+[Officium]
+Św. Maura Opata
 
-[Rule]
-vide C4;
+[Name]
+Maura
 
-[Versum 1]
+[Versum 1] (nisi rubrica monastica)
 V. Usta sprawiedliwego będą rozmyślać mądrość.
 R. A język jego będzie mówił sąd.
 
-[Oratio] 
+[Oratio]
 v. Przyjmij, prosimy Cię, Panie, wstawiennictwo św. Maura Opata za nami, abyśmy, czego dla własnych zasług mieć nie możemy, za przyczyną jego otrzymali.
 $Per Dominum
-

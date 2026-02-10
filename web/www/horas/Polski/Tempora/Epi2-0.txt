@@ -1,5 +1,8 @@
-[Rank]
-II Niedziela po Objawieniu;;Semiduplex;;5
+[Officium]
+II Niedziela po Objawieniu
+
+[Ant 1]
+Przyjął Izraela, * sługę swego: Jako mówił do ojców naszych: * Abrahamowi i nasieniu jego na wieki.
 
 [Oratio]
 Wszechmogący wieczny Boże, który rządzisz zarazem niebem i ziemią: wysłuchaj w swej łaskawości prośby ludu Twego i użycz pokoju swego czasom naszym.
@@ -81,19 +84,8 @@ R. Do ciebie. Panie, podniosłem duszę moję.
 V. Strzeż dusze mojéj, a wyrwij mię.
 R. Boże mój, w tobie ufam, niech się nie zawstydzę.
 
-[Versum 2]
-V. Pan króluje, oblókł się w chwałę. 
-R. Oblókł się Pan mocą i przepasał się.
-
-[Ant 1]
-Przyjął Izraela, * sługę swego: Jako mówił do ojców naszych: * Abrahamowi i nasieniu jego na wieki.
-
 [Ant 2]
 Onego czasu były gody małżeńskie * w Kanie Galilejskiej, a był tam Jezus z matką swoją.
-
-[Versum 3]
-V. Niech się wzniesie modlitwa moja.
-R. Jako woń kadzidła przed obliczem Twoim.
 
 [Ant 3]
 A gdy nie stawało wina, * rozkazał im Jezus napełnić stągwie wodą, która się winem stała, alleluja.

@@ -3,7 +3,12 @@
 [Rule]
 12 lectiones
 Doxology=Nat
-Ant Matutinum 13 special
+Ant Matutinum 12 special
+
+[Responsory Vespera 1] (rubrica Barroux)
+@Sancti/03-25:Responsory8:1-2
+V. Gabriélem Archángelum scimus divínitus te esse affátum: úterum tuum de Spíritu Sancto crédimus impregnátum: erubéscat Judǽus ínfelix, qui dicit Christum ex Joseph sémine esse natum.
+@Sancti/03-25:Responsory8:4
 
 [Responsory Vespera]
 R.br. Ángelus Dómini * Nuntiávit Maríæ.
@@ -13,8 +18,8 @@ R. Nuntiávit Maríæ.
 &Gloria
 R. Ángelus Dómini * Nuntiávit Maríæ.
 
-[Ant Matutinum 13]
-@Sancti/03-25:Ant Matutinum 12
+[Ant Matutinum 3N]
+@:Ant 3
 
 [Lectio3]
 @Tempora/Adv4-0:Lectio1:2-5 s/-7/-3/
@@ -58,9 +63,6 @@ R. Dixit autem María: Ecce ancílla Dómini:
 V. Benedícta tu in muliéribus, et benedíctus fructus ventris tui.
 R. Fiat mihi secúndum verbum tuum.
 
-[Ant Matutinum 3N]
-@:Ant 3
-
 [Lectio9]
 @Sancti/03-25:Lectio7
 
@@ -71,7 +73,7 @@ V. Magníficat ánima mea Dóminum: † et exsultávit spíritus meus in Deo, sa
 R. Quia fecit mihi Dóminus magna qui potens est, † et sanctum nomen ejus.
 
 [Lectio10]
-Et bene utrúmque pósuit Scriptúra, ut et desponsáta esset, et virgo: virgo, ut expers virílis consórtii viderétur: desponsáta, ne temerátæ virginitátis adurerétur infámia, cujus gravis alvus corruptélæ viderétur insigne præférre. Máluit autem Dóminus áliquos de suo ortu quam de matris pudóre dubitáre. Sciébat enim téneram esse vírginis verecúndiam, et lúbricam famam pudóris: nec putávit ortus sui fidem matris iniúriis adstruéndam.
+Et bene utrúmque pósuit Scriptúra, ut et desponsáta esset, et virgo: virgo, ut expers virílis consórtii viderétur: desponsáta, ne temerátæ virginitátis adurerétur infámia, cujus gravis alvus corruptélæ viderétur insigne præférre. Máluit autem Dóminus áliquos de suo ortu quam de matris pudóre dubitáre. Sciébat enim téneram esse vírginis verecúndiam, et lúbricam famam pudóris: nec putávit ortus sui fidem matris injúriis adstruéndam.
 
 [Responsory10]
 @Sancti/03-25:Responsory6
@@ -88,14 +90,3 @@ Et bene utrúmque pósuit Scriptúra, ut et desponsáta esset, et virgo: virgo, 
 [Responsory12]
 @Sancti/03-25:Responsory8
 
-[Responsory Laudes]
-@:Responsory Vespera
-
-[Responsory TertiaM]
-@Commune/C6:Versum 1
-
-[Responsory SextaM]
-@Commune/C10:Responsory Tertia:8-9
-
-[Responsory NonaM]
-@Commune/C10:Responsory Sexta:8-9

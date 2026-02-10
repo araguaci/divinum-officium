@@ -21,7 +21,6 @@ use CGI;
 #use CGI::Cookie;;
 use CGI::Carp qw(fatalsToBrowser);
 use File::Basename;
-use LWP::Simple;
 use Time::Local;
 
 #use DateTime;
@@ -34,9 +33,7 @@ our $Tk = 0;
 our $Hk = 0;
 our $Ck = 0;
 our $officium = 'Eofficium.pl';
-our $version = 'Rubrics 1960';
-
-@versions = ('Trident 1570', 'Trident 1910', 'Divino Afflatu', 'Reduced 1955', 'Rubrics 1960', '1960 Newcalendar');
+our $version = 'Rubrics 1960 - 1960';
 
 #***common variables arrays and hashes
 #filled  getweek()
@@ -69,27 +66,30 @@ our $duplex;                                 #1=simplex-feria, 2=semiduplex-feri
 #*** collect standard items
 
 #allow the script to be started directly from the "standalone/tools/epubgen2" subdirectory
-if (!-e "$Bin/do_io.pl") {
+if (!-e "$Bin/../DivinumOfficium/SetupString.pl") {
   $Bin = "$Bin/../../../web/cgi-bin/horas";
 }
 
-require "$Bin/do_io.pl";
+require "$Bin/../DivinumOfficium/SetupString.pl";
 require "$Bin/horascommon.pl";
-require "$Bin/dialogcommon.pl";
+require "$Bin/../DivinumOfficium/dialogcommon.pl";
 
-require "$Bin/setup.pl";
+require "$Bin/../DivinumOfficium/setup.pl";
 require "$Bin/horas.pl";
+require "$Bin/horasscripts.pl";
 require "$Bin/specials.pl";
 require "$Bin/specmatins.pl";
 
 if (-e "$Bin/monastic.pl") { require "$Bin/monastic.pl"; }
 require "$Bin/webdia.pl";
+require "$Bin/altovadum.pl";
 require "./Ewebdia.pl";
 require "$Bin/horasjs.pl";
 
 #require "$Bin/tfertable.pl";
 use lib "$Bin/../../../web/cgi-bin";
 use DivinumOfficium::LanguageTextTools qw(load_languages_data);
+use DivinumOfficium::RunTimeOptions qw(check_version check_language);
 
 binmode(STDOUT, ':encoding(utf-8)');
 
@@ -114,7 +114,7 @@ getini('horas');    #files, colors
 $setupsave = strictparam('setup');
 $setupsave =~ s/\~24/\"/g;
 
-our ($lang1, $lang2, $expand, $column, $accented);
+our ($lang1, $lang2, $langfb, $expand, $column, $accented);
 our %translate;     #translation of the skeleton label for 2nd language
 
 #internal script, cookies
@@ -213,11 +213,13 @@ if ($flag) {
 
   #setcookies('horasgp', 'general');
 }
-if (!$version) { $version = 'Rubrics 1960'; }
+$version = check_version($version) || 'Rubrics 1960 - 1960';
 if (!$lang2) { $lang2 = 'English'; }
-$only = ($lang1 =~ $lang2) ? 1 : 0;
+if (!$langfb) { $langfb = 'English'; }
+$only = $lang1 eq $lang2;
 
 precedence($date1);    #fills our hashes et variables
+setsecondcol();
 our $psalmnum1 = 0;
 our $psalmnum2 = 0;
 
@@ -259,7 +261,7 @@ for ($i = 1; $i <= $completed; $i++) { $hcolor[$i] = 'maroon'; }
 htmlHead($title, 2);
 
 #note the whole content is wrapped in a <div> for XHTML standard compatibilty
-print << "PrintTag";
+print <<"PrintTag";
 <body><div>
 PrintTag
 
@@ -269,7 +271,7 @@ if ($command =~ /setup/i) {
   setuptable($command);
 
 } elsif ($command =~ /pray/) {
-  load_languages_data($lang1, $lang2, $version, $missa);
+  load_languages_data($lang1, $lang2, $langfb, $version, $missa);
   $pmode = 'hora';
   $command =~ s/(pray|change|setup)//ig;
   $title = $command;
@@ -284,7 +286,7 @@ if ($command =~ /setup/i) {
 
   horas($command);
 
-  print << "PrintTag";
+  print <<"PrintTag";
 PrintTag
 
 } else {    #mainpage
@@ -300,7 +302,7 @@ PrintTag
 #common widgets for main and hora
 if ($pmode =~ /(main|hora)/i) {
   if ($votive ne 'C9') {
-    print << "PrintTag";
+    print <<"PrintTag";
 <p class="cen">
 <a href="$date1-1-Matutinum.html">Matutinum</a>
 &nbsp;&nbsp;
@@ -309,7 +311,7 @@ if ($pmode =~ /(main|hora)/i) {
 <a href="$date1-3-Prima.html">Prima</a>
 &nbsp;&nbsp;
 <a href="$date1-4-Tertia.html">Tertia</a>
-<br />
+<br/>
 <a href="$date1-5-Sexta.html">Sexta</a>
 &nbsp;&nbsp;
 <a href="$date1-6-Nona.html">Nona</a>
@@ -319,7 +321,7 @@ if ($pmode =~ /(main|hora)/i) {
 <a href="$date1-8-Completorium.html">Completorium</a>
 PrintTag
   } else {
-    print << "PrintTag";
+    print <<"PrintTag";
 <p class="cen">
 <a href="$date1-1-Matutinum.html">Matutinum</a>
 &nbsp;&nbsp;
@@ -332,12 +334,12 @@ PrintTag
   }
 
   if ($linkmissa) {
-    print << "PrintTag";
-<br />
+    print <<"PrintTag";
+<br/>
 <a href="$date1-9-Missa.html">Missa</a>
 PrintTag
   }
-  print << "PrintTag";
+  print <<"PrintTag";
 </p>
 PrintTag
 }
@@ -348,7 +350,7 @@ if ($debug) { print "<P ALIGN=\"cen rd\">$debug</p>\n"; }
 
 $command =~ s/(pray|setup)//ig;
 
-print << "PrintTag";
+print <<"PrintTag";
 </div></body></html>
 PrintTag
 
@@ -371,10 +373,10 @@ sub headline {
     $daycolorclass = "rd";
   }
 
-  print << "PrintTag";
-<p class="cen"><span class="$daycolorclass">$headline<br /></span>
-$comment<br /><br />
-<span class="c">$h</span>&nbsp;&nbsp;&nbsp;
+  print <<"PrintTag";
+<p class="cen"><span class="$daycolorclass">$headline<br/></span>
+$comment<br/><br/>
+<span class="c">$h</span>&ensp;
 <a href="$datep-1-Matutinum.html">&darr;</a>
 $date1
 <a href="$daten-1-Matutinum.html">&uarr;</a>
@@ -387,7 +389,7 @@ $date1
 <a href="$date1-3-Prima.html">Prima</a>
 &nbsp;&nbsp;
 <a href="$date1-4-Tertia.html">Tertia</a>
-<br />
+<br/>
 <a href="$date1-5-Sexta.html">Sexta</a>
 &nbsp;&nbsp;
 <a href="$date1-6-Nona.html">Nona</a>
@@ -398,13 +400,13 @@ $date1
 PrintTag
 
   if ($linkmissa) {
-    print << "PrintTag";
-<br />
+    print <<"PrintTag";
+<br/>
 <a href="$date1-9-Missa.html">Missa</a>
 PrintTag
   }
 
-  print << "PrintTag";
+  print <<"PrintTag";
 </p>
 PrintTag
 

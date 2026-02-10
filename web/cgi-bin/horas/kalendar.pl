@@ -54,18 +54,19 @@ our $border;
 our $smallblack;
 our $smallfont;
 
-require "$Bin/do_io.pl";
+require "$Bin/../DivinumOfficium/SetupString.pl";
 require "$Bin/horascommon.pl";
-require "$Bin/dialogcommon.pl";
+require "$Bin/specmatins.pl";
+require "$Bin/../DivinumOfficium/dialogcommon.pl";
 require "$Bin/webdia.pl";
-require "$Bin/setup.pl";
+require "$Bin/../DivinumOfficium/setup.pl";
 require "$Bin/monastic.pl";
 
 binmode(STDOUT, ':encoding(utf-8)');
 our $q = new CGI;
 
 #*** get parameters
-my $compare = strictparam('compare') || 0;
+our $compare = strictparam('compare') || 0;
 my $officium = strictparam('officium') || 'officium.pl';
 
 if ($compare) {
@@ -93,25 +94,30 @@ if (!$setupsave) {
 }
 
 set_runtime_options($csname);         #$expand, $version, $lang2
-$votive = 'Hodie';
+our $votive = 'Hodie';
 set_runtime_options('parameters');    # priest, lang1 ... etc
 
 #*** saves parameters
 $setupsave = savesetup(1);
 $setupsave =~ s/\r*\n*//g;
 
-my @ver;
-push(@ver, check_version(strictparam('version') || 'Rubrics 1960'));
-push(@ver, check_version(strictparam('version2') || 'Divino Afflatu')) if ($compare);
+our $version1 = check_version(our $version) || (error("Unknown version: $version1") && 'Rubrics 1960 - 1960');
+our $version2 = check_version($version2) || '';
+if ($version1 eq $version2) { $version2 = 'Divino Afflatu - 1954'; }
+if ($version1 eq $version2) { $version2 = 'Rubrics 1960 - 1960'; }
 
 my ($xmonth, $xday, $xyear) = split('-', strictparam($date_arg) || gettoday());
-my $kmonth = strictparam('kmonth') || $xmonth;
-my $kyear = strictparam('kyear') || $xyear;
+our $kmonth = strictparam('kmonth') || $xmonth;
+our $kyear = strictparam('kyear') || $xyear;
+
+my $mode = $kmonth == 15 ? 'kal' : 'ordo';
+require "$Bin/kalendar/$mode.pl";
 
 if (strictparam('format') eq 'ical') {
+  require "$Bin/kalendar/ical.pl";
   ical_output();
 } else {
-  html_output();
+  html_output($mode);
 }
 
 # End of program
@@ -123,114 +129,26 @@ use constant MONTHNAMES => qw/''
 use constant MONTHLENGTH => ('', 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31, '', 365);
 use constant DAYNAMES => qw/Dom. F.II F.III F.IV F.V F.VI Sabb./;
 
-# abbreviate entries for ical
-sub abbreviate_entry {
-  $_ = shift;
-  s/Duplex majus/dxm/;
-  s/Duplex/dx/;
-  s/Semiduplex/sdx/;
-  s/Simplex/splx/;
-  s/classis/cl./;
-  s/ Domini Nostri Jesu Christi/ D.N.J.C./;
-  s/Beatæ Mariæ Virginis/B.M.V./;
-  s/Abbatis/Abb./;
-  s/Apostoli/Ap./;
-  s/Apostolorum/App./;
-  s/Confessor\w+/Conf./g;
-  s/Doctoris/Doct./;
-  s/Ecclesiæ/Eccl./;
-  s/Episcopi/Ep./;
-  s/Episcoporum/Epp./;
-  s/Evangelistæ/Evang./;
-  s/Martyris/M./g;
-  s/Martyrum/Mm./g;
-  s/Papæ/P./g;
-  s/Viduæ/Vid./;
-  s/Virgin\w+/Vir./;
-  s/Hebdomadam/Hebd./i;
-  s/Quadragesim./Quad./i;
-  s/Secunda/II/;
-  s/Tertia/III/;
-  s/Quarta/IV/;
-  s/Quinta/V/;
-  s/Sexta/VI/;
-  s/Dominica minor/Dom. min./;
-  s/ Ferial//;
-  s/Feria major/Fer. maj./;
-  s/Feria privilegiata/Fer. priv./;
-  s/post Octavam/post Oct./;
-  s/Augusti/Aug./;
-  s/(Septem|Octo|Novem|Decem)bris/${1}b./;
-  $_;
-}
+# output html table with entries
 
-# prepare one day entry
-sub kalendar_entry {
-  my ($date, $ver, $compare, $winneronly) = @_;
-
-  our $version = $ver;
-  our ($day, $month, $year, $dayname, %scriptura, %commemoratio);
-
-  precedence($date);
-
-  my ($h1, $h2) = split(/\s*~\s*/, setheadline());
-  return "$h1, $h2" if $winneronly;    # finish here for ical
-
-  my ($c1, $c2);
-  $c1 = "<B>" . setfont(liturgical_color($h1), $h1) . "</B>" . setfont('1 maroon', "&nbsp;&nbsp;$h2");
-  $c1 =~ s/Hebdomadam/Hebd/i;
-  $c1 =~ s/Quadragesima/Quadr/i;
-
-  $c2 = $dayname[2];
-
-  ($h1, $h2) = split(/: /, $c2, 2);
-  $c2 = setfont($smallblack, "$h1:") if $h1;
-  $c2 .= "<I>" . setfont(liturgical_color($h2), " $h2") . "</I>" if $h2;
-
-  $c2 =~ s/Hebdomadam/Hebd/i;
-  $c2 =~ s/Quadragesima/Quadr/i;
-
-  if (substr($date, 0, 5) lt '12-24' && substr($date, 0, 5) gt '01-13') {
-
-    # outside Nat put Sancti winner in right column
-    ($c2, $c1) = ($c1, $c2) if $winner =~ /sancti/i;
-  } else {
-
-    # inside Nat clear right column unless it is commemoratio of saint or scriptura
-    $c2 = '' unless $c2 =~ /Commemoratio|Scriptura/;
-  }
-
-  if (dirge($version, 'Laudes', $day, $month, $year)) { $c1 .= setfont($smallblack, ' dirge'); }
-  if ($version !~ /1960/ && $initia) { $c1 .= setfont($smallfont, ' *I*'); }
-
-  if ($version !~ /1955|196/ && $winner{Rule} =~ /\;mtv/i) {
-    $c2 .= setfont($smallblack, ' m.t.v.');
-  }
-
-  if ( $version !~ /196/
-    && $winner =~ /Sancti/
-    && exists($winner{Lectio1})
-    && $winner{Lectio1} !~ /\@Commune/i
-    && $winner{Lectio1} !~ /\!(Matt|Marc|Luc|Joannes)\s+[0-9]+\:[0-9]+\-[0-9]+/i)
-  {
-    $c2 .= setfont($smallfont, " *L1*");
-  }
-
-  if ($compare) {
-    $c2 ||= '_';
-  }
-  return ($c1, $c2);
-}
-
-# prepare html table with entries
 sub kalendar_table {
-  my ($kyear, $kmonth) = @_;
+  my ($kyear, $kmonth, $mode) = @_;
+  my $background = (our $whitebground) ? ' class="contrastbg"' : '';
+  my $cols;
+  my $output = qq(<P ALIGN="CENTER">\n<TABLE BORDER="$border" WIDTH="90%" CELLPADDING="3" $background>\n);
 
-  my $output = << "PrintTag";
-<P ALIGN=CENTER>
-<TABLE BORDER=$border WIDTH=90% CELLPADDING=3 STYLE="color: black">
-<TR><TH>Dies</TH><TH>de Tempore</TH><TH>Sanctorum</TH><TH>d.h.</TH></TR>
-PrintTag
+  if ($mode eq 'kal') {
+    $kmonth = 14;
+    $kyear = 1977;
+    $output .= "<TR><TH>C.E.</TH><TH>D.L.</TH><TH></TH><TH>Dies</TH><TH></TH></TR>\n";
+    $cols = 5 + $compare;
+  } else {
+    $output .= "<TR><TH>Dies</TH><TH>de Tempore</TH><TH>Sanctorum</TH><TH>Vespera</TH><TH>d.h.</TH></TR>\n";
+    $cols = 5;
+
+    #    $output .= "<TR><TH>Dies</TH><TH>de Tempore</TH><TH>Sanctorum</TH><TH>d.h.</TH></TR>\n";
+    #    $cols = 4;
+  }
 
   my $to = (MONTHLENGTH)[$kmonth];
   if (($kmonth == 2 || $kmonth == 14) && leapyear($kyear)) { $to++; }    # in February or for the whole year (14)
@@ -241,101 +159,58 @@ PrintTag
 
     if ($kmonth < 13) {                                                  # loop over the days of a single month
       $date1 = sprintf("%02i-%02i-%04i", $kmonth, $cday, $kyear);
-      $d1 = sprintf("%02i", $cday);
+      $d1 = $cday;
     } else {                                                             # loop over all days of the year
       my ($yday, $ymonth, $yyear) = ydays_to_date($cday, $kyear);
       $date1 = sprintf("%02i-%02i-%04i", $ymonth, $yday, $yyear);
       $d1 = sprintf("%02i", $yday);
 
       if ($yday == 1) {    # add extra headline at the start of a new month
-        $output .= << "PrintTag";
-<TR><TH COLSPAN="4" ALIGN=CENTER">
-<A HREF=# onclick=\"setkm($ymonth)\">@{[(MONTHNAMES)[$ymonth]]} $kyear</A>
-</TH></TR>
-PrintTag
+        $output .= note('bissextal') if $ymonth == 3 && $mode eq 'kal';
+        my $ms =
+            $mode eq 'kal'
+          ? $ymonth == 1
+            ? (MONTHNAMES)[$ymonth]
+            : qq(<A ID="@{[substr((MONTHNAMES)[$ymonth], 0, 3)]}">@{[(MONTHNAMES)[$ymonth]]}</A> <A HREF="#top">^</A>)
+          : qq(<A HREF=# onclick=\"setkm($ymonth)\">@{[(MONTHNAMES)[$ymonth]]} $kyear</A>);
+        $output .= qq(<TR><TH COLSPAN="$cols" ALIGN="CENTER">$ms</TH></TR>);
       }
     }
-    my (@c1, @c2) = ((), ());
 
-    for (0 .. $compare) {
-      my ($c1, $c2) = kalendar_entry($date1, $ver[$_], $compare);
-      push(@c1, $c1);
-      push(@c2, $c2);
-    }
-    my $c1 = join('<BR>', @c1);
-    my $c2 = join('<BR>', @c2);
-    $output .= << "PrintTag";
-<TR><TD ALIGN=CENTER><A HREF=# onclick="callbrevi('$date1');">$d1</A></TD>
-<TD>$c1</TD>
-<TD>$c2</TD>
-<TD ALIGN=CENTER>@{[(DAYNAMES)[$dayofweek]]}</TD>
-</TR>
-PrintTag
+    $output .= '<TR>'
+      . join('',
+      map { '<TD' . (length($_) < 20 || $_ =~ /\<A/ ? ' ALIGN="CENTER"' : '') . ">$_</TD>" } table_row($date1, $cday),
+      ) . "</TR>\n";
   }
-  $output . '</TABLE></P>';
+  $output .= note('nigra19') if $mode eq 'kal';
+  $output =~ s/{(.+?)}/ setfont('maroon', $1) /ge;
+  $output . "</TABLE></P>\n";
 }
 
-# prepare html page
+# print html page
 sub html_output {
+  my ($mode) = @_;
 
-  htmlHead("Ordo: @{[(MONTHNAMES)[$kmonth]]} $kyear");
+  print html_header();
+  print kalendar_table($kyear, $kmonth, $mode);
 
-  print do {    # print headline
-    my $vers = $ver[0];
-    $vers .= " / $ver[1]" if $compare;
-
-    my $output = << "PrintTag";
-<H1>
-<FONT COLOR=MAROON SIZE=+1><B><I>Divinum Officium</I></B></FONT>&nbsp;
-<FONT COLOR=RED SIZE=+1>$vers</FONT>
-</H1>
-<P ALIGN=CENTER>
-<FONT COLOR=MAROON SIZE=+1><B><I>Ordo @{[(MONTHNAMES)[$kmonth]]} A. D.</I></B></FONT>&nbsp;
-<LABEL FOR=kyear CLASS=offscreen>Year</LABEL>
-<INPUT TYPE=TEXT ID=kyear NAME=kyear VALUE="$kyear" SIZE=4>
-<A HREF=# onclick="prevnext(-1)">&darr;</A>
-<INPUT TYPE=submit NAME=SUBMIT VALUE=" " onclick="document.forms[0].submit();">
-<A HREF=# onclick="prevnext(1)">&uarr;</A>
-&nbsp;&nbsp;&nbsp;<A HREF=# onclick="setkm(14)">Totus</A>
-</P><P ALIGN=CENTER>
-PrintTag
-
-    my @mmenu;
-    push(@mmenu, "<A HREF=# onclick=\"setkm(-1)\">«</A>\n") if $kmonth == 1;
-
-    foreach my $i (1 .. 12) {
-      my $mn = substr((MONTHNAMES)[$i], 0, 3);
-      $mn = "<A HREF=# onclick=\"setkm($i)\">$mn</A>\n" unless $i == $kmonth;
-      push(@mmenu, $mn);
-    }
-    push(@mmenu, "<A HREF=# onclick=\"setkm(13)\">»</A>\n") if $kmonth == 12;
-
-    $output . join('&nbsp;' x 3, @mmenu) . '</P>';
-  };
-
-  print kalendar_table($kyear, $kmonth);
-
-  print "<P ALIGN=CENTER>\n";
-  print htmlInput('version', $ver[0], 'options', 'versions', "document.forms[0].submit()");
-
-  if ($compare) {
-    print htmlInput('version2', $ver[1], 'options', 'versions', "document.forms[0].submit()");
-  }
-  print "</P><P ALIGN=CENTER>\n" . bottom_links_menu() . "</P>\n";
-
-  # if ($savesetup > 1) { print "&nbsp;&nbsp;&nbsp;<A HREF=# onclick=\"readings();\">Readings</A>"; }
-  if ($error) { print "<P ALIGN=CENTER><FONT COLOR=red>$error</FONT></P>\n"; }
-  if ($debug) { print "<P ALIGN=CENTER><FONT COLOR=blue>$debug</FONT></P>\n"; }
+  print "<P ALIGN='CENTER'>\n";
+  print htmlInput('version', $version1, 'options', 'versions', "document.forms[0].submit()");
+  print htmlInput('version2', $version2, 'options', 'versions', "document.forms[0].submit()") if $compare;
+  print "</P><P ALIGN='CENTER'>\n" . bottom_links_menu() . "</P>\n";
 
   # if ($Readings) { Readings(); } # not reachable
   if ($compare) {
-    print '<P ALIGN=CENTER><A HREF="#" onclick="callkalendar(0)">Single Calendar</A>';
+    print qq(<P ALIGN="CENTER"><A HREF="#" onclick="callkalendar(0, '$mode')">Single Calendar</A>\n);
   } else {
-    print '<P ALIGN=CENTER><A HREF="#" onclick="callkalendar(1)">Compare Calendars</A>';
+    print qq(<P ALIGN="CENTER"><A HREF="#" onclick="callkalendar(1, '$mode')">Compare Calendars</A>\n);
+  }
+
+  if ($mode eq 'ordo') {
     my $tyear;
     ($tyear = gettoday()) =~ s/.*-//;
     my $iyear = $tyear != $kyear ? "&kyear=$kyear" : '';
-    print "&nbsp;&nbsp;&nbsp;<A HREF='$ENV{PATH_INFO}?format=ical&version=$ver[0]$iyear'>iCal</A>";
+    print "&nbsp;&nbsp;&nbsp;<A HREF='$ENV{PATH_INFO}?format=ical&version=$version1$iyear'>iCal</A>";
   }
 
   my $date1 = strictparam('date1');
@@ -349,57 +224,20 @@ PrintTag
     $command = "pray" . ($compare ? $1 : $command);    # Cofficium can't use Plures
   }
 
-  print << "PrintTag";
+  print <<"PrintTag";
 </P>
-<INPUT TYPE=HIDDEN NAME=setup VALUE="$setupsave">
-<INPUT TYPE=HIDDEN NAME=date1 VALUE="$date1">
-<INPUT TYPE=HIDDEN NAME=kmonth VALUE=$kmonth>
-<INPUT TYPE=HIDDEN NAME=date VALUE="$date1">
-<INPUT TYPE=HIDDEN NAME=command VALUE="$command">
-<INPUT TYPE=HIDDEN NAME=officium VALUE="$officium">
-<INPUT TYPE=HIDDEN NAME=browsertime VALUE="$browsertime">
-<INPUT TYPE=HIDDEN NAME=compare VALUE="$compare">
-<INPUT TYPE=HIDDEN NAME=readings VALUE="0">
-</FORM>
-</BODY></HTML>
+<INPUT TYPE="HIDDEN" NAME="setup" VALUE="$setupsave">
+<INPUT TYPE="HIDDEN" NAME="date1" VALUE="$date1">
+<INPUT TYPE="HIDDEN" NAME="kmonth" VALUE=$kmonth>
+<INPUT TYPE="HIDDEN" NAME="date" VALUE="$date1">
+<INPUT TYPE="HIDDEN" NAME="command" VALUE="$command">
+<INPUT TYPE="HIDDEN" NAME="officium" VALUE="$officium">
+<INPUT TYPE="HIDDEN" NAME="browsertime" VALUE="$browsertime">
+<INPUT TYPE="HIDDEN" NAME="compare" VALUE="$compare">
+<INPUT TYPE="HIDDEN" NAME="readings" VALUE="0">
 PrintTag
-}
 
-# prepare ical output
-sub ical_output {
-  my ($output) = << "EOH";
-Content-Type: text/calendar; charset=utf-8
-Content-Disposition: attachment; filename="$ver[0] - $kyear.ics"
-
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//divinumofficium.com//
-CALSCALE:GREGORIAN
-SOURCE:https://divinumofficium.com/cgi-bin/horas/kalendar.pl
-EOH
-
-  my ($to) = 365 + leapyear($kyear);
-  my (@date) = reverse((localtime(time()))[0 .. 5]);
-  $date[0] += 1900;
-  $date[1]++;
-  my ($dtstamp) = sprintf("%04i%02i%02iT%02i%02i%02i", @date);
-
-  for my $cday (1 .. $to) {
-    my ($yday, $ymonth, $yyear) = ydays_to_date($cday, $kyear);
-    my ($dtstart) = sprintf("%04i%02i%02i", $yyear, $ymonth, $yday);
-    my $day = sprintf("%02i-%02i-%04i", $ymonth, $yday, $yyear);
-    my ($e) = kalendar_entry($day, $ver[0], '', 'winneronly');
-    $e = abbreviate_entry($e);
-    $output .= << "EOE";
-BEGIN:VEVENT
-UID:$cday
-DTSTAMP:$dtstamp
-SUMMARY:$e
-DTSTART;VALUE=DATE:$dtstart
-END:VEVENT
-EOE
-  }
-  print "${output}END:VCALENDAR\n";
+  htmlEnd();
 }
 
 #*** horasjs()
@@ -416,9 +254,20 @@ function callbrevi(date) {
   document.forms[0].submit();
 }
 
+//calls missa
+function callmissa() {
+  document.forms[0].action = "../missa/missa.pl";
+  if (document.forms[0].command.value != "") {
+    document.forms[0].command.value = "praySanctaMissa"
+  }
+  document.forms[0].target = "_self"
+  document.forms[0].submit();
+}
+
 //calls compare kalendar
-function callkalendar(c) {
+function callkalendar(c,m) {
   document.forms[0].action = 'kalendar.pl';
+  if (m == 'kal') { document.forms[0].kmonth.value = 15; }
   document.forms[0].compare.value = c;
   document.forms[0].target = "_self"
   document.forms[0].submit();
@@ -453,6 +302,12 @@ function readings() {
   document.forms[0].submit();
 }
 )
+}
+
+sub horasjsend() {
+
+  # Gregorian Chant (GABC) functionality:
+  # Empty but necessary function to mask the corresponding one from horasjs.pl!
 }
 
 # below function is unused

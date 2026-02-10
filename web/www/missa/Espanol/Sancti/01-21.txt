@@ -1,17 +1,5 @@
-[Rank]
-S. Agnetis Virginis et Martyris;;Duplex;;3.1;;vide C6
-
-[Rule]
-vide C6;
-Gloria
-
-[Introitus]
-!Ps 118:95-96
-v. Me acechan los pecadores para perderme; pero yo, Señor, estoy atento a tus preceptos; he visto lo limitado de toda perfección, mas es muy anchuroso tu mandato.
-!Ps 118:1
-Dichosos los que, puros en sus sendas caminan en la ley del Señor.
-&Gloria
-v. Me acechan los pecadores para perderme; pero yo, Señor, estoy atento a tus preceptos; he visto lo limitado de toda perfección, mas es muy anchuroso tu mandato.
+[Officium]
+S. Agnetis Virginis et Martyris
 
 [Oratio]
 Omnipotente y eterno Dios, que eliges lo débil del mundo para confundir a los fuertes, concédenos propicio que cuantos celebramos la solemnidad de la santa virgen y mártir Inés, sintamos ante ti su valimiento.
@@ -22,11 +10,7 @@ $Per Dominum
 La gracia ha sido derramada en tus labios, por eso te bendijo Dios para siempre.
 !Ps 44:5
 V. Que tu diestra se distinga en favor de la justicia y de la verdad con brillantes acciones. Aleluya, aleluya.
-@Commune/C6b:Communio
-
-[Offertorium]
-!Ps 44:15-16
-Es conducida al rey, con el cortejo de vírgenes, sus compañeras; con alegría son conducidas; hacen su entrada en el palacio del rey su Señor.
+@Commune/C6a:Communio
 
 [Secreta]
 Señor, recibe propicio el sacrificio que te ofrecemos; y por la intercesión de tu santa virgen y mártir Inés, libranos de los lazos de nuestros pecados.
@@ -35,7 +19,3 @@ $Per Dominum
 [Communio]
 !Mt 25:4, 6
 Las cinco vírgenes prudentes tomaron aceite en sus vasos, y a la media noche sonó un grito: He aqui el esposo que llega. Salid al encuentro de Cristo nuestro Señor.
-
-[Postcommunio]
-Saciados de alimento y bebida celestial, humildes te rogamos, Señor nuestro, que nos asistan las oraciones de aquélla en cuya memoria hemos recibido Tu sacramento.
-$Per Dominum

@@ -1,9 +1,5 @@
-[Rank]
-Oktawa Św. Józefa;;Duplex majus;;4;;vide Tempora/Pasc2-3
-
-[Rule]
-vide Tempora/Pasc2-3
-9 lectiones
+[Officium]
+Oktawa Św. Józefa
 
 [Lectio1]
 Z Księgi Apokalipsy św. Jana Apostoła

@@ -27,13 +27,12 @@ use DivinumOfficium::Main qw(liturgical_color);
 use DivinumOfficium::Date qw(prevnext);
 use DivinumOfficium::RunTimeOptions qw(check_version check_horas check_language);
 use DivinumOfficium::LanguageTextTools
-  qw(prayer translate load_languages_data omit_regexp suppress_alleluia process_inline_alleluias alleluia_ant ensure_single_alleluia ensure_double_alleluia);
+  qw(prayer rubric translate load_languages_data omit_regexp suppress_alleluia process_inline_alleluias alleluia_ant ensure_single_alleluia ensure_double_alleluia);
 
 $error = '';
 $debug = '';
 
 our $Ck = 0;
-our $notes = 0;
 our $missa = 0;
 our $officium = substr($0, rindex($0, '/') + 1);
 our $Ck = substr($officium, 0, 1) eq 'C';
@@ -72,15 +71,17 @@ our $duplex;                                 #1=simplex-feria, 2=semiduplex-feri
 binmode(STDOUT, ':encoding(utf-8)');
 
 #*** collect standard items
-require "$Bin/do_io.pl";
+require "$Bin/../DivinumOfficium/SetupString.pl";
 require "$Bin/horascommon.pl";
-require "$Bin/dialogcommon.pl";
+require "$Bin/../DivinumOfficium/dialogcommon.pl";
 require "$Bin/webdia.pl";
-require "$Bin/setup.pl";
+require "$Bin/../DivinumOfficium/setup.pl";
 require "$Bin/horas.pl";
+require "$Bin/horasscripts.pl";
 require "$Bin/specials.pl";
 require "$Bin/specmatins.pl";
 require "$Bin/monastic.pl";
+require "$Bin/altovadum.pl";
 require "$Bin/horasjs.pl";
 require "$Bin/officium_html.pl";
 
@@ -89,13 +90,14 @@ $q = new CGI;
 #get parameters
 getini('horas');    #files, colors
 
-our ($lang1, $lang2, $expand, $votive, $column, $local);
+our ($lang1, $lang2, $langfb, $expand, $votive, $column, $local);
 our %translate;     #translation of the skeleton label for 2nd language
 
 our $command = strictparam('command');
 our $browsertime = strictparam('browsertime');
-our $buildscript = '';    #build script
+our $buildscript = '';                    #build script
 our $searchvalue = strictparam('searchvalue');
+our $content = strictparam('content');    # if set output only content wihout html headers menus etc
 
 if (!$searchvalue) { $searchvalue = '0'; }
 
@@ -117,9 +119,17 @@ set_runtime_options('parameters');                    # priest, lang1 ... etc
 
 if ($command =~ s/changeparameters//) { getsetupvalue($command); }
 
-$version = check_version($version);
-$lang1 = check_language($lang1);
-$lang2 = check_language($lang2);
+#print "Content-type: text/html; charset=utf-8\n\n"; #<= uncomment for debuggin "Internal Server Errors"
+$version = check_version($version) || (error("Unknown version: $version") && 'Rubrics 1960 - 1960');
+$lang1 = check_language($lang1) || (error("Unknown language: $lang1") && 'Latin');
+$lang2 = check_language($lang2) || 'English';
+$langfb = check_language($langfb) || 'English';
+
+# option Pius XII psalter changes Latin to Latin-Bea
+if ($psalmvar) {
+  $lang1 = 'Latin-Bea' if $lang1 eq 'Latin' && $lang2 ne 'Latin-Bea';
+  $lang2 = 'Latin-Bea' if $lang2 eq 'Latin' && $lang1 ne 'Latin-Bea';
+}
 
 our $plures = strictparam('plures');
 my @horas = ();
@@ -137,11 +147,14 @@ if ($command =~ s/^pray//) {
       $plures = join('', @horas);
     }
   }
+} else {
+  $content = 0;
 }
+
 our $hora = (@horas > 0) ? $horas[0] : '';
 
-setcookies('horasp', 'parameters');
-setcookies("horasg$cookies_suffix", 'general');
+setcookies('horasp', 'parameters') unless $content;
+setcookies("horasg$cookies_suffix", 'general') unless $content;
 
 if ($Ck) {
   $version1 = $version;    # save value for use in horas
@@ -156,18 +169,14 @@ if ($Ck) {
 $setupsave = savesetup(1);
 $setupsave =~ s/\r*\n*//g;
 
-#prepare testmode
-our $testmode = strictparam('testmode');
-if (!$testmode) { $testmode = strictparam('testmode1'); }
-if ($testmode !~ /(Season|Saint|Common)/i) { $testmode = 'regular'; }
 our $expandnum = strictparam('expandnum');
-$notes = strictparam('notes');
 
 $only = !$Ck && ($lang1 eq $lang2);
 
 if ($officium eq 'Pofficium.pl') {
   our $date1 = strictparam('date1');
-  if (!$date1) { $date1 = gettoday(); }
+  if (!$date1 || $date1 eq 'hodie') { $date1 = gettoday(); }
+  if ($date1 eq 'crastina') { $date1 = prevnext(gettoday(), 1); }
   if ($command =~ /next/i) { $date1 = prevnext($date1, 1); $command = ''; }
   if ($command =~ /prev/i) { $date1 = prevnext($date1, -1); $command = ''; }
 }
@@ -211,7 +220,7 @@ if ($command =~ /setup(.*)/i) {
   $command = "change" . $command . strictparam('pcommand');
 } else {
   print headline($html_dayhead, substr($officium, 0, 1), $version, $version2);
-  load_languages_data($lang1, $lang2, $version, $missa);
+  load_languages_data($lang1, $lang2, $langfb, $version, $missa);
 
   if ($command =~ /appendix/i) {
     require "$Bin/appendix.pl";
@@ -232,21 +241,23 @@ if ($command =~ /setup(.*)/i) {
           my $vesperahead = setheadline();
 
           if ($dayhead ne $vesperahead) {
-            print par_c("<BR><BR>" . html_dayhead($vesperahead));
+            print par_c("<BR/><BR/>" . html_dayhead($vesperahead));
           }
         }
         horas($hora);
       }
 
+      exit if $content;
+
       if ($officium ne 'Pofficium.pl' && @horas == 1) {
-        print par_c("<INPUT TYPE=SUBMIT VALUE='$hora persolut.' onclick='okbutton();'>");
+        print par_c("<INPUT TYPE='SUBMIT' VALUE='$hora persolut.' onclick='okbutton();'>");
       }
     } elsif ($officium ne 'Pofficium.pl') {
       print par_c(mainpage());
     }
   }
 
-  print par_c('<I>' . horas_menu($completed, $date1, $version, $lang2, $votive, $testmode) . '</I>');
+  print par_c('<I>' . horas_menu($completed, $date1, $version, $lang2, $votive) . '</I>');
 
   if ($officium ne 'Pofficium.pl') {
     $votive ||= 'Hodie';
@@ -255,10 +266,10 @@ if ($command =~ /setup(.*)/i) {
   } else {
     print par_c(pmenu());
 
-    print '<TABLE ALIGN=CENTER BORDER=1 STYLE="color: black">';
-    print selectable_p('versions', $version, $date1, $version, $lang2, $votive, $testmode);
-    print selectable_p('languages', $lang2, $date1, $version, $lang2, $votive, $testmode, 'Language 2');
-    print selectable_p('votives', $votive, $date1, $version, $lang2, $votive, $testmode);
+    print "<TABLE ALIGN='CENTER' BORDER='1' $background>";
+    print selectable_p('versions', $version, $date1, $version, $lang2, $votive);
+    print selectable_p('languages', $lang2, $date1, $version, $lang2, $votive, 'Language 2');
+    print selectable_p('votives', $votive, $date1, $version, $lang2, $votive);
     print "</TABLE>\n";
   }
 

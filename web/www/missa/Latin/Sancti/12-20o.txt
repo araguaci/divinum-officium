@@ -1,10 +1,11 @@
+[Officium]
+In Vigilia S. Thomæ Ap.
+
 [Rank]
-In Vigilia S. Thomæ Ap.;;Simplex;;2.5;;vide C1v
+;;Vigilia;;1.5;;ex C1v
 
-[Rule]
-vide C1v;
-no Gloria
-Suffr=Maria1;;
+[Name]
+Thomæ
 
-[Oratio]
-@Commune/C1v::s/N\./Thomæ/
+[Evangelium]
+@Commune/C1v

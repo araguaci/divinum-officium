@@ -1,8 +1,5 @@
-[Rank]
-Sabbato Quattuor Temporum Septembris;;Feria major;;2.1
-
-[Rank] (rubrica 196)
-Sabbato Quattuor Temporum Septembris;;Feria major;;4.9
+[Officium]
+Sabbato Quattuor Temporum Septembris
 
 [Rule]
 (rubrica 1960) celebranda aut forma longior aut forma brevior
@@ -16,10 +13,6 @@ v. Komt, laten wij God aanbidden, en ons voor de Heer nederwerpen, laten wij wen
 Komt, laten wij jubelen voor de Heer, laten wij juichen voor God, ons heil.
 &Gloria
 v. Komt, laten wij God aanbidden, en ons voor de Heer nederwerpen, laten wij wenen voor Hem, die ons heeft gemaakt, want Hij is de Heer onze God.
-
-[Oratio]
-Almachtige, eeuwige God, die door de heilzame onthouding ziel en lichaam geneest, wij bidden uw Majesteit nederig, laat U door de vrome beden van hen, die vasten, verzoenen en geef ons nu en in de toekomst uw steun.
-$Per Dominum
 
 [LectioL1]
 Lezing uit het Boek Leviticus
@@ -54,7 +47,7 @@ $Per Dominum
 [LectioL3]
 Lezing uit de Profeet Michæas
 !Mich 7:14; 7:16; 7:18-20
-Heer, onze God: weid uw volk met uw staf - de kudde, die uw erfdeel is, die afgezonderd wonen in het woud - zoals in de dagen van weleer. Als de volkeren dat zien, worden zij te schande ondanks al hun kracht. Wie is er God als Gij, die de ongerechtigheid vergeeft, en de zonden voorbijziet van de rest van uw erfdeel? Hij zal niet langer zijn toorn neerzenden; want Hij vindt welbehagen in barmhartigheid. Hij zal Zich weer over ons ontfermen; onze ongerechtigheden zal Hij wegnemen, en al onze zonden wegwerpen in de diepte der zee. Gij zul trouw bewijzen aan Jacob en barmhartigheid aan Abraham, zoals Gij aan onze vaderen gezworen hebt sinds onheuglijke tijden, Gij, Heer, onze God.
+Heer, onze God: weid uw volk met uw staf - de kudde, die uw erfdeel is, die afgezonderd wonen in het woud - zoals in de dagen van weleer. Als de volkeren dat zien, worden zij te schande ondanks al hun kracht. Wie is er God als Gij, die de ongerechtigheid vergeeft, en de zonden voorbijziet van de rest van uw erfdeel? Hij zal niet langer zijn toorn neerzenden; want Hij vindt welbehagen in barmhartigheid. Hij zal Zich weer over ons ontfermen; onze ongerechtigheden zal Hij wegnemen, en al onze zonden wegwerpen in de diepte der zee. Gij zult trouw bewijzen aan Jacob en barmhartigheid aan Abraham, zoals Gij aan onze vaderen gezworen hebt sinds onheuglijke tijden, Gij, Heer, onze God.
 $Deo gratias
 
 [GradualeL3]
@@ -69,7 +62,7 @@ $Per Dominum
 [LectioL4]
 Lezing uit de Profeet Zacharias
 !Zach 8:14-19
-In die dagen kwam het woord des Heren tot mij en het luidde: Dit zegt de Heer der heerscharen: Zoals Ik vroeger het plan beraamde om u te straffen, toen uw vaderen Mij tot gramschap hadden uitgedaagd - zo spreekt de Heer - en Ik geen medelijden heb gehad, zo heb Ik daarentegen in deze dagen het plan beraamd om goed te doen aan het huis van Juda en aan Jeruzalem; wilt niet vrezen. Dit is het dan, wat gij moet doen: Laat iedereen waarheid spreken tegenover zijn naaste; velt in uw poorten rechtvaardige en vredestichtende oordelen. Laat niemand in zijn hart zinnen op kwaad tegen zijn naaste; en hebt een afschuw van valse eden; want al deze dingen haat Ik, zo spreekt de Heer. Wederom kwam het woord van de Heer der heerscharen tot mij en het luidde: Dit zegt de Heer der heerscharen: Het vasten van de vierde, en de vifde, en de zevende, en de tiende maand zal voor het huis van Juda verkeren in vreugde en blijdschap, en in een luisterrijke feestdag; heb slechts de waarheid en de vrede lief; zo spreekt de Heer der heerscharen.
+In die dagen kwam het woord des Heren tot mij en het luidde: Dit zegt de Heer der heerscharen: Zoals Ik vroeger het plan beraamde om u te straffen, toen uw vaderen Mij tot gramschap hadden uitgedaagd - zo spreekt de Heer - en Ik geen medelijden heb gehad, zo heb Ik daarentegen in deze dagen het plan beraamd om goed te doen aan het huis van Juda en aan Jeruzalem; wilt niet vrezen. Dit is het dan, wat gij moet doen: Laat iedereen waarheid spreken tegenover zijn naaste; velt in uw poorten rechtvaardige en vredestichtende oordelen. Laat niemand in zijn hart zinnen op kwaad tegen zijn naaste; en hebt een afschuw van valse eden; want al deze dingen haat Ik, zo spreekt de Heer. Wederom kwam het woord van de Heer der heerscharen tot mij en het luidde: Dit zegt de Heer der heerscharen: Het vasten van de vierde, en de vijfde, en de zevende, en de tiende maand zal voor het huis van Juda verkeren in vreugde en blijdschap, en in een luisterrijke feestdag; heb slechts de waarheid en de vrede lief; zo spreekt de Heer der heerscharen.
 $Deo gratias
 
 [GradualeL4]
@@ -83,7 +76,7 @@ $Per Dominum
 
 [LectioL5]
 Lezing uit de Profeet Daniël
-!Dan 3:49-51
+!Dan 3:47-51
 In die dagen daalde de engel des Heren bij Azarias en zijn gezellen in de vuuroven neer, en dreef de vuurvlam de oven uit en maakte het binnen in de oven als waaide er een morgenwind. De vlam echter sloeg negen en veertig el boven de oven uit; en bij het uitslaan verbrandde zij de chaldeeuwse knechten van de koning, die bij de oven stonden en hem stookten. Hen zelf echter tastte het vuur in het geheel niet aan; het deed hun geen kwaad en bracht hun volstrekt geen letsel toe. Toen hieven de drie als uit één mond een loflied aan en verheerlijkten en zegenden God in de vuuroven, zeggende:
 _
 !Hymnus
@@ -102,7 +95,11 @@ Zoals het was in het begin, en nu, en altijd, en in de eeuwen der eeuwen. Amen. 
 Geloofd zijt Gij, God onzer vaderen. Lofwaardig en roemrijk voor eeuwig.
 
 [OratioL5]
-God, Gij hebt voor de drie jongelingen de vlammen van het vuur getemperd. Zorg in uw goedheid dat de vlammen der ondeugden ons, uw dienaren, niet verbrande.
+God, Gij hebt voor de drie jongelingen de vlammen van het vuur getemperd. Zorg in uw goedheid dat de vlam der ondeugden ons, uw dienaren, niet verbrande.
+$Per Dominum
+
+[Oratio]
+Almachtige, eeuwige God, die door de heilzame onthouding ziel en lichaam geneest, wij bidden uw Majesteit nederig, laat U door de vrome beden van hen, die vasten, verzoenen en geef ons nu en in de toekomst uw steun.
 $Per Dominum
 
 [Lectio]

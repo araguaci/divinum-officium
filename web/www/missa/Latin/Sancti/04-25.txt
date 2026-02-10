@@ -1,8 +1,10 @@
-[Rank]
-S. Marci Evangelistæ;;Duplex II classis;;5.1
+[Officium]
+S. Marci Evangelistæ
 
-[Rank] (rubrica 196)
-S. Marci Evangelistæ;;Duplex II classis;;5
+[Rank]
+;;Duplex II classis;;5.1;;ex C1ap
+(sed rubrica 196)
+;;Duplex II classis;;5;;ex C1ap
 
 [Rule]
 Gloria
@@ -28,7 +30,7 @@ Præsta, quǽsumus, omnípotens Deus: ut, qui in afflictióne nostra de tua piet
 $Per Dominum
 
 [Lectio]
-Léctio Ezechiélis Prophétæ.
+Léctio Ezechiélis Prophétæ
 !Ezech 1:10-14
 Similitúdo vultus quátuor animálium: fácies hóminis, et fácies leónis a dextris ipsórum quatuor: fácies autem bovis a sinístris ipsórum quátuor, et fácies áquilæ désuper ipsórum quátuor. Fácies eórum et pennæ eórum exténtæ désuper: duæ pennæ singulórum jungebántur et duæ tegébant córpora eórum: et unumquódque eórum coram fácie sua ambulábat: ubi erat ímpetus spíritus, illuc gradiebántur, nec revertebántur cum ambulárent. Et similitúdo animálium, aspéctus eórum quasi carbónum ignis ardéntium et quasi aspéctus lampadárum. Hæc erat visio discúrrens in médio animálium, splendor ignis, et de igne fulgur egrédiens. Et animália ibant et revertebántur in similitúdinem fúlguris coruscántis.
 
@@ -40,9 +42,7 @@ v. Confitebúntur cœli mirabília tua, Dómine: étenim veritátem tuam in eccl
 Posuísti, Dómine, super caput ejus corónam de lápide pretióso. Allelúja.
 
 [Evangelium]
-Sequéntia ++ sancti Evangélii secúndum Lucam.
-!Luc 10:1-9
-In illo témpore: Designávit Dóminus et alios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. Et dicébat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portare sácculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertátur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.
+@Sancti/02-06
 
 [Offertorium]
 !Ps 88:6
@@ -58,8 +58,7 @@ Hæc múnera, quǽsumus, Dómine, et víncula nostræ pravitátis absólvant, et
 $Per Dominum.
 
 [Communio]
-!Ps 63:11
-Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde, allelúja, allelúja.
+@Commune/C2p:Communio
 
 [Postcommunio]
 Tríbuant nobis, quǽsumus, Dómine, contínuum tua sancta præsídium: quo, beáti Marci evangelístæ tui précibus, nos ab ómnibus semper tueántur advérsis.

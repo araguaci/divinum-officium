@@ -1,16 +1,8 @@
 [Rank]
 In Visitatione B. Mariæ Virginis;;Duplex II classis;;5.1;;ex C11
 
-[Rank] (rubrica 1960)
+[Rank] (rubrica 196)
 In Visitatione B. Mariæ Virginis;;Duplex II classis;;5;;ex C11
-
-[Rule]
-ex C11;
-9 lectiones
-Ipsa Virgo Virginum
-Doxology=Nat
-Antiphonas horas
-Psalmi Dominica
 
 [Ant Vespera]
 Marie, se levant, * s’en alla en grande hâte en une ville de Juda.;;109
@@ -42,7 +34,7 @@ Du Cantique des Cantiques
 4	Il m'a fait entrer dans son cellier, et la bannière qu'il lève sur moi, c'est l'amour.
 5	Soutenez-moi avec des gateaux de raisin, fortifiez-moi avec des pommes, car je suis malade d'amour.
 6	Que sa main gauche soutienne ma tête, et que sa droite me tienne embrassée. 
-7	Je vous en conjure, filles de Jérusalem; par les gazelles et les biches des champs; n'éveillez pas, ne réveillez pas la bien-aimée, avant qu'elle le veuille.
+7	Je vous en conjure, filles de Jérusalem ; par les gazelles et les biches des champs ; n'éveillez pas, ne réveillez pas la bien-aimée, avant qu'elle le veuille.
 
 [Responsory1]
 R. Lève-toi, hâte-toi, mon amie, ma toute belle, et viens ; car déjà l’hiver est passé, la pluie est partie, elle s’est retirée : 
@@ -52,24 +44,24 @@ R. La voix de la tourterelle a été entendue dans notre terre.
 
 [Lectio2]
 !Cant 2:8-13
-8	La voix de mon bien-aimé! Voici qu'il vient, bondissant sur les montagnes, sautant sur les collines.
+8	La voix de mon bien-aimé ! Voici qu'il vient, bondissant sur les montagnes, sautant sur les collines.
 9	Mon bien-aimé est semblable à la gazelle, ou au faon des biches. Le voici, il est derrière notre mur, regardant par la fenêtre, épiant par le treillis.
-10	Mon bien-aimé a pris la parole, il m'a dit: " Lève-toi, mon amie, ma belle, et viens!
-11	Car voici que l'hiver est fini; la pluie a cessé, elle a disparu.
-12	Les fleurs ont paru sur la terre, le temps des chants est arrivé; la voix de la tourterelle s'est fait entendre dans nos campagnes;
-13	le figuier pousse ses fruits naissants, la vigne en fleur donne son parfum. 
+10	Mon bien-aimé a pris la parole, il m'a dit : « Lève-toi, mon amie, ma belle, et viens!
+11	Car voici que l'hiver est fini ; la pluie a cessé, elle a disparu.
+12	Les fleurs ont paru sur la terre, le temps des chants est arrivé ; la voix de la tourterelle s'est fait entendre dans nos campagnes;
+13	le figuier pousse ses fruits naissants, la vigne en fleur donne son parfum.
 
 [Responsory2]
 R. Quelle est celle-ci qui s’avance comme le soleil, et belle comme Jérusalem ?
-*  Les filles de Sion l’ont vue et l’ont dite bienheureuse, et les reines l’ont louée.
+* Les filles de Sion l’ont vue et l’ont dite bienheureuse, et les reines l’ont louée.
 V. Et comme un jour de printemps, les rosés l’entouraient, ainsi que les lys des vallées.
 R. Les filles de Sion l’ont vue et l’ont dite bienheureuse, et les reines l’ont louée.
 
 [Lectio3]
 !Cant 2:13-17
 13 Lève-toi, mon amie, ma belle, et viens!
-14	Ma colombe, qui te tiens dans la fente du rocher, dans l'abri des parois escarpées. montre-moi ton visage, fais-moi entendre ta voix; car ta voix est douce, et ton visage charmant.
-15	Prenez-nous les renards, les petits renards, qui ravagent les vignes, car nos vignes sont en fleur. "
+14	Ma colombe, qui te tiens dans la fente du rocher, dans l'abri des parois escarpées. montre-moi ton visage, fais-moi entendre ta voix ; car ta voix est douce, et ton visage charmant.
+15	Prenez-nous les renards, les petits renards, qui ravagent les vignes, car nos vignes sont en fleur. »
 16	Mon bien-aimé est à moi, et je suis à lui il fait paitre son troupeau parmi les lis.
 17	Avant que vienne la fraicheur du jour, et que les ombres fuient, reviens!... Sois semblable, mon bien-aimé, à la gazelle ou au faon des biches, 'sur les montagnes ravinées.
 
@@ -88,7 +80,7 @@ Lorsque le Rédempteur de notre race fut venu, il alla aussitôt près de Jean, 
 
 [Responsory4]
 R. Le voici qui vient, sautant sur les montagnes, franchissant les collines :
-*  Mon bien-aimé est semblable au chevreuil et au faon des biches.
+* Mon bien-aimé est semblable au chevreuil et au faon des biches.
 V. Il s’est élancé comme un géant pour parcourir sa carrière ; à l’extrémité du ciel est sa sortie.
 R. Mon bien-aimé est semblable au chevreuil et au faon des biches.
 
@@ -142,15 +134,5 @@ R. le Christ notre Dieu.
 En effet, elle ne resta pas tout ce temps auprès d’Élisabeth uniquement pour jouir de son intimité : ce fut encore au profit d’un si grand Prophète. Car s’il y eut de prime abord un effet de grâce si prodigieux, qu’à la salutation de Marie, Jean tressaillit dans le sein de sa mère, et que celle-ci fut remplie de l’Esprit-Saint, combien, pensons-nous, que dans toute la durée de la visite, la présence de Marie y ait surajouté ? C’est ainsi que le Précurseur reçut l’onction du Saint-Esprit et fut exercé dans le sein de sa mère, comme un athlète vaillant. C’est ainsi que sa vigueur était préparée en vue des plus rudes combats.
 &teDeum
 
-[Ant Laudes]
-@:Ant Vespera:s/;;.*//g
-
-[Versum 2]
-@:Versum 1
-
 [Ant 2]
 Lorsqu’elle eut entendu * la salutation de Marie, Élisabeth s’écria d’une voix forte : d’où m’arrive-t-il que la Mère de mon Seigneur vienne vers moi ? Alléluia.
-
-[Versum 3]
-@:Versum 1
-

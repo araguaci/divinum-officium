@@ -1,13 +1,7 @@
-[Rank]
-VII Niedziela po Pięćdziesiątnicy;;Semiduplex;;5
+[Officium]
+VII Niedziela po Pięćdziesiątnicy
 
-[Rule]
-9 lectiones
-Psalmi Dominica
-Antiphonas horas
-Symbolum Athanasium
-
-[Ant 1]
+[Ant 1_]
 Namaścili Salomona * Sadok kapłan, i Natan prorok, na króla w Gihonie, i wstępując z radością mówili: Niech żyje król na wieki.
 
 [Oratio]

@@ -1,28 +1,32 @@
-@CommuneM/C6
+@CommuneM/C6-1
 
-[Lectio1]
-@CommuneM/C6:Lectio1 in 2 loco
+[Officium]
+@Commune/C6b
 
-[Responsory1]
-@Commune/C6:Responsory1 pro Martyre
+[Versum 1]
+@Commune/C6b
 
-[Lectio2]
-@CommuneM/C6:Lectio2 in 2 loco
+[Ant 1]
+@Commune/C6b
 
-[Lectio3]
-@CommuneM/C6:Lectio3 in 2 loco
+[Oratio]
+@Commune/C6b
 
-[Lectio4]
-@CommuneM/C6:Lectio4 in 2 loco
+[Nocturn 1 Versum]
+@Commune/C6:Versum 1
 
-[MM Capitulum]
-@Commune/C7:Capitulum Sexta
-_
-@CommuneM/C6::s/.*_.//s
+[Versum 2]
+@:Versum 1
 
-[Lectio Prima]
-@Commune/C6:Lectio Prima pro Martyre
+[Ant 2]
+@:Ant 1
 
 [Capitulum Nona]
 @:Lectio Prima
 $Deo gratias
+
+[Versum 3]
+@:Versum 1
+
+[Ant 3]
+@:Ant 1

@@ -1,11 +1,5 @@
-[Rank]
-S. Remigii Episcopi Confessoris;;Simplex;;1.1;;vide C4
+[Officium]
+S. Remigii Episcopi et Confessoris
 
-[Rule]
-vide C4;
-Suffragium=Maria3;Papa;Ecclesia;;
-
-[Oratio]
-Wij vragen U, almachtige God, dat het roemrijk feest van uw heilige belijder en bisschop Remigius onze godsvrucht mag bevorderen en onze zaligheid.
-$Per Dominum
-
+[Name]
+Remigius

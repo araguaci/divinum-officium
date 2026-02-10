@@ -1,7 +1,7 @@
 [Rank]
 Beatæ Mariæ Virginis Reginæ;;Duplex II classis;;5.1;;ex C11
 
-[Rank] (rubrica 1960)
+[Rank] (rubrica 196)
 Beatæ Mariæ Virginis Reginæ;;Duplex II classis;;5;;ex C11
 
 [Rule]
@@ -9,8 +9,8 @@ ex C11;
 9 lectiones
 Ipsa Virgo Virginum
 Doxology=Nat
-Antiphonas horas
-Psalmi Dominica
+(rubrica 196)Antiphonas horas
+(rubrica 196)Psalmi Dominica
 
 [Versum 1]
 V. Salve, Regína misericórdiæ. (Allelúja.)
@@ -56,17 +56,22 @@ Amen.
 [Ant Matutinum]
 Benedicta tu * in muliéribus, et benedíctus fructus ventris tui. (Allelúja.);;8
 Sicut myrrha * electa, odórem dedísti suavitátis, sancta Dei Génetrix. (Allelúja.);;18
-Ante torum * hujus Vírginis frequentáte nobis dúlcia cántica drámatis. (Allelúja.);;23
-V. Salve, Regína misericórdiæ. (Allelúja.)
-R. Ex qua natus est Christus, Rex noster. (Allelúja.)
+Ante torum * hujus Vírginis frequentáte nobis dúlcia cántica drámatis. (Allelúja.);;23 (Allelúja.)
 Spécie tua * et pulchritúdine tua inténde, próspere procéde, et regna. (Allelúja.);;44
 Adjuvábit eam * Deus vultu suo: Deus in médio ejus, non commovébitur. (Allelúja.);;45
-Sicut lætántium * ómnium nostrum habitátio est in te, sancta Dei Génetrix. (Allelúja.);;86
-V. Stabat juxta crucem Jesu Mater ejus. (Allelúja.)
-R. In passióne sócia, totíus mundi Regína. (Allelúja.)
+Sicut lætántium * ómnium nostrum habitátio est in te, sancta Dei Génetrix. (Allelúja.);;86 (Allelúja.)
 Gaude, Maria Virgo: * cunctas hǽreses sola interemísti in univérso mundo. (Allelúja.);;95
 Dignáre me * laudáre te, Virgo sacráta: da mihi virtútem contra hostes tuos. (Allelúja.);;96
 Post partum, * Virgo, invioláta permansísti: Dei Génetrix, intercéde pro nobis. (Allelúja.);;97
+
+[Nocturn 1 Versum]
+@:Versum 1
+
+[Nocturn 2 Versum]
+V. Stabat juxta crucem Jesu Mater ejus. (Allelúja.)
+R. In passióne sócia, totíus mundi Regína. (Allelúja.)
+
+[Nocturn 3 Versum]
 V. Beátam me dicent omnes generatiónes. (Allelúja.)
 R. Quia fecit mihi magna qui potens est. (Allelúja.)
 
@@ -107,7 +112,7 @@ R. Quia cum Christo regnat in ætérnum. (Allelúja.)
 27 spíritus enim meus super mel dulcis, et heréditas mea super mel et favum.
 28 Memória mea in generatiónes sæculórum.
 29 Qui edunt me, adhuc esúrient, et qui bibunt me, adhuc sítient.
-30 qui audit me non confundétur, et qui operántur in me non peccábunt: qui elúcidant me, vitam ætérnam habébunt. 
+30 qui audit me non confundétur, et qui operántur in me non peccábunt: qui elúcidant me, vitam ætérnam habébunt.
 
 [Responsory3]
 R. Elégit eam Deus, et præelégit eam;
@@ -180,6 +185,9 @@ R. Super choros Angelórum ad cæléstia regna. (Allelúja.)
 María Regína est et dispensátrix grátiæ, quod designátum fuit in libro Esther, ubi dícitur: Parvus fons qui crevit in flúvium, et in lucem et solem convérsus est. Virgo Maria sub figura Esther comparátur diffusióni fontis et lúminis, propter diffusiónem grátiæ quantum ad dúplicem usum, actiónis licet et contemplatiónis. Grátia enim Dei, quæ est medicatíva géneris humáni, per ipsam ad nos descéndit quasi per aquædúctum, quia ad ipsam Vírginem pértinet dispensátio grátiæ non per modum princípii, sed per modum mériti. Mérito ígitur Virgo María est excellentíssima Regína in comparatiónem ad plebem, cum ímpetrat véniam, súperat pugnam, et distríbuit grátiam, et consequénter perdúcit ad glóriam.
 &teDeum
 
+[Versum 0]
+@Sancti/08-15t:Versum 1
+
 [Capitulum Laudes]
 !Sir 24:5; 24:7
 v. Ego ex ore Altíssimi prodívi, primogénita ante omnem creatúram; ego in altíssimis habitávi, et thronus meus in colúmna nubis.
@@ -196,51 +204,50 @@ Regína mundi digníssima, * María, Virgo perpétua, intercéde pro nostra pace
 !Sir 24:30-31
 v. Qui audit me, non confundétur, et qui operántur in me, non peccábunt: qui elúcidant me, vitam ætérnam habébunt.
 
-[Responsory Tertia]
+[Responsory Breve Tertia]
 R.br. Salve, * Regína misericórdiæ.
 R. Salve, * Regína misericórdiæ.
 V. Ex qua natus est Christus, Rex noster.
 R. Regína misericórdiæ.
 &Gloria
 R. Salve, * Regína misericórdiæ.
-_
-V. Stabat juxta crucem Jesu Mater ejus. (Allelúja.)
-R. In passióne sócia, totíus mundi Regína. (Allelúja.)
+
+[Versum Tertia]
+@:Nocturn 2 Versum
 
 [Capitulum Sexta]
 !Sir 24:9-11
 v. In omni terra steti et in omni pópulo, et in omni gente primátum hábui, et ómnium excelléntium et humílium corda virtúte calcávi.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br. Stabat juxta crucem Jesu * Mater ejus.
 R. Stabat juxta crucem Jesu * Mater ejus.
 V. In passióne sócia, totíus mundi Regína.
 R. Mater ejus.
 &Gloria
 R. Stabat juxta crucem Jesu * Mater ejus.
-_
-V. Beátam me dicent omnes generatiónes. (Allelúja.)
-R. Quia fecit mihi magna qui potens est. (Allelúja.)
+
+[Versum Sexta]
+@:Nocturn 3 Versum
 
 [Capitulum Nona]
 @:Lectio Prima
 $Deo gratias
 
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. Beátam me dicent * Omnes generatiónes.
 R. Beátam me dicent * Omnes generatiónes.
 V. Quia fecit mihi magna qui potens est.
 R. Omnes generatiónes.
 &Gloria
 R. Beátam me dicent omnes generatiónes.
-_
-V. María Virgo cælos ascéndit. (Allelúja.)
-R. Cum Christo regnat in ætérnum. (Allelúja.)
+
+[Versum Nona]
+@:Versum 2
 
 [Versum 3]
-V. María Virgo cælos ascéndit. (Allelúja.)
-R. Cum Christo regnat in ætérnum. (Allelúja.)
+@:Versum 2
 
 [Ant 3]
 Beáta Mater * et intácta Virgo María, gloriósa Regína mundi, intercéde pro nobis ad Dóminum. (Allelúja.)

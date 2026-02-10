@@ -1,9 +1,5 @@
-[Rank]
-S. Agnetis Virginis et Martyris;;Duplex;;3.1;;vide C6b
-
-[Rule]
-vide C6b ;
-9 lectiones
+[Officium]
+S. Agnetis Virginis et Martyris
 
 [Ant 1]
 La bienheureuse Agnès, * au milieu des flammes et les mains étendues, priait en disant : Je vous rends grâces, ô tout-puissant, digne d’adoration et d’honneur, Père redoutable, de ce que, par votre saint Fils, j’ai échappé aux menaces d’un tyran sacrilège, et, passant à travers les impuretés de la chair, j’ai suivi un sentier sans tache. Et, voici que je viens à vous que j’ai aimé, que j’ai cherché et que j’ai toujours désiré.
@@ -16,18 +12,12 @@ $Per Dominum
 Éloignez-vous de moi, * appât de mort, parce que déjà, j’ai été prévenue par un autre amant.;;1
 Il a entouré ma droite * et mon cou de pierres précieuses ; il a fixé à mes oreilles des perles sans prix.;;2
 Il a gravé un signe * sur ma face, afin que je n’admette point d’autre amant que lui.;;3
-V. En ta beauté et tes charmes.
-R. Va de l’avant, prospère et règne.
 Il m’a revêtue * d’une robe tissée d’or, et m’a parée de bijoux magnifiques.;;4
 J’ai reçu de sa bouche, * le miel et le lait, et son sang a coloré mes joues.;;5
 C’est à lui seul, * que je garde ma foi, à lui que je me livre en toute confiance.;;8
-V. Dieu l’aidera par sa contemplation.
-R. Dieu est en son cœur, elle ne sera pas ébranlée.
 A celui dont le soleil * et la lune admirent la beauté, à celui-là seul je garde ma foi.;;14
 Le Christ m’a entourée * de pierres précieuses aux couleurs vives et brillantes.;;44
 Je suis fiancée * à celui-là même que servent les Anges et dont le soleil et la lune admirent la beauté.;;45
-V. Dieu l’a aimée et l’a préférée.
-R. Il l’a fait habiter dans sa tente.
 
 [Responsory1]
 R. Célébrons le jour de fête d’une très sainte Vierge ; rappelons à la mémoire comment souffrit la bienheureuse Agnès : à l’âge de treize ans, elle réduisit à rien la mort et trouva la vie :
@@ -101,7 +91,11 @@ R. De ce que, par votre Fils unique, j’ai échappé aux menaces d’hommes imp
 R. De ce que, par votre Fils unique, j’ai échappé aux menaces d’hommes impies, et, passant à travers les impuretés du démon, suivi un sentier sans souillure.
 
 [Ant Laudes]
-@:Ant Vespera 3:s/;;.*//g
+Introduite dans le lieu * d’infamie, Agnès trouva un Ange du Seigneur prêt à la défendre.
+J’ai avec moi, * pour gardien de mon corps, un Ange du Seigneur.
+Jésus-Christ mon Seigneur * m’a donné son anneau pour gage, et, comme une épouse, il m’a ornée d’une couronne.
+Je vous bénis, * Père de Jésus-Christ mon Seigneur, de ce que, par votre Fils, le feu s’est éteint à mon côté.
+Réjouissez-vous avec moi * et félicitez-moi, parce qu’avec toutes celles-ci, j’ai reçu un trône lumineux.
 
 [Ant 2]
 Je vois maintenant * ce que j’ai ardemment désiré ; ce que j’ai espéré, je le possède enfin ; je suis unie dans les cieux à celui que, sur terre, j’ai aimé de toute mon âme.
@@ -115,13 +109,6 @@ $Deo gratias
 !Sir 51:8 ; 51:12
 v. Mon âme louera le Seigneur jusqu'à la mort, car Vous tirez du péril ceux qui Vous attendent, Seigneur, et Vous les délivrez des mains des nations.
 $Deo gratias
-
-[Ant Vespera 3]
-Introduite dans le lieu * d’infamie, Agnès trouva un Ange du Seigneur prêt à la défendre.;;109
-J’ai avec moi, * pour gardien de mon corps, un Ange du Seigneur.;;110
-Jésus-Christ mon Seigneur * m’a donné son anneau pour gage, et, comme une épouse, il m’a ornée d’une couronne.;;111
-Je vous bénis, * Père de Jésus-Christ mon Seigneur, de ce que, par votre Fils, le feu s’est éteint à mon côté.;;112
-Réjouissez-vous avec moi * et félicitez-moi, parce qu’avec toutes celles-ci, j’ai reçu un trône lumineux.;;147
 
 [Ant 3]
 La bienheureuse Agnès, * debout au milieu des flammes et les mains étendues, priait le Seigneur en disant : O tout-puissant, que l’on doit adorer, prier et redouter, je vous bénis, et je glorifie votre nom pour l’éternité.

@@ -1,63 +1,40 @@
+[Officium]
+S. Caroli Episcopi et Confessoris
+
 [Rank]
-S. Caroli Episcopi et Confessoris;;Duplex;;3;;vide C4
+;;Duplex;;3;;vide C4
 
 [Rule]
 vide C4;
-9 lectiones
+
+[Name]
+Caróli
+Postcommunio=Carólo
 
 [Introitus]
-@Commune/C2c
+@Commune/C2a
 
 [Oratio]
 Ecclésiam tuam, Dómine, sancti Caróli Confessóris tui atque Pontíficis contínua protectióne custódi: ut, sicut illum pastorális sollicitúdo gloriósum réddidit; ita nos ejus intercéssio in tuo semper fáciat amóre fervéntes.
-$Per Dominum
-
-[Commemoratio Oratio]
-!Pro Octava Omnium Sanctorum
-Omnípotens sempitérne Deus, qui nos ómnium Sanctórum tuórum mérita sub una tribuísti celebritáte venerári: quǽsumus; ut desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis intercessóribus, largiáris.
-$Per Dominum
-_
-!Pro Ss. Vitale et Agrícola Martyribus
-Præsta, quǽsumus, omnípotens Deus: ut, qui sanctórum Mártyrum tuórum Vitális et Agrícolæ sollémnia cólimus, eórum apud te intercessiónibus adjuvémur.
 $Per Dominum
 
 [Lectio]
 @Commune/C4
 
 [Graduale]
-@Commune/C4
+!Eccli 44:16
+Ecce sacérdos magnus, qui in diébus suis plácuit Deo. 
+!Eccli 44:20
+Non est invéntus símilis illi, qui conserváret legem Excélsi. 
+Allelúja, allelúja.
+!Ps 109:4 
+Tu es sacérdos in ætérnum, secúndum órdinem Melchísedech. Allelúja.
 
 [Evangelium]
 @Commune/C4
 
 [Offertorium]
-@Commune/C2b
-
-[Secreta]
-Sancti tui, quǽsumus, Dómine, nos ubique lætíficent: ut, dum eórum mérita recólimus, patrocínia sentiámus.
-$Per Dominum
-
-[Commemoratio Secreta]
-!Pro Octava Omnium Sanctorum
-Múnera tibi, Dómine, nostræ devotiónis offérimus: quæ et pro cunctórum tibi grata sint honóre Justórum, et nobis salutária, te miseránte, reddántur.
-$Per Dominum
-_
-!Pro Ss. Vitale et Agrícola Martyribus
-Oblátis, quǽsumus, Dómine, placáre munéribus: et, intercedéntibus sanctis Martýribus tuis Vitále et Agrícola, a cunctis nos defénde perículis.
-$Per Dominum
+@Commune/C2-1
 
 [Communio]
 @Commune/C4
-
-[Postcommunio]
-Præsta, quǽsumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto Cárolo Confessóre tuo atque Pontífice, benefícia potióra sumámus.
-$Per Dominum
-
-[Commemoratio Postcommunio]
-!Pro Octava Omnium Sanctorum
-Da, quǽsumus, Dómine, fidélibus pópulis ómnium Sanctórum semper veneratióne lætári: et eórum perpétua supplicatióne muníri.
-$Per Dominum
-_
-!Pro Ss. Vitale et Agrícola Martyribus
-Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus sanctis Martýribus tuis Vitále et Agrícola, cœléstis remédii fáciat esse consórtes.
-$Per Dominum

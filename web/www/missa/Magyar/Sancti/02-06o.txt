@@ -1,7 +1,5 @@
-[Rank]
-S. Dorothy virgin and martyr;;Simplex;;1.1;;vide C6a
+[Officium]
+Szent Dorottya szűz és vértanú
 
-[Rule]
-vide C6a;
-Gloria
-
+[Name]
+Dorottya

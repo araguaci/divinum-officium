@@ -1,13 +1,9 @@
-[Rank]
-Die II infra octavam Pentecostes;;Duplex I classis;;7;;ex Pasc7-0
+[Officium]
+Die II infra octavam Pentecostes
 
-[Rule]
-ex Pasc7-0;
-1 nocturn;
-Psalmi Dominica;
-Antiphonas horas
-Hymnus Tertia
-No commemoration
+[Oratio]
+O Dieu, qui avez donné le Saint-Esprit à vos apôtres, accordez à Votre peuple l’objet de sa pieuse demande, afin que Vous procuriez aussi la paix à ceux que vous avez gratifiés de la foi.
+$Per Dominum eiusdem
 
 [Lectio1]
 Lecture du saint Évangile selon saint Jean.
@@ -41,10 +37,6 @@ R. Afin que leur bouche pût faire entendre toutes sortes de langages, alléluia
 
 [Ant 2]
 Dieu a tant * aimé le monde qu’Il a donné son Fils unique afin que tout homme qui croit en Lui ne périsse point mais ait la vie éternelle, alléluia.
-
-[Oratio]
-O Dieu, qui avez donné le Saint-Esprit à vos apôtres, accordez à Votre peuple l’objet de sa pieuse demande, afin que Vous procuriez aussi la paix à ceux que vous avez gratifiés de la foi.
-$Per Dominum eiusdem
 
 [Ant 3]
 Si quelqu’un M’aime, il gardera Ma parole et Mon Père l’aimera et Nous viendrons à lui et Nous ferons en lui Notre demeure, alléluia.

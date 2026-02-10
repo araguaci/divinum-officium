@@ -1,8 +1,11 @@
+[Officium]
+Feria IV Cinerum
+
 [Rank]
-Feria IV Cinerum;;Feria Privilegiata;;6.9
+;;Feria Privilegiata;;6.9
 
 [Rank] (rubrica 196)
-Feria IV Cinerum;;Feria privilegiata;;7
+;;Feria privilegiata;;7
 
 [Rule]
 no Gloria
@@ -64,7 +67,7 @@ _
 !Esther 13; Joël 2
 Emendémus in mélius, quæ ignoránter peccávimus: ne, subito præoccupáti die mortis, quærámus spátium pæniténtiæ, et inveníre non possímus. Atténde, Dómine, et miserére: quia peccávimus tibi.
 !Ps 78:9
-Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos. Atténde, Dómine, et miserére: quia peccávimus tibi.
+V. Adjuva nos, Deus, salutáris noster: et propter honórem nóminis tui, Dómine, líbera nos. Atténde, Dómine, et miserére: quia peccávimus tibi.
 V. Glória Patri, et Fílio, et Spirítui Sancto. Atténde, Dómine, et miserére: quia peccávimus tibi.
 !Sacerdos vero, dum cantantur Antiphonæ et Responsorium, detecto capite, primo imponit cineres digniori Sacerdoti, a quo ipse accepit, deinde Ministris paratis, genibus flexis coram Altari, dicens:
 !Genesis 3:19
@@ -125,7 +128,7 @@ $Per Dominum
 Qui meditábitur in lege Dómini die ac nocte, dabit fructum suum in témpore suo.
 
 [Postcommunio]
-Percépta nobis, Dómine, præbeant sacraménta subsídium: ut tibi grata sint nostra jejúnia, et nobis profíciant ad medélam.
+Percépta nobis, Dómine, prǽbeant sacraménta subsídium: ut tibi grata sint nostra jejúnia, et nobis profíciant ad medélam.
 $Per Dominum
 
 [Super populum]

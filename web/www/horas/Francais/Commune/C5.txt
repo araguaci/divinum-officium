@@ -1,52 +1,28 @@
-[Name]
-Commun des Confesseurs non Pontifes
+[Officium]
+Commun d'un Confesseur non pontife
 
-[Rule]
-Psalmi Dominica
-Antiphonas horas
+[Missa]
+Os justi
 
 [Ant Vespera]
-Seigneur, Vous m'aviez confié * cinq talents ; en voici cinq autres ajoutés par mon gain.;;109
-Très bien, bon serviteur, * fidèle en peu de choses, entre dans la joie de ton Seigneur.;;110
-Voilà le fidèle * et prudent serviteur, que le Seigneur a établi sur sa famille.;;111
-Bienheureux ce serviteur * que le Seigneur, quand il viendra frapper à la porte, trouvera vigilant.;;112
-Serviteur bon * et fidèle, entre dans la joie de ton Seigneur.;;116
-
-[Hymnus1 Vespera]
-@Commune/C4:Hymnus1 Vespera
-
-[Hymnus Vespera]
-@Commune/C4:Hymnus Vespera
-
-[Versum 1]
-@Commune/C4
+Seigneur, vous m'aviez confié * cinq talents ; en voici cinq autres ajoutés par mon gain.
+Très bien, bon serviteur, * fidèle en peu de choses, entre dans la joie de ton Seigneur.
+Voilà le fidèle * et prudent serviteur, que le Seigneur a établi sur sa famille.
+Bienheureux ce serviteur * que le Seigneur, quand il viendra frapper à la porte, trouvera vigilant.
+Serviteur bon * et fidèle, entre dans la joie de ton Seigneur.
 
 [Ant 1]
 Je le comparerai * à l’homme sage qui a bâti sa maison sur la pierre.
 
-[Invit]
-Au Seigneur, Roi des confesseurs, * venez, offrons l’adoration.
+[Oratio]
+O Dieu, qui nous réjouissez par la fête annuelle du bienheureux N., Votre confesseur, accordez-nous miséricordieusement que, fêtant sa naissance au ciel, nous imitions aussi ses actions.
+$Per Dominum.
 
-[Hymnus Matutinum]
-@Commune/C4:Hymnus Vespera
-
-[Hymnus1 Matutinum]
-@Commune/C4:Hymnus1 Vespera
-
-[Ant Matutinum]
-Bienheureux l’homme qui médite la loi du Seigneur : sa volonté reste constante, jour et nuit, et toutes ses oeuvres toujours réussiront.;;1
-Heureux ce Saint qui a eu confiance dans le Seigneur, a prêché le commandement du Seigneur et a été établi sur sa montagne sainte.;;2
-Vous êtes ma gloire, et vous êtes mon soutien, Seigneur ; vous avez relevé ma tête et, du haut de votre montagne sainte, vous m’avez exaucé.;;3
-V. Le Seigneur l’a aimé et l’a paré.
-R. Il l’a revêtu d’une robe de gloire.
-Le Seigneur * a exaucé son Saint qui l’invoquait ; le Seigneur l’a exaucé et l’a établi dans la paix.;;4
-Qu’ils se réjouissent, tous ceux qui espèrent en vous. Seigneur ; car vous avez béni le juste et du bouclier de votre faveur vous l’avez couronné.;;5
-Seigneur, notre Seigneur, qu’admirable est votre nom par toute la terre : car de gloire et d’honneur, vous avez couronné votre Saint et vous l’avez étabh sur les oeuvres de vos mains.;;8
+[Nocturn 2 Versum]
 V. La bouche du juste redira la sagesse.
 R. Et sa langue publiera la justice.
-Seigneur, * ce Saint habitera dans votre tabernacle, il a pratiqué la justice et il reposera sur votre montagne sainte.;;14
-La vie qu’il vous a demandée, * vous la lui avez donnée, Seigneur, vous l’avez couvert de gloire et de splendeur, vous avez mis sur sa tête, une couronne en pierre précieuse.;;20
-Celui-ci recevra la bénédiction du Seigneur et la miséricorde du Dieu son sauveur ; car voilà bien la génération de ceux qui cherchent le Seigneur.;;23
+
+[Nocturn 3 Versum]
 V. La loi de son Dieu est dans son coeur.
 R. Et il ne fera pas de faux pas.
 
@@ -57,9 +33,6 @@ De libro Ecclesiástici
 09 Qui est-il ? Nous le dirons bienheureux : parmi son peuple, il a fait des merveilles !
 10 Qui donc fut jugé parfait dans l’épreuve ? À lui, la gloire pour toujours ! Qui donc pouvait pécher et n’a point péché, faire le mal, et ne l’a pas fait ?
 11 Ses biens s’affermiront dans le Seigneur, et l’assemblée dira ses largesses.
-
-[Responsory1]
-@Commune/C4
 
 [Lectio2]
 !Sir 32:18-20 ; 32:24; 33:1-3
@@ -144,19 +117,9 @@ R. A lui d’intercéder pour les péchés de tous les peuples.
 [Lectio8]
 Voilà donc les deux choses commandées : ceindre ses reins, et tenir des lampes ; ce qui signifie que la chasteté doit parer notre corps, et la lumière de la vérité briller dans nos œuvres. L’une de ces vertus n’est nullement capable de plaire à notre Rédempteur si l’autre ne l’accompagne. Celui qui fait des bonnes actions ne peut lui être agréable s’il n’a renoncé à se souiller par la luxure, ni celui qui garde une chasteté parfaite, s’il ne s’exerce à la pratique des bonnes œuvres. La chasteté n’est donc point une grande vertu sans les bonnes œuvres, et les bonnes œuvres ne sont rien sans la chasteté. Mais si quelqu’un observe les deux préceptes, il lui reste le devoir de tendre par l’espérance à la patrie céleste, et de prendre garde qu’en s’éloignant des vices, il ne le fasse pour l’honneur de ce monde.
 
-[Responsory8]
-@Commune/C4
-
 [Lectio9]
 « Et vous, soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin que lorsqu’il viendra et frappera à la porte, ils lui ouvrent aussitôt ». Le Seigneur vient en effet quand il se prépare à nous juger ; et il frappe à la porte, lorsque, par les peines de la maladie, il nous annonce une mort prochaine. Nous lui ouvrons aussitôt, si nous l’accueillons avec amour. Il ne veut pas ouvrir à son juge lorsqu’il frappe, celui qui tremble de quitter son corps, et redoute de voir ce juge qu’il se souvient avoir méprisé ; mais celui qui se sent rassuré, et par son espérance et par ses œuvres, ouvre aussitôt au Seigneur lorsqu’il frappe à la porte, car il reçoit son Juge avec joie. Et quand le moment de la mort arrive, sa joie redouble à la pensée d’une glorieuse récompense.
 &teDeum
-
-[Ant Laudes]
-Seigneur, vous m'aviez confié * cinq talents ; en voici cinq autres ajoutés par mon gain.
-Très bien, bon serviteur, * fidèle en peu de choses, entre dans la joie de ton Seigneur.
-Voilà le fidèle * et prudent serviteur, que le Seigneur a établi sur sa famille.
-Bienheureux ce serviteur * que le Seigneur, quand il viendra frapper à la porte, trouvera vigilant.
-Serviteur bon * et fidèle, entre dans la joie de ton Seigneur.
 
 [Capitulum Laudes]
 !Sir 31:8-9
@@ -205,68 +168,33 @@ Ainsi qu’au saint Paraclet
 Dans tout le cours des siècles.
 Ainsi soit-il.
 
-[Versum 2]
-@Commune/C4
-
 [Ant 2]
 Très bien, bon serviteur, fidèle en peu de choses, parce que tu as été fidèle en peu de choses, je t'établirai sur beaucoup, entre dans la joie de ton Seigneur.
-
-[Oratio]
-O Dieu, qui nous réjouissez par la fête annuelle du bienheureux N., Votre confesseur, accordez-nous miséricordieusement que, fêtant sa naissance au ciel, nous imitions aussi ses actions.
-$Per Dominum.
-
-[Oratio1]
-Que l’intercession du bienheureux N., nous recommande, s’il vous plaît, auprès de vous, Seigneur, afin que nous obtenions, par son patronage, ce que nous ne pouvons attendre de nos mérites.
-$Per Dominum.
 
 [Lectio Prima]
 !Sap 10:10
 v. La Sagesse guida elle-même sur des sentiers droits un homme juste qui fuyait la colère de son frère : elle lui fit voir en songe le royaume de Dieu et lui donna la connaissance de réalités saintes ; elle récompensa ses efforts et multiplia le fruit de ses labeurs.
-
-[Responsory Tertia]
-R.br. Le Seigneur l’a aimé. * Et l’a paré.
-R. Le Seigneur l’a aimé. * Et l’a paré.
-V. Il l’a revêtu de la robe de gloire.
-R. Et l’a paré.
-&Gloria
-R. Le Seigneur l’a aimé. * Et l’a paré.
-_
-V. La bouche du juste redira la sagesse,.
-R. Et sa langue proclamera le droit.
 
 [Capitulum Sexta]
 !Sir 39:6
 v. Le juste mettra tout son coeur à se tenir vigilant dès le matin, près du Seigneur et c’est en présence du Très-Haut, qu’il priera.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br.La bouche du juste * Redira la sagesse.
 R. La bouche du juste * Redira la sagesse.
 V. Et sa langue proclamera le droit.
 R. Redira la sagesse.
 &Gloria
 R. La bouche du juste * Redira la sagesse.
-_
-V. La loi de Dieu est dans son coeur.
-R. Et il ne fera pas de faux pas.
 
-[Capitulum Nona]
-@:Lectio Prima
-$Deo gratias
-
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. La loi de Dieu, * Est dans son coeur.
 R. La loi de Dieu, * Est dans son coeur.
 V. Et il ne fera pas de faux pas.
 R. Est dans son coeur.
 &Gloria
 R. La loi de Dieu, * Est dans son coeur.
-_
-V.Le Seigneur l’a conduit par des voies de droiture.
-R. Et il lui a montré le royaume de Dieu.
-
-[Versum 3]
-@:Versum 2
 
 [Ant 3]
 Cet homme, méprisant le monde * et les choses de la terre, s’est assuré, triomphant, par sa parole et ses actes, des richesses dans le ciel.
@@ -281,7 +209,7 @@ De libro Sapiéntiæ
 11 Il a été enlevé, de peur que le mal ne corrompe sa conscience, pour que le mensonge n’égare pas son âme.
 12 Car la fascination du mal fait perdre de vue le bien, le tourbillon de la convoitise trouble un esprit sans malice.
 13 Arrivé au but en peu de temps, il a parcouru tous les âges de la vie.
-14 Parce qu’il plaisait au Seigneur, celui-ci, sans attendre, l’a retiré d’un monde mauvais. 
+14 Parce qu’il plaisait au Seigneur, celui-ci, sans attendre, l’a retiré d’un monde mauvais.
 
 [Lectio2 in 2 loco]
 !Sap 4:14-19
@@ -290,7 +218,7 @@ De libro Sapiéntiæ
 16 Le juste qui meurt est condamnation des impies vivants ; et la jeunesse rapidement parvenue au but condamne la longue vieillesse de l’homme injuste.
 17 Ils verront donc la mort du sage sans comprendre ce que le Seigneur a décidé à son égard, ni dans quel but il l’a mis en sûreté.
 18 Ils verront et n’en tiendront aucun compte ; ces gens-là, le Seigneur s’en moquera !
-19 Après cette vie, ils ne seront plus qu’un infâme cadavre, un objet de dérision parmi les morts, pour toujours ; il les fera tomber, muets, la tête la première, il les ébranlera jusqu’aux profondeurs ; jusqu’à la fin, ils resteront en friche. 
+19 Après cette vie, ils ne seront plus qu’un infâme cadavre, un objet de dérision parmi les morts, pour toujours ; il les fera tomber, muets, la tête la première, il les ébranlera jusqu’aux profondeurs ; jusqu’à la fin, ils resteront en friche.
 
 [Lectio3 in 2 loco]
 !Sap 4:19-20 ; 5:1-5
@@ -333,3 +261,58 @@ D’une mine unique, l’un des serviteurs a gagné dix mines et l’autre cinq.
 [Lectio9 in 3 loco]
 Et ici, nous pouvons entendre, par les dix mines, les dix préceptes, c’est-à-dire la doctrine de la loi ; et par les cinq autres, les leçons de la morale dues au magistère. Mais je veux que celui qui enseigne, soit accompli en toutes choses : « car le royaume de Dieu ne consiste pas dans les paroles, mais dans la vertu. » Comme il parle de Juifs, c’est bien à propos qu’il dit que deux seulement ont apporté à leur maître de l’argent multiplié, non certes par l’usure, mais par les profits d’une bonne administration. Autre, en effet, est le produit usuraire de l’argent, autre le fruit retiré de la céleste doctrine.
 &teDeum
+
+[Introitus]
+!Ps 36:30-31
+v. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)
+!Ps 36:1
+Ne porte pas envie au méchant et ne sois pas jaloux de ceux qui commettent l’iniquité.
+&Gloria
+v. La bouche du juste méditera la sagesse et sa langue annoncera l’équité ; la loi de Dieu est dans son cœur. (Alléluia, alléluia.)
+
+[Oratio] (ad missam)
+Ô Dieu, qui nous réjouissez chaque année par la solennité du bienheureux N., votre confesseur : puisque nous honorons sa naissance au ciel, accordez, dans votre bonté, que nous imitions aussi ses œuvres.
+$Per Dominum
+
+[Lectio]
+Lecture du livre de l’Ecclésiastique.
+!Eccli 31:8-11.
+Heureux l’homme qui a été trouvé sans tache, qui n’a pas couru après l’or, ni espéré dans l’argent et les trésors. Qui est-il, que nous le louions ? Car il a fait des choses admirables dans sa vie. Il a été soumis à cette épreuve et il a eu la perfection : il y aura pour lui une gloire éternelle. Il pouvait violer la loi et ne l’a pas violée, faire le mal et ne l’a pas fait. C’est pourquoi ses biens sont affermis dans le Seigneur, et toute l’assemblée des saints publiera ses bienfaits.
+
+[Graduale]
+!Ps 91:13; 91:14
+Le juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.
+!Ps 91:3
+V. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit. Alléluia, alléluia. 
+!Jas 1:12
+Heureux l’homme qui supporte l’épreuve ; car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.
+
+[GradualeP]
+Alléluia, alléluia.
+!Jas 1:12.
+Heureux l’homme qui supporte l’épreuve ; car lorsqu’il aura été éprouvé, il recevra la couronne de vie. Alléluia.
+!Eccli 45:9
+Le Seigneur l’a aimé et l’a honoré : il l’a revêtu d’une robe de gloire. Alléluia.
+
+[Tractus]
+!Ps 91:13; 91:14
+Le juste fleurira comme le palmier ; il s’élèvera comme le cèdre du Liban dans la maison du Seigneur.
+!Ps 91:3
+V. Pour annoncer le matin votre miséricorde et votre vérité pendant la nuit.
+!Ps 111:1-3.
+Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.
+V. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.
+V. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.
+
+[Evangelium]
+Évangile ++ selon saint Luc.
+!Luc 12:35-40
+En ce temps-là, Jésus dit à ses disciples : « Ayez les reins ceints et des lampes allumées en vos mains. Soyez semblables à des hommes qui attendent que leur maître revienne des noces, afin de lui ouvrir dès qu’il arrivera et frappera. Heureux ces serviteurs que le maître, à son retour, trouvera veillant ! En vérité, je vous le dis, il se ceindra, les fera mettre à table et, passant de l’un et l’autre, il les servira. Et s’il arrive à la deuxième ou à la troisième veille, et les trouve ainsi veillant, heureux sont ces serviteurs ! Sachez-le bien, si le père de famille savait à quelle heure le voleur doit venir, il veillerait certainement et ne laisserait pas percer sa maison. Vous aussi, tenez-vous prêts, car à l’heure où vous n’y pensez pas, le Fils de l’homme viendra. »
+
+[Secreta]
+Nous vous immolons, Seigneur, une hostie de louange en mémoire de vos saints en qui nous avons confiance pour obtenir de triompher des maux de la vie présente et d’échapper aux maux de la vie future.
+$Per Dominum.
+
+[Postcommunio]
+Nourris par un aliment et un breuvage célestes, nous vous prions et supplions, ô notre Dieu, de faire que nous soit assuré le secours des prières de celui en la fête de qui nous les avons reçus.
+$Per Dominum

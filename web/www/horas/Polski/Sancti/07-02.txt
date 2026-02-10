@@ -1,16 +1,8 @@
 [Rank]
 Nawiedzenie Najświętszej Marji Panny;;Duplex II classis;;5.1;;ex C11
 
-[Rank] (rubrica 1960)
+[Rank] (rubrica 196)
 Nawiedzenie Najświętszej Marji Panny;;Duplex II classis;;5;;ex C11
-
-[Rule]
-ex C11;
-9 lectiones
-Ipsa Virgo Virginum
-Doxology=Nat
-Antiphonas horas
-Psalmi Dominica
 
 [Ant Vespera]
 Powstawszy Marja, * poszła na góry z kwapieniem do miasta Judzkiego.;;109
@@ -119,15 +111,5 @@ A skądże mi to, że przyszła Matka Pana mego do mnie? To znaczy: „Czyż nie
 Nie tylko bowiem z przyjaźni długo tam pozostawała, lecz szło Jej o dobro tak wielkiego Proroka. Jeśli bowiem, gdy po raz pierwszy weszła, tak wielką łaskę otrzymała, iż na pozdrowienie Maryi dziecię w łonie się poruszyło i matka dziecięcia została napełniona Duchem Świętym, to czyż możemy sobie wyobrazić, jak wiele dziecię pozyskało w czasie tak długiego tam pobytu Świętej Maryi? Tak więc Prorok w łonie matki był namaszczony i jakby na biegłego zapaśnika w nim się ćwiczył; jego moc się przygotowywała do niezmiernie wielkiego boju.
 &teDeum
 
-[Ant Laudes]
-@:Ant Vespera:s/;;.*//g
-
-[Versum 2]
-@:Versum 1
-
 [Ant 2]
 Skoro słyszała * Elżbieta pozdrowienie Maryi, i zawołała głosem wielkim i rzekła: A skądże mnie to, że przyszła matka Pana mego do mnie? Alleluja.
-
-[Versum 3]
-@:Versum 1
-

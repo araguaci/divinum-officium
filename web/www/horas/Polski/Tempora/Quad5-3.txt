@@ -1,7 +1,5 @@
-[Rank]
-Środa tygodnia Męki Pańskiej;;Feria major;;2
-
-[Rule]
+[Officium]
+Środa tygodnia Męki Pańskiej
 
 [Lectio1]
 Czytanie Ewangelii świętej według Jana

@@ -39,7 +39,7 @@ sub htmlHead {
   my $flag = shift;
   if (!$title) { $title = ' '; }
 
-  print << "PrintTag";
+  print <<"PrintTag";
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="la"><head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <link href="s.css" rel="stylesheet" type="text/css"/><title>$title</title></head>
 PrintTag
 }
@@ -123,7 +123,7 @@ sub setup {
 
     if ($parmode[$i] =~ /^label/i) {
       my $ilabel = $parvalue[$i];
-      if ($parpar[$i]) { $ilabel = wrap($ilabel, $parpar[$i], "<BR>\n"); }
+      if ($parpar[$i]) { $ilabel = wrap($ilabel, $parpar[$i], "<br/>\n"); }
       $input .= "$ilabel";
       $input .= "<INPUT TYPE=HIDDEN NAME=\'I$k\' VALUE=\'$parvalue[$i]\'>\n";
 
@@ -157,7 +157,7 @@ sub setup {
         do_write("$datafolder/gen/$savefile.gen", $pv);
       }
 
-      $input .= "<TEXTAREA NAME=\'I$k\' ID=\'I$k\' COLS=$size[1] ROWS=$size[0]>$pv</TEXTAREA><BR>\n";
+      $input .= "<TEXTAREA NAME=\'I$k\' ID=\'I$k\' COLS=$size[1] ROWS=$size[0]>$pv</TEXTAREA><br/>\n";
       $input .= "<A HREF='#' onclick='loadrut();'>";
       $input .= setfont($dialogfont) . "Load</FONT></A>";
 
@@ -444,7 +444,7 @@ sub setvrbar {
 #   #remove auxiliary characters
 #   $text =~ s/wait[0-9]+//ig;
 #   $text =~ s/\_/ /g;
-#   $text =~ s/\{\:.*?\:\}(<BR>)*\s*//g;
+#   $text =~ s/\{\:.*?\:\}(<br/>)*\s*//g;
 #   $text =~ s/\{\:.*?\:\}//sg;
 #   $text =~ s/\`//g;
 #
@@ -496,7 +496,7 @@ sub setvrbar {
 #     #$htmltext .=  setfont($blackfont,$text) . "</DIV>\n";
 #     #if ($only || !columnsel($lang)) {$htmltext .= "</DIV>\n";}
 #
-#     $text =~ s/<BR>/<br \/>/sg;
+#     $text =~ s/<BR>/<br\/>/sg;
 #
 #     #$text =~ s/\n//g;
 #     print $text;
@@ -542,8 +542,8 @@ sub longtd {
   my $a1 = shift;
   my $a2 = shift;
 
-  my @a1 = split('<BR>', $a1);
-  my @a2 = split('<BR>', $a2);
+  my @a1 = split('<br/>', $a1);
+  my @a2 = split('<br/>', $a2);
   my @b1 = splice(@b1, @b1);
   my @b2 = splice(@b2, @b2);
   my $i;

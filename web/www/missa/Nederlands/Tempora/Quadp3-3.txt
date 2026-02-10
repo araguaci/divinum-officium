@@ -1,8 +1,5 @@
-[Rank]
-Feria IV Cinerum;;Feria Privilegiata;;6.9
-
-[Rank] (rubrica 196)
-Feria IV Cinerum;;Feria privilegiata;;7
+[Officium]
+Feria IV Cinerum
 
 [Rule]
 no Gloria
@@ -42,7 +39,7 @@ R. Amen.
 _
 _
 v. Laat ons bidden.
-Almachtige, eeuwige God, Gij hebt de Ninivieten, toen zij in zak en as boete deden, het geneesmiddel van uw vergeving geschonken. Laat ons door uw goedheid naar het uiterlijk hen zo navolgen, dat wij als zij vergiffenis verwerven Door Christus, onze Heer.
+Almachtige, eeuwige God, Gij hebt de Ninivieten, toen zij in zak en as boete deden, het geneesmiddel van uw vergeving geschonken. Laat ons door uw goedheid naar het uiterlijk hen zo navolgen, dat wij als zij vergiffenis verwerven. Door Christus, onze Heer.
 R. Amen.
 _
 _
@@ -77,7 +74,7 @@ Laat ons, o Heer, de christelijke strijd openen met een heilig vasten, opdat wij
 R. Amen.
 
 [Introitus]
-!Sap 11:24 11:25; 11:27
+!Sap 11:24; 11:25; 11:27
 v. Gij ontfermt U over allen, Heer, en haat niets van wat Gij gemaakt hebt. Gij slaat geen acht op de zonden der mensen om wille van hun boetvaardigheid en spaart hen. Ja, Gij zijt de Heer, onze God.
 !Ps 56:2
 Wees mij genadig, o God, wees mij genadig, want op U vertrouwt mijn ziel.
@@ -91,7 +88,7 @@ $Per Dominum
 [Lectio]
 Lezing uit de profeet Joël
 !Joël 2:12-19
-Dit zegt de Heer: Keert terug tot Mij van ganser harte in vasten en geween en geschrei. En scheurt uw harten in plaats van uw kleren, en keert terug tot de Heer, uw God. Want Hij is goed en barmhartig, lankmoedig en vol erbarming, en als Hij straft, laat Hij zich weer verbidden. Wie weet, of Hij niet verandert en vergiffenis schenkt en een zegening nog zal overlaten: een spijs- en een plengoffer voor de Heer, uw God. Blaast de bazuin op Sion: schrijft een vastendag uit, roept een bijeenkomst samen. Laat het volk te zamen komen, een heilige bidstond houden. Roept de grijsaards bijeen, brengt de kinderen saam, zelfs zij, die nog zuigeling zijn. Laat de bruidegom uit zijn kamer treden, en de bruid uit haar bruidsvertrek. Laat tussen de voorhal en het altaar de priesters, de dienaars des Heren, wenen en roepen: Spaar, Heer, spaar uw volk! en lever uw erfdeel niet over ten smaad, zodat de volken over hen zouden heersen. Waarom hoort men onder de heidenen zeggen: Waar is nu hun God? De ijverzucht des Heren is ontwaakt voor zijn land, en Hij heeft zijn volk gespaard. Want de Heer gaf ten antwoord en Hij sprak tot zijn volk: Zie, Ik geef u weer koren en olie en wijn, zodat gij u daaraan verzadigen kunt; en Ik zal u niet meer overleveren tot versmading onder de volken. Zo spreekt de almachtige Heer.
+Dit zegt de Heer: Keert terug tot Mij van ganser harte in vasten en geween en geschrei. En scheurt uw harten in plaats van uw kleren, en keert terug tot de Heer, uw God. Want Hij is goed en barmhartig, lankmoedig en vol erbarming, en als Hij straft, laat Hij zich weer verbidden. Wie weet, of Hij niet verandert en vergiffenis schenkt en een zegening nog zal overlaten: een spijs- en een plengoffer voor de Heer, uw God. Blaast de bazuin op Sion: schrijft een vastendag uit, roept een bijeenkomst samen. Laat het volk tezamen komen, een heilige bidstond houden. Roept de grijsaards bijeen, brengt de kinderen saam, zelfs zij, die nog zuigeling zijn. Laat de bruidegom uit zijn kamer treden, en de bruid uit haar bruidsvertrek. Laat tussen de voorhal en het altaar de priesters, de dienaars des Heren, wenen en roepen: Spaar, Heer, spaar uw volk! en lever uw erfdeel niet over ten smaad, zodat de volken over hen zouden heersen. Waarom hoort men onder de heidenen zeggen: Waar is nu hun God? De ijverzucht des Heren is ontwaakt voor zijn land, en Hij heeft zijn volk gespaard. Want de Heer gaf ten antwoord en Hij sprak tot zijn volk: Zie, Ik geef u weer koren en olie en wijn, zodat gij u daaraan verzadigen kunt; en Ik zal u niet meer overleveren tot versmading onder de volken. Zo spreekt de almachtige Heer.
 
 [Graduale]
 !Ps 56:2; 56:4
@@ -111,15 +108,14 @@ Vervolg ++ van het heilig Evangelie volgens Mattheüs
 In die tijd sprak Jezus tot zijn leerlingen: Als gij vast, zet dan geen somber gezicht, zoals de schijnheiligen dat doen. Want zij maken hun gezicht ontoonbaar, om aan de mensen te laten zien, dat zij vasten. Voorwaar, Ik zeg u: zij hebben hun loon al ontvangen. Gij daarentegen, als gij vast, zalft dan uw hoofd en wast uw gezicht, om niet aan de mensen te laten zien, dat gij vast, maar aan uw Vader, die in het verborgene is; en uw Vader, die in het verborgene ziet, zal het u vergelden. Verzamelt u toch geen schatten op aarde, waar roest en mot ze verteren, of dieven inbreken en stelen. Maar verzamelt u schatten in de hemel, waar geen roest en geen mot ze verteren en geen dieven inbreken en stelen. Want waar uw schat is, daar is ook uw hart.
 
 [Offertorium]
-!Ps 29:2-3
-Luide wil ik U prijzen, o Heer. want Gij hebt mij gered en liet mijn vijanden niet over mij juichen. Heer, ik riep tot U en Gij hebt mij genezen.
+@Tempora/Pent11-0
 
 [Secreta]
 Heer, wij vragen U, stel ons in staat passend dit offer op te dragen, waardoor wij het begin van deze eerbiedwaardige en geheimvolle tijd vieren.
 $Per Dominum
 
 [Communio]
-!Ps 1:2 et 3. 
+!Ps 1:2 en 3
 Die de Wet des Heren overweegt dag en nacht, zal op tijd zijn vrucht geven.
 
 [Postcommunio]

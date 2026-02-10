@@ -1,21 +1,18 @@
-[Rank]
-Die VI infra Octavam Nativitatis;;Semiduplex;;2;;ex Sancti/12-25m3
+[Officium]
+Die VI infra Octavam Nativitatis
 
-[Rank1960]
-Die sexta post Nativitatem;;Duplex II class;;5;;ex Sancti/12-25m3
+[Introitus]
+!Iz 9, 6
+v. Gyermek születik nekünk, és Fiú adatik nekünk, a fejedelemség az ő vállára kerül és leszen az ő neve: a nagy határozat angyala.
+!Zsolt 97,1
+Énekeljetek az Úrnak új éneket, mert csodás dolgokat cselekedett.
+&Gloria
+v. Gyermek születik nekünk, és Fiú adatik nekünk, a fejedelemség az ő vállára kerül és leszen az ő neve: a nagy határozat angyala.
 
-[Rule]
-ex Sancti/12-25m3;
-Gloria
-Credo
-Prefatio=Nat
+[Offertorium]
+!Zsolt 88,12;88,15
+Tiéd az ég és tiéd a föld: te alkottad a földkerekséget és mindent, ami rajta vagyon: igazság és jog királyi széked alapja
 
-[Lectio]
-Olvasmány szent Pál apostol Tituszhoz irott leveléből
-!Tit 3:4-7
-v. Amikor azonban üdvözítő Istenünk kinyilvánította jóságát és emberszeretetét, megmentett minket.  Nem azért, mert igazak voltak tetteink, hanem irgalmasságból, s a Szentlélekben való újjászületés és megújulás fürdőjében,  akit Üdvözítőnk, Jézus Krisztus által bőven árasztott ránk,  hogy kegyelmével megigazuljunk, s az örök élet reménybeli örököseivé váljunk. 
-
-[Evangelium]
-Evangélium + szent Lukács Evangélista kőnyvéből
-!Luke 2:15-20
-v. Mihelyt az angyalok visszatértek a mennybe, a pásztorok így szóltak egymáshoz: "Menjünk el Betlehembe, hadd lássuk a valóra vált beszédet, amit az Úr tudtunkra adott!"  Gyorsan útra keltek, és megtalálták Máriát, Józsefet és a jászolban fekvő gyermeket.  Miután látták, az ezen gyermekről nekik mondottak alapján ismerték fel.  Aki csak hallotta, csodálkozott a pásztorok beszédén.  Mária meg mind emlékezetébe véste szavaikat és szívében egyeztette.  A pásztorok hazatértek, dicsőítették és magasztalták az Istent mindenért, amit csak hallottak, és úgy láttak, ahogy tudtul adták nekik. 
+[Communio]
+!Zsolt 97,3
+A föld határai mind látják Istenünknek szabadítását.

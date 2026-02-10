@@ -1,39 +1,25 @@
 @CommuneM/C6
 
-[Name]
-Commune Virginum plurimorum
-
-[Rule]
-Psalmi Dominica
-Antiphonas horas
-
-[Versum 1]
+[Officium]
 @Commune/C6a
-
-[Ant 1]
-@Commune/C6a
-
-[Responsory1]
-@Commune/C6:Responsory1 pro Martyre
-
-[Ant 2]
-@:Ant 1
-
-[Versum 2]
-@:Versum 1
 
 [Oratio]
 @Commune/C6a
 
+[HymnusM Matutinum]
+@Commune/C6a
+
+[Responsory1]
+@Commune/C6a
+
+[MM Capitulum]
+@Commune/C6:Capitulum Sexta
+_
+@CommuneM/C6::s/.*_.//s
+
 [Lectio Prima]
-@Commune/C6:Lectio Prima pro Martyre
+@Commune/C6a
 
 [Capitulum Nona]
 @:Lectio Prima
 $Deo gratias
-
-[Ant 3]
-@:Ant 1
-
-[Versum 3]
-@:Versum 1

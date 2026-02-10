@@ -1,14 +1,11 @@
 @Sancti/07-02
 
-[Rank]
-In Visitatione Beatæ Mariæ Virginis;;Duplex II classis;;5;;ex C11
-
 [Rule]
 12 lectiones
 Doxology=Nat
 
-[Commemoratio 2]
-
+[Ant Matutinum 3N]
+Adest namque * Visitátio sacratíssime Vírginis, quæ ex regáli progénie génita génuit Christum Regem Dóminum: † ipsa intercédat pro peccátis nostris.
 
 [Lectio1]
 @Sancti/07-02:Lectio1:1-7 s/-7/-5/
@@ -56,9 +53,6 @@ R. Hódie visitávit Elízabeth beáta Virgo María ex progénie David; † per 
 V. Beatíssimæ Vírginis Maríæ Visitatiónem devotíssime celebrémus.
 R. Cujus vita gloriósa lucem dedit sǽculo.
 
-[Ant Matutinum 3N]
-Adest namque * Visitátio sacratíssime Vírginis, quæ ex regáli progénie génitia génuit Christum Regem Dóminum: † ipsa intercédat pro peccátis nostris.
-
 [Lectio9]
 @Sancti/07-02:Lectio7:s/Illa natúræ.*//s
 
@@ -88,3 +82,4 @@ R. Sancta et immaculáta virgínitas, † quibus te láudibus éfferam, néscio:
 * Quia quem cæli cápere non póterant, tuo grémio contulísti.
 V. Benedícta tu in muliéribus, † et benedíctus fructus ventris tui.
 R. Quia quem cæli cápere non póterant, tuo grémio contulísti.
+

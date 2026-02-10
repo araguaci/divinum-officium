@@ -1,32 +1,9 @@
-[Rank]
-S. Laurentii a Brundusio Confessoris;;Duplex;;3;;vide C5a
+[Officium]
+S. Laurentii a Brundusio Confessoris et Ecclesiæ Doctoris
 
-[Rule]
-vide C5a
-Gloria
+[Name]
+Laurentius
 
 [Oratio]
-Deus, qui ad árdua quæque pro nóminis tui glória et animárum salúte beáto Lauréntio, Confessóri tuo atque Doctóri, spíritum sapiéntiæ et fortitúdinis contulísti: da nobis in eódem spíritu et agénda cognóscere; et cógnita, ejus intercessióne, perfícere. 
+God, U hebt aan de zalige Laurentius, uw belijder en kerkleraar, de geest van wijsheid en sterkte gegeven voor alle moeilijke taken, ter ere van uw naam en tot redding van de zielen: geef dat wij in dezelfde geest onze taken mogen kennen en, als we ze eenmaal kennen, ze mogen volbrengen door zijn voorspraak. 
 $Per Dominum
-
-[Commemoratio Oratio]
-!S. Praxedis Virginis
-Verhoor ons, Heer, onze Redder, opdat wij niet alleen vreugde vinden in het feest van uw heilige maagd en martelares Praxedis, maar ook haar trouwe, liefdevolle toewijding mogen leren.
-$Per Dominum
-
-[Secreta]
-@Commune/C5a:Secreta1:s/N\./Lauréntii/
-
-[Commemoratio Secreta]
-!S. Praxedis Virginis
-Moge, o Heer, het offer door het U toegewijde volk ter ere van uw heiligen gebracht, U aangenaam zijn, want door hun verdiensten weten wij ons uit de nood gered.
-$Per Dominum
-
-[Postcommunio]
-@Commune/C5a:Postcommunio1:s/N\./Lauréntii/
-
-[Commemoratio Postcommunio]
-!S. Praxedis Virginis
-Gij hebt, o Heer, uw gezin verzadigd met heilige gaven. Wij vragen U, verkwik ons blijvend door de bemiddeling van haar, wier feest wij vieren.
-$Per Dominum
-

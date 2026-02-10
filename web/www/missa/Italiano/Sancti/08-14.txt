@@ -1,16 +1,13 @@
 [Rank]
 In Vigilia Assumptionis B.M.V.;;Simplex;;1.5;;
 
-[Rank1960]
-Vigilia Assumptionis B.M.V.;;Douplex 2nd class;;5;;
-
 [Rule]
 no Gloria
 Prefatio=Communis
 Suffragium=Spiritu
 
 [Introitus]
-!Ps 44:13; 44:15; 44:16
+!Ps 44:13; 44:15-16
 v. I ricchi del popolo implorano il tuo volto. Dal re sono introdotte le vergini con lei: le sue compagne ti sono portate con festevole esultanza.
 !Ps 44:2
 Vibra nel mio cuore un ispirato pensiero, mentre al Sovrano canto il mio poema.
@@ -51,4 +48,3 @@ Beato il seno della Vergine Maria, che portò il Figlio dell'eterno Padre.
 [Postcommunio]
 O Dio misericordioso, porgi aiuto alla nostra debolezza; affinché noi, che ci prepariamo alla festa della Madre di Dio, risorgiamo per la sua intercessione dalle nostre iniquità.
 $Per eundem
-

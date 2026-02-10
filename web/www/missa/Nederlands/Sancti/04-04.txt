@@ -1,14 +1,5 @@
-[Rank]
-S. Isidori Episc. Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a
+[Officium]
+S. Isidori Episcopi Confessoris et Ecclesiæ Doctoris
 
 [Name]
-Isidore
-
-[Rule]
-vide C4a;
-Gloria
-CredoDa
-
-[Oratio]
-God, Gij hebt uw volk de heilige Isidorus als bedienaar van het eeuwig heil geschonken. Wij vragen U, laat ons in de hemel tot voorspreker hebben, die wij op aarde als leraar van het leven hadden.
-$Per Dominum
+Isidorus

@@ -1,11 +1,8 @@
-[Rank]
-In Nativitate Domini in aurora;;Duplex I Classis;;6.5
+[Officium]
+In Nativitate Domini in aurora
 
-[Rule]
-Gloria
-Credo
-Prefatio=Nat
-multiple3
+[Rank]
+;;Duplex I Classis;;6.5
 
 [Introitus]
 !Isa 9:2; 9:6

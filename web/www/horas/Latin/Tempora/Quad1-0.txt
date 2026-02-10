@@ -1,16 +1,21 @@
+[Officium]
+Dominica I in Quadragesima
+
 [Rank]
-Dominica I in Quadragesima;;I classis Semiduplex;;6.9
+;;I classis Semiduplex;;6.9
 
 [Rule]
 9 lectiones
 Symbolum Athanasium(rubrica tridentina)
 
-[Versum 1]
-V. Angelis suis Deus mandávit de te.
-R. Ut custódiant te in ómnibus viis tuis.
+[Versum 1] (nisi rubrica cisterciensis)
+@Psalterium/Special/Major Special:Quad Versum 2
 
 [Ant 1]
 Tunc invocábis, * et Dóminus exáudiet: clamábis, et dicet: Ecce adsum.
+
+[Ant 1] (rubrica cisterciensis)
+Ecce nunc * tempus acceptábile, ecce nunc dies salútis; in his ergo diébus exhibeámus nos sicut Dei ministros, in multa patiéntia, in vigíliis, in jejúniis, et in charitáte non ficta.
 
 [Oratio]
 Deus, qui Ecclésiam tuam ánnua quadragesimáli observatióne puríficas: præsta famíliæ tuæ; ut, quod a te obtinére abstinéndo nítitur, hoc bonis opéribus exsequátur.
@@ -58,10 +63,10 @@ R. Ut non vituperétur ministérium nostrum.
 6 Sed qui consolátur húmiles, consolátus est nos Deus in advéntu Titi.
 7 Non solum autem in advéntu ejus, sed étiam in consolatióne, qua consolátus est in vobis, réferens nobis vestrum desidérium, vestrum fletum, vestram æmulatiónem pro me, ita ut magis gaudérem.
 8 Quóniam etsi contristávi vos in epístola, non me pœ́nitet: etsi pœnitéret, videns quod epístola illa (etsi ad horam) vos contristávit,
-9 nunc gáudeo: non quia contristáti estis, sed quia contristáti estis ad pœniténtiam. 
+9 nunc gáudeo: non quia contristáti estis, sed quia contristáti estis ad pœniténtiam.
 
 [Responsory3]
-R. In jejúnio et flétu orábunt sacerdótes, dicéntes:
+R. In jejúnio et fletu orábunt sacerdótes, dicéntes:
 * Parce, Dómine, parce pópulo tuo; et ne des hereditátem tuam in perditiónem.
 V. Inter vestíbulum et altáre plorábunt sacerdótes, dicéntes.
 R. Parce, Dómine, parce pópulo tuo; et ne des hereditátem tuam in perditiónem.
@@ -71,7 +76,7 @@ R. Parce, Dómine, parce pópulo tuo; et ne des hereditátem tuam in perditióne
 [Lectio4]
 Sermo sancti Leónis Papæ
 !Sermo 4 de Quadragesima
-Prædicatúrus vobis, dilectíssimi, sacratíssimum maximumque jejunium, quo aptius utar exordio, quam ut verbis Apóstoli, in quo Christus loquebátur, incipiam, dicamque quod lectum est: Ecce nunc tempus acceptábile: ecce nunc dies salútis? Quamvis enim nulla sint témpora, quæ divinis non sint plena munéribus, et semper nobis ad misericórdiam Dei per ipsíus grátiam præstétur accéssus: nunc tamen ómnium mentes majori studio ad spiritales profectus movéri, et ampliori fiducia oportet animari, quando ad univérsa pietátis officia, illíus nos diéi, in quo redempti sumus, recursus invítat: ut excéllens super ómnia passiónis Dominicæ sacraméntum, purificátis et corpóribus et ánimis celebremus.
+Prædicatúrus vobis, dilectíssimi, sacratíssimum maximúmque jejúnium, quo áptius utar exórdio, quam ut verbis Apóstoli, in quo Christus loquebátur, incípiam, dicámque quod lectum est: Ecce nunc tempus acceptábile: ecce nunc dies salútis? Quamvis enim nulla sint témpora, quæ divínis non sint plena munéribus, et semper nobis ad misericórdiam Dei per ipsíus grátiam præstétur accéssus: nunc tamen ómnium mentes majóri stúdio ad spiritáles proféctus movéri, et amplióri fidúcia opórtet animári, quando ad univérsa pietátis offícia, illíus nos diéi, in quo redémpti sumus, recúrsus invítat: ut excéllens super ómnia passiónis Domínicæ sacraméntum, purificátis et corpóribus et ánimis celebrémus.
 
 [Responsory4]
 R. Emendémus in mélius, quæ ignoránter peccávimus: ne súbito præoccupáti die mortis, quærámus spátium pœniténtiæ, et inveníre non possímus:
@@ -80,7 +85,7 @@ V. Adjuva nos, Deus salutáris noster, et propter honórem nóminis tui, Dómine
 R. Atténde, Dómine, et miserére, quia peccávimus tibi.
 
 [Lectio5]
-Debebátur quidem tantis mystériis ita incessábilis devotio, et continuáta reveréntia, ut tales permanerémus in conspéctu Dei, quales nos in ipso Paschali festo dignum est inveníri. Sed quia hæc fortitúdo paucórum est: et dum carnis fragilitate austerior observántia relaxátur, dumque per varias actiónes vitæ hujus sollicitúdo disténditur, necesse est de mundano púlvere étiam religiosa corda sordéscere: magna divinæ institutiónis salubritate provisum est, ut ad reparandam méntium puritátem quadragínta nobis diérum exercitátio mederétur, in quibus aliórum témporum culpas, et pia ópera redímerent, et jejunia casta decóquerent.
+Debebátur quidem tantis mystériis ita incessábilis devótio, et continuáta reveréntia, ut tales permanerémus in conspéctu Dei, quales nos in ipso Pascháli festo dignum est inveníri. Sed quia hæc fortitúdo paucórum est: et dum carnis fragilitáte austérior observántia relaxátur, dumque per várias actiónes vitæ hujus sollicitúdo disténditur, necésse est de mundáno púlvere étiam religiósa corda sordéscere: magna divínæ institutiónis salubritáte provísum est, ut ad reparándam méntium puritátem quadragínta nobis diérum exercitátio mederétur, in quibus aliórum témporum culpas, et pia ópera redímerent, et jejúnia casta decóquerent.
 
 [Responsory5]
 R. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas, et revertátur ad Dóminum, et miserébitur ejus:
@@ -89,7 +94,7 @@ V. Non vult Dóminus mortem peccatóris, sed ut convertátur et vivat.
 R. Quia benígnus et miséricors est, et præstábilis super malítia Dóminus Deus noster.
 
 [Lectio6]
-Ingressuri ígitur, dilectíssimi, dies mysticos, et purificandis ánimis atque corpóribus sacratius institutos, præceptis apostolicis obedire curemus, emundántes nos ab omni inquinaménto carnis ac spíritus: ut castigátis colluctatiónibus, quæ sunt inter utramque substantiam, animus, quem sub Dei gubernaculis constitutum, corporis sui decet esse rectórem, dominatiónis suæ obtíneat dignitátem: ut némini dantes ullam offensiónem, vituperatiónibus obloquéntium non simus obnoxii. Digna enim ab infidelibus reprehensióne carpemur, et nostro vítio linguæ impiæ in injúriam se religiónis armábunt, si jejunántium mores a puritate perfectæ continéntiæ discrepárint. Non enim in sola abstinéntia cibi stat nostri summa jejunii: aut fructuose corpori esca subtrahitur, nisi mens ab iniquitáte revocétur.
+Ingressúri ígitur, dilectíssimi, dies mýsticos, et purificándis ánimis atque corpóribus sacrátius institútos, præcéptis apostólicis obedíre curémus, emundántes nos ab omni inquinaménto carnis ac spíritus: ut castigátis colluctatiónibus, quæ sunt inter utrámque substántiam, ánimus, quem sub Dei gubernáculis constitútum, córporis sui decet esse rectórem, dominatiónis suæ obtíneat dignitátem: ut némini dantes ullam offensiónem, vituperatiónibus obloquéntium non simus obnóxii. Digna enim ab infidélibus reprehensióne carpémur, et nostro vítio linguæ ímpiæ in injúriam se religiónis armábunt, si jejunántium mores a puritáte perféctæ continéntiæ discrepárint. Non enim in sola abstinéntia cibi stat nostri summa jejúnii: aut fructuóse córpori esca subtráhitur, nisi mens ab iniquitáte revocétur.
 
 [Responsory6]
 R. Paradísi portas apéruit nobis jejúnii tempus: suscipiámus illud orántes, et deprecántes:
@@ -115,7 +120,7 @@ V. Derelínquat ímpius viam suam, et vir iníquus cogitatiónes suas, et revert
 R. Quia benígnus et miséricors est.
 
 [Lectio8]
-Certe iniquórum ómnium caput diabolus est: et hujus cápitis membra sunt omnes iniqui. An non diaboli membrum fuit Pilatus? an non diaboli membra Judæi persequéntes, et milites crucifigéntes Christum fuérunt? Quid ergo mirum, si se ab illo permisit in montem duci, qui se pértulit étiam a membris illíus crucifigi? Non est ergo indignum Redemptori nostro quod tentari vóluit, qui vénerat occídi. Justum quippe erat, ut sic tentatiónes nostras suis tentatiónibus vínceret, sicut mortem nostram vénerat sua morte superare.
+Certe iniquórum ómnium caput diábolus est: et hujus cápitis membra sunt omnes iníqui. An non diáboli membrum fuit Pilátus? an non diáboli membra Judǽi persequéntes, et mílites crucifigéntes Christum fuérunt? Quid ergo mirum, si se ab illo permísit in montem duci, qui se pértulit étiam a membris illíus crucifígi? Non est ergo indígnum Redemptóri nostro quod tentári vóluit, qui vénerat occídi. Justum quippe erat, ut sic tentatiónes nostras suis tentatiónibus vínceret, sicut mortem nostram vénerat sua morte superáre.
 
 [Responsory8]
 R. Frange esuriénti panem tuum, et egénos vagósque induc in domum tuam:
@@ -124,10 +129,10 @@ V. Cum víderis nudum, óperi eum, et carnem tuam ne despéxeris.
 R. Tunc erúmpet quasi mane lumen tuum, et anteíbit fáciem tuam justítia tua.
 
 [Lectio9]
-Sed sciéndum nobis est, quia tribus modis tentátio agitur: suggestióne, delectatióne et consénsu. Et nos cum tentamur, plerumque in delectatiónem, aut étiam in consénsum lábimur: quia de carnis peccáto propagati, in nobis ipsis étiam gérimus, unde certámina tolerámus. Deus vero, qui in útero Vírginis incarnatus, in mundum sine peccáto vénerat, nihil contradictiónis in semetípso tolerábat. Tentari ergo per suggestiónem pótuit: sed ejus méntem peccáti delectátio non momórdit. Atque ideo omnis diabolica illa tentátio foris, non intus fuit.
+Sed sciéndum nobis est, quia tribus modis tentátio ágitur: suggestióne, delectatióne et consénsu. Et nos cum tentámur, plerúmque in delectatiónem, aut étiam in consénsum lábimur: quia de carnis peccáto propagáti, in nobis ipsis étiam gérimus, unde certámina tolerámus. Deus vero, qui in útero Vírginis incarnátus, in mundum sine peccáto vénerat, nihil contradictiónis in semetípso tolerábat. Tentári ergo per suggestiónem pótuit: sed ejus mentem peccáti delectátio non momórdit. Atque ídeo omnis diabólica illa tentátio foris, non intus fuit.
 
 [Responsory9]
-R. Angelis suis Deus mandávit de te, ut custodiánt te in ómnibus viis tuis:
+R. Angelis suis Deus mandávit de te, ut custódiant te in ómnibus viis tuis:
 * In mánibus portábunt te, ne umquam offéndas ad lápidem pedem tuum.
 V. Super áspidem et basilíscum ambulábis, et conculcábis leónem et dracónem.
 R. In mánibus portábunt te, ne umquam offéndas ad lápidem pedem tuum.
@@ -146,7 +151,7 @@ Laudáte Deum * cæli cælórum, et aquæ omnes.
 v. Fratres: Hortámur vos, ne in vácuum grátiam Dei recipiátis. Ait enim: Témpore accépto exaudívi te, et in die salútis adjúvi te.
 $Deo gratias
 
-[Versum 2]
+[Versum 2] (nisi rubrica cisterciensis)
 @:Versum 1
 
 [Ant 2]
@@ -158,8 +163,14 @@ Jesus autem * cum jejunásset quadragínta diébus et quadragínta nóctibus, p�
 [Ant Tertia]
 Tunc assúmpsit * eum diábolus in sanctam civitátem, et státuit eum supra pinnáculum templi, et dixit ei: Si Fílius Dei es, mitte te deórsum.
 
+[Ant Tertia] (rubrica cisterciensis)
+In spíritu humilitátis, * et in ánimo contríto suscipiámur, Dómine, a te, et sic fiat sacrifícium nostrum, ut a te suscupiátur hódie, et pláceat tibi, Dómine Deus.
+
 [Ant Sexta]
 Non in solo pane * vivit homo, sed in omni verbo, quod procédit de ore Dei.
+
+[Ant Sexta] (rubrica cisterciensis)
+Dóminum * Deum tuum adorábis, et illi soli sérvies.
 
 [Capitulum Sexta]
 !2 Cor. 6:2-3
@@ -169,13 +180,19 @@ $Deo gratias
 [Ant Nona]
 Dóminum Deum tuum * adorábis, et illi soli sérvies.
 
+[Ant Nona] (rubrica cisterciensis)
+Vade Sátana, * non tentábis Dóminum Deum tuum.
+
 [Capitulum Nona]
 !2 Cor 6:9-10
 v. Ut castigáti, et non mortificáti: quasi tristes, semper autem gaudéntes: sicut egéntes, multos autem locupletántes tamquam nihil habéntes, et ómnia possidéntes.
 $Deo gratias
 
-[Versum 3]
+[Versum 3] (nisi rubrica cisterciensis)
 @:Versum 1
 
 [Ant 3]
 Ecce nunc tempus * acceptábile, ecce nunc dies salútis: in his ergo diébus exhibeámus nosmetípsos sicut Dei minístros in multa patiéntia, in jejúniis, in vigíliis, et in caritáte non ficta.
+
+[Ant 3] (rubrica cisterciensis)
+Relíquit eum tentátor, * et accessérunt Angeli, et ministrábant ei.

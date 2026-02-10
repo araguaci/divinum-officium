@@ -1,12 +1,5 @@
-[Rank]
-In Vigilia S. Johannis Baptistae;;Simplex;;1.5
-
-[Rank1960]
-In Vigilia S. Johannis Baptistae;;Simplex;;5
-
-[Rule]
-no Gloria
-Suffr=Maria3;Ecclesiae,Papa;;
+[Officium]
+In Vigilia S. Joannis Baptistæ
 
 [Introitus]
 !Lc 1:13; 1:15; 1:14
@@ -23,7 +16,7 @@ $Qui tecum
 [Lectio]
 Lectura del profeta Jeremías
 !Jer 1:4-10
-En aquellos días: El Señor me dirigió la palabra: «Antes de formarte en el vientre, te elegí; antes de que salieras del seno materno, te consagré: te constituí profeta de las naciones». Yo repuse: «¡Ay, Señor, Dios mío! Mira que no sé hablar, que solo soy un niño». El Señor me contestó: «No digas que eres un niño, pues irás adonde yo te envíe y dirás lo que yo te ordene. No les tengas miedo, que yo estoy contigo para librarte —oráculo del Señor—». El Señor extendió la mano, tocó mi boca y el Señor me dijo: «Voy a poner mis palabras en tu boca. Desde hoy te doy poder sobre pueblos y reinos para arrancar y arrasar, para destruir y demoler, para reedificar y plantar»: dice el Señor Omnipotente. 
+En aquellos días: El Señor me dirigió la palabra: «Antes de formarte en el vientre, te elegí; antes de que salieras del seno materno, te consagré: te constituí profeta de las naciones». Yo repuse: «¡Ay, Señor, Dios mío! Mira que no sé hablar, que solo soy un niño». El Señor me contestó: «No digas que eres un niño, pues irás adonde yo te envíe y dirás lo que yo te ordene. No les tengas miedo, que yo estoy contigo para librarte —oráculo del Señor—». El Señor extendió la mano, tocó mi boca y el Señor me dijo: «Voy a poner mis palabras en tu boca. Desde hoy te doy poder sobre pueblos y reinos para arrancar y arrasar, para destruir y demoler, para reedificar y plantar»: dice el Señor Omnipotente.
 
 [Graduale]
 !Jn 1:6-7
@@ -50,4 +43,3 @@ Grande es su gloria en tu salvación: lo adornas con la gloria y gran decoro, Se
 [Postcommunio]
 Que la gloriosa oración de San Juan Bautista, acompañe, Señor, la nuestra, y aplaque a Aquel a quien anunció, Jesucristo, nuestro Señor, tu Hijo.
 $Qui tecum
-

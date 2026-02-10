@@ -1,9 +1,5 @@
-[Rank]
-S. Hieronymi Emiliani Confessoris;;Duplex;;3;;vide C5
-
-[Rule]
-vide C5
-Gloria
+[Officium]
+S. Hieronymi Emiliani Confessoris
 
 [Introitus]
 !Thren 2:11
@@ -19,14 +15,15 @@ $Per Dominum
 
 [Lectio]
 Lezing uit de Profeet Isaias
-!Is 58:7-11.
+!Is 58:7-11
 Dit zegt de Heer: Breek voor de behoeftige uw brood, en breng armen en zwervers in uw huis. Als gij iemand naakt ziet, geef hem dan kleding, en wil uw eigen vlees niet versmaden. Dan zal uw licht doorbreken als de morgenstond, en uw genezing zal weldra beginnen. Dan zal uw gerechtigheid weer voor u uitgaan, en de glorie des Heren zal u begeleiden. Als gij dan roept, zal de Heer u verhoren; en smeekt gij om hulp, dan zegt Hij: Hier ben Ik. Als gij de ketens wegneemt uit uw midden, en ophoudt met de vinger te wijzen en onnutte taal te spreken; als gij uw liefde uitstort over de hongerige, en de gekwelde ziel voldoening schenkt; dan zal in het donker uw licht opgaan, en uw duisternis zal zijn als de middag. Dan zal de Heer voor immer u rust schenken, en uw ziel zal Hij vullen met stralend licht, en uw gebeente zal Hij behoeden. Zo zult gij zijn als een rijkbesproeide tuin en als een bron, waarvan het water nooit opdroogt.
 
 [Graduale]
 !Prov 5:16
 Laat uw bronnen over de rand stromen, uw watergolven door de straten.
 !Ps 111:5-6
-Gelukkig de mens, die zich ontfermt en te leen geeft, die zijn woorden wikt in het gericht: hij zal niet wankelen in eeuwigheid. Alleluia, alleluia.
+Gelukkig de mens, die zich ontfermt en te leen geeft, die zijn woorden wikt in het gericht: hij zal niet wankelen in eeuwigheid.
+Alleluia, alleluia.
 !Ps 111:9
 Hij deelt uit, geeft aan de armen, zijn gerechtigheid duurt eeuwig voort. Alleluia.
 
@@ -56,19 +53,3 @@ Dit is reine en vlekkeloze vroomheid voor onze God en Vader: kinderen en weduwen
 [Postcommunio]
 Verzadigd met het Brood der engelen, smeken wij U nederig, Heer, dat wij, die met vreugde de jaarlijkse gedachtenis van uw heilige belijder Hiëronymus vieren, ook zijn voorbeeld mogen navolgen en een rijke beloning mogen verwerven in uw rijk.
 $Per Dominum
-
-[Commemoratio Oratio]
-!S. Margaritæ Virg. et Mart.
-Wij vragen U, Heer, laat de heilige maagd en martelares Margarita vergiffenis voor ons vragen, want steeds was zij U welgevallig, zowel door de verdienste van haar kuisheid, als door het getuigenis van uw kracht.
-$Per Dominum
-
-[Commemoratio Secreta]
-!S. Margaritæ Virg. et Mart.
-Aanvaard genadig, o Heer, de offergaven, die wij U wijden met de verdiensten van uw heilige maagd en martelares Margarita, en doe ze ons strekken tot een blijvende steun.
-$Per Dominum
-
-[Commemoratio Postcommunio]
-!S. Margaritæ Virg. et Mart.
-Nu wij ons aan uw rijke, goddelijke gaven verzadigd hebben, vragen wij U, Heer, onze God, dat wij door de voorspraak van uw heilige maagd en martelares Margarita steeds in de gemeenschap ervan mogen leven.
-$Per Dominum
-

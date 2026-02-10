@@ -1,20 +1,36 @@
+(rubrica altovadensis) #Commemoratio officii parvi B.M.V.
+
 #Incipit
-$Pater Ave Credo
-$Domine labia 
-(sed rubrica monastica)
- ~
-$Deus in adjutorium
-(sed rubrica 1963)
- ~
-&Alleluia
-(sed rubrica 1963)
- ~
-(rubrica monastica dicitur)
-&Domine_labia
-(rubrica monastica dicitur)
+(deinde dicuntur)
+$rubrica Secreto
+$Pater noster
+$Ave Maria
+$Credo
 _
-(rubrica monastica dicitur)
+(sed rubrica 196 aut rubrica 1955 aut rubrica altovadensis omittuntur)
+(deinde dicitur)
+$rubrica Clara voce
+(sed die Epiphaniæ aut rubrica 196 aut rubrica 1955 aut rubrica altovadensis omittitur)
+(deinde dicitur)
+$Domine labia 
+(sed rubrica monastica omittitur)
+(deinde dicitur)
+(rubrica altovadensis) $rubrica Incipit
+&Deus_in_adjutorium
+(sed rubrica cisterciensis)
+$Deus in adjutorium tantum
+(sed rubrica 1963 omittitur)
+(deinde dicitur)
+&Alleluia
+(sed rubrica 1963 aut rubrica cisterciensis omittitur)
+(deinde rubrica monastica dicitur)
+&Domine_labia
+(sed rubrica cisterciensis dicitur)
+$Domine labia iij
+(deinde rubrica monastica dicuntur)
+_
 &psalm(3)
+(deinde dicitur)
 
 #Invitatorium
 
@@ -22,19 +38,20 @@ _
 
 #Psalmi cum lectionibus
 
-$Rubrica Matutinum
+$rubrica Matutinum
 (rubrica monastica omittitur)
 
 #Oratio
 
 (rubrica monastica dicitur)
-$Rubrica Matutinum
+$rubrica Matutinum
 
 #Conclusio
 &Dominus_vobiscum
 &Benedicamus_Domino
+(rubrica cisterciensis) &Divinum_auxilium
 $Fidelium animae
 (sed rubrica ^Trident omittitur)
 
-$Pater noster
-(sed rubrica 196 aut rubrica 1955 aut rubrica ^Trident omittitur)
+$Pater totum secreto
+(sed rubrica 196 aut rubrica 1955 aut rubrica ^Trident aut rubrica cisterciensis omittitur)

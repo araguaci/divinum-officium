@@ -1,11 +1,14 @@
-[Rank]
-S. Gregorii PapĂŚ Confessoris et EcclesiĂŚ Doctoris;;Duplex;;3;;vide C4b
-(sed rubrica tridentina)
-S. Gregorii PapĂŚ Confessoris et EcclesiĂŚ Doctoris;;Duplex;;3;;vide C4a
+[Officium]
+Nagy I. Szent Gergely pápa, hitvalló és egyháztanító
 
-[Rule]
-vide C4b;
-(sed rubrica tridentina)
-vide C4a;
-Gloria
+[Oratio]
+Isten, te szolgád Gergely lelkének az örök boldogságot adtad jutalmul; engedd kegyesen, hogy mi, kik bűneink súlya alatt görnxedezünk, közbenjárására felemelkedhessünk.
+$Per Dominum
 
+[Secreta]
+Add meg nekünk, kérünk, Urunk, hogy Szent Gergely közbenjárására javunkra váljék az adományok felajánlása, melynek feláldozásával az egész világnak megadtad a bűnbocsánatot.
+$Per Dominum
+
+[Postcommunio]
+Isten, te Szent Gergely pápát érdemeiért szenteiddel egyenlővé tetted, engedd kegyesen, hogy mi, akik emlékezetét áldozattal megünnepeljük, életének példáját is kövessük.
+$Per Dominum

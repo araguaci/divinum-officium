@@ -1,11 +1,5 @@
-[Rank]
-Sabbato Quattuor Temporum in Adventu;;Feria major;;2.1
-
-[Rank] (rubrica 1960)
-Sabbato Quattuor Temporum Adventus;;Feria major;;4.9
-
-[Rank] (rubrica innovata)
-Sabbato infra Hebdomadam III Adventus;;Feria major;;2.1
+[Officium]
+Sabbato Quattuor Temporum in Adventu
 
 [Rule]
 Oratio Dominica
@@ -23,10 +17,6 @@ v. Kom en toon ons uw aanschijn, Heer, Gij die troont op de Cherubs, en wij zijn
 Herder van Israël, luister aandachtig, Gij, die Jozef weidt als een schaap.
 &Gloria
 v. Kom en toon ons uw aanschijn, Heer, Gij die troont op de Cherubs, en wij zijn gered.
-
-[Oratio]
-God, Gij ziet hoe wij gebukt gaan onder onze boosheid. Doe ons door uw goedgunstigheid uit uw bezoek troost putten.
-$Qui vivis
 
 [LectioL1]
 Lezing uit de Profeet Isaias
@@ -80,7 +70,7 @@ Dit zegt de Heer tot Cyrus, mijn gezalfde, wiens rechterhand Ik vastgreep, om vo
 $Deo gratias
 
 [GradualeL4]
-!Ps 79:3,; 79:2; 79:3
+!Ps 79:3; 79:2; 79:3
 Heer, wek op uw macht en kom om ons te redden.
 V. Herder van Israël, luister aandachtig, Gij, die Jozef weidt als een schaap; Gij, die troont op de Cherubs, toon U aan Efraïm, Benjamin en Manasse.
 
@@ -89,33 +79,19 @@ Wij vragen U, Heer, verhoor goedgunstig de gebeden van uw volk, opdat wij, die t
 $Qui vivis
 
 [LectioL5]
-Lezing uit de Profeet Daniël
-!Dan 3:49-51
-In die dagen daalde de engel des Heren bij Azarias en zijn gezellen in de vuuroven neer, en dreef de vuurvlam de oven uit en maakte het binnen in de oven als waaide er een morgenwind. De vlam echter sloeg negen en veertig el boven de oven uit; en bij het uitslaan verbrandde zij de chaldeeuwse knechten van de koning, die bij de oven stonden en hem stookten. Hen zelf echter tasstte het vuur in het geheel niet aan; het deed hun geen kwaad en bracht hun volstrekt geen letsel toe. Toen hieven de drie als uit één mond een loflied aan en verheerlijkten en zegenden God in de vuuroven, zeggende:
-_
-!Hymnus.
-!Dan 3:52-53
-Geloofd zijt Gij, God onzer vaderen. Lofwaardig en roemrijk voor eeuwig.
-En geloofd zij uw heerlijke Naam, die heilig is. Lofwaardig en roemrijk voor eeuwig.
-Geloofd zijt Gij in uw heerlijke, heilige tempel. Lofwaardig en roemrijk voor eeuwig.
-Geloofd zijt Gij op de heilige troon in uw rijk. Lofwaardig en roemrijk voor eeuwig.
-Geloofd zijt Gij om uw goddelijke scepter. Lofwaardig en roemrijk voor eeuwig.
-Geloofd zijt Gij, die zetelt boven de Cherubs en de afgronden doorschouwt. Lofwaardig en roemrijk voor eeuwig.
-Geloofd zijt Gij, die wandelt op de wieken der winden en de golven der zee. Lofwaardig en roemrijk voor eeuwig.
-Dat U loven al uw engelen en heiligen. Dat zij U prijzen en verheerlijken in eeuwigheid.
-Dat U loven de hemel, de aarde, de zee en al wat er in is. Dat zij U prijzen en verheerlijken in eeuwigheid.
-Eer aan de Vader en de Zoon en de Heilige Geest. Lofwaardig en roemrijk voor eeuwig.
-Zoals het was in het begin, en nu, en altijd, en in de eeuwen der eeuwen. Amen. Lofwaardig en roemrijk voor eeuwig.
-Geloofd zijt Gij, God onzer vaderen. Lofwaardig en roemrijk voor eeuwig.
+@Tempora/093-6
 
 [OratioL5]
-God, Gij hebt voor de drie jongelingen de vlammen van het vuur getemperd; zorg in uw goedheid, dat de vlammen der ondeugden ons, uw dienaren, niet vertere.
-$Per Dominum
+@Tempora/093-6
+
+[Oratio]
+God, Gij ziet hoe wij gebukt gaan onder onze boosheid. Doe ons door uw goedgunstigheid uit uw bezoek troost putten.
+$Qui vivis
 
 [Lectio]
 Lezing uit de tweede Brief van de heilige Apostel Paulus aan de Thessalonicenzen
 !2 Thess 2:1-8
-Broeders, bij de komst van onze Heer Jezus Christus en van onze vereniging met Hem, smeken wij u, dat gij u toch niet zo snel van uw inzicht laat afbrengen en u niet ongerust laat maken, noch door een geestesuitspraak, noch door een woord of een brief, die zogenaamd van ons afkomstig is, als zou de dag des Heren dichtbij zijn. Laat toch niemand u misleiden, hoe dan ook. Want eerst moet de afval plaatshebben en de zoon der zonde optreden, de zoon des verderfs, die in opstand komt en zich verheft boven al wat God heet of vereerd wordt, zo zelfs, dat hij in de tempel van God gaat zetelen en zich aanstelt als ware hij God. Weet gij niet meer, dat ik u over dit alles gesproken heb, toen ik nog bij u was? En gij weet, wat hem op het ogenblik nog tegenhoudt, opdat zijn optreden plaats hebbe op de tijd, die hem is vastgesteld. Want de boosheid is in het geheim reeds aan het werk, - alléén, dat hij, die haar op het ogenblik nog tegenhoudt, haar blijve tegenhouden, totdat hij tenslotte uit de weg gaat. En dan zal die booswicht optreden; doch de Heer Jezus zal hem doden met de adem van zijn mond en hem vernietigen door de luister van zijn komst. 
+Broeders, bij de komst van onze Heer Jezus Christus en van onze vereniging met Hem, smeken wij u, dat gij u toch niet zo snel van uw inzicht laat afbrengen en u niet ongerust laat maken, noch door een geestesuitspraak, noch door een woord of een brief, die zogenaamd van ons afkomstig is, als zou de dag des Heren dichtbij zijn. Laat toch niemand u misleiden, hoe dan ook. Want eerst moet de afval plaatshebben en de zoon der zonde optreden, de zoon des verderfs, die in opstand komt en zich verheft boven al wat God heet of vereerd wordt, zo zelfs, dat hij in de tempel van God gaat zetelen en zich aanstelt als ware hij God. Weet gij niet meer, dat ik u over dit alles gesproken heb, toen ik nog bij u was? En gij weet, wat hem op het ogenblik nog tegenhoudt, opdat zijn optreden plaats hebbe op de tijd, die hem is vastgesteld. Want de boosheid is in het geheim reeds aan het werk, - alléén, dat hij, die haar op het ogenblik nog tegenhoudt, haar blijve tegenhouden, totdat hij tenslotte uit de weg gaat. En dan zal die booswicht optreden; doch de Heer Jezus zal hem doden met de adem van zijn mond en hem vernietigen door de luister van zijn komst.
 
 [Graduale]
 !Ps:79:2-3
@@ -126,7 +102,7 @@ V. Heer, wek op uw macht en kom om ons te redden.
 [Evangelium]
 Vervolg ++ van het heilig Evangelie volgens Lucas
 !Luc 3:1-6
-In het vijftiende regeringsjaar van Keizer Tiberius, toen Pontius Pilatus landvoogd was van Judea, Herodes viervorst van Galilea, zijn broeder Filippus viervorst van Iturea en het gewest Trachonitis, en Lisanias viervorst van Abilene, onder de hogepriesters Annas en Caiphas, kwam het woord des Heren tot Johannes, de zoon van Zacharias, in de woestijn. En hij trad op in geheel de Jordaanstreek, en preekte een doopsel van boetvaardigheid tot vergiffenis van zonden: zoals er geschreven staat in het boek der voorspellingen van de profeet Isaias: "De stem van een roepende in de woestijn: Bereidt de weg des Heren, maakt zijn paden recht. Elke kloof moet worden gedempt, iedere berg en heuvel worden geslecht. De kronkelpaden moeten recht, de oneffen wegen effen worden. En alle vlees zal het heil van God aanschouwen."
+In het vijftiende regeringsjaar van Keizer Tiberius, toen Pontius Pilatus landvoogd was van Judea, Herodes viervorst van Galilea, zijn broeder Filippus viervorst van Iturea en het gewest Trachonitis, en Lisanias viervorst van Abilene, onder de hogepriesters Annas en Caiphas, kwam het woord des Heren tot Johannes, de zoon van Zacharias, in de woestijn. En hij trad op in geheel de Jordaanstreek, en preekte een doopsel van boetvaardigheid tot vergiffenis van zonden: zoals er geschreven staat in het boek der voorspellingen van de profeet Isaias: “De stem van een roepende in de woestijn: Bereidt de weg des Heren, maakt zijn paden recht. Elke kloof moet worden gedempt, iedere berg en heuvel worden geslecht. De kronkelpaden moeten recht, de oneffen wegen effen worden. En alle vlees zal het heil van God aanschouwen.”
 
 [Offertorium]
 !Zach 9:9

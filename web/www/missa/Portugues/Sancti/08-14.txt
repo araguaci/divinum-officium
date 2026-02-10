@@ -1,9 +1,6 @@
 [Rank]
 In Vigilia Assumptionis B.M.V.;;Simplex;;1.5;;
 
-[Rank1960]
-Vigilia Assumptionis B.M.V.;;Douplex 2nd class;;5;;
-
 [Rule]
 no Gloria
 Prefatio=Communis
@@ -15,7 +12,7 @@ Suffragium=Spiritu
 ! Paramentos roxos
 
 [Introitus]
-!Sl 44:13; 44:15; 44:16
+!Sl 44:13; 44:15-16
 v. Todos os poderosos da terra implorarão os vossos olhares: após ela, serão apresentadas virgens ao Rei: as suas companheiras serão apresentadas ao Rei com grande alegria e júbilo. (T. P. Aleluia, aleluia.)
 !Sl 44:2
 Meu coração exprimiu uma palavra excelente: Consagro ao Rei as minhas obras!
@@ -25,11 +22,6 @@ v. Todos os poderosos da terra implorarão os vossos olhares: após ela, serão 
 [Oratio]
 Ó Deus, que Vos dignastes escolher por morada o seio virginal da Bem-aventurada Virgem Maria, fazei, como Vos pedimos, que, ao abrigo de sua protecção possamos assistir com alegria à sua festa.
 $Qui vivis.
-
-[Commemoratio Oratio]
-! S. Eusébio
-Ó Deus, que nos alegrais pela solenidade anual do bem-aventurado Eusébio, vosso Confessor, fazei, em vossa bondade, que honrando o nascimento desse Santo no céu e praticando seus exemplos, possamos subir a Vós.
-$Per Dominum.
 
 [Lectio]
 @Sancti/07-16:Lectio

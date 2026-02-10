@@ -1,6 +1,5 @@
-[Rank]
-S. Apollonia virgin and martyr;;Simplex;;1.1;;vide C6
+[Officium]
+Szent Apollónia szűz és vértanú
 
-[Rule]
-vide C6;
-
+[Name]
+Apollónia

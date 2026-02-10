@@ -1,14 +1,5 @@
-[Rank]
-Sts Anges Gardiens;;Duplex majus;;4;;vide C4
-
-[Rule]
-vide C4 ;
-9 lectiones
-Psalmi Dominica
-Antiphonas horas
-Psalm5 Vespera=116
-Psalm5 Vespera3=137
-Horas1960 feria
+[Officium]
+Sts Anges Gardiens
 
 [Ant Vespera]
 A ses Anges * Dieu a donné mandat à ton sujet, pour qu’ils te gardent en toutes tes voies.
@@ -39,10 +30,6 @@ Gouverne ce triple monde des cieux, de la terre et de l'abîme,
 Dont la gloire domine les siècles.
 Ainsi soit-il.
 
-[Versum 1]
-V. En présence des Anges, je vous chanterai, mon Dieu.
-R. Je me prosternerai en votre saint temple et je louerai votre nom.
-
 [Ant 1]
 Ce sont tous des Esprits * chargés d’un ministère, envoyés en service à cause de ceux qui conquièrent l’héritage du salut.
 
@@ -53,25 +40,16 @@ $Per Dominum
 [Invit]
 Au Seigneur, Roi des Anges, * Venez, offrons l’adoration.
 
-[Hymnus Matutinum]
-@Sancti/10-02:Hymnus Vespera
-
 [Ant Matutinum]
 Le Seigneur Dieu * du ciel et de la terre enverra lui-même son Ange, devant toi.;;8
 Mon Dieu * a envoyé son Ange qui a fermé la gueule des lions, et ils ne m’ont fait aucun mal.;;10
 Conduisez bien * votre marche, que le Seigneur soit dans votre chemin et que son Ange vous accompagne.;;14
-V. L’Ange se tint debout près de l’autel du temple.
-R. Ayant un encensoir d’or en sa main.
 Quand j’étais avec vous, * j’y étais par la volonté de Dieu ; bénissez-le et chantez-le.;;18
 S’élevant, l’Ange du Seigneur * qui précédait le camp d’Israël, s’en alla derrière eux.;;23
 Il se tiendra, l’Ange du Seigneur, * autour de ceux qui le révèrent et les sauvera.;;33
-V. Elle monta, la fumée des parfums, en présence du Seigneur.
-R. De la main de l’Ange.
 Le Seigneur a envoyé * son Ange qui a frappé tout homme robuste, tout guerrier, et le prince de l’armée du roi des Assyriens.;;95
 Adorez le Seigneur, * vous tous, ses Anges ; elle a entendu et s’est réjouie, Sion.;;96
 Bénissez le Seigneur, * vous tous ses Anges, puissants en force, réalisant sa parole, par obéissance à la voix de ses ordres.;;102
-V. En présence des Anges, je vous chanterai, mon Dieu.
-R. Je me prosternerai dans votre saint temple et je louerai votre nom.
 
 [Lectio1]
 Du livre de l’Exode.
@@ -179,9 +157,6 @@ R. Maintenant aussi, Dominateur des cieux, envoyez votre bon Ange devant nous, d
 « Gardez-vous de mépriser aucun de ces petits qui croient en moi. » Il impose, à ceux-là surtout qui vraiment ont cru au Seigneur, les liens très étroits de l’amour mutuel. Les Anges des petits enfants voient Dieu tous les jours ; « car le Fils de l’homme est venu sauver ce qui était perdu. » Ainsi le Fils de l’homme sauve ; les Anges voient Dieu ; les Anges des petits président aux prières des fidèles. Que les Anges président ainsi, c’est une doctrine absolument certaine. Les Anges offrent donc tous les jours à Dieu les prières des enfants que le Christ a sauvés, et il y a grand péril à mépriser celui dont les désirs et les demandes sont portés avec tant d’honneur jusqu’au trône du Dieu éternel et invisible, par le ministère des Anges qui forment sa cour.
 &teDeum
 
-[Ant Laudes]
-@:Ant Vespera
-
 [Capitulum Laudes]
 !Exod. 23:20-21
 v. Voici que J'enverrai Mon Ange, afin qu'Il marche devant vous, qu'Il vous garde pendant le chemin et qu'Il vous fasse entrer dans la terre que Je vous ai préparée. Respectez-Le, écoutez Sa voix.
@@ -219,9 +194,6 @@ Ses enfants rachetés par le Fils
 Et conscacrés par l'Esprit-Saint.
 Ainsi soit-il.
 
-[Versum 2]
-@:Versum 1
-
 [Ant 2]
 Il est revenu, *l’Ange qui me parlait, et il m’a éveillé comme un homme qui est éveillé de son sommeil.
 
@@ -229,29 +201,10 @@ Il est revenu, *l’Ange qui me parlait, et il m’a éveillé comme un homme qu
 !Exod 23:22-23
 v. Si vous écoutez Sa voix et si vous faites tout ce que Je vous dis, Je serai l'ennemi de vos ennemis et J'affligerai ceux qui vous affligent. Mon Ange marchera devant vous.
 
-[Responsory Tertia]
-@Sancti/05-08
-
 [Capitulum Sexta]
 !Exod. 23:21
 v. Gardez-vous bien de Le mépriser, parce qu'Il ne vous pardonnera point lorsque vous pécherez, et parce que Mon nom est en Lui.
 $Deo gratias
-
-[Responsory Sexta]
-@Sancti/05-08
-
-[Capitulum Nona]
-@:Lectio Prima
-$Deo gratias
-
-[Responsory Nona]
-@Sancti/05-08
-
-[Versum 3]
-@:Versum 1
-
-[Ant Vespera 3]
-@:Ant Vespera
 
 [Ant 3]
 Saints Anges, * nos gardiens, défendez-nous dans le combat, de peur que nous succombions au redoutable jugement.

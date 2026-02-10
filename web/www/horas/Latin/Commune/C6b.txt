@@ -1,20 +1,44 @@
-@Commune/C6
+@Commune/C6-1
 
-[Lectio1]
-@Commune/C6:Lectio1 in 2 loco
+[Officium]
+Commune Plurium Virginum Martyrum
 
-[Responsory1]
-@Commune/C6:Responsory1 pro Martyre
+[Versum 1]
+V. Adducéntur Regi Vírgines post eam.
+R. Próximæ ejus afferéntur tibi.
 
-[Lectio2]
-@Commune/C6:Lectio2 in 2 loco
+[Ant 1]
+Prudéntes vírgines, * aptáte vestras lámpades: ecce sponsus venit, exíte óbviam ei.
 
-[Lectio3]
-@Commune/C6:Lectio3 in 2 loco
+[Oratio]
+Da nobis, quǽsumus, Dómine Deus noster, sanctárum Vírginum et Mártyrum tuárum N. et N. palmas incessábili devotióne venerári: ut quas digna mente non póssumus celebráre, humílibus saltem frequentémus obséquiis.
+$Per Dominum
 
-[Lectio Prima]
-@Commune/C6:Lectio Prima pro Martyre
+[Nocturn 1 Versum]
+@Commune/C6:Versum 1
 
-[Capitulum Nona]
-@:Lectio Prima
-$Deo gratias
+[Versum 2]
+@:Versum 1
+
+[Ant 2]
+@:Ant 1
+
+[Versum Nona]
+@Commune/C6:Versum 2
+
+[Versum 3]
+@:Versum 1
+
+[Ant 3]
+@:Ant 1
+
+[Lectio]
+@Commune/C6a-1
+
+[Secreta]
+Inténde, quǽsumus, Dómine, múnera altáribus tuis pro sanctárum Vírginum et Mártyrum tuárum N. et N. festivitáte propósita: ut, sicut per hæc beáta mystéria illis glóriam contulísti; ita nobis indulgéntiam largiáris.
+$Per Dominum
+
+[Postcommunio]
+Præsta nobis, quǽsumus, Dómine, intercedéntibus sanctis Virgínibus et Martýribus tuis N. et N.: ut, quod ore contíngimus, pura mente capiámus.
+$Per Dominum

@@ -1,8 +1,12 @@
+[Officium]
+S. Alfonsi Mariæ de Ligorio Episc. Conf. et Eccles. Doct.
+
 [Rank]
-S. Alfonsi Mariæ de Ligorio Episcopi Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C4a
+;;Duplex;;3;;vide C4a
+(sed rubrica 1963)
+;;Simplex;;1.1;;vide C4a
 
 [Rule]
-CPapaM=Stéphanum;
 vide C4a
 Gloria
 CredoDA
@@ -32,6 +36,13 @@ Justítiam tuam non abscóndi in corde meo: veritátem tuam et salutáre tuum di
 !Eccles. 49:3-4
 Ipse est diréctus divínitus in pæniténtiam gentis, et tulit abominatiónes impietátis: et gubernávit ad Dóminum cor ipsíus: et in diébus peccatórum corroborávit pietátem. Allelúja.
 
+[GradualeP]
+Allelúja, allelúja.
+!Ps 132:1-2
+Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron. Allelúja.
+!Joann 15:16
+V. Pósui vos, ut eátis et fructum afferátis: et fructus vester máneat. Allelúja.
+
 [Tractus]
 !Ps 34:13
 Ego autem, cum mihi molésti essent, induébar cilício: humiliábam in jejúnio ánimam meam: et orátio mea in sinu meo convertátur.
@@ -40,17 +51,8 @@ V. Parásti in conspéctu meo mensam advérsus eos, qui tríbulant me: impinguá
 !1 Cor 9:22
 V. Factus sum infírmis infírmus, ut infírmos lucrifácerem.
 
-[GradualeP]
-Allelúja, allelúja.
-!Ps 132:1-2
-Ecce, quam bonum et quam jucúndum, habitáre fratres in unum! Sicut unguéntum in cápite, quod descéndit in barbam, barbam Aaron. Allelúja.
-!Joann 15:16
-V. Pósui vos, ut eátis et fructum afferátis: et fructus vester máneat. Allelúja.
-
 [Evangelium]
-Sequéntia ++ sancti Evangélii secúndum Lucam
-!Luc 10:1-9
-In illo témpore: Designávit Dóminus et alios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. Et dicébat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce, ego mitto vos sicut agnos inter lupos. Nolíte portáre sacculum neque peram neque calceaménta; et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertátur. In eádem autem domo manéte, edéntes et bibéntes quæ apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quæ apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.
+@Sancti/02-06
 
 [Offertorium]
 !Prov 3:9; 3:27
@@ -67,21 +69,3 @@ Sacérdos magnus, qui in vita sua suffúlsit domum, et in diébus suis corrobor�
 [Postcommunio]
 Deus, qui beátum Alfónsum Maríam Confessórem tuum atque Pontíficem fidelem divíni mystérii dispensatórem et præcónem effecísti: ejus méritis precibúsque concéde; ut fidéles tui et frequénter percípiant, et percipiéndo sine fine colláudent.
 $Per Dominum
-
-[Commemoratio Oratio]
-!Commemoratio S. Stephani Papæ et Martyris
-@Commune/C2b:Oratio:s/N\./Stéphani/
-(sed communi Summorum Pontificum dicitur)
-@Commune/C4b:Oratio Gregem
-
-[Commemoratio Secreta]
-!Commemoratio S. Stephani Papæ et Martyris
-@Commune/C2b:Secreta:s/N\./Stéphano/
-(sed communi Summorum Pontificum dicitur)
-@Commune/C4b:Secreta Gregem
-
-[Commemoratio Postcommunio]
-!Commemoratio S. Stephani Papæ et Martyris
-@Commune/C2b:Postcommunio:s/N\./Stéphano/
-(sed communi Summorum Pontificum dicitur)
-@Commune/C4b:Postcommunio Gregem

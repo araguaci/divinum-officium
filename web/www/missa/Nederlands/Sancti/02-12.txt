@@ -1,14 +1,10 @@
-[Rank]
-Ss. Septem Fundat. Ord. Servorum B. M. V.;;Duplex;;3;;vide C5
-
-[Rule]
-vide C5;;
-Gloria
+[Officium]
+Ss. Septem Fundat. Ord. Servorum B. M. V.
 
 [Introitus]
-!Sap 10:20-21.
+!Sap 10:20-21
 v. De rechtvaardigen bezongen, o Heer, uw heilige Naam en prezen eenstemmig uw overwinnende hand, want wijsheid opende de mond van de stomme en maakte de tong van de kinderen welsprekend.
-!Ps 8:2. 
+!Ps 8:2
 Heer, onze Heer, hoe wonderbaar is uw Naam over de gehele aarde.
 &Gloria
 v. De rechtvaardigen bezongen, o Heer, uw heilige Naam en prezen eenstemmig uw overwinnende hand, want wijsheid opende de mond van de stomme en maakte de tong van de kinderen welsprekend.
@@ -26,32 +22,35 @@ Laten wij de roemrijke mannen loven, onze vaderen, naar hun geslachten. Veel roe
 !Is 65:23
 Mijn uitverkorenen zullen niet tevergeefs werken en niet baren in ontsteltenis, want zij zijn het geslacht, dat de Heer heeft gezegend, en hun nakomelingschap met hen.
 !Eccli 44:14
-Hun lichamen liggen in vrede begraven en hun namen leven voort van geslacht tot geslacht. Alleluia, alleluia.
+Hun lichamen liggen in vrede begraven en hun namen leven voort van geslacht tot geslacht.
+Alleluia, alleluia.
 !Eccli 44:15
 Dat de volkeren hun wijsheid verkondigen en de vergadering van hun lof gewage. Alleluia.
 
+[GradualeP]
+Allelúja, allelúja
+!Eccli 44:15
+Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.
+!Ps 36:28
+Non derelínquet Dóminus sanctos suos: in ætérnum conservabúntur. Allelúja.
+
 [Tractus]
-!Is 65:23.
+!Is 65:23
 Mijn uitverkorenen zullen niet tevergeefs werken en niet baren in ontsteltenis, want zij zijn het geslacht, dat de Heer heeft gezegend, en hun nakomelingschap met hen.
 !Eccli 44:14
 Hun lichamen liggen in vrede begraven en hun namen leven voort van geslacht tot geslacht.
+_
+!Tractus
 !Ps 125:5-6
 Wie onder tranen zaaien, zullen in vreugde maaien.
 V. Wenend trekken zij op, terwijl zij hun zaad strooien.
 V. Maar jubelend zullen zij wederkeren, met hun garven beladen.
 
-[GradualeP]
-Allelúja, allelúja
-!Eccli 44:15.
-Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet Ecclésia.
-!Ps 36:28.
-Non derelínquet Dóminus sanctos suos: in ætérnum conservabúntur. Allelúja.
-
 [Evangelium]
-@Commune/C4c:Evangelium
+@Commune/C5b
 
 [Offertorium]
-!Is 56:7.
+!Is 56:7
 Ik zal hen brengen naar mijn heilige berg en hen vreugde doen smaken in mijn huis van gebed. Hun brand- en slachtoffers zullen welkom zijn op mijn altaar.
 
 [Secreta]
@@ -59,10 +58,9 @@ Wij vragen U, Heer, aanvaard de offers, die wij U brengen, en bewerk dat wij U d
 $Per eundem
 
 [Communio]
-!Joann 15:16.
+!Joann 15:16
 Ik heb u uit de wereld uitgekozen om uit te gaan en vrucht te dragen, en mogen uw vruchten duurzaam zijn.
 
 [Postcommunio]
 Verkwikt door de hemelse geheimen, smeken wij U, Heer, dat wij in navolging van de voorbeelden van hen, wier feest wij vieren, getrouw mogen staan onder het Kruis van Jezus met Maria, zijn Moeder, en de vrucht van zijn verlossing verkrijgen.
 $Per eundem
-

@@ -1,9 +1,5 @@
-[Rank]
-Dominica I Adventus;;Semiduplex;;6
-
-[Rule]
-9 lectiones
-Antiphonas horas
+[Officium]
+Dominica I Adventus
 
 [Ant Vespera]
 In quel giorno * i monti stilleranno dolcezza, e le colline coleranno latte e miele, alleluia.

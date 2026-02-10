@@ -1,8 +1,12 @@
-[Rank]
-Feria Quarta infra Hebdomadam Passionis;;Feria major;;2.1
+[Officium]
+Feria Quarta infra Hebdomadam Passionis
 
-[Rank](rubrica 1960)
-Feria Quarta infra Hebdomadam Passionis;;Feria major;;3.9
+[Rank]
+;;Feria major;;2.1
+(sed rubrica 1930)
+;;Feria major;;4.9
+(sed rubrica 196)
+;;Feria major;;3.9
 
 [Rule]
 no Gloria
@@ -56,12 +60,12 @@ $Per Dominum
 Lavábo inter innocéntes manus meas, et circuíbo altáre tuum, Dómine: ut áudiam vocem laudis tuæ, et enárrem univérsa mirabília tua.
 
 [Postcommunio]
-Cœléstis doni benedictióne percépta: súpplices te, Deus omnípotens, deprecámur; ut hoc idem nobis et sacraménti causa sit et salútis.
-$Per Dominum
+@Tempora/Quadp3-4:Postcommunio
+
 
 [Super populum]
 !Oratio super populum
 v. Orémus.
-V. Humiliáte cápita vestra Deo.
+v. Humiliáte cápita vestra Deo.
 v. Adésto supplicatiónibus nostris, omnípotens Deus: et, quibus fidúciam sperándæ pietátis indúlges; consuétæ misericórdiæ tríbue benígnus efféctum.
 $Per Dominum

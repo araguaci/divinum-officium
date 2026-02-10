@@ -1,12 +1,8 @@
-[Rank]
-S. Timothei Episcopi et Martyris;;Duplex;;3;;vide C2c
+[Officium]
+St. Timothy, Bishop and Martyr
 
-[Rank1570]
-S. Timothei Episcopi et Martyris;;Simplex;;1.1;;vide C2c
-
-[Rule]
-vide C2;
-Gloria
+[Name]
+Timothy
 
 [Lectio]
 Lesson from the first letter of St. Paul the Apostle to Timothy

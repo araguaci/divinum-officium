@@ -1,14 +1,18 @@
+[Officium]
+S. Agnetis Virginis et Martyris secundo
+
 [Rank]
-S. Agnetis Virginis et Martyris secundo;;Commemoratio;;1.1;;vide C2
+;;Simplex;;1.1;;vide C6-1
 
 [Rule]
-vide C2;
+vide C6-1;
+in 3 Nocturno Lectiones ex Commune in 2 loco
 
 [Ant 1]
 Stans a dextris ejus * Agnus nive candidior, Christus sibi sponsam et Mártyrem consecrávit.
 
 [Oratio]
-Deus, qui nos ánnua beátæ Agnetis Vírginis et Martyris tuæ solemnitáte lætíficas: da, quǽsumus; ut, quam venerámur officio, étiam piæ conversatiónis sequámur exémplo.
+Deus, qui nos ánnua beátæ Agnétis Vírginis et Mártyris tuæ solemnitáte lætíficas: da, quǽsumus; ut, quam venerámur offício, étiam piæ conversatiónis sequámur exémplo.
 $Per Dominum
 
 [Lectio93]

@@ -1,10 +1,5 @@
-[Rank]
-Sobota I tygodnia po Oktawie Wielkanocy;;Feria;;1
-
-[Rule]
-Oratio Dominica
-Una Antiphona
-Feria Te Deum
+[Officium]
+Sobota I tygodnia po Oktawie Wielkanocy
 
 [Lectio1]
 Z Dziejów Apostolskich

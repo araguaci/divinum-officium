@@ -1,16 +1,19 @@
 @Tempora/Pasc2-3
 
+[Officium]
+In Solemnitate S. Joseph Sponsi B.M.V., Confessoris et Ecclesie Universalis Patroni
+
+[Rank]
+;;Duplex I classis;;6;;
+
 [Rule]
 proper
 Antiphonas horas
 12 lectiones
 Psalmi Dominica
 
-[Rank]
-In Solemnitate S. Joseph Sponsi B.M.V., Confessoris et Ecclesie Universalis Patroni;;Duplex I classis;;6;;
-
-[Versum 1]
-@Tempora/Pasc2-3:Responsory Tertia:s/.*_.//s
+[Versum 1] (nisi rubrica cisterciensis)
+@Tempora/Pasc2-3:Nocturn 1 Versum
 
 [Ant Matutinum]
 @Tempora/Pasc2-3::1-2
@@ -18,15 +21,13 @@ In Solemnitate S. Joseph Sponsi B.M.V., Confessoris et Ecclesie Universalis Patr
 ;;5
 ;;8
 ;;10
-@Tempora/Pasc2-3::4-5
-@Tempora/Pasc2-3::6 s/;;4/;;14/
+@Tempora/Pasc2-3::4 s/;;4/;;14/
 ;;20
 ;;23
 ;;95
 ;;96
 ;;97
-@Tempora/Pasc2-3::9-11 s/;;14/;;256;257;258/
-@Tempora/Pasc2-3::14-15
+@Tempora/Pasc2-3::7 s/;;14/;;256;257;258/
 
 [Lectio3]
 @Tempora/Pasc2-3:Lectio3:s/-49/-45a/ s/ Egréssus.*//s
@@ -88,14 +89,14 @@ In Solemnitate S. Joseph Sponsi B.M.V., Confessoris et Ecclesie Universalis Patr
 [Responsory12]
 @SanctiM/03-19
 
-[LectioE]
+[Responsory TertiaM] (nisi rubrica cisterciensis)
+@Tempora/Pasc2-3:Nocturn 1 Versum
+
+[Responsory SextaM] (nisi rubrica cisterciensis)
+@Tempora/Pasc2-3:Versum Sexta
+
+[Responsory NonaM] (nisi rubrica cisterciensis)
+@Tempora/Pasc2-3:Versum Nona
+
+[Evangelium]
 @Tempora/Pasc2-3
-
-[Responsory TertiaM]
-@Tempora/Pasc2-3:Responsory Tertia:s/.*_.//s
-
-[Responsory SextaM]
-@Tempora/Pasc2-3:Responsory Sexta:s/.*_.//s
-
-[Responsory NonaM]
-@Tempora/Pasc2-3:Responsory Nona:s/.*_.//s

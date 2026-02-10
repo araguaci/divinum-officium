@@ -1,12 +1,5 @@
-[Rank]
-S. Theresiæ a Jesu Infante Virginis;;Duplex;;3;;vide C6
-
-[Rule]
-vide C6;
-Gloria
-
 [Introitus]
-!Cant 4:8-9.
+!Cant 4:8-9
 v. Kom van de Libanon, mijn bruid, kom van de Libanon. Kom, gij hebt mijn hart gewond, zuster, mijn bruid, gij hebt mijn hart gewond.
 !Ps 112:1
 Looft de Heer, gij, zijn dienaren, looft de Naam des Heren.
@@ -26,16 +19,10 @@ Dit zegt de Heer: Zie, Ik zal over haar doen komen als een stroom van vrede, en 
 !Matt 11:25
 Ik dank U, Vader, Heer van hemel en aarde, dat gij dit voor wijzen en verstandigen verborgen hebt, om het aan de kleinen te openbaren.
 !Ps 70:5
-O Heer, mijn hoop van mijn jeugd af. Alleluia, alleluia.
+O Heer, mijn hoop van mijn jeugd af.
+Alleluia, alleluia.
 !Ps 39:17-19
 Schiet wortel als een roos aan de oever van het water. Verspreid een zoete geur als reukwerk van de Libanon. Bloeit, bloemen, als een lelie, geurt heerlijk en ontplooit uw blad vol schoonheid. Zingt een loflied en prijst de Heer in zijn werken. Alleluia.
-
-[Tractus]
-!Cant 2:11-12
-Jam hiems tránsiit, imber ábiit, et recéssit. 
-V. Flores apparuérunt in terra nostra, tempus putatiónis advénit: vox túrturis audíta est in terra nostra.
-!Jer 31:3
-In caritáte perpétua diléxi te: ídeo attráxi te, míserans tui.
 
 [GradualeP]
 Allelúja, allelúja
@@ -43,6 +30,13 @@ Allelúja, allelúja
 V. Quasi rosa plantáta super rivos aquárum fructificáte: quasi Libánus odórem suavitátis habéte: floréte, flores, quasi lílium, et date odórem, et frondéte in grátiam, et collaudáte cánticum, et benedícite Dóminum in opéribus suis. Allelúja.
 !Ps 33:9; 99:5.
 V. Gustáte, et vidéte quóniam suávis estDóminus: in ætérnum misericórdia ejus. Allelúja.
+
+[Tractus]
+!Cant 2:11-12
+Jam hiems tránsiit, imber ábiit, et recéssit. 
+V. Flores apparuérunt in terra nostra, tempus putatiónis advénit: vox túrturis audíta est in terra nostra.
+!Jer 31:3
+In caritáte perpétua diléxi te: ídeo attráxi te, míserans tui.
 
 [Evangelium]
 Vervolg ++ van het heilig Evangelie volgens Mattheüs

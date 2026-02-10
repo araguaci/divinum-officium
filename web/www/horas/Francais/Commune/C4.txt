@@ -1,11 +1,8 @@
-[Name]
-Commun des confesseurs pontifes
+[Officium]
+Commun d'un Confesseur Pontife
 
-[Rule]
-Psalmi Dominica
-Antiphonas horas
-Psalm5 Vespera=116
-Psalm5 Vespera3=131
+[Missa]
+Statuit
 
 [Ant Vespera]
 Voici le grand-prêtre * qui, pendant sa vie, a plu à Dieu et a été trouvé juste.
@@ -75,29 +72,29 @@ R. Il l'a revêtu de la robe de gloire.
 [Ant 1]
 Prêtre et Pontife * artisan des vertus, bon pasteur du peuple, priez pour nous le Seigneur.
 
+[Oratio]
+v. Accordez à notre prière, Dieu tout-puissant, que la vénérable solennité de votre bienheureux N., Confesseur et Pontife, augmente en nous dévotion et santé. Par Notre-Seigneur.
+$Per Dominum.
+
 [Invit]
 Au Seigneur, Roi des Confesseurs, * Venez, offrons l'adoration.
-
-[Hymnus Matutinum]
-@Commune/C4:Hymnus Vespera
-
-[Hymnus1 Matutinum]
-@Commune/C4:Hymnus1 Vespera
 
 [Ant Matutinum]
 Bienheureux l’homme qui médite la loi du Seigneur : sa volonté reste constante, jour et nuit, et toutes ses oeuvres toujours réussiront.;;1
 Heureux ce Saint qui a eu confiance dans le Seigneur, a prêché le commandement du Seigneur et a été établi sur sa montagne sainte.;;2
 Vous êtes ma gloire, et vous êtes mon soutien, Seigneur ; vous avez relevé ma tête et, du haut de votre montagne sainte, vous m’avez exaucé.;;3
-V. Le Seigneur l’a aimé et l’a paré.
-R. Il l’a revêtu d’une robe de gloire.
 Le Seigneur * a exaucé son Saint qui l’invoquait ; le Seigneur l’a exaucé et l’a établi dans la paix.;;4
 Qu’ils se réjouissent, tous ceux qui espèrent en vous. Seigneur ; car vous avez béni le juste et du bouclier de votre faveur vous l’avez couronné.;;5
 Seigneur, notre Seigneur, qu’admirable est votre nom par toute la terre : car de gloire et d’honneur, vous avez couronné votre Saint et vous l’avez étabh sur les oeuvres de vos mains.;;8
-V. Le Seigneur l’a choisi pour son prêtre.
-R. Pour lui sacrifier l’hostie de louange.
 Seigneur, * ce Saint habitera dans votre tabernacle, il a pratiqué la justice et il reposera sur votre montagne sainte.;;14
 La vie qu’il vous a demandée, * vous la lui avez donnée, Seigneur, vous l’avez couvert de gloire et de splendeur, vous avez mis sur sa tête, une couronne en pierre précieuse.;;20
 Celui-ci recevra la bénédiction du Seigneur et la miséricorde du Dieu son sauveur ; car voilà bien la génération de ceux qui cherchent le Seigneur.;;23
+
+[Nocturn 2 Versum]
+V. Le Seigneur l’a choisi pour son prêtre.
+R. Pour lui sacrifier l’hostie de louange.
+
+[Nocturn 3 Versum]
 V. Tu es Prêtre pour l’éternité.
 R. Selon l’ordre de Melchisédech.
 
@@ -199,7 +196,7 @@ V. Le Seigneur l’a revêtu de la cuirasse de la foi et il l’a paré.
 R. Et il l’a couronné aux portes du paradis.
 
 [Lectio8]
-Quel est donc cet homme qui part pour un voyage, sinon notre Rédempteur qui, dans la chair même qu’il avait prise, est monté au ciel? Car la terre est le lieu propre de la chair : et celle-ci est en quelque sorte conduite en pèlerinage, quand elle est placée dans le ciel par notre Rédempteur. Mais cet homme, partant pour un voyage, remit ses biens à ses serviteurs, parce qu’il laissa à ses fidèles des dons spirituels. A l’un il confia cinq talents, à un autre, deux, à un troisième, un seul. C’est qu’en effet le corps a cinq sens : la vue, l’ouïe, le goût, l’odorat et le toucher. Le don des cinq talents exprime donc le don des cinq sens, c’est-à-dire de la connaissance des choses extérieures. Les deux talents désignent l’intelligence et l’action. L’unique talent représente seulement l’intelligence.
+Quel est donc cet homme qui part pour un voyage, sinon notre Rédempteur qui, dans la chair même qu’il avait prise, est monté au ciel ? Car la terre est le lieu propre de la chair : et celle-ci est en quelque sorte conduite en pèlerinage, quand elle est placée dans le ciel par notre Rédempteur. Mais cet homme, partant pour un voyage, remit ses biens à ses serviteurs, parce qu’il laissa à ses fidèles des dons spirituels. A l’un il confia cinq talents, à un autre, deux, à un troisième, un seul. C’est qu’en effet le corps a cinq sens : la vue, l’ouïe, le goût, l’odorat et le toucher. Le don des cinq talents exprime donc le don des cinq sens, c’est-à-dire de la connaissance des choses extérieures. Les deux talents désignent l’intelligence et l’action. L’unique talent représente seulement l’intelligence.
 
 [Responsory8]
 R. Ceignez vos reins, et ayez en vos mains des lampes allumées ;
@@ -211,13 +208,6 @@ R. Soyez semblables à des hommes qui attendent que leur maître revienne des no
 
 [Lectio9]
 Mais celui qui avait reçu cinq talents, en gagna cinq autres : il est en effet des hommes qui, bien qu’ils ne sachent pas pénétrer les choses profondes et cachées, s’efforcent, en vue de la patrie céleste, d’enseigner le bien à ceux à qui ils peuvent l’enseigner. Des talents extérieurs qu’ils ont reçus, ils apportent le double en se gardant des attaques de la chair et de l’ambition des choses terrestres et de la jouissance des choses visibles, et en apprenant aussi aux autres à s’en garder. D’autres hommes sont comme enrichis de deux talents, à savoir l’intelligence et l’action : ils comprennent les subtilités des choses profondes et font à l’extérieur des oeuvres admirables. En prêchant aux autres par leur science et par leurs actions, ils rapportent de ce négoce un double gain.
-
-[Ant Laudes]
-Voici le grand-prêtre * qui, pendant sa vie, a plu à Dieu et a été trouvé juste.
-Il ne s’en est pas trouvé * de semblable à lui pour conserver la loi du Très-Haut.
-C’est pourquoi, par serment, * le Seigneur l’a fait grandir pour Son peuple.
-Prêtres de Dieu, * bénissez le Seigneur ! Serviteurs du Seigneur, dites un hymne à Dieu, alléluia ! 
-Serviteur bon * et fidèle, entre dans la joie de ton Seigneur.
 
 [Capitulum Laudes]
 !Sir 44:16-17
@@ -258,80 +248,44 @@ R. Et il lui a montré le royaume de Dieu.
 [Ant 2]
 C’est bien, serviteur bon * et fidèle, parce que tu as été fidèle sur peu de choses, je t’établirai sur beaucoup, dit le Seigneur.
 
-[Oratio]
-v. Accordez à notre prière, Dieu tout-puissant, que la vénérable solennité de votre bienheureux N., Confesseur et Pontife, augmente en nous dévotion et santé. Par Notre-Seigneur.
-$Per Dominum.
-
-[Oratio1]
-v. Exaucez, Seigneur, s’il Vous plaît, les prières qu’en la solennité du bienheureux N., Votre Confesseur et Pontife, nous vous présentons et, par l’intercession des mérites de celui qui a obtenu de Vous servir dignement, absolvez-nous de tous nos péchés.
-$Per Dominum.
-
-[Oratio2]
-v. Dieu, vous avez fait à votre peuple la grâce d’avoir le bienheureux N., pour ministre du salut éternel : faites, nous vous en prions, que nous méritions d’avoir pour intercesseur dans les cieux celui qui nous a donné sur terre la doctrine de vie.
-$Per Dominum
-
-[Oratio9]
-v. O Pasteur éternel, veillez avec bonté sur votre troupeau : assurez-lui une protection constante par saint N. Souverain Pontife, à qui vous avez donné d’être pasteur de toute l’Église.
-$Per Dominum
-
-[Oratio91]
-v. O Pasteur éternel, veillez avec bonté sur votre troupeau : assurez-lui une protection constante par saints N. et N. , vos bienheureux Martyrs et Souverains Pontifes, à qui vous avez donné d’être pasteurs de toute l’Église.
-$Per Dominum
-
 [Lectio Prima]
 !Sir 45:19-20
 v. Dieu lui a donné d’exercer les fonctions sacerdotales, de célébrer les louanges de son nom et de lui offrir un digne encens en odeur de suavité.
 
-[Responsory Tertia]
+[Responsory Breve Tertia]
 R.br. Le Seigneur l’a aimé. * Et l’a paré.
 R. Le Seigneur l’a aimé. * Et l’a paré.
 V. Il l’a revêtu de la robe de gloire.
 R. Et l’a paré.
 &Gloria
 R. Le Seigneur l’a aimé. * Et l’a paré.
-_
-V. Le Seigneur l’a choisi pour être son prêtre.
-R. Pour lui sacrifier l’hostie de louange.
 
 [Capitulum Sexta]
 !Sir 44:20 ; 44:22
-v. On n’en a point trouvé de semblable à lui, pour la conservation de la loi du Très-Haut; c’est pourquoi le Seigneur, par serment, l’a fait grandir pour son peuple.
+v. On n’en a point trouvé de semblable à lui, pour la conservation de la loi du Très-Haut ; c’est pourquoi le Seigneur, par serment, l’a fait grandir pour son peuple.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br. Le Seigneur l’a choisi, * Pour être son prêtre.
 R. Le Seigneur l’a choisi, * Pour être son prêtre.
 V. Pour lui sacrifier l’hostie de louange.
 R. Pour être son prêtre.
 &Gloria
 R. Le Seigneur l’a choisi, * Pour être son prêtre.
-_
-V. Tu es prêtre pour l’éternité.
-R. Selon l’ordre de Melchisédech.
 
-[Capitulum Nona]
-@:Lectio Prima
-$Deo gratias
-
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. Tu es prêtre * Pour l’éternité.
 R. Tu es prêtre * Pour l’éternité.
 V. Selon l’ordre de Melchisédech.
 R. Pour l’éternité.
 &Gloria
 R. Tu es prêtre * Pour l’éternité.
-_
-V.Le Seigneur l'a conduit par des voies de droiture.
-R. Et il lui a montré le royaume de Dieu.
-
-[Versum 3]
-@:Versum 2
-
-[Ant 3]
-Le Seigneur l'a aimé, * et l'a paré. Il l'a revêtu de la robe de gloire et l'a couronné aux portes du paradis.
 
 [Ant 3 summi Pontificis]
 Tandis qu'il était Souverain Pontife, * il n'a craint rien de terrestre, mais il s'en est allé glorieux au royaume céleste.
+
+[Ant 3]
+Le Seigneur l'a aimé, * et l'a paré. Il l'a revêtu de la robe de gloire et l'a couronné aux portes du paradis.
 
 [Lectio1 in 2 loco]
 De libro Ecclesiastici
@@ -364,24 +318,57 @@ Sermon de saint Maxime, Évêque.
 Du Bienheureux Père N... exaltons sans crainte les mérites désormais hors de tout conteste. Tenant avec fermeté le gouvernail de la foi, il a dès lors jeté l’ancre de l’espérance sur un rivage tranquille et il a fait entrer au port désiré, son navire rempli de richesses célestes et de biens étemels. Il a tenu infatigablement le bouclier de la crainte de Dieu, contre tous ses ennemis, jusqu’à ce qu’il obtienne la victoire. Le cours de toute sa vie fut-il autre chose qu’un combat contre l’ennemi qui veille ?
 
 [Lectio5 in 2 loco]
-A combien d’aveugles, errant loin du chemin de la vérité et déjà suspendus comme du haut d’un rocher sur l’abîme, n’a-t-il pas rendu la vue perdue et guéri ce regard par lequel on voit le Christ? A combien de sourds coupables d’infidélité, n’a-t-il pas donné cette ouïe précieuse pour entendre la voix des commandements célestes, afin qu’à Dieu les appelant à sa miséricorde, ils répondent par leur obéissance? Que d’âmes blessées n’a-t-il pas, par son éloquence angélique et sa prière, guéries de leur infirmité.
+A combien d’aveugles, errant loin du chemin de la vérité et déjà suspendus comme du haut d’un rocher sur l’abîme, n’a-t-il pas rendu la vue perdue et guéri ce regard par lequel on voit le Christ ? A combien de sourds coupables d’infidélité, n’a-t-il pas donné cette ouïe précieuse pour entendre la voix des commandements célestes, afin qu’à Dieu les appelant à sa miséricorde, ils répondent par leur obéissance ? Que d’âmes blessées n’a-t-il pas, par son éloquence angélique et sa prière, guéries de leur infirmité.
 
 [Lectio6 in 2 loco]
-Combien d’hommes à la volonté brisée dans la souillure du péché, par une longue insouciance et couverts d’une sorte de lèpre contagieuse, n’a-t-il pas purifiés par ses réprimandes et ses exhortations, expiant leurs péchés, grâce à l’opération de Dieu en lui? Combien d’âmes vivant dans un corps, mais déjà mortes, accablées et ensevelies sous le poids de leurs fautes, n’a-t-il pas ressuscitées à Dieu, en les appelant au repentir comme à la lumière? En sorte qu’imitateur admirable de son Seigneur, ces âmes déjà mortes à Dieu, il les a fait, au contraire, mourir au péché, d’une mort vivifiante.
+Combien d’hommes à la volonté brisée dans la souillure du péché, par une longue insouciance et couverts d’une sorte de lèpre contagieuse, n’a-t-il pas purifiés par ses réprimandes et ses exhortations, expiant leurs péchés, grâce à l’opération de Dieu en lui ? Combien d’âmes vivant dans un corps, mais déjà mortes, accablées et ensevelies sous le poids de leurs fautes, n’a-t-il pas ressuscitées à Dieu, en les appelant au repentir comme à la lumière ? En sorte qu’imitateur admirable de son Seigneur, ces âmes déjà mortes à Dieu, il les a fait, au contraire, mourir au péché, d’une mort vivifiante.
 
-[Lectio7 in 2 loco]
-Lecture du saint Évangile selon saint Matthieu
-!Matt 16, 13-19.
-En ce temps-là Jésus vint dans la région de Césarée de Philippe et il posait cette question à ses disciples : « Qui, dit-on, qu’est le Fils de l’homme? » Et le reste.
-_
-Homélie de saint Léon, Pape.
-!Sermon II pour l'anniversaire de son élévation au pontificat, avant le milieu.
-Comme le rapporte la lecture d’Évangile, le Seigneur avait interrogé ses disciples pour leur demander qui ils croyaient qu’il fût (car les opinions étaient très partagées) ; et saint Pierre avait répondu : « Vous êtes le Christ, le Fils du Dieu vivant. » Le Seigneur lui dit : « Bienheureux es-tu, Simon Bar- Jona, car ce n’est pas la chair et le sang qui te l’ont révélé, mais mon Père qui est dans les deux. Et moi je te dis que tu es Pierre, et sur cette pierre je bâtirai mon Église, et les puissances du mal ne remporteront point sur elle. Et je te donnerai les defs du royaume des deux : tout ce que tu lieras sur la terre sera lié aussi dans les deux, et tout ce que tu délieras sur la terre sera délié aussi dans les deux. » Eh bien, elle demeure, cette disposition de la Vérité et saint Pierre qui garde cette solidité de la pierre qu’il a reçue n’a pas abandonné le gouvernail de l’Église qui lui a été confié.
+[Oratio] (ad missam)
+Faites, nous vous en prions, Dieu tout-puissant, que la vénérable solennité de saint N., votre évêque et confesseur, accroisse en nous la dévotion et le salut.
+$Per Dominum
 
-[Lectio8 in 2 loco]
-!Can. 27.
-Car, dans l’Église universelle, Pierre dit chaque jour : « Vous êtes le Christ, le Fils du Dieu vivant », et toute langue qui confesse le Seigneur est chargée de toute l’autorité de cette parole. Telle est la foi qui vainc le diable et délie les chaînes de ses captifs. C’est elle qui introduit dans le del ceux qu’elle arrache au monde et les puissances du mal ne peuvent l’emporter sur elle. Elle est divinement fortifiée par une telle solidité, si bien que ni la perversité hérétique ne peut la corrompre, ni l’incrédulité païenne la terrasser. C’est ainsi, mes bien- aimés, qu’il faut célébrer la fête d’aujourd’hui par un hommage spirituel : afin qu’en mon humble personne on discerne et on honore celui en qui se perpétue la sollicitude de tous les pasteurs, lorsqu’il garde ses brebis selon le mandat qu’il en a reçu, et sa dignité ne disparaît pas lorsqu’elle tombe aux mains d’un indigne successeur.
+[Lectio]
+Lecture du livre de l’Ecclésiastique.
+!Eccli 44:16-27; 45, 3-20.
+Voici le grand pontife qui, pendant sa vie, a plu à Dieu et a été trouvé juste, et au temps de la colère il est devenu la réconciliation. Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. C’est pourquoi le Seigneur a juré de le faire croître dans son peuple. Il a béni en lui toutes les nations, et a confirmé en lui son alliance. Il l’a reconnu par ses bénédictions, il lui a continué sa miséricorde ; et lui-même a trouvé grâce aux yeux du Seigneur. Il l’a glorifié devant les rois et lui a donné une couronne de gloire. Il a établi avec lui une alliance éternelle et lui a donné le sacerdoce suprême. Il l’a rendu heureux dans la gloire pour exercer le sacerdoce, louer son nom et lui offrir un digne encens en agréable odeur.
 
-[Lectio9 in 2 loco]
-Puisque nous adressons ces exhortations aux oreilles de votre sainteté, croyez que celui qui vous parle est celui-là même dont nous occupons la fonction ; car c’est avec son amour que nous vous avertissons et nous ne vous prêchons pas autre chose que ce qu’il a enseigné, lorsque nous vous exhortons à mener, ayant ceint les reins de votre âme, une vie chaste et sobre, dans la crainte du Seigneur. Vous êtes, comme dit l’Apôtre, ma joie et ma couronne si votre foi, qui depuis le début de l’Évangile a été prêchée dans le monde entier, se maintient dans la charité et la sainteté. Sans doute il faut que toute l’Église, répandue sur toute la surface de la terre, fleurisse de toutes les vertus ; mais il faut que vous, entre les autres peuples, vous l’emportiez par les mérites de votre piété, vous qui avez été fondés sur la citadelle même de la pierre apostolique ; car si Notre-Seigneur Jésus-Christ vous a rachetés avec tous, le saint Apôtre Pierre vous a enseignés plus que tous les autres.
-&teDeum
+[Graduale]
+!Eccli 44:16.
+Voici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.
+!Eccli 44:20
+Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut. Alléluia, alléluia.
+!Ps 109:4
+Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.
+
+[GradualeP]
+Alléluia, alléluia.
+!Ps 109:4
+Tu es prêtre à jamais selon l’ordre de Melchisédech. Alléluia.
+V. Voici le pontife que le Seigneur a couronné. Alléluia.
+
+[Tractus]
+!Eccli 44:16.
+Voici un grand prêtre qui, pendant sa vie, fut agréable à Dieu.
+!Eccli 44:20
+Il ne s’en est pas trouvé de semblable dans l’observance de la loi du Très-Haut.
+!Ps 111:1-3
+Heureux l’homme qui craint le Seigneur et qui met ses délices dans ses commandements.
+V. Sa postérité sera puissante sur la terre ; la race des hommes droits sera bénie.
+V. La gloire et la richesse remplissent sa maison ; et sa justice demeure dans tous les siècles.
+
+[Evangelium]
+Évangile ++ selon saint Matthieu.
+!Matt 25:14-23.
+En ce temps-là, Jésus dit à ses disciples cette parabole : « Partant pour un voyage, un homme appela ses serviteurs et leur remit ses biens. Il donna à l’un cinq talents, à l’autre deux et au troisième un, à chacun selon sa capacité, et il partit aussitôt. Celui qui avait reçu cinq talents s’en alla, les fit valoir et en gagna cinq autres. De même, celui qui en avait reçu deux en gagna deux autres. Celui qui n’en avait reçu qu’un s’en alla creuser la terre et y cacha l’argent de son maître. Longtemps après, le maître de ces serviteurs revint et leur fit rendre compte. Celui qui avait reçu cinq talents s’approcha, en apporta cinq autres, disant : “Seigneur, tu m’avais remis cinq talents, en voici cinq autres que j’ai gagnés.” Son maître lui dit : “C’est bien, bon et fidèle serviteur : parce que tu as été fidèle en peu de choses, je t’établirai sur beaucoup ; entre dans la joie de ton maître.” Celui qui avait reçu deux talents s’approcha également et dit : “Seigneur, tu m’avais remis deux talents, en voici deux autres que j’ai gagnés.” Son maître lui dit : “C’est bien, bon et fidèle serviteur : parce que tu as été fidèle en peu de choses, je t’établirai sur beaucoup ; entre dans la joie de ton maître.” »
+
+[Secreta]
+Que vos saints, Seigneur, nous réjouissent partout : en sorte que, rappelant leurs mérites, nous éprouvions les effets de leur protection.
+$Per Dominum.
+
+[Communio]
+!Luc 12:42.
+Voici le serviteur fidèle et prudent que le Seigneur a établi sur sa famille pour qu’il donne à chacun en temps voulu sa mesure de blé. (Alléluia.)
+
+[Postcommunio]
+Nous vous en prions, Dieu tout-puissant : accordez, par l’intercession de saint N., votre évêque et confesseur, que, rendant grâce pour les dons reçus, nous acquérions de plus grands bienfaits.
+$Per Dominum

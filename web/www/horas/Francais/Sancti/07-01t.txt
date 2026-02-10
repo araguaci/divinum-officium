@@ -1,16 +1,12 @@
-[Rank]
-In Octavam S. Joannis Baptistæ;;Duplex;;3;;vide Sancti/06-24
+[Officium]
+In Octavam S. Joannis Baptistæ
 
-[Rule]
-vide C1;
-9 lectiones
-					
 [Lectio4]
 !3e pour l'anniversaire de la naissance de saint Jean-Baptiste.
 Très chers frères et sœurs bien-aimés, la fête que nous célébrons aujourd'hui a été sanctifiée par la véritable naissance de l'honorable Jean-Baptiste. Il était un homme que Dieu a eu la bonté d'envoyer dans ce monde, non seulement pour remplir lui-même la glorieuse fonction de prophète, mais aussi pour que par lui soient confirmées les paroles de tous les autres prophètes. Il est juste que nous lui accordions, comme nous le faisons maintenant, l'honneur le plus élevé parmi tous, car il a reçu cette bénédiction spéciale : étant le dernier à prophétiser dans le monde la venue de Celui qui est venu pour racheter le monde, il a été le premier à le désigner comme déjà venu lorsqu'Il est apparu. Les autres prophètes, à travers les âges, savaient que notre Seigneur Jésus-Christ devait venir, mais seul le prophète Jean était digne de Le voir de ses propres yeux et de Le proclamer présent.
 
 [Lectio5]
-Celui dont parle le prophète Isaïe, inspiré par Dieu, en disant : "La voix de celui qui crie dans le désert : Préparez le chemin de l'Éternel" (xl. 3). Comme il est approprié, très chers frères et sœurs bien-aimés, que ce bienheureux Jean soit appelé une voix, lui qui a été envoyé pour être à la fois le héraut et le témoin de la Parole venant du ciel. C'est lui dont la naissance, le nom et l'œuvre ont été annoncés par l'ange Gabriel. C'est lui qui, aux yeux de la connaissance céleste, est plus honorable que tout autre homme, comme l'a déclaré le Seigneur : "Parmi ceux qui sont nés de femmes, il n'en a pas paru de plus grand que Jean Baptiste" (Matthieu xi. 11). Comme il est magnifiquement dit : "né de femmes", puisque Celui qui était infiniment plus grand que Jean est né d'une Vierge.
+Celui dont parle le prophète Isaïe, inspiré par Dieu, en disant : « La voix de celui qui crie dans le désert : Préparez le chemin de l'Éternel» (xl. 3). Comme il est approprié, très chers frères et sœurs bien-aimés, que ce bienheureux Jean soit appelé une voix, lui qui a été envoyé pour être à la fois le héraut et le témoin de la Parole venant du ciel. C'est lui dont la naissance, le nom et l'œuvre ont été annoncés par l'ange Gabriel. C'est lui qui, aux yeux de la connaissance céleste, est plus honorable que tout autre homme, comme l'a déclaré le Seigneur : « Parmi ceux qui sont nés de femmes, il n'en a pas paru de plus grand que Jean Baptiste» (Matthieu xi. 11). Comme il est magnifiquement dit : « né de femmes» , puisque Celui qui était infiniment plus grand que Jean est né d'une Vierge.
 
 [Lectio6]
 Considérez, très chers frères et sœurs bien-aimés, à la lumière de ces éléments, combien il vous convient de tenir en grande estime, en grande affection, celui qui est si honorable, annoncé par le Saint-Esprit, promis par un ange, exalté par le Seigneur Lui-même, et sanctifié par la gloire éternelle d'une mort sainte. Sa naissance, entourée de merveilles, est le commencement approprié d'une vie extraordinaire, une vie sainte et sans péché qui préfigure une mort offerte à Dieu. Il est donc juste, mes frères, que l'Église du Christ célèbre en ce jour, avec une grande joie dans le monde entier, la fête de sa naissance, à lui qui s'est élevé en tant que témoin fidèle pour annoncer à un monde émerveillé qu'une vie de joie éternelle était offerte au choix des créatures mortelles.
@@ -30,14 +26,3 @@ Il demanda une tablette et écrivit : Son nom est Jean, il ne donne pas ce nom �
 [Lectio9]
 Si nous désirons parler, gravons des choses profondes dans nos mémoires, gravons le fait que le Christ est proche, non pas sur des tables de pierre, mais sur des tables de chair du cœur. (2 Corinthiens 3:3) Celui qui a parlé de Jean a prophétisé sur le Christ. Parlons ainsi de Jean, comme nous parlons du Christ, afin que notre bouche s'ouvre également, tout comme la bouche du grand prêtre Zacharie, qui, semblable à celle d'une bête muette contrainte par le mors, a été forcée par une foi hésitante à faire des signes silencieux.
 &teDeum
-
-[Commemoratio 2]
-!Commemoration de l'Octave des Saints Pierre et Paul
-Ant. Glorieux princes de la Terre, comme vous avez été honorés ensemble dans cette vie, vous n'êtes pas séparés par la mort.
-_
-V. Leur voix a retenti par toute la terre.
-R. Et leurs paroles jusqu'aux extrémités du monde.
-_
-$Oremus
-Ô Dieu, qui as sanctifié ce jour par le témoignage de tes saints Apôtres Pierre et Paul, accorde à ton Église, dont tu as bien voulu poser les fondations par leurs mains, la grâce de rester toujours fidèle à leur enseignement, en toutes choses.
-$Per Dominum

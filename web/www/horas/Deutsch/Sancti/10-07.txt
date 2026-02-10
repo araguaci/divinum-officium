@@ -1,19 +1,11 @@
 [Rank]
 Fest des hochheiligen Rosenkranzes der heiligen Jungfrau Maria;;Duplex 2 classis;;5.1;;ex C11
 
-[Rank] (rubrica 1960)
+[Rank] (rubrica 196)
 Fest des hochheiligen Rosenkranzes der heiligen Jungfrau Maria;;Duplex 2 classis;;5;;ex C11
 
-[RankNewcal]
+[Rank] (rubrica innovata)
 Fest des hochheiligen Rosenkranzes der heiligen Jungfrau Maria;;Duplex;;3;;ex C11
-
-[Rule]
-ex C11;
-9 lectiones
-Psalmi Dominica
-Antiphonas horas
-Doxology=Nat
-CPapaC=Marcum;
 
 [Ant Vespera]
 Wer ist denn diese, * so lieblich wie eine Taube, wie eine Rose, die eingepflanzt ist am Wasserbache?;;109
@@ -58,26 +50,13 @@ R. Auf dass wir würdig werden der Verheißungen Christi.
 Selig bist du, * Jungfrau Maria, Mutter Gottes, die du dem Herrn geglaubt hast; an dir ist alles in Erfüllung gegangen, was dir gesagt worden; lege doch Fürsprache für uns ein beim Herrn, unserm Gott.
 
 [Oratio]
-O Gott, dessen eingeborener Sohn durch sein Leben, seinen Tod und seine Auferstehung uns das Glück der ewigen Seligkeit verschafft hat, gewähre uns, wir bitten dich, die Gnade, dass wir, die wir diese geheimnisvollen Tatsachen beim hochheiligen Rosenkranz zu Ehren der heiligen Jungfrau Maria betrachten, das nachahmen, was sie in sich enthalten, und das erreichen, was sie verbergen.
+O Gott, dessen eingeborener Sohn durch sein Leben, seinen Tod und seine Auferstehung uns das Glück der ewigen Seligkeit verschafft hat, gewähre uns, wir bitten dich, die Gnade, daß wir, die wir diese geheimnisvollen Tatsachen beim hochheiligen Rosenkranz zu Ehren der heiligen Jungfrau Maria betrachten, das nachahmen, was sie in sich enthalten, und das erreichen, was sie verbergen.
 $Per eumdem
-
-[Commemoratio 2]
-!Kommemoration des hl. Papstes Markus
-@Commune/C4:Oratio proper Gregem
-$Oremus
-Erhöre, o Herr, unsere Bitten: und auf die Fürsprache deines heiligen Bekenners und Bischofs Markus gewähre uns gnädig Verzeihung und Freundschaft mit dir.
-$Per Dominum
-_
-!Kommemoration der hl. Martyrer Sergius, Bacchus, Marzellus und Apulejus
-@Commune/C3:Oratio proper
-$Oremus
-Deiner heiligen Martyrer, o Herr, Sergius, Bacchus, Marzellus und Apelejus selige Verdienste lass uns förderlich sein: und sie mögen uns in der Liebe zu dir zum Glühen bringen.
-$Per Dominum
 
 [Invit]
 Die Festlichkeit des Rosenkranzes der Jungfrau Maria lasst uns feiern: * Christus, ihren Sohn, lasst uns als Herrn anbeten.
 
-[Hymnus Matutinum]
+[Hymnus Matutinum_]
 v. Dort auf dem ölbaumreichen Berg
 Sinkt betend unser Heiland hin,
 Bleich, zitternd, ringend mit dem Tod;
@@ -109,16 +88,22 @@ _
 Der Engel Gabriel * überbrachte an Maria eine Botschaft: und sie empfing vom Heiligen Geist.;;8
 Maria trat * in Zacharias Haus ein, und begrüßte Elisabeth.;;18
 Sie gebar ihren Sohn, * den Erstgeborenen, und bettete ihn in eine Krippe.;;23
-V. O heilige Gottesmutter, stets unversehrte Jungfrau Maria.
-R. Bitte für uns beim Herrn, unserem Gott.
 Cum inducerent * Jesum paréntes ejus, ut sisterent eum Dómino, Simeon accépit eum in ulnas suas, et benedíxit Deum.;;44
 Requiréntes Jesum * paréntes ejus, invenérunt illum post triduum in médio doctórum.;;45
 Cœpit contristari, * et factus est sudor ejus in horto sicut guttæ sánguinis.;;86
-V. Nach der Geburt bist du, o Jungfrau, unversehrt geblieben.
-R. O heilige Gottesmutter, bitte für uns.
 Apprehéndit * Pilátus Jesum, et flagellávit.;;95
 Milites plecténtes corónam * de spinis, imposuérunt super caput ejus.;;96
 Crucis impérium * super humerum ejus: regnávit a ligno Deus.;;97
+
+[Nocturn 1 Versum]
+V. O heilige Gottesmutter, stets unversehrte Jungfrau Maria.
+R. Bitte für uns beim Herrn, unserem Gott.
+
+[Nocturn 2 Versum]
+V. Nach der Geburt bist du, o Jungfrau, unversehrt geblieben.
+R. O heilige Gottesmutter, bitte für uns.
+
+[Nocturn 3 Versum]
 V. Gar schön bist du geworden und lieblich.
 R. Durch das, was dein liebstes Tun ist, o heilige Gottesmutter.
 
@@ -216,10 +201,6 @@ R. Ego quasi vitis fructificávi suavitátem odoris,
 V. Ego mater pulchræ dilectiónis, et timoris, et agnitiónis, et sanctæ spei.
 R. Et flores mei fructus honoris et honestátis.
 
-[Lectio8]
-!Aus der Predigt über den Aquädukt.
-Verbum caro factum est, et hábitat jam in nobis. Habitat in memória nostra, hábitat in cogitatióne, quia usque ad ipsam descéndit imaginatiónem. Quonam modo, inquis? Nimirum jacens in præsepio, in virginali gremio cubans, in monte prædicans, in oratióne pernoctans, in cruce pendens, in morte pallens, liber inter mórtuos et in inférno ímperans, seu etiam tertia die resurgens, et Apóstolis loca clavórum, victóriæ signa, demonstrans, novíssime coram eis cæli secreta conscendens. Quid horum non vere, non pie, non sancte cogitátur? Quidquid horum cogito, Deum cogito; et per ómnia est Deus meus. Hæc ego meditari dixi sapiéntiam, et prudéntiam judicávi erúctare memóriam suavitátis; quóniam in hujuscémodi nucleis virga sacerdotalis copiosa produxit, quam, in supernis hauriens, ubérius nobis Maria refudit. In supernis plane et ultra Angelos, quæ Verbum ex ipso Patris corde suscépit.
-
 [Responsory8]
 R. Surge, propera, amica mea; jam enim hiems tránsiit, imber ábiit et recéssit, 
 * Flores apparuérunt in terra nostra.
@@ -227,9 +208,6 @@ V. Dóminus dabit benignitátem, et terra nostra dabit fructum suum.
 R. Flores apparuérunt in terra nostra.
 &Gloria
 R. Flores apparuérunt in terra nostra.
-
-[Lectio9]
-@Sancti/10-07t:Lectio93
 
 [Ant Laudes]
 Freu dich, * Jungfrau Mutter; auferstanden ist Christus aus dem Grabe.
@@ -282,46 +260,34 @@ Das heutige Hochfest * des hochheiligen Rosenkranzes der Gottesmutter Maria woll
 !Sir 24,17-18
 v. Ich bin wie eine auf dem Libanon hochwachsende Zeder und wie eine Zypresse auf dem Berg Sion: wie eine in die Höhe ragende Palme in Kadesch, und wie ein blühender Rosenstrauch in Jericho.
 
-[Responsory Tertia]
+[Responsory Breve Tertia]
 R.br. O heilige Gottesmutter, * stets unversehrte Jungfrau Maria.
 R. O heilige Gottesmutter, * stets unversehrte Jungfrau Maria.
 V. Bitte für uns beim Herrn, unserem Gott.
 R. Stets unversehrte Jungfrau Maria.
 &Gloria
 R. O heilige Gottesmutter, * stets unversehrte Jungfrau Maria.
-_
-V. Nach der Geburt bist du, o Jungfrau, unversehrt geblieben.
-R. O heilige Gottesmutter, bitte für uns.
 
 [Capitulum Sexta]
 !Sir 39,19
 v. Florete flores quasi lílium et date odórem et frondete in grátiam; collaudáte cánticum et benedícite Dóminum in opéribus suis.
 $Deo gratias
 
-[Responsory Sexta]
+[Responsory Breve Sexta]
 R.br. Nach der Geburt bist du, o Jungfrau, * unversehrt geblieben.
 R. Nach der Geburt bist du, o Jungfrau, * unversehrt geblieben.
 V. O heilige Gottesmutter, bitte für uns.
 R. Unversehrt geblieben.
 &Gloria
 R. Nach der Geburt bist du, o Jungfrau, * unversehrt geblieben.
-_
-V. Gar schön bist du geworden und lieblich.
-R. Durch das, was dein liebstes Tun ist, o heilige Gottesmutter.
 
-[Capitulum Nona]
-@:Lectio Prima
-$Deo gratias
-
-[Responsory Nona]
+[Responsory Breve Nona]
 R.br. Gar schön bist du geworden * und lieblich.
 R. Gar schön bist du geworden * und lieblich.
 V. Durch das, was dein liebstes Tun ist, o heilige Gottesmutter.
 R. Und lieblich.
 &Gloria
 R. Gar schön bist du geworden * und lieblich.
-_
-@:Versum 2
 
 [Hymnus Vespera 3]
 v. O die du schwelgst in Freude ganz,
@@ -350,9 +316,6 @@ Und windet Kränze ihr zum Preis,
 Die euch als Mutter liebt so zart.
 _
 @Psalterium/Doxologies:Nat
-
-[Versum 3]
-@:Versum 1
 
 [Ant 3]
 O selige Mutter * und unversehrte Jungfrau, glorienreiche Königin der Welt, mögen doch alle deinen Beistand fühlen, die dein Hochfest des hochheiligen Rosenkranzes feiern.

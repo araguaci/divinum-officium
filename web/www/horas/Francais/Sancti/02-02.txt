@@ -1,18 +1,6 @@
 [Rank]
 In Purificatione Beatæ Mariæ Virginis;;Duplex 2 class;;5.1;;ex C11
 
-[Rank] (rubrica 1960)
-In Purificatione Beatæ Mariæ Virginis;;Duplex 2 class;;5;;ex C11
-
-[Rule]
-ex C11 ;
-9 lectiones
-Doxology=Nat
-Festum Domini
-
-[Ant Vespera]
-@Sancti/01-01:Ant Vespera
-
 [Versum 1]
 V. Siméon reçut cette réponse de l’Esprit-Saint.
 R. Qu’il ne verrait point la mort avant d’avoir vu le Christ du Seigneur.
@@ -93,7 +81,7 @@ V. Comme ses parents apportaient l’enfant Jésus, afin de faire ce que demanda
 R. Et il bénit Dieu et s’écria' ; Maintenant, Seigneur, laissez votre serviteur partir en paix, car mes yeux ont vu votre salut.
 
 [Lectio6]
-En vérité, Siméon ne voulait pas demeurer longtemps en ce monde, et cependant il desirait voir le Christ dès ce monde, chantant et redisant avec le prophète ces paroles : Montrez-nous, Seigneur, votre miséricorde, et donnez-nous votre salut. Et, enfin, pour que vous sachiez que c’était toute sa consolation, il conclut en disant : Maintenant, laissez votre serviteur partir en paix ; car mes yeux ont vu votre salut. Les Prophètes ont chanté que le Créateur du ciel et de la terre viendrait habiter la terre avec les hommes ; un Ange a annoncé que le Créateur de la chair et de l’esprit revêtirait notre chair ; Jean, du sein de sa mère, a salué le Sauveur dans le sein de la sienne; Siméon vieillard a reconnu Dieu dans un enfant.
+En vérité, Siméon ne voulait pas demeurer longtemps en ce monde, et cependant il desirait voir le Christ dès ce monde, chantant et redisant avec le prophète ces paroles : Montrez-nous, Seigneur, votre miséricorde, et donnez-nous votre salut. Et, enfin, pour que vous sachiez que c’était toute sa consolation, il conclut en disant : Maintenant, laissez votre serviteur partir en paix ; car mes yeux ont vu votre salut. Les Prophètes ont chanté que le Créateur du ciel et de la terre viendrait habiter la terre avec les hommes ; un Ange a annoncé que le Créateur de la chair et de l’esprit revêtirait notre chair ; Jean, du sein de sa mère, a salué le Sauveur dans le sein de la sienne ; Siméon vieillard a reconnu Dieu dans un enfant.
 
 [Responsory6]
 R. Comme ses parents apportaient l’enfant Jésus au temple, afin de faire ce que demandait la loi, Siméon le reçut dans ses bras, et bénit Dieu, en disant :
@@ -153,19 +141,12 @@ v. Et le sacrifice de Juda et de Jérusalem sera agréable au Seigneur, comme au
 v. Voici qu’il viendra, dit le Seigneur des armées : Qui pourra penser au jour de son avènement, et qui pourra soutenir sa vue ? Car il sera comme le feu qui fond les métaux, et comme l’herbe des foulons.
 $Deo gratias
 
-[Capitulum Nona]
-@:Lectio Prima
-$Deo gratias
-
 [Ant Vespera 3]
 Siméon, homme juste * et craignant Dieu, attendait la rédemption d’Israël et le Saint-Esprit était en lui.;;109
 Siméon reçut cette réponse * de l’Esprit-Saint, qu’il ne verrait point la mort, avant d’avoir vu le Seigneur.;;112
 Siméon, recevant * l’Enfant dans ses mains, bénit le Seigneur en rendant grâces.;;121
 Lumière pour éclairer les nations * et pour la gloire d’Israël, votre peuple.;;126
 Ils offrirent * pour lui, au Seigneur, une paire de tourterelles ou deux petits de colombes.;;147
-
-[Versum 3]
-@:Versum 1
 
 [Ant 3]
 Aujourd’hui * la bienheureuse Vierge Marie présenta l’enfant Jésus au temple, et Siméon, rempli de l’Esprit-Saint, le reçut dans ses bras et bénit Dieu à jamais.

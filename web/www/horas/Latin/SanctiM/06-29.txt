@@ -3,6 +3,9 @@
 [Rule]
 12 lectiones
 
+[Responsory Vespera 1] (rubrica Barroux)
+@Sancti/02-22:Responsory4
+
 [Lectio1]
 @Sancti/06-29:Lectio1:
 

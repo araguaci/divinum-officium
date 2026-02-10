@@ -1,8 +1,7 @@
 @Tempora/Pent03-0r
 
-[Rank]
-Dominica III Post Pentecosten infra Octavam SSmi Cordis D.N.J.C;;Semiduplex;;5
-
+[Officium]
+Pünkösd utáni III. vasárnap, a mi Urunk Jézus Szentséges Szívének nyolcadában
 [Rule]
 Gloria
 Credo
@@ -20,5 +19,3 @@ Prefatio1960=Trinitate
 [Commemoratio Postcommunio]
 !Pro Octava sacratissimi Cordis Jesu
 @Tempora/Pent02-5:Postcommunio
-
-

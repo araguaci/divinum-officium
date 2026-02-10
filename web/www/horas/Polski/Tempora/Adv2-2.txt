@@ -1,8 +1,5 @@
-[Rank]
-Wtorek II tygodnia Adwentu;;Feria major;;2
-
-[Rule]
-Oratio Dominica
+[Officium]
+Wtorek II tygodnia Adwentu
 
 [Lectio1]
 Z Proroka Izajasza

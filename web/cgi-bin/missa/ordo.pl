@@ -14,6 +14,7 @@ $a = 1;
 # resolves the references (formatting characters, prayers hash references and subs)
 #and prints the result
 sub ordo {
+  print "<H2 ID='Missatop'>Sancta Missa</H2>\n" if $content;
   my $savesolemn = $solemn;
   if ($winner =~ /Quad6-[456]/i) { $solemn = 1; }
   $column = 1;
@@ -83,16 +84,21 @@ sub resolve_refs {
     $t[0] =~ s/^\s*\#/\!\!/;
   }
 
-  #cycle by lines
-  my $it;
-  my $line_prefix;
+  my @resolved_lines;    # Array of blocks expanded from lines.
+  my $merged_lines;      # Preceding continued lines.
+  my $was_hancigitur = 0;
 
-  for ($it = 0; $it < @t; $it++) {
+  #cycle by lines
+  for (my $it = 0; $it < @t; $it++) {
     $line = $t[$it];
+    $line =~ s/\s+$//;
+    $line =~ s/^\s+//;
 
     # Should this line be joined to the next? Strip off the continuation
     # character as we check.
-    my $line_continues = ($line =~ s/\s*~\s*$//);
+    my $merge_with_next = ($line =~ s/~$//);
+    my $is_communicantes = ($line =~ /communicantes/);
+    my $is_hancigitur = ($line =~ /hancigitur/);
 
     # The first batch of transformations are performed on the current
     # input line only.
@@ -100,19 +106,38 @@ sub resolve_refs {
     if ($line !~ /(callpopup|rubrics)/i && $line =~ /^\s*[\$\&]/)    #??? was " /[\#\$\&]/)
     {
       $line =~ s/\.//g;
-      $line =~ s/\s+$//;
-      $line =~ s/^\s+//;
 
       #prepares reading the part of common w/ antiphona
       if ($line =~ /psalm/ && $t[$it - 1] =~ /^\s*Ant\. /i) {
         $line = expand($line, $lang, $t[$it - 1]);
       } else {
         $line = expand($line, $lang);
+        next if $line =~ /^\s*$/;
       }
 
       if ($line !~ /\<input/i) {
         $line = resolve_refs($line, $lang);
       }    #for special chars
+    }
+
+    # In order to solve the communicantes issue, just remove
+    # the last <br /> and merge with next. For &hancigitur
+    # we should merge with next both if &hancigitur
+    # expands to a rubric or not.
+    if ($is_communicantes || $is_hancigitur) {
+      $line =~ s/\<br\/\>$//g;
+      $merge_with_next = 1;
+
+      # If &hancigitur does not expand to the rubric explaining
+      # the text for Octaves of Easter and of Pentecostes
+      # we should merge with the next line and the one previous
+      # to &hancigitur. I don't know how, $line is already
+      # red at this point.
+      # TODO: How to make this general by checking whether
+      # we are looking to a real rubric?
+      if ($is_hancigitur && !($line =~ /red/)) {
+        $was_hancigitur = $it;
+      }
     }
 
     #cross
@@ -194,18 +219,30 @@ sub resolve_refs {
       /emx;
 
     # Connect lines marked by tilde.
-    if ($line_continues && $it < $#t) {
-      $line_prefix = $line;
+    if ($merge_with_next && $it < $#t) {
+      $merged_lines .= $line . ' ';
+    } elsif ($it - 1 > 0 && $was_hancigitur == $it - 1) {
+
+      # If we are looking at the line after &hancigitur
+      # we merge the  result of the expansion of &hancigitur
+      # (which in this case is probaly some spaces or newlines?),
+      # together with the line previous to &hancigitur and
+      # the current line.
+      $resolved_lines[-1] .= $merged_lines . $line . ' ';
     } else {
-      $line_prefix = '';
-      $t .= "$line<BR>\n";
+      push @resolved_lines, $merged_lines . $line;
+      $merged_lines = '';
     }
   }    #line by line cycle ends
 
+  # Concatenate the expansions of the lines with a line break between each.
+  push @resolved_lines, '';
+  my $resolved_block = join "<br\/>\n", @resolved_lines;
+
   #removes occasional double linebreaks
-  $t =~ s/\<BR\>\s*\<BR\>/\<BR\>/g;
-  $t =~ s/<\/P>\s*<BR>/<\/P>/g;
-  return $t;
+  $resolved_block =~ s/\<br\/\>\s*\<br\/\>/\<br\/\>/ig;
+  $resolved_block =~ s/<\/P>\s*<br\/>/<\/P>/gi;
+  return $resolved_block;
 }
 
 #*** Alleluia($lang)
@@ -249,10 +286,13 @@ sub getordinarium {
   my @script;
 
   if ($Propers && (@script = do_read("$datafolder/Latin/Ordo/Propers.txt"))) {
+    $_ = "$_\n" for @script;
     return @script;
   }
   my $fname = 'Ordo';
   if ($version =~ /1967/i) { $fname = 'Ordo67'; }
+
+  #elsif ($version =~ /Praedicatorum/i) { $fname = 'OrdoOP'; }
   if ($NewMass) { $fname = ($column == 1) ? $ordos{$version1} : $ordos{$version2}; }
   $fname = checkfile($lang, "Ordo/$fname.txt");
 

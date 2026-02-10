@@ -2,6 +2,8 @@
 
 [Rank] (rubrica Trident)
 In Sollemnitate Rosarii Beatæ Mariæ Virginis;;Duplex 2 classis;;5.1;;ex C11
+(sed rubrica cisterciensis)
+Solemnitas SS. Rosarii Beatæ Mariæ Virginis;;Duplex 2 classis;;4.1;;ex C11
 
-[Commemoratio 2]
- 
+[Oratio] (rubrica cisterciensis)
+@Sancti/10-07

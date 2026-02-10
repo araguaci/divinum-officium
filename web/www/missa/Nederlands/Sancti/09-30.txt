@@ -1,13 +1,8 @@
-[Rank]
-S. Hieronymi Presbyteris Confessoris et Ecclesiæ Doctoris;;Duplex;;3;;vide C5a
+[Officium]
+S. Hieronymi Presbyteris Confessoris et Ecclesiæ Doctoris
 
 [Name]
-Hieronyme
-
-[Rule]
-vide C5a;
-Gloria
-CredoDA
+Hiëronymus
 
 [Oratio]
 God, Gij hebt uw Kerk voor de uitleg van de Heilige Schrift in uw heilige belijder Hiëronymus een zeer groot leraar willen verwekken. Wij vragen U, bewerk, dat wij met de steun van zijn verdiensten en met uw hulp ten uitvoer kunnen leggen, wat hij met woord en daad ons heeft voorgehouden.

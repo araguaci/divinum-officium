@@ -1,15 +1,8 @@
-[Rank]
-S. Nicolai Episcopi et confessoris;;Duplex;;3;;vide C4
+[Officium]
+S. Nicolai Episcopi et Confessoris
 
-[Rank1570]
-S. Nicolai Episcopi et confessoris;;Semiduplex;;2;;vide C4
-
-[RankNewcal]
-S. Nicolai Episcopi et confessoris;;Duplex optional;;2;;vide C4
-
-[Rule]
-vide C4;
-Gloria
+[Introitus]
+@Commune/C2a
 
 [Oratio]
 Oh Dios, que honraste al santo obispo Nicolás con innumerables milagros, te suplicamos que por sus méritos e intercesión, nos libres de las llamas del infierno.
@@ -27,9 +20,8 @@ V. No le podrá sorprender el enemigo ni el perverso le podrá oprimir. Aleluya,
 !Ps 91:13
  El justo crece como la palma; se eleva como el cedro del Líbano. Aleluya.
 
-[Offertorium]
-!Ps 88:25
-Mi lealtad y mi gracia le acompañarán y en mi nombre será ensalzado su poderío.
+[Evangelium]
+@Commune/C4
 
 [Secreta]
 Te suplicamos, Señor Dios, santifiques estos dones que en la solemnidad de tu santo obispo Nicolás te ofrecemos, para que su acción en lo próspero y en lo adverso por doquier dirija nuestra vida.
